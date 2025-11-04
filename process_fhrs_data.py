@@ -1,213 +1,207 @@
 #!/usr/bin/env python3
 """
-FHRS Data Processor
-Processes downloaded FHRS XML files, identifies new businesses, and maintains cumulative CSV
+FHRS Data Processor (mail-merge ready + lean dashboard)
+- Parses latest FHRS XML in fhrs_data/<YYYY-MM-DD>/
+- Appends *newly-seen* businesses to data/cumulative_new_businesses.csv
+  with full fields for mail merge (name, address lines, postcode, rating, etc.)
+- Writes tiny counts-only history to data/dashboard_data.json (for the dashboard)
+- Writes a small latest summary to data/latest_snapshot.json
 """
 
-import os
-import json
-import csv
-from datetime import datetime
-from xml.etree import ElementTree as ET
 from pathlib import Path
+from datetime import datetime
+import csv
+import json
+import xml.etree.ElementTree as ET
 
-# Business type sectors we track
-SECTORS = {
-    'MOBILE': 'Mobile caterer',
-    'RESTAURANT': 'Restaurant/Cafe/Canteen',
-    'PUB': 'Pub/bar/nightclub',
-    'TAKEAWAY': 'Takeaway/sandwich shop'
-}
+# ----------------------------
+# Helpers
+# ----------------------------
 
-def load_previous_snapshot():
-    """Load the most recent snapshot from history"""
-    snapshot_file = Path('data/latest_snapshot.json')
-    if snapshot_file.exists():
-        with open(snapshot_file, 'r') as f:
-            return json.load(f)
-    return None
+def latest_data_dir(base="fhrs_data") -> Path:
+    root = Path(base)
+    if not root.exists():
+        raise FileNotFoundError("No fhrs_data/ folder found. Run the downloader first.")
+    dirs = [p for p in root.iterdir() if p.is_dir()]
+    if not dirs:
+        raise FileNotFoundError("fhrs_data/ has no dated subfolders.")
+    return sorted(dirs)[-1]  # YYYY-MM-DD so lexical max works
 
-def save_snapshot(date, businesses):
-    """Save current snapshot"""
-    os.makedirs('data', exist_ok=True)
-    
-    snapshot = {
-        'date': date,
-        'businesses': businesses,
-        'counts': {
-            SECTORS['MOBILE']: sum(1 for b in businesses if b['type'] == SECTORS['MOBILE']),
-            SECTORS['RESTAURANT']: sum(1 for b in businesses if b['type'] == SECTORS['RESTAURANT']),
-            SECTORS['PUB']: sum(1 for b in businesses if b['type'] == SECTORS['PUB']),
-            SECTORS['TAKEAWAY']: sum(1 for b in businesses if b['type'] == SECTORS['TAKEAWAY']),
-            'total': len(businesses)
-        }
-    }
-    
-    # Save latest snapshot
-    with open('data/latest_snapshot.json', 'w') as f:
-        json.dump(snapshot, f, indent=2)
-    
-    # Also save to history
-    os.makedirs('data/history', exist_ok=True)
-    with open(f'data/history/snapshot_{date}.json', 'w') as f:
-        json.dump(snapshot, f, indent=2)
-    
-    return snapshot
+def txt(elem, tag):
+    v = elem.findtext(tag)
+    return v.strip() if v else ""
 
-def parse_xml_files(data_dir):
-    """Parse all XML files in the data directory"""
+def read_seen_ids_from_csv(csv_path: Path) -> set:
+    seen = set()
+    if csv_path.exists():
+        with csv_path.open(newline="", encoding="utf-8") as f:
+            r = csv.DictReader(f)
+            for row in r:
+                fid = row.get("FHRSID")
+                if fid:
+                    seen.add(fid)
+    return seen
+
+MAILMERGE_FIELDS = [
+    "date_added", "FHRSID", "BusinessName", "BusinessType",
+    "AddressLine1", "AddressLine2", "AddressLine3", "AddressLine4",
+    "PostCode", "LocalAuthorityName",
+    "RatingValue", "RatingDate",
+    "SchemeType", "NewRatingPending",
+    "Latitude", "Longitude",
+    "AddressSingleLine"  # handy combined address
+]
+
+def append_new_businesses(csv_path: Path, new_rows: list[dict]):
+    csv_path.parent.mkdir(parents=True, exist_ok=True)
+    is_new_file = not csv_path.exists()
+    with csv_path.open("a", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=MAILMERGE_FIELDS)
+        if is_new_file:
+            w.writeheader()
+        for row in new_rows:
+            w.writerow(row)
+
+def parse_establishments(xml_file: Path) -> list[dict]:
+    out = []
+    try:
+        tree = ET.parse(xml_file)
+        root = tree.getroot()
+    except Exception:
+        return out  # skip bad file quietly
+
+    for e in root.findall(".//EstablishmentDetail"):
+        # Core
+        fhrs_id   = txt(e, "FHRSID")
+        name      = txt(e, "BusinessName")
+        btype     = txt(e, "BusinessType")
+        la_name   = txt(e, "LocalAuthorityName")
+        pc        = txt(e, "PostCode")
+        rating    = txt(e, "RatingValue")
+        rdate     = txt(e, "RatingDate")
+        scheme    = txt(e, "SchemeType")
+        pending   = txt(e, "NewRatingPending")
+
+        # Address lines (many LAs use up to 4)
+        a1 = txt(e, "AddressLine1")
+        a2 = txt(e, "AddressLine2")
+        a3 = txt(e, "AddressLine3")
+        a4 = txt(e, "AddressLine4")
+
+        # Geocode (optional in XML)
+        lat = ""
+        lon = ""
+        geo = e.find("Geocode")
+        if geo is not None:
+            lat = txt(geo, "Latitude")
+            lon = txt(geo, "Longitude")
+
+        # Combined single-line address for mail merges/labels
+        parts = [p for p in [a1, a2, a3, a4, pc] if p]
+        single_line = ", ".join(parts)
+
+        out.append({
+            "FHRSID": fhrs_id,
+            "BusinessName": name,
+            "BusinessType": btype,
+            "AddressLine1": a1,
+            "AddressLine2": a2,
+            "AddressLine3": a3,
+            "AddressLine4": a4,
+            "PostCode": pc,
+            "LocalAuthorityName": la_name,
+            "RatingValue": rating,
+            "RatingDate": rdate,
+            "SchemeType": scheme,
+            "NewRatingPending": pending,
+            "Latitude": lat,
+            "Longitude": lon,
+            "AddressSingleLine": single_line,
+        })
+    return out
+
+def parse_folder(data_dir: Path) -> list[dict]:
     businesses = []
-    
-    xml_files = list(Path(data_dir).glob('*.xml'))
-    print(f"Found {len(xml_files)} XML files to process")
-    
-    for xml_file in xml_files:
-        try:
-            tree = ET.parse(xml_file)
-            root = tree.getroot()
-            
-            for establishment in root.findall('.//EstablishmentDetail'):
-                biz_type = establishment.findtext('BusinessType', '').strip()
-                
-                # Only process businesses in our tracked sectors
-                if biz_type in SECTORS.values():
-                    business = {
-                        'id': establishment.findtext('FHRSID', '').strip(),
-                        'name': establishment.findtext('BusinessName', '').strip(),
-                        'type': biz_type,
-                        'la': establishment.findtext('LocalAuthorityName', '').strip(),
-                        'addressLine1': establishment.findtext('AddressLine1', '').strip(),
-                        'addressLine2': establishment.findtext('AddressLine2', '').strip(),
-                        'addressLine3': establishment.findtext('AddressLine3', '').strip(),
-                        'addressLine4': establishment.findtext('AddressLine4', '').strip(),
-                        'postcode': establishment.findtext('PostCode', '').strip(),
-                        'ratingValue': establishment.findtext('RatingValue', '').strip(),
-                        'ratingDate': establishment.findtext('RatingDate', '').strip()
-                    }
-                    businesses.append(business)
-        
-        except Exception as e:
-            print(f"Error processing {xml_file}: {e}")
-    
-    print(f"Parsed {len(businesses)} businesses from XML files")
+    for xml in sorted(data_dir.glob("*.xml")):
+        businesses.extend(parse_establishments(xml))
     return businesses
 
-def identify_new_businesses(current_businesses, previous_snapshot):
-    """Identify businesses that are new compared to previous snapshot"""
-    if not previous_snapshot:
-        print("No previous snapshot - all businesses are 'new'")
-        return current_businesses
-    
-    previous_ids = set(b['id'] for b in previous_snapshot['businesses'])
-    new_businesses = [b for b in current_businesses if b['id'] not in previous_ids]
-    
-    print(f"Found {len(new_businesses)} new businesses")
-    return new_businesses
+def sector_of(b: dict) -> str:
+    bt = (b.get("BusinessType") or "").lower()
+    nm = (b.get("BusinessName") or "").lower()
+    if "mobile" in bt or "mobile" in nm: return "MOBILE"
+    if any(k in bt for k in ["restaurant", "cafe", "café", "coffee"]): return "RESTAURANT/CAFE"
+    if "take" in bt: return "TAKEAWAY"
+    if any(k in bt for k in ["pub", "bar"]): return "PUB/BAR"
+    if "hotel" in bt: return "HOTEL"
+    return "OTHER"
 
-def append_to_cumulative_csv(new_businesses, date):
-    """Append new businesses to cumulative CSV"""
-    csv_file = Path('data/cumulative_new_businesses.csv')
-    file_exists = csv_file.exists()
-    
-    os.makedirs('data', exist_ok=True)
-    
-    with open(csv_file, 'a', newline='', encoding='utf-8') as f:
-        fieldnames = [
-            'Date Added', 'FHRS ID', 'Business Name', 'Type',
-            'Address Line 1', 'Address Line 2', 'Address Line 3', 'Address Line 4',
-            'Postcode', 'Local Authority', 'Rating Value', 'Rating Date'
-        ]
-        
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        
-        # Write header if file is new
-        if not file_exists:
-            writer.writeheader()
-        
-        # Write new businesses
-        for business in new_businesses:
-            writer.writerow({
-                'Date Added': date,
-                'FHRS ID': business['id'],
-                'Business Name': business['name'],
-                'Type': business['type'],
-                'Address Line 1': business['addressLine1'],
-                'Address Line 2': business['addressLine2'],
-                'Address Line 3': business['addressLine3'],
-                'Address Line 4': business['addressLine4'],
-                'Postcode': business['postcode'],
-                'Local Authority': business['la'],
-                'Rating Value': business['ratingValue'],
-                'Rating Date': business['ratingDate']
-            })
-    
-    print(f"Appended {len(new_businesses)} businesses to cumulative CSV")
+def counts_summary(biz: list[dict]) -> dict:
+    counts = {"total": len(biz), "MOBILE":0, "RESTAURANT/CAFE":0, "TAKEAWAY":0, "PUB/BAR":0, "HOTEL":0, "OTHER":0}
+    for b in biz:
+        counts[sector_of(b)] += 1
+    return counts
 
-def update_dashboard_data(snapshots):
-    """Create a JSON file with all snapshots for the dashboard to load"""
-    os.makedirs('data', exist_ok=True)
-    
-    with open('data/dashboard_data.json', 'w') as f:
-        json.dump(snapshots, f, indent=2)
-    
-    print(f"Updated dashboard data with {len(snapshots)} snapshots")
+def load_counts_history(path: Path) -> list[dict]:
+    if path.exists():
+        try:
+            return json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            return []
+    return []
+
+def upsert_counts_history(path: Path, date_str: str, counts: dict):
+    hist = load_counts_history(path)
+    if hist and hist[-1].get("date") == date_str:
+        hist[-1]["counts"] = counts
+    else:
+        hist.append({"date": date_str, "counts": counts})
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(hist, separators=(",", ":"), ensure_ascii=False), encoding="utf-8")
+
+# ----------------------------
+# Main
+# ----------------------------
 
 def main():
-    """Main processing function"""
-    print("=" * 60)
-    print("FHRS Data Processor")
-    print("=" * 60)
-    
-    # Determine date for this run
-    date = datetime.now().strftime('%Y-%m-%d')
-    print(f"Processing date: {date}")
-    
-    # Find the most recent data directory
-    data_dirs = sorted(Path('fhrs_data').glob('*'), reverse=True)
-    if not data_dirs:
-        print("ERROR: No data directories found in fhrs_data/")
-        return
-    
-    latest_data_dir = data_dirs[0]
-    print(f"Using data directory: {latest_data_dir}")
-    
-    # Load previous snapshot
-    previous_snapshot = load_previous_snapshot()
-    if previous_snapshot:
-        print(f"Loaded previous snapshot from {previous_snapshot['date']}")
-    else:
-        print("No previous snapshot found - this is the first run")
-    
-    # Parse XML files
-    current_businesses = parse_xml_files(latest_data_dir)
-    
-    # Save current snapshot
-    current_snapshot = save_snapshot(date, current_businesses)
-    
-    # Identify new businesses
-    new_businesses = identify_new_businesses(current_businesses, previous_snapshot)
-    
-    # Append to cumulative CSV
-    if new_businesses:
-        append_to_cumulative_csv(new_businesses, date)
-    else:
-        print("No new businesses to add to cumulative CSV")
-    
-    # Load all historical snapshots for dashboard
-    history_files = sorted(Path('data/history').glob('snapshot_*.json'))
-    all_snapshots = []
-    for hist_file in history_files:
-        with open(hist_file, 'r') as f:
-            all_snapshots.append(json.load(f))
-    
-    # Update dashboard data
-    update_dashboard_data(all_snapshots)
-    
-    print("=" * 60)
-    print("Processing complete!")
-    print(f"Total businesses: {current_snapshot['counts']['total']:,}")
-    print(f"New businesses: {len(new_businesses):,}")
-    print("=" * 60)
+    today_dir = latest_data_dir()
+    run_date = today_dir.name  # YYYY-MM-DD
+    print(f"Processing: {today_dir}")
 
-if __name__ == '__main__':
+    businesses = parse_folder(today_dir)
+    print(f"Parsed {len(businesses):,} establishments")
+
+    data_dir = Path("data"); data_dir.mkdir(parents=True, exist_ok=True)
+    cum_csv = data_dir / "cumulative_new_businesses.csv"
+    seen = read_seen_ids_from_csv(cum_csv)
+
+    new_rows = []
+    for b in businesses:
+        fid = b.get("FHRSID")
+        if fid and fid not in seen:
+            seen.add(fid)
+            row = {"date_added": run_date, **b}
+            new_rows.append(row)
+
+    if new_rows:
+        append_new_businesses(cum_csv, new_rows)
+        print(f"New businesses this run: {len(new_rows):,}")
+    else:
+        print("No new businesses this run (vs cumulative list).")
+
+    # Lean dashboard outputs
+    counts = counts_summary(businesses)
+    latest_summary = {"date": run_date, "counts": counts, "new_businesses_this_run": len(new_rows)}
+    (data_dir / "latest_snapshot.json").write_text(
+        json.dumps(latest_summary, separators=(",", ":"), ensure_ascii=False),
+        encoding="utf-8"
+    )
+    upsert_counts_history(data_dir / "dashboard_data.json", run_date, counts)
+
+    print("Done.")
+    print(f"- {cum_csv.resolve()}")
+    print(f"- {(data_dir/'dashboard_data.json').resolve()}")
+    print(f"- {(data_dir/'latest_snapshot.json').resolve()}")
+
+if __name__ == "__main__":
     main()
