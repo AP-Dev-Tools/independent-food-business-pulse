@@ -1207,7 +1207,76 @@ async function fetchLatestData(){
 </script>
 <!-- === /FHRS loader === -->
    
+<script>
+/* Load & render Top-10 LA growth/reductions from the Action */
+let __DELTA_CACHE = null;
 
+async function loadTop10FromAction(){
+  try{
+    const res = await fetch('data/la_deltas_latest.json?cb=' + Date.now(), {cache:'no-store'});
+    if(!res.ok) return;                 // first run may have none yet
+    __DELTA_CACHE = await res.json();   // { date, by_sector: {MOBILE:{growth, reductions}, ...} }
+    renderTop10ForSelected();
+    // update subheading to show compare date
+    const sub = document.getElementById('comparison-sub');
+    if (sub && __DELTA_CACHE.date) sub.textContent = `Comparing latest to previous snapshot as of ${__DELTA_CACHE.date}.`;
+  }catch(e){
+    console.warn('No LA deltas yet:', e);
+  }
+}
+
+function renderTop10ForSelected(){
+  if(!__DELTA_CACHE) return;
+  const map = {
+    "Mobile Food Caterers": "MOBILE",
+    "Restaurants/Cafes": "RESTAURANT_CAFE",
+    "Pubs/Bars/Clubs": "PUB_BAR",
+    "Takeaways": "TAKEAWAY",
+    "Hotels": "HOTEL",
+    "Other": "OTHER"
+  };
+  const sel = document.getElementById('growth-sector-select');
+  if(!sel) return;
+  const label = sel.options[sel.selectedIndex].text;
+  const key = map[label] || "MOBILE";
+  const entry = __DELTA_CACHE.by_sector[key] || {growth:[],reductions:[]};
+
+  function render(list, tableId){
+    const tb = document.getElementById(tableId);
+    if(!tb) return;
+    tb.innerHTML = '';
+    if(!list || list.length===0){
+      tb.innerHTML = '<tr><td colspan="4" class="text-center py-4 text-gray-500">No changes this run.</td></tr>';
+      return;
+    }
+    list.forEach((r, i) => {
+      const sign = r.delta > 0 ? '+' : '';
+      const arrow = r.delta > 0 ? '▲' : '▼';
+      const col = r.delta > 0 ? 'text-positive' : 'text-negative';
+      tb.innerHTML += `<tr>
+        <td>${i+1}</td>
+        <td class="font-medium text-gray-900">${r.la}</td>
+        <td class="text-right ${col} font-semibold">${arrow} ${sign}${r.delta.toLocaleString()}</td>
+        <td class="text-right">${r.current.toLocaleString()}</td>
+      </tr>`;
+    });
+  }
+
+  render(entry.growth, 'regional-ranking-growth');
+  render(entry.reductions, 'regional-ranking-reduction');
+}
+
+/* Re-render when the dropdown changes */
+document.addEventListener('change', (e)=>{
+  if(e.target && e.target.id === 'growth-sector-select'){ renderTop10ForSelected(); }
+});
+
+/* Kick it off after the page loads */
+document.addEventListener('DOMContentLoaded', () => {
+  // Give your other loaders a moment; then fetch tiny deltas JSON
+  setTimeout(loadTop10FromAction, 300);
+});
+</script>
 
    
 </body>
