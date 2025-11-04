@@ -1,165 +1,213 @@
 #!/usr/bin/env python3
 """
-FHRS Data Downloader - Simple Version
-Downloads Food Hygiene Rating data directly from FSA open data page.
-Much faster and more reliable than the API version!
+FHRS Data Processor
+Processes downloaded FHRS XML files, identifies new businesses, and maintains cumulative CSV
 """
 
-import requests
-import re
+import os
+import json
+import csv
 from datetime import datetime
+from xml.etree import ElementTree as ET
 from pathlib import Path
-import time
 
-OUTPUT_DIR = "fhrs_data"
-BASE_URL = "https://ratings.food.gov.uk"
-OPEN_DATA_PAGE = f"{BASE_URL}/open-data"
-
-HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+# Business type sectors we track
+SECTORS = {
+    'MOBILE': 'Mobile caterer',
+    'RESTAURANT': 'Restaurant/Cafe/Canteen',
+    'PUB': 'Pub/bar/nightclub',
+    'TAKEAWAY': 'Takeaway/sandwich shop'
 }
 
-def create_output_directory():
-    """Create timestamped directory for downloads"""
-    timestamp = datetime.now().strftime("%Y-%m-%d")
-    data_dir = Path(OUTPUT_DIR) / timestamp
-    data_dir.mkdir(parents=True, exist_ok=True)
-    return data_dir
+def load_previous_snapshot():
+    """Load the most recent snapshot from history"""
+    snapshot_file = Path('data/latest_snapshot.json')
+    if snapshot_file.exists():
+        with open(snapshot_file, 'r') as f:
+            return json.load(f)
+    return None
 
-def get_download_links():
-    """Scrape the open data page to get all download links"""
-    print("Fetching download links from FSA website...")
+def save_snapshot(date, businesses):
+    """Save current snapshot"""
+    os.makedirs('data', exist_ok=True)
     
-    try:
-        response = requests.get(OPEN_DATA_PAGE, headers=HEADERS, timeout=30)
-        response.raise_for_status()
-        
-        # Find all XML download links
-        # Pattern: /api/open-data-files/FHRS###en-GB.xml
-        pattern = r'/api/open-data-files/FHRS\d+en-GB\.xml'
-        links = re.findall(pattern, response.text)
-        
-        # Remove duplicates and create full URLs
-        unique_links = list(set(links))
-        full_urls = [BASE_URL + link for link in unique_links]
-        
-        print(f"Found {len(full_urls)} local authority data files")
-        return full_urls
-        
-    except requests.RequestException as e:
-        print(f"\nError connecting to FSA website: {e}")
-        print("\nTroubleshooting:")
-        print("1. Check your internet connection")
-        print("2. Make sure you can access: https://ratings.food.gov.uk")
-        print("3. Try again in a few minutes")
-        return None
+    snapshot = {
+        'date': date,
+        'businesses': businesses,
+        'counts': {
+            SECTORS['MOBILE']: sum(1 for b in businesses if b['type'] == SECTORS['MOBILE']),
+            SECTORS['RESTAURANT']: sum(1 for b in businesses if b['type'] == SECTORS['RESTAURANT']),
+            SECTORS['PUB']: sum(1 for b in businesses if b['type'] == SECTORS['PUB']),
+            SECTORS['TAKEAWAY']: sum(1 for b in businesses if b['type'] == SECTORS['TAKEAWAY']),
+            'total': len(businesses)
+        }
+    }
+    
+    # Save latest snapshot
+    with open('data/latest_snapshot.json', 'w') as f:
+        json.dump(snapshot, f, indent=2)
+    
+    # Also save to history
+    os.makedirs('data/history', exist_ok=True)
+    with open(f'data/history/snapshot_{date}.json', 'w') as f:
+        json.dump(snapshot, f, indent=2)
+    
+    return snapshot
 
-def download_file(url, output_dir):
-    """Download a single XML file"""
-    filename = url.split('/')[-1]
-    filepath = output_dir / filename
+def parse_xml_files(data_dir):
+    """Parse all XML files in the data directory"""
+    businesses = []
     
-    try:
-        response = requests.get(url, headers=HEADERS, timeout=60)
-        response.raise_for_status()
+    xml_files = list(Path(data_dir).glob('*.xml'))
+    print(f"Found {len(xml_files)} XML files to process")
+    
+    for xml_file in xml_files:
+        try:
+            tree = ET.parse(xml_file)
+            root = tree.getroot()
+            
+            for establishment in root.findall('.//EstablishmentDetail'):
+                biz_type = establishment.findtext('BusinessType', '').strip()
+                
+                # Only process businesses in our tracked sectors
+                if biz_type in SECTORS.values():
+                    business = {
+                        'id': establishment.findtext('FHRSID', '').strip(),
+                        'name': establishment.findtext('BusinessName', '').strip(),
+                        'type': biz_type,
+                        'la': establishment.findtext('LocalAuthorityName', '').strip(),
+                        'addressLine1': establishment.findtext('AddressLine1', '').strip(),
+                        'addressLine2': establishment.findtext('AddressLine2', '').strip(),
+                        'addressLine3': establishment.findtext('AddressLine3', '').strip(),
+                        'addressLine4': establishment.findtext('AddressLine4', '').strip(),
+                        'postcode': establishment.findtext('PostCode', '').strip(),
+                        'ratingValue': establishment.findtext('RatingValue', '').strip(),
+                        'ratingDate': establishment.findtext('RatingDate', '').strip()
+                    }
+                    businesses.append(business)
         
-        # Save to file
-        with open(filepath, 'wb') as f:
-            f.write(response.content)
+        except Exception as e:
+            print(f"Error processing {xml_file}: {e}")
+    
+    print(f"Parsed {len(businesses)} businesses from XML files")
+    return businesses
+
+def identify_new_businesses(current_businesses, previous_snapshot):
+    """Identify businesses that are new compared to previous snapshot"""
+    if not previous_snapshot:
+        print("No previous snapshot - all businesses are 'new'")
+        return current_businesses
+    
+    previous_ids = set(b['id'] for b in previous_snapshot['businesses'])
+    new_businesses = [b for b in current_businesses if b['id'] not in previous_ids]
+    
+    print(f"Found {len(new_businesses)} new businesses")
+    return new_businesses
+
+def append_to_cumulative_csv(new_businesses, date):
+    """Append new businesses to cumulative CSV"""
+    csv_file = Path('data/cumulative_new_businesses.csv')
+    file_exists = csv_file.exists()
+    
+    os.makedirs('data', exist_ok=True)
+    
+    with open(csv_file, 'a', newline='', encoding='utf-8') as f:
+        fieldnames = [
+            'Date Added', 'FHRS ID', 'Business Name', 'Type',
+            'Address Line 1', 'Address Line 2', 'Address Line 3', 'Address Line 4',
+            'Postcode', 'Local Authority', 'Rating Value', 'Rating Date'
+        ]
         
-        # Calculate file size in MB
-        file_size = len(response.content) / (1024 * 1024)
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
         
-        return True, file_size
+        # Write header if file is new
+        if not file_exists:
+            writer.writeheader()
         
-    except requests.RequestException as e:
-        return False, str(e)
+        # Write new businesses
+        for business in new_businesses:
+            writer.writerow({
+                'Date Added': date,
+                'FHRS ID': business['id'],
+                'Business Name': business['name'],
+                'Type': business['type'],
+                'Address Line 1': business['addressLine1'],
+                'Address Line 2': business['addressLine2'],
+                'Address Line 3': business['addressLine3'],
+                'Address Line 4': business['addressLine4'],
+                'Postcode': business['postcode'],
+                'Local Authority': business['la'],
+                'Rating Value': business['ratingValue'],
+                'Rating Date': business['ratingDate']
+            })
+    
+    print(f"Appended {len(new_businesses)} businesses to cumulative CSV")
+
+def update_dashboard_data(snapshots):
+    """Create a JSON file with all snapshots for the dashboard to load"""
+    os.makedirs('data', exist_ok=True)
+    
+    with open('data/dashboard_data.json', 'w') as f:
+        json.dump(snapshots, f, indent=2)
+    
+    print(f"Updated dashboard data with {len(snapshots)} snapshots")
 
 def main():
-    print("=" * 70)
-    print("FHRS Data Downloader - Simple & Fast Version")
-    print("=" * 70)
-    print()
-    print("This downloads all UK food hygiene data directly from FSA.")
-    print("Much more reliable than the API version!")
-    print()
+    """Main processing function"""
+    print("=" * 60)
+    print("FHRS Data Processor")
+    print("=" * 60)
     
-    # Create output directory
-    output_dir = create_output_directory()
-    print(f"Saving files to: {output_dir}")
-    print()
+    # Determine date for this run
+    date = datetime.now().strftime('%Y-%m-%d')
+    print(f"Processing date: {date}")
     
-    # Get download links
-    download_links = get_download_links()
-    
-    if not download_links:
-        print("\nCould not fetch download links. Please try again later.")
-        input("\nPress Enter to exit...")
+    # Find the most recent data directory
+    data_dirs = sorted(Path('fhrs_data').glob('*'), reverse=True)
+    if not data_dirs:
+        print("ERROR: No data directories found in fhrs_data/")
         return
     
-    # Download all files
-    print(f"\nDownloading {len(download_links)} files...")
-    print("-" * 70)
+    latest_data_dir = data_dirs[0]
+    print(f"Using data directory: {latest_data_dir}")
     
-    successful_downloads = 0
-    failed_downloads = []
-    total_size_mb = 0
+    # Load previous snapshot
+    previous_snapshot = load_previous_snapshot()
+    if previous_snapshot:
+        print(f"Loaded previous snapshot from {previous_snapshot['date']}")
+    else:
+        print("No previous snapshot found - this is the first run")
     
-    for i, url in enumerate(download_links, 1):
-        filename = url.split('/')[-1]
-        authority_id = filename.replace('FHRS', '').replace('en-GB.xml', '')
-        
-        print(f"[{i}/{len(download_links)}] Authority {authority_id}...", end=" ", flush=True)
-        
-        success, result = download_file(url, output_dir)
-        
-        if success:
-            print(f"✓ ({result:.1f} MB)")
-            successful_downloads += 1
-            total_size_mb += result
-        else:
-            print(f"✗ Failed")
-            failed_downloads.append(filename)
-        
-        # Small delay to be nice to the server
-        time.sleep(0.2)
+    # Parse XML files
+    current_businesses = parse_xml_files(latest_data_dir)
     
-    # Summary
-    print()
-    print("=" * 70)
-    print("DOWNLOAD COMPLETE!")
-    print("=" * 70)
-    print(f"✓ Successfully downloaded: {successful_downloads}/{len(download_links)} files")
-    print(f"✓ Total data downloaded: {total_size_mb:.1f} MB")
-    print(f"✓ Data saved to: {output_dir}")
+    # Save current snapshot
+    current_snapshot = save_snapshot(date, current_businesses)
     
-    if failed_downloads:
-        print(f"\n⚠ Failed downloads ({len(failed_downloads)}):")
-        for name in failed_downloads[:10]:
-            print(f"  - {name}")
-        if len(failed_downloads) > 10:
-            print(f"  ... and {len(failed_downloads) - 10} more")
+    # Identify new businesses
+    new_businesses = identify_new_businesses(current_businesses, previous_snapshot)
     
-    # Create metadata file
-    metadata_file = output_dir / "download_metadata.txt"
-    with open(metadata_file, 'w') as f:
-        f.write(f"Download Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-        f.write(f"Files Downloaded: {successful_downloads}\n")
-        f.write(f"Total Size: {total_size_mb:.1f} MB\n")
-        f.write(f"Failed Downloads: {len(failed_downloads)}\n")
-        f.write(f"Source: {OPEN_DATA_PAGE}\n")
+    # Append to cumulative CSV
+    if new_businesses:
+        append_to_cumulative_csv(new_businesses, date)
+    else:
+        print("No new businesses to add to cumulative CSV")
     
-    print(f"\n✓ Metadata saved to: {metadata_file}")
-    print("\n" + "=" * 70)
-    print("🎉 SUCCESS! Data is ready to use!")
-    print("=" * 70)
-    print("\nNEXT STEPS:")
-    print("1. Open: fhrs-dashboard-auto-tracking.html")
-    print(f"2. Select folder: {output_dir}")
-    print("3. Click 'Process Data'")
-    print("4. Done!")
+    # Load all historical snapshots for dashboard
+    history_files = sorted(Path('data/history').glob('snapshot_*.json'))
+    all_snapshots = []
+    for hist_file in history_files:
+        with open(hist_file, 'r') as f:
+            all_snapshots.append(json.load(f))
     
-    input("\nPress Enter to exit...")
+    # Update dashboard data
+    update_dashboard_data(all_snapshots)
+    
+    print("=" * 60)
+    print("Processing complete!")
+    print(f"Total businesses: {current_snapshot['counts']['total']:,}")
+    print(f"New businesses: {len(new_businesses):,}")
+    print("=" * 60)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
