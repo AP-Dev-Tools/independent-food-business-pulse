@@ -1,14 +1,14 @@
 name: Weekly FHRS Data Update
 
 permissions:
-  contents: write   # allow github-actions[bot] to push
+  contents: write  # allow github-actions[bot] to push
 
 on:
   workflow_dispatch: {}          # manual run from Actions tab
   repository_dispatch:           # for a future "Run update" button
     types: [run-fhrs-update]
   schedule:
-    - cron: '0 9 * * 1'          # Mondays 09:00 UTC (GitHub uses UTC)
+    - cron: '0 9 * * 1'          # Mondays 09:00 UTC
 
 jobs:
   update-data:
@@ -34,22 +34,33 @@ jobs:
       - name: Process data and identify new businesses
         run: python process_fhrs_data.py
 
-      # ✅ Commit only small artifacts + the seen-IDs baseline
+      # ✅ Commit only small artifacts + baseline + LA deltas
       - name: Commit processed data
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
-          git add data/cumulative/*/*.csv \
-                 data/cumulative_index.json \
-                 data/dashboard_data.json \
-                 data/latest_snapshot.json \
-                 data/seen_ids.txt.gz
-          git commit -m "Update dashboard + new-business deltas (persist seen IDs)" || echo "No changes"
+          git config user.name  "github-actions[bot]"
+
+          # Tolerate missing files/folders on first run
+          git add data/cumulative/*/*.csv 2>/dev/null || true
+          git add data/cumulative_index.json 2>/dev/null || true
+          git add data/dashboard_data.json 2>/dev/null || true
+          git add data/latest_snapshot.json 2>/dev/null || true
+          git add data/seen_ids.txt.gz 2>/dev/null || true
+          git add data/la_totals_last.json 2>/dev/null || true
+          git add data/la_deltas_*.json 2>/dev/null || true
+          git add data/la_deltas_latest.json 2>/dev/null || true
+
+          # Only commit if there are staged changes
+          git diff --staged --quiet || git commit -m "Update dashboard + per-LA deltas"
+          git pull --rebase
           git push
 
       - name: Summary
         run: |
           echo "✅ Update finished."
-          ls -lh data/cumulative/*/*.csv 2>/dev/null || true
-          echo "Artifacts present:"
+          echo "Core artifacts:"
           ls -lh data/dashboard_data.json data/latest_snapshot.json data/cumulative_index.json data/seen_ids.txt.gz 2>/dev/null || true
+          echo "Per-type CSVs (if any):"
+          ls -lh data/cumulative/*/*.csv 2>/dev/null || true
+          echo "LA delta artifacts:"
+          ls -lh data/la_deltas_* data/la_deltas_latest.json data/la_totals_last.json 2>/dev/null || true
