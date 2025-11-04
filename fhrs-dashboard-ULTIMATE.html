@@ -1116,8 +1116,7 @@
    </script>
 
    
-   
-   <!-- === FHRS loader (drop-in) === -->
+<!-- === FHRS loader (drop-in) === -->
 <script>
 /* Helper: safe call if a function exists */
 async function _maybe(fn, ...args){ if(typeof fn==="function"){ return await fn(...args);} }
@@ -1156,42 +1155,38 @@ async function loadCommittedDataOnStart(){
       tx.oncomplete = resolve; tx.onerror = ()=>reject(tx.error);
     });
 
-    // ✅ Show the dashboard view
+    // ✅ Show the dashboard (hide upload UI)
     document.getElementById('upload-section')?.classList.add('hidden');
     document.getElementById('app-content')?.classList.remove('hidden');
 
-    // Render
-    await displayHistoricalTrends();
-    await updateStorageDisplay();
-    await createChart();
+    // Render using your existing functions (tables/chart)
+    await _maybe(displayHistoricalTrends);
+    await _maybe(updateStorageDisplay);
+    await _maybe(createChart);
   }catch(e){
     console.warn('No committed dashboard data yet:', e);
   }
 }
-
+document.addEventListener('DOMContentLoaded', loadCommittedDataOnStart);
 
 /* Button handler: starts workflow via relay (optional), then polls for fresh JSON */
 async function fetchLatestData(){
   const btn = event?.currentTarget; if(btn) btn.disabled = true;
 
-  // 1) (Optional) Kick your GitHub Action via a relay (Cloudflare Worker)
-  // If you haven't set this up yet, leave this commented out — the poll below
-  // still refreshes to whatever the latest committed file is.
-  //
+  // Optional: trigger your GitHub Action via a relay (leave commented out until set up)
   // const kicked = await fetch('https://YOUR-WORKER.workers.dev', { method:'POST' });
   // if(!kicked.ok){ alert('Could not start update'); if(btn) btn.disabled=false; return; }
 
-  // 2) Poll for updated data file
+  // Poll for updated data file
   const deadline = Date.now() + 10*60*1000; // 10 minutes
   (async function poll(){
     try{
       const res = await fetch('data/dashboard_data.json?cb=' + Date.now(), { cache:'no-store' });
       if(res.ok){
         const series = await res.json();
-        const out1 = await _maybe(saveAllSnapshots, series);
-        const out2 = await _maybe(displayHistoricalTrends, series);
-        const out3 = await _maybe(createChart, series);
-        if(!out1 && !out2 && !out3){ _fallbackRender(series); }
+        await _maybe(displayHistoricalTrends);
+        await _maybe(updateStorageDisplay);
+        await _maybe(createChart);
         if(btn) btn.disabled = false;
         return;
       }
@@ -1211,6 +1206,8 @@ async function fetchLatestData(){
 })();
 </script>
 <!-- === /FHRS loader === -->
+   
+
 
    
 </body>
