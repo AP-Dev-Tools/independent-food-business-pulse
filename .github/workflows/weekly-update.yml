@@ -5,10 +5,10 @@ permissions:
 
 on:
   workflow_dispatch: {}          # manual run from Actions tab
-  repository_dispatch:           # for your dashboard "button" trigger later
+  repository_dispatch:           # for a future "Run update" button
     types: [run-fhrs-update]
   schedule:
-    - cron: '0 9 * * 1'          # Mondays 09:00 (UTC) — adjust if needed
+    - cron: '0 9 * * 1'          # Mondays 09:00 UTC (GitHub uses UTC)
 
 jobs:
   update-data:
@@ -34,21 +34,22 @@ jobs:
       - name: Process data and identify new businesses
         run: python process_fhrs_data.py
 
-      # Commit only the small outputs:
-      # - per-type monthly CSVs: data/cumulative/<TYPE>/<YYYY-MM>.csv
-      # - index:                 data/cumulative_index.json
-      # - tiny dashboard JSONs:  data/dashboard_data.json, data/latest_snapshot.json
+      # ✅ Commit only small artifacts + the seen-IDs baseline
       - name: Commit processed data
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add data/cumulative/*/*.csv data/cumulative_index.json data/dashboard_data.json data/latest_snapshot.json
-          git commit -m "Update dashboard + per-type monthly CSVs" || echo "No changes"
+          git add data/cumulative/*/*.csv \
+                 data/cumulative_index.json \
+                 data/dashboard_data.json \
+                 data/latest_snapshot.json \
+                 data/seen_ids.txt.gz
+          git commit -m "Update dashboard + new-business deltas (persist seen IDs)" || echo "No changes"
           git push
 
       - name: Summary
         run: |
           echo "✅ Update finished."
-          ls -lh data/cumulative/*/*.csv || true
-          echo "Files updated:"
-          git diff --name-only HEAD~1..HEAD || true
+          ls -lh data/cumulative/*/*.csv 2>/dev/null || true
+          echo "Artifacts present:"
+          ls -lh data/dashboard_data.json data/latest_snapshot.json data/cumulative_index.json data/seen_ids.txt.gz 2>/dev/null || true
