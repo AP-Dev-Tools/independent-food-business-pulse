@@ -1152,11 +1152,23 @@ async function loadCommittedDataOnStart(){
     await new Promise((resolve, reject)=>{
       const tx = db.transaction(['snapshots'],'readwrite');
       const store = tx.objectStore('snapshots');
-      series.forEach(s=>{
-        store.put({ date: s.date, businesses: [], counts: s.counts });
-      });
-      tx.oncomplete = resolve; tx.onerror = ()=>reject(tx.error);
-    });
+     
+   series.forEach(s=>{
+  const c = s.counts || {};
+  const monitoredTotal =
+    (c.MOBILE||0) +
+    (c.RESTAURANT_CAFE||0) +
+    (c.PUB_BAR||0) +
+    (c.TAKEAWAY||0) +
+    (c.HOTEL||0); // ignore OTHER
+
+  store.put({
+    date: s.date,
+    businesses: [],
+    counts: { ...c, total: monitoredTotal }
+  });
+});
+
 
     // ✅ Show the dashboard (hide upload UI)
     document.getElementById('upload-section')?.classList.add('hidden');
