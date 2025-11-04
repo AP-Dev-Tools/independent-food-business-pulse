@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,14 +22,76 @@
        .progress-bar { width: 100%; background-color: #e5e7eb; border-radius: 9999px; overflow: hidden; height: 24px; }
        .progress-fill { height: 100%; background-color: #3b82f6; transition: width 0.3s ease; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.875rem; font-weight: 600; }
        .history-badge { display: inline-block; background-color: #dbeafe; color: #1e40af; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; }
+       .spinner { border: 3px solid #f3f4f6; border-top: 3px solid #3b82f6; border-radius: 50%; width: 20px; height: 20px; animation: spin 1s linear infinite; display: inline-block; }
+       @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+       .loading-overlay { position: relative; }
+       .loading-overlay::after { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(255,255,255,0.8); display: flex; align-items: center; justify-content: center; }
    </style>
 </head>
 <body class="min-h-screen">
    <div class="header-bg">
-       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-           <h1 class="text-3xl font-extrabold tracking-tight">FHRS Industry Pulse Dashboard</h1>
-           <p class="text-gray-300 mt-1">IndexedDB Edition - Unlimited storage capacity</p>
-           <p id="user-info" class="text-xs mt-2 text-gray-400">Ready to load data</p>
+       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+           <div>
+               <h1 class="text-3xl font-extrabold tracking-tight">FHRS Industry Pulse Dashboard</h1>
+               <p class="text-gray-300 mt-1">IndexedDB Edition - Unlimited storage capacity</p>
+               <p id="user-info" class="text-xs mt-2 text-gray-400">Ready to load data</p>
+           </div>
+           <div class="flex space-x-2">
+               <button onclick="fetchLatestData()" class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 text-sm font-medium">
+                   🔄 Fetch Latest Data
+               </button>
+               <button onclick="openSettings()" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-sm font-medium">
+                   ⚙️ Settings
+               </button>
+           </div>
+       </div>
+   </div>
+
+   <!-- Settings Modal -->
+   <div id="settings-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center">
+       <div class="bg-white rounded-lg p-6 max-w-md w-full mx-4">
+           <h2 class="text-xl font-bold mb-4">⚙️ Automation Settings</h2>
+           
+           <div class="space-y-4">
+               <div>
+                   <label class="block text-sm font-medium text-gray-700 mb-2">Day of Week</label>
+                   <select id="setting-day" class="w-full px-3 py-2 border border-gray-300 rounded-lg">
+                       <option value="1">Monday</option>
+                       <option value="2">Tuesday</option>
+                       <option value="3">Wednesday</option>
+                       <option value="4">Thursday</option>
+                       <option value="5">Friday</option>
+                       <option value="6">Saturday</option>
+                       <option value="0">Sunday</option>
+                   </select>
+               </div>
+               
+               <div>
+                   <label class="block text-sm font-medium text-gray-700 mb-2">Time (24-hour format)</label>
+                   <input type="time" id="setting-time" value="09:00" class="w-full px-3 py-2 border border-gray-300 rounded-lg">
+               </div>
+               
+               <div>
+                   <label class="block text-sm font-medium text-gray-700 mb-2">Timezone</label>
+                   <select id="setting-timezone" class="w-full px-3 py-2 border border-gray-300 rounded-lg">
+                       <option value="Europe/London">Europe/London (UK)</option>
+                       <option value="America/New_York">America/New_York (EST)</option>
+                       <option value="America/Los_Angeles">America/Los_Angeles (PST)</option>
+                       <option value="Europe/Paris">Europe/Paris (CET)</option>
+                   </select>
+               </div>
+           </div>
+           
+           <div class="mt-6 flex space-x-3">
+               <button onclick="copySettings()" class="flex-1 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-medium">
+                   📋 Copy Settings
+               </button>
+               <button onclick="closeSettings()" class="flex-1 px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 font-medium">
+                   Close
+               </button>
+           </div>
+           
+           <p id="settings-message" class="mt-3 text-sm text-center hidden"></p>
        </div>
    </div>
 
@@ -154,6 +217,13 @@
                </div>
                
                <div class="mb-4">
+                   <div class="flex items-center justify-between mb-3">
+                       <label class="block text-sm font-medium text-gray-700">Chart Timeframe:</label>
+                       <div class="flex space-x-2">
+                           <button onclick="setChartTimeframe('monthly')" id="timeframe-btn-monthly" class="px-3 py-1 bg-blue-600 text-white rounded text-xs font-medium">Monthly</button>
+                           <button onclick="setChartTimeframe('weekly')" id="timeframe-btn-weekly" class="px-3 py-1 bg-gray-200 text-gray-700 rounded text-xs font-medium">Weekly</button>
+                       </div>
+                   </div>
                    <label class="block text-sm font-medium text-gray-700 mb-2">Select Business Type:</label>
                    <div class="flex space-x-2">
                        <button onclick="updateChart('total')" id="chart-btn-total" class="px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium">Total</button>
@@ -195,14 +265,17 @@
            <!-- Top 10 Growth -->
            <section class="card">
                <h2 class="text-xl font-semibold text-gray-800 mb-4">🏆 Top 10 Growth by Local Authority</h2>
-               <div class="mb-4">
-                   <label class="block text-sm font-medium text-gray-700 mb-2">Select Business Type:</label>
-                   <select id="growth-sector-select" onchange="updateTopGrowth()" class="px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                       <option value="Mobile caterer">Mobile Food Caterers</option>
-                       <option value="Restaurant/Cafe/Canteen">Restaurants/Cafes</option>
-                       <option value="Pub/bar/nightclub">Pubs/Bars/Clubs</option>
-                       <option value="Takeaway/sandwich shop">Takeaways</option>
-                   </select>
+               <div class="mb-4 flex items-center space-x-3">
+                   <div class="flex-1">
+                       <label class="block text-sm font-medium text-gray-700 mb-2">Select Business Type:</label>
+                       <select id="growth-sector-select" onchange="updateTopGrowth()" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                           <option value="Mobile caterer">Mobile Food Caterers</option>
+                           <option value="Restaurant/Cafe/Canteen">Restaurants/Cafes</option>
+                           <option value="Pub/bar/nightclub">Pubs/Bars/Clubs</option>
+                           <option value="Takeaway/sandwich shop">Takeaways</option>
+                       </select>
+                   </div>
+                   <div id="top-growth-spinner" class="spinner hidden mt-7"></div>
                </div>
                <p class="text-sm text-gray-600 mb-3">Local Authorities with most new businesses this week</p>
                <div class="table-container">
@@ -283,6 +356,7 @@
        let db;
        let trendsChart = null;
        let currentChartType = 'total';
+       let currentTimeframe = 'monthly';
 
        // IndexedDB Setup
        function initDB() {
@@ -660,17 +734,115 @@
 
        function updateTopGrowth() {
            const sector = document.getElementById('growth-sector-select').value;
+           const spinner = document.getElementById('top-growth-spinner');
+           const select = document.getElementById('growth-sector-select');
+           
            console.log('Updating top growth for sector:', sector);
            
-           if (previousData.length === 0) {
-               return;
+           // Show spinner, disable select
+           spinner.classList.remove('hidden');
+           select.disabled = true;
+           
+           // Use setTimeout to let UI update
+           setTimeout(() => {
+               if (previousData.length === 0) {
+                   spinner.classList.add('hidden');
+                   select.disabled = false;
+                   return;
+               }
+               
+               const growth = calculateRegionalRanking(currentData, previousData, sector, 'desc');
+               const reductions = calculateRegionalRanking(currentData, previousData, sector, 'asc');
+               
+               renderRegionalRanking(growth, 'regional-ranking-growth');
+               renderRegionalRanking(reductions, 'regional-ranking-reduction');
+               
+               // Hide spinner, enable select
+               spinner.classList.add('hidden');
+               select.disabled = false;
+           }, 100);
+       }
+
+       // Settings Functions
+       function openSettings() {
+           document.getElementById('settings-modal').classList.remove('hidden');
+       }
+
+       function closeSettings() {
+           document.getElementById('settings-modal').classList.add('hidden');
+           document.getElementById('settings-message').classList.add('hidden');
+       }
+
+       function copySettings() {
+           const day = document.getElementById('setting-day').value;
+           const time = document.getElementById('setting-time').value;
+           const timezone = document.getElementById('setting-timezone').value;
+           
+           const [hour, minute] = time.split(':');
+           
+           const config = {
+               schedule: {
+                   day: parseInt(day),
+                   hour: parseInt(hour),
+                   minute: parseInt(minute),
+                   timezone: timezone
+               },
+               cron: `${minute} ${hour} * * ${day}`,
+               readable: `Every ${getDayName(day)} at ${time} ${timezone}`
+           };
+           
+           const configText = JSON.stringify(config, null, 2);
+           
+           navigator.clipboard.writeText(configText).then(() => {
+               const msg = document.getElementById('settings-message');
+               msg.textContent = '✅ Copied! Now paste into config.json in your GitHub repo';
+               msg.className = 'mt-3 text-sm text-center text-green-600 font-medium';
+               msg.classList.remove('hidden');
+           });
+       }
+
+       function getDayName(day) {
+           const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+           return days[parseInt(day)];
+       }
+
+       // Fetch Latest Data Function
+       async function fetchLatestData() {
+           alert('🔄 Fetching latest FHRS data...\n\nThis will download all 363 authority files (may take 2-3 minutes).\n\nNote: This feature is under development and currently simulates the download process.');
+           
+           // In a full implementation, this would:
+           // 1. Call FSA API to get list of authorities
+           // 2. Download each XML file
+           // 3. Process them
+           // 4. Update dashboard
+           
+           console.log('Fetch latest data - feature in development');
+       }
+
+       // Chart Timeframe Toggle
+       function setChartTimeframe(timeframe) {
+           currentTimeframe = timeframe;
+           
+           // Update button styles
+           const monthlyBtn = document.getElementById('timeframe-btn-monthly');
+           const weeklyBtn = document.getElementById('timeframe-btn-weekly');
+           
+           if (timeframe === 'monthly') {
+               monthlyBtn.className = 'px-3 py-1 bg-blue-600 text-white rounded text-xs font-medium';
+               weeklyBtn.className = 'px-3 py-1 bg-gray-200 text-gray-700 rounded text-xs font-medium';
+           } else {
+               monthlyBtn.className = 'px-3 py-1 bg-gray-200 text-gray-700 rounded text-xs font-medium';
+               weeklyBtn.className = 'px-3 py-1 bg-blue-600 text-white rounded text-xs font-medium';
            }
            
-           const growth = calculateRegionalRanking(currentData, previousData, sector, 'desc');
-           const reductions = calculateRegionalRanking(currentData, previousData, sector, 'asc');
-           
-           renderRegionalRanking(growth, 'regional-ranking-growth');
-           renderRegionalRanking(reductions, 'regional-ranking-reduction');
+           // Recreate chart with new timeframe
+           createChart();
+       }
+
+       async function getWeeklyDataPoints() {
+           const snapshots = await loadAllSnapshots();
+           // Return all snapshots for weekly view
+           return snapshots.sort((a, b) => a.date.localeCompare(b.date));
        }
 
        async function getMonthlyDataPoints() {
@@ -693,15 +865,20 @@
            const ctx = document.getElementById('trendsChart');
            if (!ctx) return;
            
-           const monthlyData = await getMonthlyDataPoints();
+           let dataPoints;
+           if (currentTimeframe === 'monthly') {
+               dataPoints = await getMonthlyDataPoints();
+           } else {
+               dataPoints = await getWeeklyDataPoints();
+           }
            
-           if (monthlyData.length === 0) {
+           if (dataPoints.length === 0) {
                console.log('No data for chart');
                return;
            }
            
-           const labels = monthlyData.map(d => d.date);
-           const data = monthlyData.map(d => d.counts?.total || 0);
+           const labels = dataPoints.map(d => d.date);
+           const data = dataPoints.map(d => d.counts?.total || 0);
            
            if (trendsChart) {
                trendsChart.destroy();
@@ -734,6 +911,10 @@
                                    return context.dataset.label + ': ' + context.parsed.y.toLocaleString();
                                }
                            }
+                       },
+                       title: {
+                           display: true,
+                           text: currentTimeframe === 'monthly' ? 'Monthly Trends (Latest per Month)' : 'Weekly Trends (All Data Points)'
                        }
                    },
                    scales: {
@@ -763,35 +944,41 @@
                }
            });
            
-           const monthlyData = await getMonthlyDataPoints();
-           if (monthlyData.length === 0) return;
+           let dataPoints;
+           if (currentTimeframe === 'monthly') {
+               dataPoints = await getMonthlyDataPoints();
+           } else {
+               dataPoints = await getWeeklyDataPoints();
+           }
            
-           const labels = monthlyData.map(d => d.date);
+           if (dataPoints.length === 0) return;
+           
+           const labels = dataPoints.map(d => d.date);
            let data, label, color;
            
            switch(type) {
                case 'mobile':
-                   data = monthlyData.map(d => d.counts?.[SECTORS.MOBILE] || 0);
+                   data = dataPoints.map(d => d.counts?.[SECTORS.MOBILE] || 0);
                    label = 'Mobile Caterers';
                    color = 'rgb(245, 158, 11)';
                    break;
                case 'restaurant':
-                   data = monthlyData.map(d => d.counts?.[SECTORS.RESTAURANT] || 0);
+                   data = dataPoints.map(d => d.counts?.[SECTORS.RESTAURANT] || 0);
                    label = 'Restaurants/Cafes';
                    color = 'rgb(16, 185, 129)';
                    break;
                case 'pub':
-                   data = monthlyData.map(d => d.counts?.[SECTORS.PUB] || 0);
+                   data = dataPoints.map(d => d.counts?.[SECTORS.PUB] || 0);
                    label = 'Pubs/Bars/Clubs';
                    color = 'rgb(139, 92, 246)';
                    break;
                case 'takeaway':
-                   data = monthlyData.map(d => d.counts?.[SECTORS.TAKEAWAY] || 0);
+                   data = dataPoints.map(d => d.counts?.[SECTORS.TAKEAWAY] || 0);
                    label = 'Takeaways';
                    color = 'rgb(239, 68, 68)';
                    break;
                default:
-                   data = monthlyData.map(d => d.counts?.total || 0);
+                   data = dataPoints.map(d => d.counts?.total || 0);
                    label = 'Total Businesses';
                    color = 'rgb(59, 130, 246)';
            }
@@ -802,6 +989,7 @@
                trendsChart.data.datasets[0].label = label;
                trendsChart.data.datasets[0].borderColor = color;
                trendsChart.data.datasets[0].backgroundColor = color.replace('rgb', 'rgba').replace(')', ', 0.1)');
+               trendsChart.options.plugins.title.text = currentTimeframe === 'monthly' ? 'Monthly Trends (Latest per Month)' : 'Weekly Trends (All Data Points)';
                trendsChart.update();
            }
        }
