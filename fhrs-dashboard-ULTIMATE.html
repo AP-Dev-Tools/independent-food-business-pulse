@@ -1140,17 +1140,32 @@ async function loadCommittedDataOnStart(){
   try{
     const res = await fetch('data/dashboard_data.json?cb=' + Date.now(), { cache:'no-store' });
     if(!res.ok) return; // first run: file may not exist yet
-    const series = await res.json();
-    // If your page defines these, use them; else show a simple summary
-    const out1 = await _maybe(saveAllSnapshots, series);
-    const out2 = await _maybe(displayHistoricalTrends, series);
-    const out3 = await _maybe(createChart, series);
-    if(!out1 && !out2 && !out3){ _fallbackRender(series); }
+    const series = await res.json(); // [{date, counts:{...}}, ...]
+
+    // Seed IndexedDB "snapshots" store with counts-only snapshots
+    await initDB();
+    await new Promise((resolve, reject)=>{
+      const tx = db.transaction(['snapshots'],'readwrite');
+      const store = tx.objectStore('snapshots');
+      series.forEach(s=>{
+        store.put({
+          date: s.date,
+          businesses: [],       // counts-only; we don't store raw businesses here
+          counts: s.counts
+        });
+      });
+      tx.oncomplete = resolve;
+      tx.onerror = ()=>reject(tx.error);
+    });
+
+    // Render using your existing functions
+    await displayHistoricalTrends();
+    await updateStorageDisplay();
+    await createChart();
   }catch(e){
     console.warn('No committed dashboard data yet:', e);
   }
 }
-document.addEventListener('DOMContentLoaded', loadCommittedDataOnStart);
 
 /* Button handler: starts workflow via relay (optional), then polls for fresh JSON */
 async function fetchLatestData(){
