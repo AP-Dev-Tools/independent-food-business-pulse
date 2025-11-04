@@ -4,13 +4,10 @@ permissions:
   contents: write   # allow github-actions[bot] to push
 
 on:
-  # Manual run from GitHub UI
-  workflow_dispatch: {}
-  # Trigger from your dashboard via relay
-  repository_dispatch:
+  workflow_dispatch: {}          # manual run
+  repository_dispatch:           # for your dashboard button trigger
     types: [run-fhrs-update]
-  # Weekly schedule (Mon 09:00 UK approx; cron runs in UTC)
-  schedule:
+  schedule:                      # Mondays 09:00 UK (cron runs in UTC; adjust if needed)
     - cron: '0 9 * * 1'
 
 jobs:
@@ -37,21 +34,29 @@ jobs:
       - name: Process data and identify new businesses
         run: python process_fhrs_data.py
 
-      - name: Commit processed data
+      # ---- Commit only the lightweight CSV to avoid GitHub's 100MB file limit ----
+      - name: Commit cumulative CSV
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add data/
-          git commit -m "Auto update dashboard data" || echo "No changes"
+          git add data/cumulative_new_businesses.csv
+          git commit -m "Update cumulative_new_businesses.csv" || echo "No changes"
           git push
+
+      # ---- Upload large JSONs as artifacts (downloadable from the run page) ----
+      - name: Upload snapshots as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: snapshots-${{ github.run_id }}
+          path: |
+            data/latest_snapshot.json
+            data/history/snapshot_*.json
+            data/dashboard_data.json
+          retention-days: 30
 
       - name: Summary
         run: |
-          echo "✅ Update complete!"
-          if [ -f data/latest_snapshot.json ]; then
-            echo "📊 latest_snapshot.json present"
-          fi
+          echo "✅ Update finished."
           if [ -f data/cumulative_new_businesses.csv ]; then
-            NEW_COUNT=$(wc -l < data/cumulative_new_businesses.csv)
-            echo "📈 cumulative_new_businesses.csv rows: $NEW_COUNT"
+            echo "📈 cumulative_new_businesses.csv rows: $(wc -l < data/cumulative_new_businesses.csv)"
           fi
