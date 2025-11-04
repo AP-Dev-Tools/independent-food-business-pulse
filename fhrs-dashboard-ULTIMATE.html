@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>FHRS Industry Pulse Dashboard - IndexedDB Edition</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+   <style>
+       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+       body { font-family: 'Inter', sans-serif; background-color: #f7f9fb; }
+       .card { background-color: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); }
+       .header-bg { background-color: #0b1c3c; color: white; padding: 1rem 0; margin-bottom: 2rem; }
+       th { text-align: left; padding: 0.5rem 0.75rem; background-color: #e2e8f0; border-bottom: 2px solid #cbd5e1; font-size: 0.875rem; }
+       td { padding: 0.75rem; border-bottom: 1px solid #e2e8f0; font-size: 0.875rem; }
+       .text-positive { color: #10b981; }
+       .text-negative { color: #ef4444; }
+       .table-container { overflow-x: auto; border-radius: 8px; }
+       .upload-zone { border: 2px dashed #cbd5e1; border-radius: 8px; padding: 2rem; text-align: center; background-color: #f9fafb; transition: all 0.3s; }
+       .upload-zone:hover { border-color: #3b82f6; background-color: #eff6ff; }
+       .progress-bar { width: 100%; background-color: #e5e7eb; border-radius: 9999px; overflow: hidden; height: 24px; }
+       .progress-fill { height: 100%; background-color: #3b82f6; transition: width 0.3s ease; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.875rem; font-weight: 600; }
+       .history-badge { display: inline-block; background-color: #dbeafe; color: #1e40af; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; }
+       .spinner { border: 3px solid #f3f4f6; border-top: 3px solid #3b82f6; border-radius: 50%; width: 20px; height: 20px; animation: spin 1s linear infinite; display: inline-block; }
+       @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+       .loading-overlay { position: relative; }
+       .loading-overlay::after { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(255,255,255,0.8); display: flex; align-items: center; justify-content: center; }
+   </style>
+</head>
+<body class="min-h-screen">
+   <div class="header-bg">
+       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+           <div>
+               <h1 class="text-3xl font-extrabold tracking-tight">FHRS Industry Pulse Dashboard</h1>
+               <p class="text-gray-300 mt-1">IndexedDB Edition - Unlimited storage capacity</p>
+               <p id="user-info" class="text-xs mt-2 text-gray-400">Ready to load data</p>
+           </div>
+           <div class="flex space-x-2">
+               <button onclick="fetchLatestData()" class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 text-sm font-medium">
+                   🔄 Fetch Latest Data
+               </button>
+               <button onclick="openSettings()" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-sm font-medium">
+                   ⚙️ Settings
+               </button>
+           </div>
+       </div>
+   </div>
+
+   <!-- Settings Modal -->
+   <div id="settings-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center">
+       <div class="bg-white rounded-lg p-6 max-w-md w-full mx-4">
+           <h2 class="text-xl font-bold mb-4">⚙️ Automation Settings</h2>
+           
+           <div class="space-y-4">
+               <div>
+                   <label class="block text-sm font-medium text-gray-700 mb-2">Day of Week</label>
+                   <select id="setting-day" class="w-full px-3 py-2 border border-gray-300 rounded-lg">
+                       <option value="1">Monday</option>
+                       <option value="2">Tuesday</option>
+                       <option value="3">Wednesday</option>
+                       <option value="4">Thursday</option>
+                       <option value="5">Friday</option>
+                       <option value="6">Saturday</option>
+                       <option value="0">Sunday</option>
+                   </select>
+               </div>
+               
+               <div>
+                   <label class="block text-sm font-medium text-gray-700 mb-2">Time (24-hour format)</label>
+                   <input type="time" id="setting-time" value="09:00" class="w-full px-3 py-2 border border-gray-300 rounded-lg">
+               </div>
+               
+               <div>
+                   <label class="block text-sm font-medium text-gray-700 mb-2">Timezone</label>
+                   <select id="setting-timezone" class="w-full px-3 py-2 border border-gray-300 rounded-lg">
+                       <option value="Europe/London">Europe/London (UK)</option>
+                       <option value="America/New_York">America/New_York (EST)</option>
+                       <option value="America/Los_Angeles">America/Los_Angeles (PST)</option>
+                       <option value="Europe/Paris">Europe/Paris (CET)</option>
+                   </select>
+               </div>
+           </div>
+           
+           <div class="mt-6 flex space-x-3">
+               <button onclick="copySettings()" class="flex-1 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-medium">
+                   📋 Copy Settings
+               </button>
+               <button onclick="closeSettings()" class="flex-1 px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 font-medium">
+                   Close
+               </button>
+           </div>
+           
+           <p id="settings-message" class="mt-3 text-sm text-center hidden"></p>
+       </div>
+   </div>
+
+   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+       
+       <!-- Historical Overview Banner -->
+       <section class="card mb-6 bg-gradient-to-r from-blue-50 to-indigo-50" id="history-banner" style="display:none;">
+           <div class="flex items-center justify-between">
+               <div>
+                   <h3 class="text-lg font-semibold text-gray-800">📊 Historical Tracking Active</h3>
+                   <p class="text-sm text-gray-600 mt-1">You have <span id="history-count" class="font-bold text-blue-600">0</span> weeks of data logged</p>
+                   <p class="text-xs text-gray-500 mt-1">Using IndexedDB - No storage limits!</p>
+               </div>
+               <button onclick="clearHistory()" class="px-4 py-2 text-sm text-red-600 border border-red-300 rounded-lg hover:bg-red-50">
+                   Clear All History
+               </button>
+           </div>
+       </section>
+
+       <!-- File Upload Section -->
+       <section class="card mb-6" id="upload-section">
+           <h2 class="text-xl font-semibold text-gray-800 mb-4">📁 Load FHRS Data</h2>
+           
+           <div class="bg-green-50 border-l-4 border-green-400 p-4 mb-4">
+               <div class="flex">
+                   <div class="flex-shrink-0">
+                       <svg class="h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                           <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                       </svg>
+                   </div>
+                   <div class="ml-3">
+                       <p class="text-sm text-green-700">
+                           <strong>IndexedDB Edition!</strong> This version uses IndexedDB (browser database) instead of localStorage. Can handle unlimited data with no storage quota errors!
+                       </p>
+                   </div>
+               </div>
+           </div>
+
+           <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-4">
+               <div class="flex">
+                   <div class="flex-shrink-0">
+                       <svg class="h-5 w-5 text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
+                           <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
+                       </svg>
+                   </div>
+                   <div class="ml-3">
+                       <p class="text-sm text-yellow-700">
+                           <strong>Important:</strong> Only upload CURRENT week data. The system automatically saves it and compares to your last upload.
+                       </p>
+                   </div>
+               </div>
+           </div>
+
+           <div class="space-y-4">
+               <div>
+                   <label class="block text-sm font-medium text-gray-700 mb-2">Date for This Data:</label>
+                   <input type="date" id="data-date" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" />
+                   <p class="text-xs text-gray-500 mt-1">Set the date this data represents (e.g., the date from your folder name like 2025-11-03)</p>
+               </div>
+               
+               <div>
+                   <label class="block text-sm font-medium text-gray-700 mb-2">Select This Week's Data Folder:</label>
+                   <div class="upload-zone">
+                       <input type="file" id="current-files" webkitdirectory directory multiple accept=".xml" class="hidden">
+                       <label for="current-files" class="cursor-pointer">
+                           <svg class="mx-auto h-12 w-12 text-gray-400" stroke="currentColor" fill="none" viewBox="0 0 48 48">
+                               <path d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                           </svg>
+                           <p class="mt-1 text-sm text-gray-600"><span class="font-medium text-blue-600">Click to select folder</span></p>
+                           <p class="text-xs text-gray-500 mt-1">Select the folder with this week's XML files</p>
+                       </label>
+                   </div>
+                   <p id="current-status" class="mt-2 text-sm text-gray-600"></p>
+               </div>
+
+               <button onclick="processData()" id="process-button" class="w-full px-6 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 font-medium disabled:bg-gray-400 disabled:cursor-not-allowed" disabled>
+                   Process Data & Auto-Save to History
+               </button>
+           </div>
+
+           <div id="processing-section" class="mt-6 hidden">
+               <div class="progress-bar"><div id="progress-fill" class="progress-fill" style="width: 0%">0%</div></div>
+               <p id="progress-detail" class="mt-2 text-sm text-gray-600 text-center">Processing...</p>
+           </div>
+       </section>
+
+       <!-- Dashboard Content -->
+       <div id="app-content" class="space-y-8 hidden">
+           
+           <!-- Historical Trends -->
+           <section class="card">
+               <h2 class="text-xl font-semibold text-gray-800 mb-4">📈 Historical Trends (All Time)</h2>
+               <p class="text-sm text-gray-600 mb-4">Automatic tracking of all your uploads over time</p>
+               <div class="table-container">
+                   <table class="min-w-full divide-y divide-gray-200">
+                       <thead>
+                           <tr>
+                               <th>Date</th>
+                               <th class="text-right">Mobile Caterers</th>
+                               <th class="text-right">Restaurants</th>
+                               <th class="text-right">Pubs/Bars</th>
+                               <th class="text-right">Takeaways</th>
+                               <th class="text-right">Total</th>
+                               <th class="text-right">Change vs Previous</th>
+                           </tr>
+                       </thead>
+                       <tbody id="historical-trends" class="bg-white divide-y divide-gray-200"></tbody>
+                   </table>
+               </div>
+               <p class="text-xs text-gray-500 mt-3">💡 Data is automatically saved each time you upload new XML files</p>
+           </section>
+
+           <!-- Trends Chart -->
+           <section class="card">
+               <div class="flex items-center justify-between mb-4">
+                   <div>
+                       <h2 class="text-xl font-semibold text-gray-800">📈 Industry Trends Over Time</h2>
+                       <p class="text-sm text-gray-600 mt-1">Visual timeline of business registrations (latest data point per month)</p>
+                   </div>
+                   <button onclick="exportChartData()" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-sm font-medium">
+                       Export Chart Data
+                   </button>
+               </div>
+               
+               <div class="mb-4">
+                   <div class="flex items-center justify-between mb-3">
+                       <label class="block text-sm font-medium text-gray-700">Chart Timeframe:</label>
+                       <div class="flex space-x-2">
+                           <button onclick="setChartTimeframe('monthly')" id="timeframe-btn-monthly" class="px-3 py-1 bg-blue-600 text-white rounded text-xs font-medium">Monthly</button>
+                           <button onclick="setChartTimeframe('weekly')" id="timeframe-btn-weekly" class="px-3 py-1 bg-gray-200 text-gray-700 rounded text-xs font-medium">Weekly</button>
+                       </div>
+                   </div>
+                   <label class="block text-sm font-medium text-gray-700 mb-2">Select Business Type:</label>
+                   <div class="flex space-x-2">
+                       <button onclick="updateChart('total')" id="chart-btn-total" class="px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium">Total</button>
+                       <button onclick="updateChart('mobile')" id="chart-btn-mobile" class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg text-sm font-medium">Mobile Caterers</button>
+                       <button onclick="updateChart('restaurant')" id="chart-btn-restaurant" class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg text-sm font-medium">Restaurants</button>
+                       <button onclick="updateChart('pub')" id="chart-btn-pub" class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg text-sm font-medium">Pubs/Bars</button>
+                       <button onclick="updateChart('takeaway')" id="chart-btn-takeaway" class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg text-sm font-medium">Takeaways</button>
+                   </div>
+               </div>
+               
+               <div class="bg-white p-4 rounded-lg">
+                   <canvas id="trendsChart" height="80"></canvas>
+               </div>
+           </section>
+
+           <!-- Weekly Change Summary -->
+           <section class="card">
+               <h2 class="text-xl font-semibold text-gray-800 mb-4">📊 This Week vs Last Week</h2>
+               <div id="no-comparison" class="text-center py-8 text-gray-500">
+                   <p>No previous data yet. Upload again next week to see changes!</p>
+               </div>
+               <div id="comparison-view" class="hidden">
+                   <div class="table-container">
+                       <table class="min-w-full divide-y divide-gray-200">
+                           <thead>
+                               <tr>
+                                   <th>Sector</th>
+                                   <th class="text-right">Current Count</th>
+                                   <th class="text-right">Absolute Change</th>
+                                   <th class="text-right">% Change</th>
+                               </tr>
+                           </thead>
+                           <tbody id="national-trends" class="bg-white divide-y divide-gray-200"></tbody>
+                       </table>
+                   </div>
+               </div>
+           </section>
+
+           <!-- Top 10 Growth -->
+           <section class="card">
+               <h2 class="text-xl font-semibold text-gray-800 mb-4">🏆 Top 10 Growth by Local Authority</h2>
+               <div class="mb-4 flex items-center space-x-3">
+                   <div class="flex-1">
+                       <label class="block text-sm font-medium text-gray-700 mb-2">Select Business Type:</label>
+                       <select id="growth-sector-select" onchange="updateTopGrowth()" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                           <option value="Mobile caterer">Mobile Food Caterers</option>
+                           <option value="Restaurant/Cafe/Canteen">Restaurants/Cafes</option>
+                           <option value="Pub/bar/nightclub">Pubs/Bars/Clubs</option>
+                           <option value="Takeaway/sandwich shop">Takeaways</option>
+                       </select>
+                   </div>
+                   <div id="top-growth-spinner" class="spinner hidden mt-7"></div>
+               </div>
+               <p class="text-sm text-gray-600 mb-3">Local Authorities with most new businesses this week</p>
+               <div class="table-container">
+                   <table class="min-w-full divide-y divide-gray-200">
+                       <thead>
+                           <tr>
+                               <th>#</th>
+                               <th>Local Authority</th>
+                               <th class="text-right">Net Change</th>
+                               <th class="text-right">Current Total</th>
+                           </tr>
+                       </thead>
+                       <tbody id="regional-ranking-growth" class="bg-white divide-y divide-gray-200">
+                           <tr><td colspan="4" class="text-center py-4 text-gray-500">Upload again next week to see changes!</td></tr>
+                       </tbody>
+                   </table>
+               </div>
+           </section>
+
+           <!-- Top 10 Reductions -->
+           <section class="card">
+               <h2 class="text-xl font-semibold text-gray-800 mb-4">📉 Top 10 Reductions by Local Authority</h2>
+               <p class="text-sm text-gray-600 mb-3">Local Authorities with biggest losses this week</p>
+               <div class="table-container">
+                   <table class="min-w-full divide-y divide-gray-200">
+                       <thead>
+                           <tr>
+                               <th>#</th>
+                               <th>Local Authority</th>
+                               <th class="text-right">Net Change</th>
+                               <th class="text-right">Current Total</th>
+                           </tr>
+                       </thead>
+                       <tbody id="regional-ranking-reduction" class="bg-white divide-y divide-gray-200">
+                           <tr><td colspan="4" class="text-center py-4 text-gray-500">Upload again next week to see changes!</td></tr>
+                       </tbody>
+                   </table>
+               </div>
+           </section>
+
+           <!-- Export Section -->
+           <section class="card">
+               <h2 class="text-xl font-semibold text-gray-800 mb-4">📥 Export New Businesses</h2>
+               <p class="text-sm text-gray-600 mb-4">Download a CSV of businesses added since your last upload</p>
+               <div class="flex items-end space-x-4">
+                   <div class="flex-1">
+                       <label class="block text-sm font-medium text-gray-700 mb-2">Select Business Type:</label>
+                       <select id="sector-select" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                           <option value="Mobile caterer">Mobile Food Caterers</option>
+                           <option value="Restaurant/Cafe/Canteen">Restaurants/Cafes</option>
+                           <option value="Pub/bar/nightclub">Pubs/Bars/Clubs</option>
+                           <option value="Takeaway/sandwich shop">Takeaways</option>
+                       </select>
+                   </div>
+                   <button onclick="generateCSV()" class="px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 font-medium">
+                       Generate & Download CSV
+                   </button>
+               </div>
+               <p id="csv-message" class="mt-3 text-sm font-medium hidden"></p>
+           </section>
+       </div>
+   </main>
+
+   <script>
+       const SECTORS = {
+           MOBILE: 'Mobile caterer',
+           RESTAURANT: 'Restaurant/Cafe/Canteen',
+           PUB: 'Pub/bar/nightclub',
+           TAKEAWAY: 'Takeaway/sandwich shop'
+       };
+
+       const LONDON_LAS = ['Barking and Dagenham', 'Barnet', 'Bexley', 'Brent', 'Bromley', 'Camden', 'Croydon', 'Ealing', 'Enfield', 'Greenwich', 'Hackney', 'Hammersmith and Fulham', 'Haringey', 'Harrow', 'Havering', 'Hillingdon', 'Hounslow', 'Islington', 'Kensington and Chelsea', 'Kingston upon Thames', 'Lambeth', 'Lewisham', 'Merton', 'Newham', 'Redbridge', 'Richmond upon Thames', 'Southwark', 'Sutton', 'Tower Hamlets', 'Waltham Forest', 'Wandsworth', 'Westminster', 'City of London'];
+
+       let currentFiles = [];
+       let currentData = [];
+       let previousData = [];
+       let newBusinesses = [];
+       let db;
+       let trendsChart = null;
+       let currentChartType = 'total';
+       let currentTimeframe = 'monthly';
+
+       // IndexedDB Setup
+       function initDB() {
+           return new Promise((resolve, reject) => {
+               const request = indexedDB.open('FHRSDatabase', 1);
+               
+               request.onerror = () => reject(request.error);
+               request.onsuccess = () => {
+                   db = request.result;
+                   resolve(db);
+               };
+               
+               request.onupgradeneeded = (event) => {
+                   const db = event.target.result;
+                   
+                   // Create snapshots store
+                   if (!db.objectStoreNames.contains('snapshots')) {
+                       const snapshotStore = db.createObjectStore('snapshots', { keyPath: 'date' });
+                       snapshotStore.createIndex('date', 'date', { unique: true });
+                   }
+               };
+           });
+       }
+
+       async function saveSnapshot(date, businesses) {
+           const snapshot = {
+               date: date,
+               businesses: businesses.map(b => ({
+                   id: b.id,
+                   name: b.name,
+                   type: b.type,
+                   la: b.la,
+                   address: b.address,
+                   addressLine1: b.addressLine1,
+                   addressLine2: b.addressLine2,
+                   addressLine3: b.addressLine3,
+                   addressLine4: b.addressLine4,
+                   postcode: b.postcode,
+                   ratingValue: b.ratingValue,
+                   ratingDate: b.ratingDate
+               })),
+               counts: {
+                   [SECTORS.MOBILE]: businesses.filter(b => b.type === SECTORS.MOBILE).length,
+                   [SECTORS.RESTAURANT]: businesses.filter(b => b.type === SECTORS.RESTAURANT).length,
+                   [SECTORS.PUB]: businesses.filter(b => b.type === SECTORS.PUB).length,
+                   [SECTORS.TAKEAWAY]: businesses.filter(b => b.type === SECTORS.TAKEAWAY).length,
+                   total: businesses.length
+               }
+           };
+           
+           return new Promise((resolve, reject) => {
+               const transaction = db.transaction(['snapshots'], 'readwrite');
+               const store = transaction.objectStore('snapshots');
+               const request = store.put(snapshot);
+               
+               request.onsuccess = () => {
+                   console.log('Snapshot saved successfully');
+                   resolve();
+               };
+               request.onerror = () => reject(request.error);
+           });
+       }
+
+       async function loadAllSnapshots() {
+           return new Promise((resolve, reject) => {
+               const transaction = db.transaction(['snapshots'], 'readonly');
+               const store = transaction.objectStore('snapshots');
+               const request = store.getAll();
+               
+               request.onsuccess = () => {
+                   const snapshots = request.result || [];
+                   snapshots.sort((a, b) => a.date.localeCompare(b.date));
+                   resolve(snapshots);
+               };
+               request.onerror = () => reject(request.error);
+           });
+       }
+
+       async function getLatestSnapshot() {
+           const snapshots = await loadAllSnapshots();
+           return snapshots.length > 0 ? snapshots[snapshots.length - 1] : null;
+       }
+
+       async function clearHistory() {
+           if (confirm('Are you sure you want to clear all historical data? This cannot be undone.')) {
+               return new Promise((resolve, reject) => {
+                   const transaction = db.transaction(['snapshots'], 'readwrite');
+                   const store = transaction.objectStore('snapshots');
+                   const request = store.clear();
+                   
+                   request.onsuccess = () => {
+                       console.log('History cleared');
+                       location.reload();
+                       resolve();
+                   };
+                   request.onerror = () => reject(request.error);
+               });
+           }
+       }
+
+       async function updateStorageDisplay() {
+           const snapshots = await loadAllSnapshots();
+           document.getElementById('history-count').textContent = snapshots.length;
+           
+           if (snapshots.length > 0) {
+               document.getElementById('history-banner').style.display = 'block';
+           }
+       }
+
+       async function displayHistoricalTrends() {
+           const snapshots = await loadAllSnapshots();
+           const tb = document.getElementById('historical-trends');
+           tb.innerHTML = '';
+           
+           console.log('Displaying historical trends, snapshots:', snapshots.length);
+           
+           if (snapshots.length === 0) {
+               console.log('No historical data to display');
+               return;
+           }
+           
+           snapshots.forEach((snapshot, idx) => {
+               const isLatest = idx === snapshots.length - 1;
+               const badge = isLatest ? ' <span class="history-badge">LATEST</span>' : '';
+               
+               const counts = snapshot.counts || {};
+               const mobile = counts[SECTORS.MOBILE] || 0;
+               const restaurant = counts[SECTORS.RESTAURANT] || 0;
+               const pub = counts[SECTORS.PUB] || 0;
+               const takeaway = counts[SECTORS.TAKEAWAY] || 0;
+               const total = counts.total || 0;
+               
+               // Calculate change vs previous
+               let changeCell = '<td class="text-right text-gray-400">-</td>';
+               if (idx > 0) {
+                   const prevTotal = snapshots[idx - 1].counts?.total || 0;
+                   const change = total - prevTotal;
+                   changeCell = `<td class="text-right">${formatChange(change)}</td>`;
+               }
+               
+               console.log(`Snapshot ${idx}: ${snapshot.date} - Total: ${total}`);
+               
+               tb.innerHTML += `
+                   <tr>
+                       <td class="font-medium">${snapshot.date}${badge}</td>
+                       <td class="text-right">${mobile.toLocaleString()}</td>
+                       <td class="text-right">${restaurant.toLocaleString()}</td>
+                       <td class="text-right">${pub.toLocaleString()}</td>
+                       <td class="text-right">${takeaway.toLocaleString()}</td>
+                       <td class="text-right font-semibold">${total.toLocaleString()}</td>
+                       ${changeCell}
+                   </tr>
+               `;
+           });
+       }
+
+       // File Handling
+       document.getElementById('current-files').addEventListener('change', (e) => {
+           currentFiles = Array.from(e.target.files).filter(f => f.name.endsWith('.xml'));
+           document.getElementById('current-status').textContent = `✓ ${currentFiles.length} XML files selected`;
+           
+           // Try to auto-detect date from folder path
+           if (currentFiles.length > 0) {
+               const path = currentFiles[0].webkitRelativePath || currentFiles[0].name;
+               // Look for date pattern YYYY-MM-DD in the path
+               const dateMatch = path.match(/(\d{4}-\d{2}-\d{2})/);
+               if (dateMatch) {
+                   document.getElementById('data-date').value = dateMatch[1];
+                   console.log('Auto-detected date:', dateMatch[1]);
+               }
+           }
+           
+           // Enable button only if both files and date are set
+           updateProcessButton();
+       });
+       
+       document.getElementById('data-date').addEventListener('change', () => {
+           updateProcessButton();
+       });
+       
+       function updateProcessButton() {
+           const hasFiles = currentFiles.length > 0;
+           const hasDate = document.getElementById('data-date').value !== '';
+           document.getElementById('process-button').disabled = !(hasFiles && hasDate);
+       }
+
+       async function processData() {
+           // Get the date from the input field
+           const dataDate = document.getElementById('data-date').value;
+           if (!dataDate) {
+               alert('Please select a date for this data');
+               return;
+           }
+           
+           document.getElementById('processing-section').classList.remove('hidden');
+           document.getElementById('process-button').disabled = true;
+           
+           currentData = [];
+           const latestSnapshot = await getLatestSnapshot();
+           previousData = latestSnapshot ? latestSnapshot.businesses : [];
+           
+           const total = currentFiles.length;
+           for (let i = 0; i < total; i++) {
+               const progress = Math.round(((i + 1) / total) * 100);
+               document.getElementById('progress-fill').style.width = `${progress}%`;
+               document.getElementById('progress-fill').textContent = `${progress}%`;
+               document.getElementById('progress-detail').textContent = `Processing ${i + 1} of ${total} files...`;
+               
+               await parseXMLFile(currentFiles[i]);
+               await new Promise(r => setTimeout(r, 10));
+           }
+           
+           // Update progress message
+           document.getElementById('progress-detail').textContent = 'Identifying new businesses...';
+           
+           // Identify new businesses
+           identifyNewBusinesses();
+           
+           // Update progress message
+           document.getElementById('progress-detail').textContent = 'Saving to database...';
+           
+           // Save current snapshot with the user-specified date
+           await saveSnapshot(dataDate, currentData);
+           
+           // Update progress message
+           document.getElementById('progress-detail').textContent = 'Complete! Loading dashboard...';
+           
+           // Display results
+           await new Promise(r => setTimeout(r, 500));
+           document.getElementById('upload-section').classList.add('hidden');
+           document.getElementById('app-content').classList.remove('hidden');
+           await runPulseCalculations();
+       }
+
+       function identifyNewBusinesses() {
+           if (!Array.isArray(previousData) || previousData.length === 0) {
+               console.log('No valid previous data for comparison');
+               newBusinesses = currentData.slice(); // All businesses are "new"
+               return;
+           }
+           
+           const prevIds = new Set(previousData.map(b => b.id).filter(id => id));
+           newBusinesses = currentData.filter(b => b.id && !prevIds.has(b.id));
+           
+           console.log(`Found ${newBusinesses.length} new businesses`);
+       }
+
+       async function parseXMLFile(file) {
+           return new Promise((resolve) => {
+               const reader = new FileReader();
+               reader.onload = (e) => {
+                   const parser = new DOMParser();
+                   const xml = parser.parseFromString(e.target.result, 'text/xml');
+                   const establishments = xml.getElementsByTagName('EstablishmentDetail');
+                   
+                   for (let est of establishments) {
+                       const bizType = est.getElementsByTagName('BusinessType')[0]?.textContent || '';
+                       
+                       if (Object.values(SECTORS).includes(bizType)) {
+                           // Extract address components
+                           const addr1 = est.getElementsByTagName('AddressLine1')[0]?.textContent || '';
+                           const addr2 = est.getElementsByTagName('AddressLine2')[0]?.textContent || '';
+                           const addr3 = est.getElementsByTagName('AddressLine3')[0]?.textContent || '';
+                           const addr4 = est.getElementsByTagName('AddressLine4')[0]?.textContent || '';
+                           const postcode = est.getElementsByTagName('PostCode')[0]?.textContent || '';
+                           
+                           // Combine address lines (filter out empty ones)
+                           const addressParts = [addr1, addr2, addr3, addr4].filter(part => part.trim() !== '');
+                           const fullAddress = addressParts.join(', ');
+                           
+                           currentData.push({
+                               id: est.getElementsByTagName('FHRSID')[0]?.textContent || '',
+                               name: est.getElementsByTagName('BusinessName')[0]?.textContent || '',
+                               type: bizType,
+                               la: est.getElementsByTagName('LocalAuthorityName')[0]?.textContent || '',
+                               address: fullAddress,
+                               addressLine1: addr1,
+                               addressLine2: addr2,
+                               addressLine3: addr3,
+                               addressLine4: addr4,
+                               postcode: postcode,
+                               ratingValue: est.getElementsByTagName('RatingValue')[0]?.textContent || '',
+                               ratingDate: est.getElementsByTagName('RatingDate')[0]?.textContent || ''
+                           });
+                       }
+                   }
+                   resolve();
+               };
+               reader.readAsText(file);
+           });
+       }
+
+       // Calculations
+       function calculateSectorPulse(curr, prev, sectors, laFilter = null) {
+           const filtered = la => laFilter ? la === laFilter : true;
+           const cCnt = curr.filter(e => filtered(e.la)).reduce((a, e) => {
+               if (sectors.includes(e.type)) a[e.type] = (a[e.type] || 0) + 1;
+               return a;
+           }, {});
+           const pCnt = prev.filter(e => filtered(e.la)).reduce((a, e) => {
+               if (sectors.includes(e.type)) a[e.type] = (a[e.type] || 0) + 1;
+               return a;
+           }, {});
+           
+           const res = {};
+           for (const s of sectors) {
+               const cc = cCnt[s] || 0;
+               const pc = pCnt[s] || 0;
+               const ac = cc - pc;
+               let pct = 0;
+               if (pc > 0) pct = (ac / pc) * 100;
+               else if (cc > 0) pct = 100;
+               res[s] = {
+                   currentCount: cc,
+                   prevCount: pc,
+                   absoluteChange: ac,
+                   percentChange: pct.toFixed(2)
+               };
+           }
+           return res;
+       }
+
+       function calculateRegionalRanking(curr, prev, sector, sortOrder = 'desc') {
+           if (prev.length === 0) return [];
+           const allLAs = [...new Set([...curr.map(e => e.la), ...prev.map(e => e.la)])];
+           const laPulses = allLAs.map(la => {
+               const p = calculateSectorPulse(curr, prev, [sector], la);
+               return {
+                   la: la,
+                   absoluteChange: p[sector].absoluteChange,
+                   currentTotal: p[sector].currentCount
+               };
+           }).filter(p => sortOrder === 'desc' ? p.absoluteChange > 0 : p.absoluteChange < 0);
+           
+           laPulses.sort((a, b) => sortOrder === 'desc' ? 
+               b.absoluteChange - a.absoluteChange : 
+               a.absoluteChange - b.absoluteChange
+           );
+           return laPulses.slice(0, 10);
+       }
+
+       function calculateRegionalMobileRanking(curr, prev) {
+           return calculateRegionalRanking(curr, prev, SECTORS.MOBILE, 'desc');
+       }
+
+       function formatChange(c) {
+           const n = parseFloat(c);
+           if (isNaN(n)) return 'N/A';
+           const sign = n >= 0 ? '+' : '';
+           const col = n >= 0 ? 'text-positive' : 'text-negative';
+           const icon = n > 0 ? '▲' : (n < 0 ? '▼' : '▬');
+           return `<span class="${col} font-semibold">${icon} ${sign}${n.toLocaleString()}</span>`;
+       }
+
+       function renderPulseTable(tid, res) {
+           const tb = document.getElementById(tid);
+           tb.innerHTML = '';
+           for (const s in res) {
+               const d = res[s];
+               tb.innerHTML += `<tr><td class="font-medium text-gray-900">${s}</td><td class="text-right">${d.currentCount.toLocaleString()}</td><td class="text-right">${formatChange(d.absoluteChange)}</td><td class="text-right">${formatChange(d.percentChange)}%</td></tr>`;
+           }
+       }
+
+       function renderRegionalRanking(data, tableId) {
+           const tb = document.getElementById(tableId);
+           tb.innerHTML = '';
+           if (data.length === 0) {
+               tb.innerHTML = '<tr><td colspan="4" class="text-center py-4 text-gray-500">No comparison data available yet. Upload again next week!</td></tr>';
+               return;
+           }
+           data.forEach((item, i) => {
+               tb.innerHTML += `<tr><td>${i + 1}</td><td class="font-medium text-gray-900">${item.la}</td><td class="text-right">${formatChange(item.absoluteChange)}</td><td class="text-right">${item.currentTotal.toLocaleString()}</td></tr>`;
+           });
+       }
+
+       function updateTopGrowth() {
+           const sector = document.getElementById('growth-sector-select').value;
+           const spinner = document.getElementById('top-growth-spinner');
+           const select = document.getElementById('growth-sector-select');
+           
+           console.log('Updating top growth for sector:', sector);
+           
+           // Show spinner, disable select
+           spinner.classList.remove('hidden');
+           select.disabled = true;
+           
+           // Use setTimeout to let UI update
+           setTimeout(() => {
+               if (previousData.length === 0) {
+                   spinner.classList.add('hidden');
+                   select.disabled = false;
+                   return;
+               }
+               
+               const growth = calculateRegionalRanking(currentData, previousData, sector, 'desc');
+               const reductions = calculateRegionalRanking(currentData, previousData, sector, 'asc');
+               
+               renderRegionalRanking(growth, 'regional-ranking-growth');
+               renderRegionalRanking(reductions, 'regional-ranking-reduction');
+               
+               // Hide spinner, enable select
+               spinner.classList.add('hidden');
+               select.disabled = false;
+           }, 100);
+       }
+
+       // Settings Functions
+       function openSettings() {
+           document.getElementById('settings-modal').classList.remove('hidden');
+       }
+
+       function closeSettings() {
+           document.getElementById('settings-modal').classList.add('hidden');
+           document.getElementById('settings-message').classList.add('hidden');
+       }
+
+       function copySettings() {
+           const day = document.getElementById('setting-day').value;
+           const time = document.getElementById('setting-time').value;
+           const timezone = document.getElementById('setting-timezone').value;
+           
+           const [hour, minute] = time.split(':');
+           
+           const config = {
+               schedule: {
+                   day: parseInt(day),
+                   hour: parseInt(hour),
+                   minute: parseInt(minute),
+                   timezone: timezone
+               },
+               cron: `${minute} ${hour} * * ${day}`,
+               readable: `Every ${getDayName(day)} at ${time} ${timezone}`
+           };
+           
+           const configText = JSON.stringify(config, null, 2);
+           
+           navigator.clipboard.writeText(configText).then(() => {
+               const msg = document.getElementById('settings-message');
+               msg.textContent = '✅ Copied! Now paste into config.json in your GitHub repo';
+               msg.className = 'mt-3 text-sm text-center text-green-600 font-medium';
+               msg.classList.remove('hidden');
+           });
+       }
+
+       function getDayName(day) {
+           const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+           return days[parseInt(day)];
+       }
+
+       // Fetch Latest Data Function
+       async function fetchLatestData() {
+           alert('🔄 Fetching latest FHRS data...\n\nThis will download all 363 authority files (may take 2-3 minutes).\n\nNote: This feature is under development and currently simulates the download process.');
+           
+           // In a full implementation, this would:
+           // 1. Call FSA API to get list of authorities
+           // 2. Download each XML file
+           // 3. Process them
+           // 4. Update dashboard
+           
+           console.log('Fetch latest data - feature in development');
+       }
+
+       // Chart Timeframe Toggle
+       function setChartTimeframe(timeframe) {
+           currentTimeframe = timeframe;
+           
+           // Update button styles
+           const monthlyBtn = document.getElementById('timeframe-btn-monthly');
+           const weeklyBtn = document.getElementById('timeframe-btn-weekly');
+           
+           if (timeframe === 'monthly') {
+               monthlyBtn.className = 'px-3 py-1 bg-blue-600 text-white rounded text-xs font-medium';
+               weeklyBtn.className = 'px-3 py-1 bg-gray-200 text-gray-700 rounded text-xs font-medium';
+           } else {
+               monthlyBtn.className = 'px-3 py-1 bg-gray-200 text-gray-700 rounded text-xs font-medium';
+               weeklyBtn.className = 'px-3 py-1 bg-blue-600 text-white rounded text-xs font-medium';
+           }
+           
+           // Recreate chart with new timeframe
+           createChart();
+       }
+
+       async function getWeeklyDataPoints() {
+           const snapshots = await loadAllSnapshots();
+           // Return all snapshots for weekly view
+           return snapshots.sort((a, b) => a.date.localeCompare(b.date));
+       }
+
+       async function getMonthlyDataPoints() {
+           const snapshots = await loadAllSnapshots();
+           
+           // Group by month and keep latest snapshot for each month
+           const monthlyData = {};
+           snapshots.forEach(snapshot => {
+               const monthKey = snapshot.date.substring(0, 7); // YYYY-MM
+               if (!monthlyData[monthKey] || snapshot.date > monthlyData[monthKey].date) {
+                   monthlyData[monthKey] = snapshot;
+               }
+           });
+           
+           // Sort by date
+           return Object.values(monthlyData).sort((a, b) => a.date.localeCompare(b.date));
+       }
+
+       async function createChart() {
+           const ctx = document.getElementById('trendsChart');
+           if (!ctx) return;
+           
+           let dataPoints;
+           if (currentTimeframe === 'monthly') {
+               dataPoints = await getMonthlyDataPoints();
+           } else {
+               dataPoints = await getWeeklyDataPoints();
+           }
+           
+           if (dataPoints.length === 0) {
+               console.log('No data for chart');
+               return;
+           }
+           
+           const labels = dataPoints.map(d => d.date);
+           const data = dataPoints.map(d => d.counts?.total || 0);
+           
+           if (trendsChart) {
+               trendsChart.destroy();
+           }
+           
+           trendsChart = new Chart(ctx, {
+               type: 'line',
+               data: {
+                   labels: labels,
+                   datasets: [{
+                       label: 'Total Businesses',
+                       data: data,
+                       borderColor: 'rgb(59, 130, 246)',
+                       backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                       tension: 0.1,
+                       fill: true
+                   }]
+               },
+               options: {
+                   responsive: true,
+                   maintainAspectRatio: true,
+                   plugins: {
+                       legend: {
+                           display: true,
+                           position: 'top'
+                       },
+                       tooltip: {
+                           callbacks: {
+                               label: function(context) {
+                                   return context.dataset.label + ': ' + context.parsed.y.toLocaleString();
+                               }
+                           }
+                       },
+                       title: {
+                           display: true,
+                           text: currentTimeframe === 'monthly' ? 'Monthly Trends (Latest per Month)' : 'Weekly Trends (All Data Points)'
+                       }
+                   },
+                   scales: {
+                       y: {
+                           beginAtZero: false,
+                           ticks: {
+                               callback: function(value) {
+                                   return value.toLocaleString();
+                               }
+                           }
+                       }
+                   }
+               }
+           });
+       }
+
+       async function updateChart(type) {
+           currentChartType = type;
+           
+           // Update button styles
+           ['total', 'mobile', 'restaurant', 'pub', 'takeaway'].forEach(t => {
+               const btn = document.getElementById(`chart-btn-${t}`);
+               if (t === type) {
+                   btn.className = 'px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium';
+               } else {
+                   btn.className = 'px-4 py-2 bg-gray-200 text-gray-700 rounded-lg text-sm font-medium';
+               }
+           });
+           
+           let dataPoints;
+           if (currentTimeframe === 'monthly') {
+               dataPoints = await getMonthlyDataPoints();
+           } else {
+               dataPoints = await getWeeklyDataPoints();
+           }
+           
+           if (dataPoints.length === 0) return;
+           
+           const labels = dataPoints.map(d => d.date);
+           let data, label, color;
+           
+           switch(type) {
+               case 'mobile':
+                   data = dataPoints.map(d => d.counts?.[SECTORS.MOBILE] || 0);
+                   label = 'Mobile Caterers';
+                   color = 'rgb(245, 158, 11)';
+                   break;
+               case 'restaurant':
+                   data = dataPoints.map(d => d.counts?.[SECTORS.RESTAURANT] || 0);
+                   label = 'Restaurants/Cafes';
+                   color = 'rgb(16, 185, 129)';
+                   break;
+               case 'pub':
+                   data = dataPoints.map(d => d.counts?.[SECTORS.PUB] || 0);
+                   label = 'Pubs/Bars/Clubs';
+                   color = 'rgb(139, 92, 246)';
+                   break;
+               case 'takeaway':
+                   data = dataPoints.map(d => d.counts?.[SECTORS.TAKEAWAY] || 0);
+                   label = 'Takeaways';
+                   color = 'rgb(239, 68, 68)';
+                   break;
+               default:
+                   data = dataPoints.map(d => d.counts?.total || 0);
+                   label = 'Total Businesses';
+                   color = 'rgb(59, 130, 246)';
+           }
+           
+           if (trendsChart) {
+               trendsChart.data.labels = labels;
+               trendsChart.data.datasets[0].data = data;
+               trendsChart.data.datasets[0].label = label;
+               trendsChart.data.datasets[0].borderColor = color;
+               trendsChart.data.datasets[0].backgroundColor = color.replace('rgb', 'rgba').replace(')', ', 0.1)');
+               trendsChart.options.plugins.title.text = currentTimeframe === 'monthly' ? 'Monthly Trends (Latest per Month)' : 'Weekly Trends (All Data Points)';
+               trendsChart.update();
+           }
+       }
+
+       async function exportChartData() {
+           const monthlyData = await getMonthlyDataPoints();
+           
+           if (monthlyData.length === 0) {
+               alert('No data available to export');
+               return;
+           }
+           
+           let csv = "Date,Total,Mobile Caterers,Restaurants,Pubs/Bars,Takeaways\n";
+           monthlyData.forEach(snapshot => {
+               const counts = snapshot.counts || {};
+               csv += [
+                   snapshot.date,
+                   counts.total || 0,
+                   counts[SECTORS.MOBILE] || 0,
+                   counts[SECTORS.RESTAURANT] || 0,
+                   counts[SECTORS.PUB] || 0,
+                   counts[SECTORS.TAKEAWAY] || 0
+               ].join(',') + "\n";
+           });
+           
+           downloadCSV(csv, `fhrs_trends_data_${new Date().toISOString().split('T')[0]}.csv`);
+           alert(`✓ Exported ${monthlyData.length} data points!`);
+       }
+
+       function generateCSV() {
+           const sel = document.getElementById('sector-select').value;
+           const newBiz = newBusinesses.filter(b => b.type === sel);
+           
+           if (newBiz.length === 0) {
+               showCsvMessage(`No new ${sel} businesses found since last upload. ${previousData.length === 0 ? 'Upload again next week to track changes!' : ''}`, 'text-yellow-600');
+               return;
+           }
+           
+           let csv = "FHRS ID,Business Name,Type,Address Line 1,Address Line 2,Address Line 3,Address Line 4,Postcode,Local Authority,Rating Value,Rating Date\n";
+           newBiz.forEach(b => {
+               const n = `"${String(b.name || '').replace(/"/g, '""')}"`;
+               const a1 = `"${String(b.addressLine1 || '').replace(/"/g, '""')}"`;
+               const a2 = `"${String(b.addressLine2 || '').replace(/"/g, '""')}"`;
+               const a3 = `"${String(b.addressLine3 || '').replace(/"/g, '""')}"`;
+               const a4 = `"${String(b.addressLine4 || '').replace(/"/g, '""')}"`;
+               csv += [b.id, n, `"${b.type}"`, a1, a2, a3, a4, `"${b.postcode}"`, `"${b.la}"`, `"${b.ratingValue}"`, `"${b.ratingDate}"`].join(',') + "\n";
+           });
+           
+           downloadCSV(csv, `new_${sel.replace(/[^a-z0-9]/gi, '_')}_${new Date().toISOString().split('T')[0]}.csv`);
+           showCsvMessage(`✓ Downloaded ${newBiz.length} new ${sel} businesses with full addresses!`, 'text-green-600');
+       }
+
+       function downloadCSV(content, filename) {
+           const blob = new Blob([content], {type: 'text/csv'});
+           const url = URL.createObjectURL(blob);
+           const link = document.createElement('a');
+           link.href = url;
+           link.download = filename;
+           link.click();
+           URL.revokeObjectURL(url);
+       }
+
+       function showCsvMessage(msg, col) {
+           const box = document.getElementById('csv-message');
+           box.textContent = msg;
+           box.className = `mt-3 text-sm font-medium ${col}`;
+           box.classList.remove('hidden');
+           setTimeout(() => box.classList.add('hidden'), 5000);
+       }
+
+       async function runPulseCalculations() {
+           const allSec = Object.values(SECTORS);
+           const snapshots = await loadAllSnapshots();
+           
+           console.log('Running pulse calculations...');
+           console.log('Number of snapshots:', snapshots.length);
+           console.log('Current data size:', currentData.length);
+           console.log('Previous data size:', previousData.length);
+           
+           // Display historical trends
+           await displayHistoricalTrends();
+           
+           // Create/update chart
+           await createChart();
+           
+           // Check if we have previous data to compare
+           if (snapshots.length >= 2) {
+               console.log('Showing comparison view (2+ snapshots)');
+               document.getElementById('no-comparison').classList.add('hidden');
+               document.getElementById('comparison-view').classList.remove('hidden');
+               
+               const natPulse = calculateSectorPulse(currentData, previousData, allSec);
+               console.log('National pulse:', natPulse);
+               renderPulseTable('national-trends', natPulse);
+               
+               // Update top growth and reductions based on selected sector
+               updateTopGrowth();
+           } else {
+               console.log('Not enough data for comparison (need 2+ snapshots)');
+               document.getElementById('no-comparison').classList.remove('hidden');
+               document.getElementById('comparison-view').classList.add('hidden');
+               document.getElementById('regional-ranking-growth').innerHTML = '<tr><td colspan="4" class="text-center py-4 text-gray-500">Upload again next week to see changes!</td></tr>';
+               document.getElementById('regional-ranking-reduction').innerHTML = '<tr><td colspan="4" class="text-center py-4 text-gray-500">Upload again next week to see changes!</td></tr>';
+           }
+           
+           const src = `${currentData.length.toLocaleString()} establishments | ${snapshots.length} weeks tracked | ${newBusinesses.length} new businesses identified`;
+           document.getElementById('user-info').textContent = src;
+       }
+
+       // Initialize on load
+       window.onload = async () => {
+           try {
+               await initDB();
+               const snapshots = await loadAllSnapshots();
+               if (snapshots.length > 0) {
+                   await displayHistoricalTrends();
+                   await updateStorageDisplay();
+                   await createChart();
+               }
+           } catch (error) {
+               console.error('Error initializing database:', error);
+               alert('Error initializing database. Please try refreshing the page.');
+           }
+       };
+   </script>
+</body>
+</html>
