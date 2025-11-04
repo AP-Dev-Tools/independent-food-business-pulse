@@ -331,9 +331,10 @@
                            <option value="Takeaway/sandwich shop">Takeaways</option>
                        </select>
                    </div>
-                   <button onclick="generateCSV()" class="px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 font-medium">
-                       Generate & Download CSV
-                   </button>
+                  <button onclick="downloadActionCsv()" class="px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 font-medium">
+  Download latest CSV (Action)
+</button>
+
                </div>
                <p id="csv-message" class="mt-3 text-sm font-medium hidden"></p>
            </section>
@@ -1278,6 +1279,28 @@ document.addEventListener('DOMContentLoaded', () => {
   // Give your other loaders a moment; then fetch tiny deltas JSON
   setTimeout(loadTop10FromAction, 300);
 });
+
+async function downloadActionCsv(){
+  const map = {
+    "Mobile caterer": "MOBILE",
+    "Restaurant/Cafe/Canteen": "RESTAURANT_CAFE",
+    "Pub/bar/nightclub": "PUB_BAR",
+    "Takeaway/sandwich shop": "TAKEAWAY"
+  };
+  const sel = document.getElementById('sector-select');
+  const type = map[sel.value] || "MOBILE";
+
+  // Pick the correct month from the latest snapshot
+  let ym = new Date().toISOString().slice(0,7);
+  try {
+    const r = await fetch('data/latest_snapshot.json?cb=' + Date.now(), {cache:'no-store'});
+    if (r.ok) ym = (await r.json()).date.slice(0,7);
+  } catch(_) {}
+
+  window.location.href = `data/cumulative/${type}/${ym}.csv`;
+}
+
+   
 </script>
 
    
