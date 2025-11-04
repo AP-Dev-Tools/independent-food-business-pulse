@@ -1114,7 +1114,10 @@
            }
        };
    </script>
-<!-- === FHRS loader (drop-in) === -->
+
+   
+   
+   <!-- === FHRS loader (drop-in) === -->
 <script>
 /* Helper: safe call if a function exists */
 async function _maybe(fn, ...args){ if(typeof fn==="function"){ return await fn(...args);} }
@@ -1139,26 +1142,25 @@ function _fallbackRender(series){
 async function loadCommittedDataOnStart(){
   try{
     const res = await fetch('data/dashboard_data.json?cb=' + Date.now(), { cache:'no-store' });
-    if(!res.ok) return; // first run: file may not exist yet
-    const series = await res.json(); // [{date, counts:{...}}, ...]
+    if(!res.ok) return; // nothing committed yet
+    const series = await res.json(); // [{date, counts}, ...]
 
-    // Seed IndexedDB "snapshots" store with counts-only snapshots
+    // Init DB + seed counts-only snapshots
     await initDB();
     await new Promise((resolve, reject)=>{
       const tx = db.transaction(['snapshots'],'readwrite');
       const store = tx.objectStore('snapshots');
       series.forEach(s=>{
-        store.put({
-          date: s.date,
-          businesses: [],       // counts-only; we don't store raw businesses here
-          counts: s.counts
-        });
+        store.put({ date: s.date, businesses: [], counts: s.counts });
       });
-      tx.oncomplete = resolve;
-      tx.onerror = ()=>reject(tx.error);
+      tx.oncomplete = resolve; tx.onerror = ()=>reject(tx.error);
     });
 
-    // Render using your existing functions
+    // ✅ Show the dashboard view
+    document.getElementById('upload-section')?.classList.add('hidden');
+    document.getElementById('app-content')?.classList.remove('hidden');
+
+    // Render
     await displayHistoricalTrends();
     await updateStorageDisplay();
     await createChart();
@@ -1166,6 +1168,7 @@ async function loadCommittedDataOnStart(){
     console.warn('No committed dashboard data yet:', e);
   }
 }
+
 
 /* Button handler: starts workflow via relay (optional), then polls for fresh JSON */
 async function fetchLatestData(){
