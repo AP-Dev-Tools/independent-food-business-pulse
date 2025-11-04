@@ -1114,5 +1114,86 @@
            }
        };
    </script>
+<!-- === FHRS loader (drop-in) === -->
+<script>
+/* Helper: safe call if a function exists */
+async function _maybe(fn, ...args){ if(typeof fn==="function"){ return await fn(...args);} }
+
+/* Render fallback if your own functions aren’t defined */
+function _fallbackRender(series){
+  const el = document.getElementById("fhrs-fallback") || (function(){
+    const d=document.createElement("div"); d.id="fhrs-fallback";
+    d.style.cssText="margin:1rem 0;padding:12px;border:1px solid #e5e7eb;border-radius:8px;background:#f9fafb;font:14px/1.5 system-ui,Segoe UI,Roboto";
+    document.body.prepend(d); return d;
+  })();
+  if(!Array.isArray(series) || !series.length){ el.textContent="No dashboard data yet."; return; }
+  const last=series[series.length-1];
+  el.innerHTML = `
+    <strong>Dashboard data loaded</strong><br>
+    Latest date: <code>${last.date}</code><br>
+    Total businesses: <code>${last.counts?.total ?? "?"}</code>
+  `;
+}
+
+/* Load committed JSON on page load */
+async function loadCommittedDataOnStart(){
+  try{
+    const res = await fetch('data/dashboard_data.json?cb=' + Date.now(), { cache:'no-store' });
+    if(!res.ok) return; // first run: file may not exist yet
+    const series = await res.json();
+    // If your page defines these, use them; else show a simple summary
+    const out1 = await _maybe(saveAllSnapshots, series);
+    const out2 = await _maybe(displayHistoricalTrends, series);
+    const out3 = await _maybe(createChart, series);
+    if(!out1 && !out2 && !out3){ _fallbackRender(series); }
+  }catch(e){
+    console.warn('No committed dashboard data yet:', e);
+  }
+}
+document.addEventListener('DOMContentLoaded', loadCommittedDataOnStart);
+
+/* Button handler: starts workflow via relay (optional), then polls for fresh JSON */
+async function fetchLatestData(){
+  const btn = event?.currentTarget; if(btn) btn.disabled = true;
+
+  // 1) (Optional) Kick your GitHub Action via a relay (Cloudflare Worker)
+  // If you haven't set this up yet, leave this commented out — the poll below
+  // still refreshes to whatever the latest committed file is.
+  //
+  // const kicked = await fetch('https://YOUR-WORKER.workers.dev', { method:'POST' });
+  // if(!kicked.ok){ alert('Could not start update'); if(btn) btn.disabled=false; return; }
+
+  // 2) Poll for updated data file
+  const deadline = Date.now() + 10*60*1000; // 10 minutes
+  (async function poll(){
+    try{
+      const res = await fetch('data/dashboard_data.json?cb=' + Date.now(), { cache:'no-store' });
+      if(res.ok){
+        const series = await res.json();
+        const out1 = await _maybe(saveAllSnapshots, series);
+        const out2 = await _maybe(displayHistoricalTrends, series);
+        const out3 = await _maybe(createChart, series);
+        if(!out1 && !out2 && !out3){ _fallbackRender(series); }
+        if(btn) btn.disabled = false;
+        return;
+      }
+    }catch(_){}
+    if(Date.now() < deadline){ setTimeout(poll, 15000); }
+    else { alert('Still running—check back soon.'); if(btn) btn.disabled=false; }
+  })();
+}
+
+/* If your page doesn't already have a button wired up, we add a simple one */
+(function ensureButton(){
+  if(document.querySelector('[onclick="fetchLatestData()"]')) return;
+  const b=document.createElement('button');
+  b.textContent="Get latest data"; b.setAttribute('onclick','fetchLatestData()');
+  b.style.cssText="margin:.5rem 0;padding:.6rem 1rem;border-radius:8px;border:1px solid #d1d5db;background:#fff;cursor:pointer";
+  document.body.prepend(b);
+})();
+</script>
+<!-- === /FHRS loader === -->
+
+   
 </body>
 </html>
