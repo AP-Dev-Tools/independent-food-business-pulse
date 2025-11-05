@@ -1,4 +1,4 @@
-name: Weekly FHRS Data Update
+name: Daily FHRS Data Update
 
 permissions:
   contents: write
@@ -8,7 +8,7 @@ on:
   repository_dispatch:
     types: [run-fhrs-update]
   schedule:
-    - cron: '0 9 * * 1'
+    - cron: '0 8 * * *'  # Daily at 8am UTC
 
 jobs:
   update-data:
@@ -88,6 +88,7 @@ jobs:
           git add -f data/cumulative/**/*.csv 2>/dev/null || true
           git add -f data/seen_ids.txt.gz 2>/dev/null || true
           git add -f data/cumulative_index.json 2>/dev/null || true
+          git add -f data/snapshots/*.json 2>/dev/null || true
           
           # Check if there are changes to commit
           if git diff --staged --quiet; then
@@ -100,7 +101,7 @@ jobs:
           git diff --staged --name-only
           
           # Commit the changes
-          git commit -m "Update dashboard data [$(date -u +%Y-%m-%d)]"
+          git commit -m "Daily update [$(date -u +%Y-%m-%d)]"
           
           # Try to push, with retries if needed
           for i in {1..3}; do
