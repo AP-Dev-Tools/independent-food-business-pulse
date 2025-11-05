@@ -1,3 +1,42 @@
+# Downloaded FHRS data folders
 fhrs_data/
 data/history/
 raw_xml_*.zip
+
+# Raw XML files (too large for git)
+data/raw/*.xml
+data/xml/*.xml
+data/fhrs/*.xml
+data/downloads/*.xml
+
+# Compressed archives
+*.zip
+*.gz
+
+# Keep these - they're small JSON files we need
+!data/*.json
+!data/cumulative/*.csv
+!data/cumulative_index.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
