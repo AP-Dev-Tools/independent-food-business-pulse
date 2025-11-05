@@ -32,6 +32,7 @@ OUT_LA_CURR   = "data/la_totals_current.json"   # for inspection
 OUT_SEEN      = "data/seen_ids.txt.gz"
 OUT_CSV_DIR   = "data/cumulative"               # Only tracked sectors (no OTHER)
 OUT_INDEX     = "data/cumulative_index.json"
+OUT_SNAPSHOTS = "data/snapshots"                # Daily snapshot counts (lightweight)
 
 DATE_DIR_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
@@ -110,8 +111,8 @@ def load_previous_seen_ids() -> set:
 def parse_snapshot(xml_files: list[str], previous_seen: set):
     """
     Returns:
-      per_LA_totals: { "LA name": {"MOBILE":n,...,"OTHER":m}, ... }
-      national_counts: {"MOBILE":n,...,"OTHER":m,"total":N}
+      per_LA_totals: { "LA name": {"MOBILE":n,...,"HOTEL":m}, ... }
+      national_counts: {"MOBILE":n,...,"HOTEL":m,"total":N}
       current_seen_ids: set of FHRSID strings
       new_businesses: list of dicts with full business details
     """
@@ -143,6 +144,7 @@ def parse_snapshot(xml_files: list[str], previous_seen: set):
             per_LA[la_name][sector] += 1
             national[sector] += 1
             current_seen_ids.add(fhrsid)
+            
             # Check if this is a NEW business
             if fhrsid not in previous_seen:
                 # Build address single line
@@ -272,6 +274,53 @@ def update_cumulative_index(new_entry: dict):
     
     print(f"[ok] Updated cumulative index: {OUT_INDEX}")
 
+def update_monthly_snapshot(snap_date: str, national_counts: dict):
+    """
+    Update monthly snapshot file with today's counts.
+    Creates lightweight files: data/snapshots/YYYY-MM.json
+    Only stores counts, not business details.
+    """
+    os.makedirs(OUT_SNAPSHOTS, exist_ok=True)
+    
+    year_month = snap_date[:7]  # "2025-11"
+    snapshot_file = os.path.join(OUT_SNAPSHOTS, f"{year_month}.json")
+    
+    # Load existing month data or create new
+    month_data = {"month": year_month, "days": []}
+    if os.path.exists(snapshot_file):
+        try:
+            with open(snapshot_file, "r", encoding="utf-8") as f:
+                month_data = json.load(f)
+        except Exception:
+            pass
+    
+    # Remove existing entry for this date (in case of re-run)
+    month_data["days"] = [
+        d for d in month_data.get("days", []) 
+        if d.get("date") != snap_date
+    ]
+    
+    # Add today's counts
+    day_entry = {
+        "date": snap_date,
+        "MOBILE": national_counts.get("MOBILE", 0),
+        "RESTAURANT_CAFE": national_counts.get("RESTAURANT_CAFE", 0),
+        "TAKEAWAY": national_counts.get("TAKEAWAY", 0),
+        "PUB_BAR": national_counts.get("PUB_BAR", 0),
+        "HOTEL": national_counts.get("HOTEL", 0),
+        "total": national_counts.get("total", 0)
+    }
+    month_data["days"].append(day_entry)
+    
+    # Sort by date
+    month_data["days"].sort(key=lambda x: x.get("date", ""))
+    
+    # Write back
+    with open(snapshot_file, "w", encoding="utf-8") as f:
+        json.dump(month_data, f, ensure_ascii=False, indent=2)
+    
+    print(f"[ok] Updated monthly snapshot: {snapshot_file}")
+
 def read_json(path, default):
     try:
         with open(path, "r", encoding="utf-8") as f:
@@ -320,6 +369,9 @@ def main():
     
     # Write new businesses to CSV files
     write_new_businesses_to_csv(new_businesses, snap_date)
+    
+    # Update monthly snapshot (lightweight daily counts)
+    update_monthly_snapshot(snap_date, national_counts)
     
     # --- Write LA totals for delta step ---
     write_json(OUT_LA_LAST, per_LA_totals)
@@ -377,6 +429,7 @@ def main():
     print(f"✓ Total businesses in snapshot: {national_counts.get('total', 0):,}")
     print(f"✓ New businesses found: {len(new_businesses):,}")
     print(f"✓ CSV files updated in: {OUT_CSV_DIR}")
+    print(f"✓ Daily snapshot saved to: {OUT_SNAPSHOTS}")
     print("="*70)
 
 if __name__ == "__main__":
