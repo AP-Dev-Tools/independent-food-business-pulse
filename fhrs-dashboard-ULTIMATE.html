@@ -692,7 +692,7 @@
 
           series.forEach(s=>{
             const c=s.counts||{};
-            const monitoredTotal=(c.MOBILE||0)+(c.RESTAURANT_CAFE||0)+(c.PUB_BAR||0)+(c.TAKEAWAY||0)+(c.HOTEL||0); // ignore HOTEL & OTHER
+            const monitoredTotal=(c.MOBILE||0)+(c.RESTAURANT_CAFE||0)+(c.PUB_BAR||0)+(c.TAKEAWAY||0); // ignore HOTEL & OTHER
             const mappedCounts={
               [SECTORS.MOBILE]:     c.MOBILE||0,
               [SECTORS.RESTAURANT]: c.RESTAURANT_CAFE||0,
