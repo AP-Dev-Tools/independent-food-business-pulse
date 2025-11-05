@@ -8,7 +8,7 @@ on:
   repository_dispatch:
     types: [run-fhrs-update]
   schedule:
-    - cron: '0 9 * * 1'  # Mondays 09:00 UTC
+    - cron: '0 9 * * 1'
 
 jobs:
   update-data:
@@ -22,12 +22,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Show context
-        run: |
-          pwd && ls -la
-          echo "Branch: ${{ github.ref }}"
-          python3 --version
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -36,9 +30,9 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install "requests==2.32.3" certifi
+          pip install requests==2.32.3 certifi
 
-      - name: Download FHRS data (custom script)
+      - name: Try custom downloader (optional)
         run: |
           set -e
           if [ -f download_fhrs_data.py ]; then
@@ -47,84 +41,11 @@ jobs:
             echo "download_fhrs_data.py not found, skipping."
           fi
 
-      - name: Fallback fetch of ALL FHRS XMLs (auto-discover LAs)
-        shell: bash
+      - name: Fallback fetch of ALL FHRS XMLs
         run: |
-          set -e
           mkdir -p data/raw
-          if [ -z "$(ls -1 data/raw/*.xml 2>/dev/null)" ]; then
-            echo "No XMLs from custom script. Discovering authorities and fetching all..."
-            python - <<'PY'
-import os, sys, time, subprocess, requests
-HEADERS = {"User-Agent":"NCASS-FHRS-Updater/1.0","accept":"application/json","x-api-version":"2"}
-BASE = "https://ratings.food.gov.uk"
-
-def get(url, params=None, retries=5, backoff=1.6):
-    for i in range(retries):
-        try:
-            r = requests.get(url, params=params, headers=HEADERS, timeout=30)
-            if r.status_code == 200:
-                try:
-                    return r.json()
-                except Exception:
-                    pass
-            if r.status_code in (429, 500, 502, 503, 504):
-                time.sleep(backoff ** (i + 1))
-                continue
-            r.raise_for_status()
-        except Exception:
-            time.sleep(backoff ** (i + 1))
-    sys.exit(f"Failed to fetch {url}")
-
-candidates = [
-    (f"{BASE}/Authorities/basic", None),
-    (f"{BASE}/Authorities", {"basic":"true"}),
-    (f"{BASE}/Authorities", None),
-]
-data = None
-for url, params in candidates:
-    try:
-        data = get(url, params)
-        if data:
-            break
-    except SystemExit as e:
-        print(e)
-
-if not data:
-    sys.exit("Could not retrieve Authorities list.")
-
-items = data.get("authorities") or data.get("Authorities") or data
-if isinstance(items, dict):
-    items = items.get("authorities") or items.get("Authorities") or []
-ids = set()
-for a in items if isinstance(items, list) else []:
-    for k in ("LocalAuthorityId","LocalAuthorityIdCode","LocalAuthorityIdNumber","Id"):
-        v = a.get(k)
-        if isinstance(v, int):
-            ids.add(v)
-        elif isinstance(v, str) and v.isdigit():
-            ids.add(int(v))
-print(f"Discovered {len(ids)} LAs")
-
-os.makedirs("data/raw", exist_ok=True)
-ok = fail = 0
-for i in sorted(ids):
-    url = f"{BASE}/OpenDataFiles/FHRS{i}_en-GB.xml"
-    out = f"data/raw/FHRS_{i}.xml"
-    rc = subprocess.call(["curl","-fsSL","--retry","5","--retry-delay","2",url,"-o",out])
-    if rc == 0:
-        ok += 1
-    else:
-        fail += 1
-print(f"Downloaded {ok} XMLs, {fail} failed.")
-if ok == 0:
-    sys.exit("No XMLs downloaded.")
-PY
-          else
-            echo "XMLs already present; skipping fallback."
-          fi
-          echo "Files in data/raw:"
-          ls -lh data/raw || true
+          python scripts/fetch_all_fhrs_xml.py
+          ls -lh data/raw | head -n 20 || true
 
       - name: Guard - ensure XMLs exist
         run: |
@@ -145,65 +66,10 @@ PY
           fi
 
       - name: Process data and identify new businesses
-        run: |
-          ls -lh data/raw | head -n 20 || true
-          python process_fhrs_data.py
+        run: python process_fhrs_data.py
 
       - name: Build LA deltas (Top-10 growth/reductions)
-        run: |
-          python - <<'PY'
-import json, os
-from datetime import date
-CUR_PATH  = "data/la_totals_last.json"
-PREV_PATH = "data/__prev_la_totals.json"
-OUT_PATH  = "data/la_deltas_latest.json"
-
-def load(p):
-    if not os.path.exists(p): return None
-    with open(p, "r", encoding="utf-8") as f: return json.load(f)
-
-cur  = load(CUR_PATH)
-prev = load(PREV_PATH) or {}
-
-if not cur:
-    os.makedirs("data", exist_ok=True)
-    with open(OUT_PATH, "w", encoding="utf-8") as f:
-        json.dump({"date": str(date.today()),
-                   "by_sector": {k: {"growth": [], "reductions": []}
-                                 for k in ["MOBILE","RESTAURANT_CAFE","PUB_BAR","TAKEAWAY","HOTEL","OTHER"]}}, f)
-    raise SystemExit(0)
-
-SECTORS = ["MOBILE","RESTAURANT_CAFE","PUB_BAR","TAKEAWAY","HOTEL","OTHER"]
-
-def normalize(d):
-    if not d: return {}
-    if set(d.keys()) & set(SECTORS):
-        out = {}
-        for s in SECTORS:
-            for la, v in (d.get(s) or {}).items():
-                out.setdefault(la, {})[s] = int(v or 0)
-        return out
-    return d
-
-curN, prevN = normalize(cur), normalize(prev)
-
-by_sector = {}
-for s in SECTORS:
-    growth, reductions = [], []
-    for la in set(curN) | set(prevN):
-        cv = int((curN.get(la) or {}).get(s, 0))
-        pv = int((prevN.get(la) or {}).get(s, 0))
-        d = cv - pv
-        if d > 0:  growth.append({"la": la, "delta": d, "current": cv})
-        if d < 0:  reductions.append({"la": la, "delta": d, "current": cv})
-    growth.sort(key=lambda x: x["delta"], reverse=True)
-    reductions.sort(key=lambda x: x["delta"])
-    by_sector[s] = {"growth": growth[:10], "reductions": reductions[:10]}
-
-os.makedirs("data", exist_ok=True)
-with open(OUT_PATH, "w", encoding="utf-8") as f:
-    json.dump({"date": str(date.today()), "by_sector": by_sector}, f, ensure_ascii=False)
-PY
+        run: python build_la_deltas.py
 
       - name: Commit processed data
         run: |
@@ -211,19 +77,12 @@ PY
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name  "github-actions[bot]"
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
-
           git add -A data || true
           if git diff --staged --quiet; then
             echo "No changes to commit."
             exit 0
           fi
-
           git commit -m "Update dashboard + per-LA deltas"
           git fetch origin
           git pull --rebase --autostash origin main || true
           git push origin HEAD:main
-
-      - name: Summary
-        run: |
-          echo "Update finished."
-          ls -lh data/* 2>/dev/null || true
