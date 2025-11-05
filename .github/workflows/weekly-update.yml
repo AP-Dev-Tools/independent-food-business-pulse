@@ -129,28 +129,33 @@ jobs:
           PY
 
       # ✅ Commit only small artifacts + baseline + LA deltas
-      - name: Commit processed data
+            - name: Commit processed data
         run: |
+          set -e
+
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name  "github-actions[bot]"
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
-          # Make sure we're up to date before committing
-          git pull --rebase
+          # Stage EVERYTHING under /data (so no unstaged files remain)
+          git add -A data || true
 
-          # Tolerate missing files/folders on first run
-          git add data/cumulative/*/*.csv 2>/dev/null || true
-          git add data/cumulative_index.json 2>/dev/null || true
-          git add data/dashboard_data.json 2>/dev/null || true
-          git add data/latest_snapshot.json 2>/dev/null || true
-          git add data/seen_ids.txt.gz 2>/dev/null || true
-          git add data/la_totals_current.json 2>/dev/null || true   # useful for checks
-          git add data/la_totals_last.json 2>/dev/null || true
-          git add data/la_deltas_*.json 2>/dev/null || true
-          git add data/la_deltas_latest.json 2>/dev/null || true
+          # If nothing staged, exit cleanly
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
 
-          # Only commit if there are staged changes
-          git diff --staged --quiet || git commit -m "Update dashboard + per-LA deltas"
-          git push
+          git commit -m "Update dashboard + per-LA deltas"
+
+          # If main advanced since checkout, rebase safely
+          git fetch origin
+          # --autostash handles any leftover local changes during rebase
+          git pull --rebase --autostash origin main || true
+
+          # Push
+          git push origin HEAD:main
+
 
       - name: Summary
         run: |
