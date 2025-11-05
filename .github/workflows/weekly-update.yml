@@ -30,8 +30,36 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Download FHRS data
-        run: python download_fhrs_data.py
+      # 1) Try your existing downloader first
+      - name: Download FHRS data (custom script)
+        run: |
+          set -e
+          python download_fhrs_data.py || true
+
+      # 2) Fallback: fetch per-LA XMLs if none were produced
+      - name: Fallback fetch of FHRS XML (per LA)
+        run: |
+          set -e
+          mkdir -p data/raw
+          # EDIT this list to the LAs you track
+          declare -a LA_IDS=(223 1 226)  # Bromsgrove, Birmingham, Worcester
+          # Only fetch if nothing exists yet
+          if [ -z "$(ls -1 data/raw/*.xml 2>/dev/null)" ]; then
+            echo "No XMLs found from custom script. Fetching from FHRS Open Data…"
+            for id in "${LA_IDS[@]}"; do
+              url="https://ratings.food.gov.uk/OpenDataFiles/FHRS${id}_en-GB.xml"
+              echo "Downloading $url"
+              curl -fsSL "$url" -o "data/raw/FHRS_${id}.xml"
+            done
+          else
+            echo "XMLs already present; skipping fallback."
+          fi
+          ls -lh data/raw
+
+      # 3) Guard: fail early if still no XMLs
+      - name: Guard — ensure XMLs exist
+        run: |
+          test -n "$(ls -1 data/raw/*.xml 2>/dev/null)" || { echo "❌ No FHRS XML files present in data/raw"; exit 1; }
 
       - name: Snapshot previous LA totals (if any)
         run: |
