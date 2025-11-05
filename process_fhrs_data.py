@@ -4,37 +4,32 @@ from datetime import datetime
 from xml.etree import ElementTree as ET
 from collections import defaultdict, Counter
 
-RAW_ROOT = "data/raw"
+# --- Flexible roots to search for FHRS XML drops ---
+SEARCH_ROOTS = [
+    "data/raw",
+    "data/fhrs",
+    "data/downloads",
+    "data/xml",
+    "data",          # fallback
+]
 
 # Sector mapping (FHRS BusinessType -> our sector keys)
 BTYPE_TO_SECTOR = {
-    "Mobile caterer":               "MOBILE",
-    "Restaurant/Cafe/Canteen":     "RESTAURANT_CAFE",
-    "Pub/bar/nightclub":           "PUB_BAR",
-    "Takeaway/sandwich shop":      "TAKEAWAY",
-    "Hotel/bed & breakfast/guest house": "HOTEL",
+    "Mobile caterer":                       "MOBILE",
+    "Restaurant/Cafe/Canteen":             "RESTAURANT_CAFE",
+    "Pub/bar/nightclub":                   "PUB_BAR",
+    "Takeaway/sandwich shop":              "TAKEAWAY",
+    "Hotel/bed & breakfast/guest house":   "HOTEL",
 }
 SECTORS = ["MOBILE","RESTAURANT_CAFE","PUB_BAR","TAKEAWAY","HOTEL","OTHER"]
 
 OUT_DASHBOARD = "data/dashboard_data.json"
 OUT_LATEST    = "data/latest_snapshot.json"
-OUT_LA_LAST   = "data/la_totals_last.json"      # expected by the workflow delta step
-OUT_LA_CURR   = "data/la_totals_current.json"   # kept for compatibility
-OUT_SEEN      = "data/seen_ids.txt.gz"          # optional; handy for future use
+OUT_LA_LAST   = "data/la_totals_last.json"      # consumed by workflow delta step
+OUT_LA_CURR   = "data/la_totals_current.json"   # for inspection
+OUT_SEEN      = "data/seen_ids.txt.gz"
 
 DATE_DIR_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
-
-def find_latest_raw_dir(root: str) -> str:
-    """
-    Pick the lexicographically latest YYYY-MM-DD folder under data/raw.
-    """
-    if not os.path.isdir(root):
-        raise FileNotFoundError(f"Raw folder not found: {root}")
-    dated = [d for d in os.listdir(root) if DATE_DIR_RE.match(d) and os.path.isdir(os.path.join(root,d))]
-    if not dated:
-        # Fallback: allow XMLs directly under data/raw
-        return root
-    return os.path.join(root, sorted(dated)[-1])
 
 def iter_xml_files(base: str):
     for dirpath, _, files in os.walk(base):
@@ -42,11 +37,50 @@ def iter_xml_files(base: str):
             if fn.lower().endswith(".xml"):
                 yield os.path.join(dirpath, fn)
 
+def find_best_xml_dir() -> tuple[str, list[str]]:
+    """
+    Pick the most likely directory to process:
+    - Prefer a root that exists and contains XMLs.
+    - If it has YYYY-MM-DD subfolders, choose the latest by folder name.
+    - Else use the directory in that root that contains the most XML files.
+    Returns (chosen_dir, xml_file_list).
+    """
+    best_dir, best_files = None, []
+
+    for root in SEARCH_ROOTS:
+        if not os.path.isdir(root):
+            continue
+
+        # Case 1: dated subfolders
+        dated = [d for d in os.listdir(root)
+                 if DATE_DIR_RE.match(d) and os.path.isdir(os.path.join(root, d))]
+        if dated:
+            latest = os.path.join(root, sorted(dated)[-1])
+            files = list(iter_xml_files(latest))
+            if files:
+                return latest, files  # found a dated batch
+
+        # Case 2: pick the subdir with most XMLs
+        candidates = []
+        for dirpath, _, files in os.walk(root):
+            xmls = [f for f in files if f.lower().endswith(".xml")]
+            if xmls:
+                candidates.append((dirpath, len(xmls)))
+        if candidates:
+            # choose the dir with max XML count
+            candidates.sort(key=lambda x: x[1], reverse=True)
+            cand_dir = candidates[0][0]
+            files = list(iter_xml_files(cand_dir))
+            if len(files) > len(best_files):
+                best_dir, best_files = cand_dir, files
+
+    return (best_dir, best_files)
+
 def safe_text(elem, tag):
     x = elem.find(tag)
     return (x.text or "").strip() if x is not None else ""
 
-def parse_snapshot(xml_dir: str):
+def parse_snapshot(xml_files: list[str]):
     """
     Returns:
       per_LA_totals: { "LA name": {"MOBILE":n,...,"OTHER":m}, ... }
@@ -57,16 +91,11 @@ def parse_snapshot(xml_dir: str):
     national = Counter({s:0 for s in SECTORS})
     seen_ids = set()
 
-    files = list(iter_xml_files(xml_dir))
-    if not files:
-        raise FileNotFoundError(f"No XML files found in {xml_dir}")
-
-    for path in files:
+    for path in xml_files:
         try:
             tree = ET.parse(path)
             root = tree.getroot()
         except ET.ParseError:
-            # skip bad file; continue robustly
             continue
 
         for est in root.iterfind(".//EstablishmentDetail"):
@@ -80,11 +109,9 @@ def parse_snapshot(xml_dir: str):
             if fhrsid:
                 seen_ids.add(fhrsid)
 
-    # total is ALL categories (incl OTHER) — the dashboard JS will ignore OTHER when needed
     national_total = sum(national[s] for s in SECTORS)
     national["total"] = national_total
 
-    # Coerce defaultdict/Counter to plain dicts with all sector keys present
     per_LA_out = {}
     for la, counts in per_LA.items():
         row = {s:int(counts.get(s,0)) for s in SECTORS}
@@ -106,24 +133,34 @@ def write_json(path, data):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False)
 
+def infer_snapshot_date(chosen_dir: str) -> str:
+    base = os.path.basename(chosen_dir.rstrip("/"))
+    if DATE_DIR_RE.match(base):
+        return base
+    # If parent is a date, use that
+    parent = os.path.basename(os.path.dirname(chosen_dir))
+    if DATE_DIR_RE.match(parent):
+        return parent
+    # Fallback: today UTC
+    return datetime.utcnow().strftime("%Y-%m-%d")
+
 def main():
-    latest_dir = find_latest_raw_dir(RAW_ROOT)
-    # Derive snapshot date from folder name if possible, else today
-    base_name = os.path.basename(latest_dir.rstrip("/"))
-    if DATE_DIR_RE.match(base_name):
-        snap_date = base_name
-    else:
-        snap_date = datetime.utcnow().strftime("%Y-%m-%d")
+    chosen_dir, files = find_best_xml_dir()
+    if not chosen_dir or not files:
+        raise FileNotFoundError(
+            "No FHRS XML files were found under any of: "
+            + ", ".join(SEARCH_ROOTS)
+        )
 
-    per_LA_totals, national_counts, seen_ids = parse_snapshot(latest_dir)
+    snap_date = infer_snapshot_date(chosen_dir)
+    per_LA_totals, national_counts, seen_ids = parse_snapshot(files)
 
-    # --- Write LA totals for the delta step ---
+    # --- Write LA totals for delta step ---
     write_json(OUT_LA_LAST, per_LA_totals)
-    write_json(OUT_LA_CURR, per_LA_totals)  # compatibility/inspection
+    write_json(OUT_LA_CURR, per_LA_totals)
 
     # --- Update dashboard series ---
     dashboard_series = read_json(OUT_DASHBOARD, [])
-    # Remove any existing entry for this date, then append fresh
     dashboard_series = [row for row in dashboard_series if row.get("date") != snap_date]
     dashboard_series.append({
         "date": snap_date,
@@ -137,7 +174,6 @@ def main():
             "OTHER":           national_counts.get("OTHER", 0),
         }
     })
-    # Keep series ordered by date
     dashboard_series.sort(key=lambda r: r.get("date",""))
     write_json(OUT_DASHBOARD, dashboard_series)
 
@@ -153,11 +189,10 @@ def main():
             "HOTEL":           national_counts.get("HOTEL", 0),
             "OTHER":           national_counts.get("OTHER", 0),
         },
-        # we no longer calculate new-business list here; keep 0 for compatibility
         "new_businesses_this_run": 0
     })
 
-    # --- Optional: persist seen IDs for future use ---
+    # --- Optional: persist seen IDs ---
     try:
         os.makedirs(os.path.dirname(OUT_SEEN), exist_ok=True)
         with gzip.open(OUT_SEEN, "wt", encoding="utf-8") as f:
@@ -166,8 +201,8 @@ def main():
     except Exception:
         pass
 
-    print(f"[ok] Processed {latest_dir}")
-    print(f"[ok] Wrote {OUT_LA_LAST} (and {OUT_LA_CURR})")
+    print(f"[ok] Parsed {len(files)} XML files from: {chosen_dir}")
+    print(f"[ok] Wrote {OUT_LA_LAST} / {OUT_LA_CURR}")
     print(f"[ok] Updated {OUT_DASHBOARD} and {OUT_LATEST}")
 
 if __name__ == "__main__":
