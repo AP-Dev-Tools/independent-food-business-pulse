@@ -69,7 +69,7 @@ jobs:
         run: python process_fhrs_data.py
 
       - name: Build LA deltas (Top-10 growth/reductions)
-        run: python build_la_deltas.py
+        run: python scripts/make_la_deltas.py
 
       - name: Commit processed data
         run: |
@@ -77,12 +77,23 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name  "github-actions[bot]"
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          git add -A data || true
+          
+          # Add only data directory changes, exclude raw XML files to avoid size issues
+          git add data/*.json data/cumulative/*.csv 2>/dev/null || true
+          
           if git diff --staged --quiet; then
             echo "No changes to commit."
             exit 0
           fi
-          git commit -m "Update dashboard + per-LA deltas"
-          git fetch origin
-          git pull --rebase --autostash origin main || true
+          
+          git commit -m "Update dashboard data [$(date -u +%Y-%m-%d)]"
+          
+          # Pull latest changes with rebase
+          git fetch origin main
+          git rebase origin/main || {
+            echo "Rebase failed, attempting merge strategy"
+            git rebase --abort
+            git pull origin main --no-rebase || true
+          }
+          
           git push origin HEAD:main
