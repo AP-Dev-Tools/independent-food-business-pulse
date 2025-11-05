@@ -7,7 +7,8 @@ PREV_PATH = "data/__prev_la_totals.json"    # saved earlier in the workflow
 OUT_LATEST = "data/la_deltas_latest.json"
 OUT_DATED  = f"data/la_deltas_{date.today().isoformat()}.json"
 
-SECTORS = ["MOBILE","RESTAURANT_CAFE","PUB_BAR","TAKEAWAY","HOTEL","OTHER"]
+# Only tracked sectors - no OTHER
+SECTORS = ["MOBILE","RESTAURANT_CAFE","PUB_BAR","TAKEAWAY","HOTEL"]
 
 def load(path):
     if not os.path.exists(path): return None
