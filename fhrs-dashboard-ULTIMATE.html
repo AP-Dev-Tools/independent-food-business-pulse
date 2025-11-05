@@ -681,29 +681,28 @@
           const store=tx.objectStore('snapshots');
          
           
-     series.forEach(s=>{
+  // ...
+series.forEach(s => {
   const c = s.counts || {};
   const monitoredTotal =
-    (c.MOBILE||0) +
-    (c.RESTAURANT_CAFE||0) +
-    (c.PUB_BAR||0) +
-    (c.TAKEAWAY||0) +
-    (c.HOTEL||0); // ignore OTHER
+    (c.MOBILE||0) + (c.RESTAURANT_CAFE||0) + (c.PUB_BAR||0) +
+    (c.TAKEAWAY||0) + (c.HOTEL||0); // ignore OTHER
 
   const mappedCounts = {
-    [SECTORS.MOBILE]:      c.MOBILE || 0,
-    [SECTORS.RESTAURANT]:  c.RESTAURANT_CAFE || 0,
-    [SECTORS.PUB]:         c.PUB_BAR || 0,
-    [SECTORS.TAKEAWAY]:    c.TAKEAWAY || 0,
+    [SECTORS.MOBILE]:     c.MOBILE || 0,
+    [SECTORS.RESTAURANT]: c.RESTAURANT_CAFE || 0,
+    [SECTORS.PUB]:        c.PUB_BAR || 0,
+    [SECTORS.TAKEAWAY]:   c.TAKEAWAY || 0,
     total: monitoredTotal
   };
 
-  store.put({
-    date: s.date,
-    businesses: [],        // counts-only seed
-    counts: mappedCounts
-  });
+  store.put({ date: s.date, businesses: [], counts: mappedCounts });
 });
+
+// ✅ resolve/reject the transaction so the await can continue
+tx.oncomplete = resolve;
+tx.onerror = () => reject(tx.error);
+
 
 
         // Show dashboard UI
