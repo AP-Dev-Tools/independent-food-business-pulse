@@ -30,7 +30,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-           - name: Download FHRS data
+      - name: Download FHRS data
         run: python download_fhrs_data.py
 
       # 🧷 Keep a copy of the previous LA totals before they get overwritten
@@ -92,7 +92,6 @@ jobs:
           def normalize(d):
             if not d: return {}
             # Detect shape
-            # If top-level keys look like sectors, assume B
             if set(d.keys()) & set(SECTORS):
               # shape B -> A
               out = {}
@@ -128,7 +127,6 @@ jobs:
             json.dump(out, f, ensure_ascii=False)
           print(f"[ok] Wrote {OUT_PATH}")
           PY
-
 
       - name: Commit processed data
         run: |
