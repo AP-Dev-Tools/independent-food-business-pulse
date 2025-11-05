@@ -30,86 +30,105 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Download FHRS data
+           - name: Download FHRS data
         run: python download_fhrs_data.py
+
+      # 🧷 Keep a copy of the previous LA totals before they get overwritten
+      - name: Snapshot previous LA totals (if any)
+        run: |
+          mkdir -p data
+          if [ -f data/la_totals_last.json ]; then
+            cp data/la_totals_last.json data/__prev_la_totals.json
+            echo "Saved previous LA totals to data/__prev_la_totals.json"
+          else
+            echo "No previous la_totals_last.json found (first run is fine)."
+          fi
 
       - name: Process data and identify new businesses
         run: python process_fhrs_data.py
 
-      # Build Top-10 LA growth/reductions per sector for the dashboard
+      # ✅ Build Top-10 LA growth/reductions using the pre-run snapshot as 'previous'
       - name: Build LA deltas (Top-10 growth/reductions)
         run: |
           python - <<'PY'
-          import json, os, sys
+          import json, os
           from datetime import date
 
-          CUR_PATH = "data/la_totals_current.json"
-          PREV_PATH = "data/la_totals_last.json"
+          CUR_PATH  = "data/la_totals_last.json"      # written by your process script
+          PREV_PATH = "data/__prev_la_totals.json"    # our pre-run snapshot (if it existed)
           OUT_PATH  = "data/la_deltas_latest.json"
 
-          if not os.path.exists(CUR_PATH):
-              print(f"[warn] {CUR_PATH} not found. Writing empty scaffold.")
-              scaffold = {
-                  "date": str(date.today()),
-                  "by_sector": {
-                      "MOBILE": {"growth": [], "reductions": []},
-                      "RESTAURANT_CAFE": {"growth": [], "reductions": []},
-                      "PUB_BAR": {"growth": [], "reductions": []},
-                      "TAKEAWAY": {"growth": [], "reductions": []},
-                      "HOTEL": {"growth": [], "reductions": []},
-                      "OTHER": {"growth": [], "reductions": []},
-                  },
+          def load(path):
+            if not os.path.exists(path): return None
+            with open(path, "r", encoding="utf-8") as f:
+              return json.load(f)
+
+          cur  = load(CUR_PATH)
+          prev = load(PREV_PATH) or {}
+
+          # If we still don't have current, write an empty scaffold and exit
+          if not cur:
+            out = {
+              "date": str(date.today()),
+              "by_sector": {
+                "MOBILE":{"growth":[],"reductions":[]},
+                "RESTAURANT_CAFE":{"growth":[],"reductions":[]},
+                "PUB_BAR":{"growth":[],"reductions":[]},
+                "TAKEAWAY":{"growth":[],"reductions":[]},
+                "HOTEL":{"growth":[],"reductions":[]},
+                "OTHER":{"growth":[],"reductions":[]},
               }
-              os.makedirs("data", exist_ok=True)
-              with open(OUT_PATH, "w", encoding="utf-8") as f:
-                  json.dump(scaffold, f, ensure_ascii=False)
-              sys.exit(0)
+            }
+            os.makedirs("data", exist_ok=True)
+            with open(OUT_PATH,"w",encoding="utf-8") as f: json.dump(out, f, ensure_ascii=False)
+            print("[warn] Missing current LA totals; wrote empty scaffold.")
+            raise SystemExit(0)
 
-          with open(CUR_PATH, "r", encoding="utf-8") as f:
-              cur = json.load(f)
-
-          prev = {}
-          if os.path.exists(PREV_PATH):
-              try:
-                  with open(PREV_PATH, "r", encoding="utf-8") as f:
-                      prev = json.load(f)
-              except Exception as e:
-                  print(f"[warn] Could not read {PREV_PATH}: {e}")
-
+          # Accept either shape:
+          # A) { "LA": {"MOBILE":n, "RESTAURANT_CAFE":m, ...}, ... }
+          # B) { "MOBILE":{"LA":n,...}, "RESTAURANT_CAFE":{"LA":m,...}, ... }
           SECTORS = ["MOBILE","RESTAURANT_CAFE","PUB_BAR","TAKEAWAY","HOTEL","OTHER"]
 
+          def normalize(d):
+            if not d: return {}
+            # Detect shape
+            # If top-level keys look like sectors, assume B
+            if set(d.keys()) & set(SECTORS):
+              # shape B -> A
+              out = {}
+              for s in SECTORS:
+                for la, v in (d.get(s) or {}).items():
+                  out.setdefault(la, {})[s] = int(v or 0)
+              return out
+            # already shape A (per-LA at top)
+            return d
+
+          curN  = normalize(cur)
+          prevN = normalize(prev)
+
           by_sector = {}
-          for sector in SECTORS:
-              growth, reductions = [], []
-              all_las = set(cur.keys()) | set(prev.keys())
-              for la in all_las:
-                  cur_val = (cur.get(la) or {}).get(sector, 0)
-                  prev_val = (prev.get(la) or {}).get(sector, 0)
-                  delta = cur_val - prev_val
-                  if delta > 0:
-                      growth.append({"la": la, "delta": delta, "current": cur_val})
-                  elif delta < 0:
-                      reductions.append({"la": la, "delta": delta, "current": cur_val})
-
-              growth.sort(key=lambda x: x["delta"], reverse=True)
-              reductions.sort(key=lambda x: x["delta"])  # most negative first
-
-              by_sector[sector] = {
-                  "growth": growth[:10],
-                  "reductions": reductions[:10],
-              }
+          for s in SECTORS:
+            growth, reductions = [], []
+            all_las = set(curN.keys()) | set(prevN.keys())
+            for la in all_las:
+              cv = int((curN.get(la) or {}).get(s, 0))
+              pv = int((prevN.get(la) or {}).get(s, 0))
+              delta = cv - pv
+              if delta > 0:
+                growth.append({"la": la, "delta": delta, "current": cv})
+              elif delta < 0:
+                reductions.append({"la": la, "delta": delta, "current": cv})
+            growth.sort(key=lambda x: x["delta"], reverse=True)
+            reductions.sort(key=lambda x: x["delta"])  # most negative first
+            by_sector[s] = {"growth": growth[:10], "reductions": reductions[:10]}
 
           out = {"date": str(date.today()), "by_sector": by_sector}
-
           os.makedirs("data", exist_ok=True)
           with open(OUT_PATH, "w", encoding="utf-8") as f:
-              json.dump(out, f, ensure_ascii=False)
-
-          with open(PREV_PATH, "w", encoding="utf-8") as f:
-              json.dump(cur, f, ensure_ascii=False)
-
-          print(f"[ok] Wrote {OUT_PATH} and updated {PREV_PATH}.")
+            json.dump(out, f, ensure_ascii=False)
+          print(f"[ok] Wrote {OUT_PATH}")
           PY
+
 
       - name: Commit processed data
         run: |
