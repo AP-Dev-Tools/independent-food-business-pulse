@@ -8,7 +8,7 @@ on:
   repository_dispatch:
     types: [run-fhrs-update]
   schedule:
-    - cron: '0 9 * * 1'   # Mondays 09:00 UTC
+    - cron: '0 9 * * 1'  # Mondays 09:00 UTC
 
 jobs:
   update-data:
@@ -30,18 +30,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      # ---- This must run BEFORE processing ----
       - name: Download FHRS data
         run: python download_fhrs_data.py
 
       - name: Quick debug: show downloaded files
         run: |
-          echo "Listing data directory after download"
+          echo "Listing data after download"
           mkdir -p data
           ls -la data || true
           ls -R data || true
 
-      # Keep a snapshot of previous LA totals for delta calc
       - name: Snapshot previous LA totals (if any)
         run: |
           mkdir -p data
@@ -61,65 +59,70 @@ jobs:
           import json, os
           from datetime import date
 
-          CUR_PATH  = "data/la_totals_last.json"      # written by process_fhrs_data.py
-          PREV_PATH = "data/__prev_la_totals.json"    # snapshot we made before processing
+          CUR_PATH  = "data/la_totals_last.json"
+          PREV_PATH = "data/__prev_la_totals.json"
           OUT_PATH  = "data/la_deltas_latest.json"
 
           def load(path):
-            if not os.path.exists(path): return None
-            with open(path, "r", encoding="utf-8") as f:
-              return json.load(f)
+              if not os.path.exists(path):
+                  return None
+              with open(path, "r", encoding="utf-8") as f:
+                  return json.load(f)
 
           cur  = load(CUR_PATH)
           prev = load(PREV_PATH) or {}
 
           if not cur:
-            os.makedirs("data", exist_ok=True)
-            with open(OUT_PATH,"w",encoding="utf-8") as f:
-              json.dump({
-                "date": str(date.today()),
-                "by_sector": {
-                  "MOBILE":{"growth":[],"reductions":[]},
-                  "RESTAURANT_CAFE":{"growth":[],"reductions":[]},
-                  "PUB_BAR":{"growth":[],"reductions":[]},
-                  "TAKEAWAY":{"growth":[],"reductions":[]},
-                  "HOTEL":{"growth":[],"reductions":[]},
-                  "OTHER":{"growth":[],"reductions":[]},
-                }
-              }, f, ensure_ascii=False)
-            print("[warn] Missing current LA totals; wrote empty scaffold.")
-            raise SystemExit(0)
+              os.makedirs("data", exist_ok=True)
+              with open(OUT_PATH, "w", encoding="utf-8") as f:
+                  json.dump({
+                      "date": str(date.today()),
+                      "by_sector": {
+                          "MOBILE": {"growth": [], "reductions": []},
+                          "RESTAURANT_CAFE": {"growth": [], "reductions": []},
+                          "PUB_BAR": {"growth": [], "reductions": []},
+                          "TAKEAWAY": {"growth": [], "reductions": []},
+                          "HOTEL": {"growth": [], "reductions": []},
+                          "OTHER": {"growth": [], "reductions": []}
+                      }
+                  }, f, ensure_ascii=False)
+              print("[warn] Missing current LA totals; wrote empty scaffold.")
+              raise SystemExit(0)
 
-          SECTORS = ["MOBILE","RESTAURANT_CAFE","PUB_BAR","TAKEAWAY","HOTEL","OTHER"]
+          SECTORS = ["MOBILE", "RESTAURANT_CAFE", "PUB_BAR", "TAKEAWAY", "HOTEL", "OTHER"]
 
           def normalize(d):
-            if not d: return {}
-            if set(d.keys()) & set(SECTORS):  # sector-first shape
-              out = {}
-              for s in SECTORS:
-                for la, v in (d.get(s) or {}).items():
-                  out.setdefault(la, {})[s] = int(v or 0)
-              return out
-            return d  # LA-first shape
+              if not d:
+                  return {}
+              if set(d.keys()) & set(SECTORS):
+                  # sector-first -> LA-first
+                  out = {}
+                  for s in SECTORS:
+                      for la, v in (d.get(s) or {}).items():
+                          out.setdefault(la, {})[s] = int(v or 0)
+                  return out
+              return d  # already LA-first
 
           curN  = normalize(cur)
           prevN = normalize(prev)
 
           by_sector = {}
           for s in SECTORS:
-            growth, reductions = [], []
-            for la in set(curN.keys()) | set(prevN.keys()):
-              cv = int((curN.get(la) or {}).get(s, 0))
-              pv = int((prevN.get(la) or {}).get(s, 0))
-              d  = cv - pv
-              if d > 0:  growth.append({"la": la, "delta": d, "current": cv})
-              if d < 0:  reductions.append({"la": la, "delta": d, "current": cv})
-            growth.sort(key=lambda x: x["delta"], reverse=True)
-            reductions.sort(key=lambda x: x["delta"])
-            by_sector[s] = {"growth": growth[:10], "reductions": reductions[:10]}
+              growth, reductions = [], []
+              for la in set(curN.keys()) | set(prevN.keys()):
+                  cv = int((curN.get(la) or {}).get(s, 0))
+                  pv = int((prevN.get(la) or {}).get(s, 0))
+                  delta = cv - pv
+                  if delta > 0:
+                      growth.append({"la": la, "delta": delta, "current": cv})
+                  elif delta < 0:
+                      reductions.append({"la": la, "delta": delta, "current": cv})
+              growth.sort(key=lambda x: x["delta"], reverse=True)
+              reductions.sort(key=lambda x: x["delta"])
+              by_sector[s] = {"growth": growth[:10], "reductions": reductions[:10]}
 
           with open(OUT_PATH, "w", encoding="utf-8") as f:
-            json.dump({"date": str(date.today()), "by_sector": by_sector}, f, ensure_ascii=False)
+              json.dump({"date": str(date.today()), "by_sector": by_sector}, f, ensure_ascii=False)
           print(f"[ok] Wrote {OUT_PATH}")
           PY
 
@@ -144,7 +147,5 @@ jobs:
       - name: Summary
         run: |
           echo "✅ Update finished."
-          echo "Core artifacts:"
           ls -lh data/dashboard_data.json data/latest_snapshot.json data/cumulative_index.json data/seen_ids.txt.gz 2>/dev/null || true
-          echo "LA delta artifacts:"
           ls -lh data/la_deltas_* data/la_deltas_latest.json data/la_totals_last.json 2>/dev/null || true
