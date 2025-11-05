@@ -1,14 +1,14 @@
 name: Weekly FHRS Data Update
 
 permissions:
-  contents: write  # allow github-actions[bot] to push
+  contents: write
 
 on:
-  workflow_dispatch: {}          # manual run from Actions tab
-  repository_dispatch:           # for a future "Run update" button
+  workflow_dispatch: {}
+  repository_dispatch:
     types: [run-fhrs-update]
   schedule:
-    - cron: '0 9 * * 1'          # Mondays 09:00 UTC
+    - cron: '0 9 * * 1'   # Mondays 09:00 UTC
 
 jobs:
   update-data:
@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # needed for rebase/pull to work reliably
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -34,21 +36,19 @@ jobs:
       - name: Process data and identify new businesses
         run: python process_fhrs_data.py
 
-      # ✅ Build Top-10 LA growth/reductions per sector for the dashboard
+      # Build Top-10 LA growth/reductions per sector for the dashboard
       - name: Build LA deltas (Top-10 growth/reductions)
         run: |
           python - <<'PY'
           import json, os, sys
           from datetime import date
 
-          CUR_PATH = "data/la_totals_current.json"   # produced by process_fhrs_data.py
+          CUR_PATH = "data/la_totals_current.json"
           PREV_PATH = "data/la_totals_last.json"
           OUT_PATH  = "data/la_deltas_latest.json"
 
-          # Safe no-op if current totals aren’t present (won’t break the run)
           if not os.path.exists(CUR_PATH):
-              print(f"[warn] {CUR_PATH} not found. Skipping LA delta build.")
-              # Still write an empty scaffold so the dashboard doesn't error
+              print(f"[warn] {CUR_PATH} not found. Writing empty scaffold.")
               scaffold = {
                   "date": str(date.today()),
                   "by_sector": {
@@ -76,24 +76,11 @@ jobs:
               except Exception as e:
                   print(f"[warn] Could not read {PREV_PATH}: {e}")
 
-          # Expected structure for both cur/prev:
-          # {
-          #   "<LA name>": {
-          #       "MOBILE": 123,
-          #       "RESTAURANT_CAFE": 456,
-          #       "PUB_BAR": 78,
-          #       "TAKEAWAY": 90,
-          #       "HOTEL": 12,
-          #       "OTHER": 34
-          #   }, ...
-          # }
-
           SECTORS = ["MOBILE","RESTAURANT_CAFE","PUB_BAR","TAKEAWAY","HOTEL","OTHER"]
 
           by_sector = {}
           for sector in SECTORS:
               growth, reductions = [], []
-              # union of all LAs found in either snapshot
               all_las = set(cur.keys()) | set(prev.keys())
               for la in all_las:
                   cur_val = (cur.get(la) or {}).get(sector, 0)
@@ -112,35 +99,28 @@ jobs:
                   "reductions": reductions[:10],
               }
 
-          out = {
-              "date": str(date.today()),
-              "by_sector": by_sector,
-          }
+          out = {"date": str(date.today()), "by_sector": by_sector}
 
           os.makedirs("data", exist_ok=True)
           with open(OUT_PATH, "w", encoding="utf-8") as f:
               json.dump(out, f, ensure_ascii=False)
 
-          # Move current to "last" for the next run
           with open(PREV_PATH, "w", encoding="utf-8") as f:
               json.dump(cur, f, ensure_ascii=False)
 
           print(f"[ok] Wrote {OUT_PATH} and updated {PREV_PATH}.")
           PY
 
-      # ✅ Commit only small artifacts + baseline + LA deltas
-            - name: Commit processed data
+      - name: Commit processed data
         run: |
-          set -e
-
+          set -euo pipefail
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name  "github-actions[bot]"
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
-          # Stage EVERYTHING under /data (so no unstaged files remain)
+          # Stage everything under /data
           git add -A data || true
 
-          # If nothing staged, exit cleanly
           if git diff --staged --quiet; then
             echo "No changes to commit."
             exit 0
@@ -148,14 +128,11 @@ jobs:
 
           git commit -m "Update dashboard + per-LA deltas"
 
-          # If main advanced since checkout, rebase safely
+          # Rebase on latest main, tolerating local changes
           git fetch origin
-          # --autostash handles any leftover local changes during rebase
           git pull --rebase --autostash origin main || true
 
-          # Push
           git push origin HEAD:main
-
 
       - name: Summary
         run: |
