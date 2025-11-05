@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -300,6 +299,9 @@
   </main>
 
   <script>
+    // 🔧 Switch this to true if you ever want manual upload mode again
+    const ENABLE_MANUAL = false;
+
     const SECTORS = {
       MOBILE:'Mobile caterer',
       RESTAURANT:'Restaurant/Cafe/Canteen',
@@ -399,7 +401,6 @@
         </tr>`;
       });
 
-      // Update comparison subtitle with dates if we have 2+
       if(snapshots.length>=2){
         const a=snapshots[snapshots.length-1].date, b=snapshots[snapshots.length-2].date;
         const sub=document.getElementById('comparison-sub');
@@ -407,7 +408,7 @@
       }
     }
 
-    // File handling (manual)
+    // File handling (manual) — left in but disabled if ENABLE_MANUAL=false
     document.getElementById('current-files').addEventListener('change',(e)=>{
       currentFiles=Array.from(e.target.files).filter(f=>f.name.endsWith('.xml'));
       document.getElementById('current-status').textContent=`✓ ${currentFiles.length} XML files selected`;
@@ -424,6 +425,7 @@
     }
 
     async function processData(){
+      if(!ENABLE_MANUAL){ return; }
       const dataDate=document.getElementById('data-date').value; if(!dataDate){alert('Select a date');return;}
       document.getElementById('processing-section').classList.remove('hidden');
       document.getElementById('process-button').disabled=true;
@@ -524,7 +526,7 @@
           <td class="font-medium text-gray-900">${s}</td>
           <td class="text-right">${d.currentCount.toLocaleString()}</td>
           <td class="text-right">${formatChange(d.absoluteChange)}</td>
-          <td class="text-right">${formatChange(d.percentChange)}%</td>
+          <td class="text-right">${d.percentChange}%</td>
         </tr>`;
       }
     }
@@ -648,11 +650,27 @@
       document.getElementById('user-info').textContent=src;
     }
 
-    // Boot for manual mode (if no committed JSON)
+    // Boot
     window.onload=async()=>{
       try{
-        await initDB(); const s=await loadAllSnapshots();
-        if(s.length>0){ await displayHistoricalTrends(); await updateStorageDisplay(); await createChart(); }
+        await initDB();
+
+        // If manual is disabled, hide uploader up-front
+        if(!ENABLE_MANUAL){
+          document.getElementById('upload-section')?.classList.add('hidden');
+        }
+
+        const s=await loadAllSnapshots();
+        if(s.length>0){
+          document.getElementById('app-content')?.classList.remove('hidden');
+          await displayHistoricalTrends(); await updateStorageDisplay(); await createChart();
+        }else if(!ENABLE_MANUAL){
+          // Friendly note when no committed data yet
+          const note=document.createElement('div');
+          note.className='card';
+          note.textContent='No committed data yet. Run the GitHub Action to generate dashboard data.';
+          document.querySelector('main').prepend(note);
+        }
       }catch(e){ console.error('Init error:', e); alert('Error initializing database. Refresh the page.'); }
     };
   </script>
@@ -660,14 +678,6 @@
   <!-- === FHRS loader (auto-load committed JSON) === -->
   <script>
     async function _maybe(fn,...args){ if(typeof fn==="function"){ return await fn(...args); } }
-
-    // Simple fallback banner if your functions aren’t present
-    function _fallbackRender(series){
-      const el=document.getElementById("fhrs-fallback")||(function(){const d=document.createElement("div");d.id="fhrs-fallback";d.style.cssText="margin:1rem 0;padding:12px;border:1px solid #e5e7eb;border-radius:8px;background:#f9fafb;font:14px/1.5 system-ui,Segoe UI,Roboto";document.body.prepend(d);return d;})();
-      if(!Array.isArray(series)||!series.length){ el.textContent="No dashboard data yet."; return; }
-      const last=series[series.length-1];
-      el.innerHTML=`<strong>Dashboard data loaded</strong><br>Latest date: <code>${last.date}</code><br>Total businesses: <code>${last.counts?.total ?? "?"}</code>`;
-    }
 
     // Load committed data into IndexedDB; exclude OTHER from totals
     async function loadCommittedDataOnStart(){
@@ -679,31 +689,23 @@
         await new Promise((resolve,reject)=>{
           const tx=db.transaction(['snapshots'],'readwrite');
           const store=tx.objectStore('snapshots');
-         
-          
-  // ...
-series.forEach(s => {
-  const c = s.counts || {};
-  const monitoredTotal =
-    (c.MOBILE||0) + (c.RESTAURANT_CAFE||0) + (c.PUB_BAR||0) +
-    (c.TAKEAWAY||0) + (c.HOTEL||0); // ignore OTHER
 
-  const mappedCounts = {
-    [SECTORS.MOBILE]:     c.MOBILE || 0,
-    [SECTORS.RESTAURANT]: c.RESTAURANT_CAFE || 0,
-    [SECTORS.PUB]:        c.PUB_BAR || 0,
-    [SECTORS.TAKEAWAY]:   c.TAKEAWAY || 0,
-    total: monitoredTotal
-  };
+          series.forEach(s=>{
+            const c=s.counts||{};
+            const monitoredTotal=(c.MOBILE||0)+(c.RESTAURANT_CAFE||0)+(c.PUB_BAR||0)+(c.TAKEAWAY||0)+(c.HOTEL||0); // ignore OTHER
+            const mappedCounts={
+              [SECTORS.MOBILE]:     c.MOBILE||0,
+              [SECTORS.RESTAURANT]: c.RESTAURANT_CAFE||0,
+              [SECTORS.PUB]:        c.PUB_BAR||0,
+              [SECTORS.TAKEAWAY]:   c.TAKEAWAY||0,
+              total: monitoredTotal
+            };
+            store.put({date:s.date,businesses:[],counts:mappedCounts});
+          });
 
-  store.put({ date: s.date, businesses: [], counts: mappedCounts });
-});
-
-// ✅ resolve/reject the transaction so the await can continue
-tx.oncomplete = resolve;
-tx.onerror = () => reject(tx.error);
-
-
+          tx.oncomplete=resolve;
+          tx.onerror=()=>reject(tx.error);
+        });
 
         // Show dashboard UI
         document.getElementById('upload-section')?.classList.add('hidden');
