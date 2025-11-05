@@ -1,0 +1,37 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2025-11-05,1887850,Shepherd Events Ltd,Mobile caterer,,,,,,South Derbyshire,5,2022-07-13,FHRS,False,,,
+2025-11-05,1887689,Cafe Neon7,Mobile caterer,Street Record,Baytree Centre,Brentwood,Essex,,Brentwood,AwaitingInspection,,FHRS,False,,,"Street Record, Baytree Centre, Brentwood, Essex"
+2025-11-05,1887662,Gate House Kitchen,Mobile caterer,Missing Gate Wine Estate,Creephedge Lane,Woodham Ferrers,Chelmsford,CM3 8FQ,Chelmsford,AwaitingInspection,,FHRS,False,51.6592596,0.5896148,"Missing Gate Wine Estate, Creephedge Lane, Woodham Ferrers, Chelmsford, CM3 8FQ"
+2025-11-05,1887678,Belly Busters @ Brambledown,Mobile caterer,Brambledown Farm Shop,Lower Road,Eastchurch,Kent,ME12 3SU,Swale,AwaitingInspection,,FHRS,True,51.402432,0.823805,"Brambledown Farm Shop, Lower Road, Eastchurch, Kent, ME12 3SU"
+2025-11-05,1887680,Trawlerman's Catch/The Little Blue Hut,Mobile caterer,Small Blue Hut,Bills Wharf,South Street,Queenborough,ME11 5AF,Swale,AwaitingInspection,,FHRS,False,51.4162349,0.7417204,"Small Blue Hut, Bills Wharf, South Street, Queenborough, ME11 5AF"
+2025-11-05,1887509,Midnight Eats / Inferno Express / Flame Dash Pizza /,Mobile caterer,Flame Craft Kebabs / Firepit Delivery / The Smokehouse,The Brick House Ducie Place,Preston,,PR1 4UJ,Preston,AwaitingInspection,,FHRS,False,53.7646602,-2.6603643,"Flame Craft Kebabs / Firepit Delivery / The Smokehouse, The Brick House Ducie Place, Preston, PR1 4UJ"
+2025-11-05,1513274,Oak and Peel,Mobile caterer,Potterford Farm,Elker Lane,Billington,Clitheroe,BB7 9HZ,Ribble Valley,5,2022-09-02,FHRS,False,53.8267551,-2.4370578,"Potterford Farm, Elker Lane, Billington, Clitheroe, BB7 9HZ"
+2025-11-05,1887733,Bread&Byrne,Mobile caterer,Street Record,Bury Old Road,Shuttleworth,Ramsbottom,,Rossendale,AwaitingInspection,,FHRS,False,,,"Street Record, Bury Old Road, Shuttleworth, Ramsbottom"
+2025-11-05,1887613,Beeston Round Table,Mobile caterer,,,,,,Broxtowe,AwaitingInspection,,FHRS,False,,,
+2025-11-05,1887614,Daddy Ks,Mobile caterer,,,,,,Broxtowe,AwaitingInspection,,FHRS,False,,,
+2025-11-05,1887544,Tacos El Catrin,Mobile caterer,Land south of,22-24 Sprites Lane,Pinewood,IPSWICH,,Babergh,AwaitingInspection,,FHRS,False,,,"Land south of, 22-24 Sprites Lane, Pinewood, IPSWICH"
+2025-11-05,1887618,Kothu Raja,Mobile caterer,4 Bannow Close,Ewell,Surrey,,KT19 0TE,Epsom and Ewell,AwaitingInspection,,FHRS,False,51.3700067,-0.2600836,"4 Bannow Close, Ewell, Surrey, KT19 0TE"
+2025-11-05,1887841,Fire Style Food,Mobile caterer,,,,,,Mole Valley,AwaitingInspection,,FHRS,False,,,
+2025-11-05,1887844,Horsham Greengrocer & Pantry,Mobile caterer,,,,,,Horsham,AwaitingInspection,,FHRS,False,,,
+2025-11-05,1887864,Bloom And Butter Bakery,Mobile caterer,6 Harvey Close,Allesley,,Coventry,CV5 9FU,Coventry,AwaitingInspection,,FHRS,False,52.4287918,-1.5703234,"6 Harvey Close, Allesley, Coventry, CV5 9FU"
+2025-11-05,1887854,THE BIG BREAKFAST,Mobile caterer,33 Binley Road,,,Coventry,CV3 1JE,Coventry,AwaitingInspection,,FHRS,False,52.406527,-1.4854143,"33 Binley Road, Coventry, CV3 1JE"
+2025-11-05,1887615,Burritos And More,Mobile caterer,,,,,,North Tyneside,5,2025-11-03,FHRS,False,,,
+2025-11-05,577354,Mr Whippy Oldham - AA58 BAN,Mobile caterer,,,,,,Oldham,5,2025-10-21,FHRS,False,,,
+2025-11-05,1803544,Dova's Drum,Mobile caterer,,,,,,Sandwell,AwaitingInspection,,FHRS,False,,,
+2025-11-05,1887535,What’s Cooking 3,Mobile caterer,,,,,,Sandwell,AwaitingInspection,,FHRS,False,,,
+2025-11-05,1887619,Dennisons Venison,Mobile caterer,,,,,,Stockport,AwaitingInspection,,FHRS,False,,,
+2025-11-05,1887516,Baba's Table,Mobile caterer,4 Walnut Court 33 Southend Road,,Beckenham,,BR3 1SJ,Bromley,AwaitingInspection,,FHRS,False,51.4180509,-0.0238733,"4 Walnut Court 33 Southend Road, Beckenham, BR3 1SJ"
+2025-11-05,1887553,Bombay Lanes,Mobile caterer,,,,,,Enfield,AwaitingInspection,,FHRS,False,,,
+2025-11-05,1887560,TibaZ Foods Limited,Mobile caterer,,,,,,Enfield,AwaitingInspection,,FHRS,True,,,
+2025-11-05,1887724,Brewsmiths Cafe,Mobile caterer,Market Trader - SKYHANS LTD,Ashdown Road,Kingston Upon Thames,,,Kingston-Upon-Thames,AwaitingInspection,,FHRS,False,,,"Market Trader - SKYHANS LTD, Ashdown Road, Kingston Upon Thames"
+2025-11-05,1887720,IV Buns and Greens,Mobile caterer,,,,,,Kingston-Upon-Thames,AwaitingInspection,,FHRS,False,,,
+2025-11-05,1263143,Flames,Mobile caterer,,,,,,Rhondda Cynon Taf,AwaitingInspection,,FHRS,False,,,
+2025-11-05,1887599,Donna's Habin Cabin,Mobile caterer,PH10,,,,,Perth and Kinross,Awaiting Inspection,2025-10-30,FHIS,False,,,PH10
+2025-11-05,1887600,Roast Master,Mobile caterer,PH2,,,,,Perth and Kinross,Awaiting Inspection,2025-10-30,FHIS,False,,,PH2
+2025-11-05,1887819,CAFE2U,Mobile caterer,,,,,,Bristol,AwaitingInspection,,FHRS,False,,,
+2025-11-05,1887808,Dough Street Pizza,Mobile caterer,,1 Canons Road,Harbourside,Bristol,BS1 5TX,Bristol,AwaitingInspection,,FHRS,False,51.4517713,-2.5981304,"1 Canons Road, Harbourside, Bristol, BS1 5TX"
+2025-11-05,1887783,Saucy Layers,Mobile caterer,,,,,,Bristol,AwaitingInspection,,FHRS,False,,,
+2025-11-05,1887765,Spud Mobile,Mobile caterer,Unit1-2,Fernhurst Road,Speedwell,Bristol,BS5 7FG,Bristol,AwaitingInspection,,FHRS,False,51.4682666,-2.537492,"Unit1-2, Fernhurst Road, Speedwell, Bristol, BS5 7FG"
+2025-11-05,1887766,Woow,Mobile caterer,The Exchange,Corn Street,City Centre,Bristol,BS1 1JQ,Bristol,AwaitingInspection,,FHRS,False,51.454412,-2.593541,"The Exchange, Corn Street, City Centre, Bristol, BS1 1JQ"
+2025-11-05,1887696,K.Wings,Mobile caterer,,,,,,Peterborough City,AwaitingInspection,,FHRS,False,,,
+2025-11-05,1887497,Busy Bees Coffee Hut,Mobile caterer,Stoke Gabriel and Torbay Police FC pitch 3,,,,TQ4 7PF,Torbay,AwaitingInspection,,FHRS,False,,,"Stoke Gabriel and Torbay Police FC pitch 3, TQ4 7PF"
