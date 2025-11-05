@@ -34,11 +34,108 @@ jobs:
       - name: Process data and identify new businesses
         run: python process_fhrs_data.py
 
+      # ✅ Build Top-10 LA growth/reductions per sector for the dashboard
+      - name: Build LA deltas (Top-10 growth/reductions)
+        run: |
+          python - <<'PY'
+          import json, os, sys
+          from datetime import date
+
+          CUR_PATH = "data/la_totals_current.json"   # produced by process_fhrs_data.py
+          PREV_PATH = "data/la_totals_last.json"
+          OUT_PATH  = "data/la_deltas_latest.json"
+
+          # Safe no-op if current totals aren’t present (won’t break the run)
+          if not os.path.exists(CUR_PATH):
+              print(f"[warn] {CUR_PATH} not found. Skipping LA delta build.")
+              # Still write an empty scaffold so the dashboard doesn't error
+              scaffold = {
+                  "date": str(date.today()),
+                  "by_sector": {
+                      "MOBILE": {"growth": [], "reductions": []},
+                      "RESTAURANT_CAFE": {"growth": [], "reductions": []},
+                      "PUB_BAR": {"growth": [], "reductions": []},
+                      "TAKEAWAY": {"growth": [], "reductions": []},
+                      "HOTEL": {"growth": [], "reductions": []},
+                      "OTHER": {"growth": [], "reductions": []},
+                  },
+              }
+              os.makedirs("data", exist_ok=True)
+              with open(OUT_PATH, "w", encoding="utf-8") as f:
+                  json.dump(scaffold, f, ensure_ascii=False)
+              sys.exit(0)
+
+          with open(CUR_PATH, "r", encoding="utf-8") as f:
+              cur = json.load(f)
+
+          prev = {}
+          if os.path.exists(PREV_PATH):
+              try:
+                  with open(PREV_PATH, "r", encoding="utf-8") as f:
+                      prev = json.load(f)
+              except Exception as e:
+                  print(f"[warn] Could not read {PREV_PATH}: {e}")
+
+          # Expected structure for both cur/prev:
+          # {
+          #   "<LA name>": {
+          #       "MOBILE": 123,
+          #       "RESTAURANT_CAFE": 456,
+          #       "PUB_BAR": 78,
+          #       "TAKEAWAY": 90,
+          #       "HOTEL": 12,
+          #       "OTHER": 34
+          #   }, ...
+          # }
+
+          SECTORS = ["MOBILE","RESTAURANT_CAFE","PUB_BAR","TAKEAWAY","HOTEL","OTHER"]
+
+          by_sector = {}
+          for sector in SECTORS:
+              growth, reductions = [], []
+              # union of all LAs found in either snapshot
+              all_las = set(cur.keys()) | set(prev.keys())
+              for la in all_las:
+                  cur_val = (cur.get(la) or {}).get(sector, 0)
+                  prev_val = (prev.get(la) or {}).get(sector, 0)
+                  delta = cur_val - prev_val
+                  if delta > 0:
+                      growth.append({"la": la, "delta": delta, "current": cur_val})
+                  elif delta < 0:
+                      reductions.append({"la": la, "delta": delta, "current": cur_val})
+
+              growth.sort(key=lambda x: x["delta"], reverse=True)
+              reductions.sort(key=lambda x: x["delta"])  # most negative first
+
+              by_sector[sector] = {
+                  "growth": growth[:10],
+                  "reductions": reductions[:10],
+              }
+
+          out = {
+              "date": str(date.today()),
+              "by_sector": by_sector,
+          }
+
+          os.makedirs("data", exist_ok=True)
+          with open(OUT_PATH, "w", encoding="utf-8") as f:
+              json.dump(out, f, ensure_ascii=False)
+
+          # Move current to "last" for the next run
+          with open(PREV_PATH, "w", encoding="utf-8") as f:
+              json.dump(cur, f, ensure_ascii=False)
+
+          print(f"[ok] Wrote {OUT_PATH} and updated {PREV_PATH}.")
+          PY
+
       # ✅ Commit only small artifacts + baseline + LA deltas
       - name: Commit processed data
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name  "github-actions[bot]"
+
+          # Make sure we're up to date before committing
+          git pull --rebase
 
           # Tolerate missing files/folders on first run
           git add data/cumulative/*/*.csv 2>/dev/null || true
@@ -46,13 +143,13 @@ jobs:
           git add data/dashboard_data.json 2>/dev/null || true
           git add data/latest_snapshot.json 2>/dev/null || true
           git add data/seen_ids.txt.gz 2>/dev/null || true
+          git add data/la_totals_current.json 2>/dev/null || true   # useful for checks
           git add data/la_totals_last.json 2>/dev/null || true
           git add data/la_deltas_*.json 2>/dev/null || true
           git add data/la_deltas_latest.json 2>/dev/null || true
 
           # Only commit if there are staged changes
           git diff --staged --quiet || git commit -m "Update dashboard + per-LA deltas"
-          git pull --rebase
           git push
 
       - name: Summary
