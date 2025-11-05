@@ -30,14 +30,26 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
+      # ---- This must run BEFORE processing ----
       - name: Download FHRS data
         run: python download_fhrs_data.py
 
+      - name: Quick debug: show downloaded files
+        run: |
+          echo "Listing data directory after download"
+          mkdir -p data
+          ls -la data || true
+          ls -R data || true
+
+      # Keep a snapshot of previous LA totals for delta calc
       - name: Snapshot previous LA totals (if any)
         run: |
           mkdir -p data
           if [ -f data/la_totals_last.json ]; then
             cp data/la_totals_last.json data/__prev_la_totals.json
+            echo "Saved previous LA totals to data/__prev_la_totals.json"
+          else
+            echo "No previous la_totals_last.json found (first run is fine)."
           fi
 
       - name: Process data and identify new businesses
@@ -45,7 +57,71 @@ jobs:
 
       - name: Build LA deltas (Top-10 growth/reductions)
         run: |
-          python scripts/make_la_deltas.py
+          python - <<'PY'
+          import json, os
+          from datetime import date
+
+          CUR_PATH  = "data/la_totals_last.json"      # written by process_fhrs_data.py
+          PREV_PATH = "data/__prev_la_totals.json"    # snapshot we made before processing
+          OUT_PATH  = "data/la_deltas_latest.json"
+
+          def load(path):
+            if not os.path.exists(path): return None
+            with open(path, "r", encoding="utf-8") as f:
+              return json.load(f)
+
+          cur  = load(CUR_PATH)
+          prev = load(PREV_PATH) or {}
+
+          if not cur:
+            os.makedirs("data", exist_ok=True)
+            with open(OUT_PATH,"w",encoding="utf-8") as f:
+              json.dump({
+                "date": str(date.today()),
+                "by_sector": {
+                  "MOBILE":{"growth":[],"reductions":[]},
+                  "RESTAURANT_CAFE":{"growth":[],"reductions":[]},
+                  "PUB_BAR":{"growth":[],"reductions":[]},
+                  "TAKEAWAY":{"growth":[],"reductions":[]},
+                  "HOTEL":{"growth":[],"reductions":[]},
+                  "OTHER":{"growth":[],"reductions":[]},
+                }
+              }, f, ensure_ascii=False)
+            print("[warn] Missing current LA totals; wrote empty scaffold.")
+            raise SystemExit(0)
+
+          SECTORS = ["MOBILE","RESTAURANT_CAFE","PUB_BAR","TAKEAWAY","HOTEL","OTHER"]
+
+          def normalize(d):
+            if not d: return {}
+            if set(d.keys()) & set(SECTORS):  # sector-first shape
+              out = {}
+              for s in SECTORS:
+                for la, v in (d.get(s) or {}).items():
+                  out.setdefault(la, {})[s] = int(v or 0)
+              return out
+            return d  # LA-first shape
+
+          curN  = normalize(cur)
+          prevN = normalize(prev)
+
+          by_sector = {}
+          for s in SECTORS:
+            growth, reductions = [], []
+            for la in set(curN.keys()) | set(prevN.keys()):
+              cv = int((curN.get(la) or {}).get(s, 0))
+              pv = int((prevN.get(la) or {}).get(s, 0))
+              d  = cv - pv
+              if d > 0:  growth.append({"la": la, "delta": d, "current": cv})
+              if d < 0:  reductions.append({"la": la, "delta": d, "current": cv})
+            growth.sort(key=lambda x: x["delta"], reverse=True)
+            reductions.sort(key=lambda x: x["delta"])
+            by_sector[s] = {"growth": growth[:10], "reductions": reductions[:10]}
+
+          with open(OUT_PATH, "w", encoding="utf-8") as f:
+            json.dump({"date": str(date.today()), "by_sector": by_sector}, f, ensure_ascii=False)
+          print(f"[ok] Wrote {OUT_PATH}")
+          PY
 
       - name: Commit processed data
         run: |
@@ -55,7 +131,6 @@ jobs:
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
           git add -A data || true
-
           if git diff --staged --quiet; then
             echo "No changes to commit."
             exit 0
@@ -69,5 +144,7 @@ jobs:
       - name: Summary
         run: |
           echo "✅ Update finished."
-          ls -lh data/*.json 2>/dev/null || true
-          ls -lh data/**/*.csv 2>/dev/null || true
+          echo "Core artifacts:"
+          ls -lh data/dashboard_data.json data/latest_snapshot.json data/cumulative_index.json data/seen_ids.txt.gz 2>/dev/null || true
+          echo "LA delta artifacts:"
+          ls -lh data/la_deltas_* data/la_deltas_latest.json data/la_totals_last.json 2>/dev/null || true
