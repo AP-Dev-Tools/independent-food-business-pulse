@@ -30,36 +30,88 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      # 1) Try your existing downloader first
+      # Try your existing downloader first
       - name: Download FHRS data (custom script)
         run: |
           set -e
           python download_fhrs_data.py || true
 
-      # 2) Fallback: fetch per-LA XMLs if none were produced
-      - name: Fallback fetch of FHRS XML (per LA)
+      # Fallback: auto-discover ALL LAs and fetch their XMLs
+      - name: Fallback fetch of ALL FHRS XMLs (auto-discover LAs)
         run: |
           set -e
           mkdir -p data/raw
-          # EDIT this list to the LAs you track
-          declare -a LA_IDS=(223 1 226)  # Bromsgrove, Birmingham, Worcester
-          # Only fetch if nothing exists yet
           if [ -z "$(ls -1 data/raw/*.xml 2>/dev/null)" ]; then
-            echo "No XMLs found from custom script. Fetching from FHRS Open Data…"
-            for id in "${LA_IDS[@]}"; do
-              url="https://ratings.food.gov.uk/OpenDataFiles/FHRS${id}_en-GB.xml"
-              echo "Downloading $url"
-              curl -fsSL "$url" -o "data/raw/FHRS_${id}.xml"
-            done
+            echo "No XMLs from custom script. Discovering authorities and fetching all…"
+            python - <<'PY'
+import os, sys, time, subprocess, requests
+HEADERS={"User-Agent":"NCASS-FHRS-Updater/1.0","accept":"application/json","x-api-version":"2"}
+BASE="https://ratings.food.gov.uk"
+
+def get(url, params=None, retries=4, backoff=1.5):
+    for i in range(retries):
+        try:
+            r=requests.get(url, params=params, headers=HEADERS, timeout=30)
+            if r.status_code==200:
+                try: return r.json()
+                except Exception: pass
+            if r.status_code in (429,500,502,503,504):
+                time.sleep(backoff**(i+1)); continue
+            r.raise_for_status()
+        except Exception:
+            time.sleep(backoff**(i+1))
+    sys.exit(f"Failed to fetch {url}")
+
+candidates=[(f"{BASE}/Authorities/basic",None),(f"{BASE}/Authorities",{"basic":"true"}),(f"{BASE}/Authorities",None)]
+data=None
+for url,params in candidates:
+    try:
+        data=get(url,params)
+        if data: break
+    except SystemExit: pass
+if not data: sys.exit("Could not retrieve Authorities list.")
+
+items=data.get("authorities") or data.get("Authorities") or data
+if isinstance(items, dict):
+    items=items.get("authorities") or items.get("Authorities") or []
+ids=set()
+for a in items if isinstance(items,list) else []:
+    for k in ("LocalAuthorityId","LocalAuthorityIdCode","LocalAuthorityIdNumber","Id"):
+        v=a.get(k)
+        if isinstance(v,int): ids.add(v)
+        elif isinstance(v,str) and v.isdigit(): ids.add(int(v))
+if not ids: sys.exit("No LocalAuthority IDs found.")
+
+os.makedirs("data/raw", exist_ok=True)
+ok=fail=0
+for i in sorted(ids):
+    url=f"{BASE}/OpenDataFiles/FHRS{i}_en-GB.xml"
+    out=f"data/raw/FHRS_{i}.xml"
+    try:
+        subprocess.check_call(["curl","-fsSL",url,"-o",out])
+        ok+=1
+    except subprocess.CalledProcessError:
+        fail+=1
+print(f"Downloaded {ok} XMLs, {fail} failed.")
+if ok==0: sys.exit("No XMLs downloaded.")
+PY
           else
             echo "XMLs already present; skipping fallback."
           fi
           ls -lh data/raw
 
-      # 3) Guard: fail early if still no XMLs
+      # Guard: ensure we have inputs
       - name: Guard — ensure XMLs exist
         run: |
           test -n "$(ls -1 data/raw/*.xml 2>/dev/null)" || { echo "❌ No FHRS XML files present in data/raw"; exit 1; }
+
+      # Compat: mirror XMLs into other folders your script checks
+      - name: Compat — mirror XMLs to expected folders
+        run: |
+          mkdir -p data/xml data/fhrs data/downloads
+          cp -f data/raw/*.xml data/xml/ || true
+          cp -f data/raw/*.xml data/fhrs/ || true
+          cp -f data/raw/*.xml data/downloads/ || true
 
       - name: Snapshot previous LA totals (if any)
         run: |
