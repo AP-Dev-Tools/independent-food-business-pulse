@@ -72,55 +72,55 @@ jobs:
         run: python scripts/make_la_deltas.py
 
       - name: Commit processed data
-        run: |
-          set -euo pipefail
-          
-          # Configure git
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config user.name  "github-actions[bot]"
-          git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          
-          # Clean up any untracked files that might cause issues
-          git clean -fd data/ || true
-          
-          # Stage only the files we want to commit
-          git add -f data/*.json 2>/dev/null || true
-          git add -f data/cumulative/**/*.csv 2>/dev/null || true
-          git add -f data/seen_ids.txt.gz 2>/dev/null || true
-          git add -f data/cumulative_index.json 2>/dev/null || true
-          git add -f data/snapshots/*.json 2>/dev/null || true
-          
-          # Check if there are changes to commit
-          if git diff --staged --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
-          
-          # Show what we're about to commit
-          echo "Files to be committed:"
-          git diff --staged --name-only
-          
-          # Commit the changes
-          git commit -m "Daily update [$(date -u +%Y-%m-%d)]"
-          
-          # Try to push, with retries if needed
-          for i in {1..3}; do
-            # Pull latest changes
-            git pull --rebase origin main || {
-              echo "Rebase failed, trying merge instead"
-              git rebase --abort 2>/dev/null || true
-              git pull --no-rebase origin main || true
-            }
-            
-            # Try to push
-            if git push origin HEAD:main; then
-              echo "Successfully pushed changes"
-              exit 0
-            fi
-            
-            echo "Push failed, retrying in 5 seconds..."
-            sleep 5
-          done
-          
-          echo "Failed to push after 3 attempts"
-          exit 1
+  run: |
+    set -euo pipefail
+    
+    # Configure git
+    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+    git config user.name  "github-actions[bot]"
+    git config --global --add safe.directory "$GITHUB_WORKSPACE"
+    
+    # Stage files FIRST (before cleaning)
+    git add -f data/*.json 2>/dev/null || true
+    git add -f data/cumulative/**/*.csv 2>/dev/null || true
+    git add -f data/seen_ids.txt.gz 2>/dev/null || true
+    git add -f data/cumulative_index.json 2>/dev/null || true
+    git add -f data/snapshots/*.json 2>/dev/null || true
+    
+    # NOW clean up untracked files (staged files are safe)
+    git clean -fd data/ || true
+    
+    # Check if there are changes to commit
+    if git diff --staged --quiet; then
+      echo "No changes to commit."
+      exit 0
+    fi
+    
+    # Show what we're about to commit
+    echo "Files to be committed:"
+    git diff --staged --name-only
+    
+    # Commit the changes
+    git commit -m "Daily update [$(date -u +%Y-%m-%d)]"
+    
+    # Try to push, with retries if needed
+    for i in {1..3}; do
+      # Pull latest changes
+      git pull --rebase origin main || {
+        echo "Rebase failed, trying merge instead"
+        git rebase --abort 2>/dev/null || true
+        git pull --no-rebase origin main || true
+      }
+      
+      # Try to push
+      if git push origin HEAD:main; then
+        echo "Successfully pushed changes"
+        exit 0
+      fi
+      
+      echo "Push failed, retrying in 5 seconds..."
+      sleep 5
+    done
+    
+    echo "Failed to push after 3 attempts"
+    exit 1
