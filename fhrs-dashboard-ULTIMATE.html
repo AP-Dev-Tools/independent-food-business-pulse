@@ -863,7 +863,7 @@ async function loadLast30Days() {
     const thirtyDaysAgo = new Date(today);
     thirtyDaysAgo.setDate(today.getDate() - 30);
     
-    const months = getMonthsInRange(thirtyDaysAgo, today);
+    const months = ['2025-11'];  // Only November 2025 for now
     const dataPoints = [];
     
     for (const month of months) {
@@ -957,8 +957,20 @@ async function loadAvailableMonths() {
   const select = document.getElementById('month-selector');
   availableMonths = [];
   
-  // Only check November 2025 for now (add more months as snapshot files are created)
-  const monthsToCheck = ['2025-11', '2025-12', '2024-11', '2024-12'];
+  // Build list of months to check (current month + previous 11 months)
+  const monthsToCheck = [];
+  const today = new Date();
+  
+  // Start from current month, go back max 12 months
+  for (let i = 0; i < 12; i++) {
+    const checkDate = new Date(today.getFullYear(), today.getMonth() - i, 1);
+    const monthStr = checkDate.toISOString().slice(0, 7);
+    
+    // Only check from Nov 2025 onwards (when we started daily tracking)
+    if (monthStr >= '2025-11') {
+      monthsToCheck.push(monthStr);
+    }
+  }
   
   for (const month of monthsToCheck) {
     try {
