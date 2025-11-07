@@ -2,6 +2,33 @@
   "month": "2025-11",
   "days": [
     {
+      "date": "2025-11-04",
+      "MOBILE": 31923,
+      "RESTAURANT_CAFE": 145900,
+      "TAKEAWAY": 66664,
+      "PUB_BAR": 54223,
+      "HOTEL": 16454,
+      "total": 315164
+    },
+    {
+      "date": "2025-11-05",
+      "MOBILE": 31670,
+      "RESTAURANT_CAFE": 145929,
+      "TAKEAWAY": 66682,
+      "PUB_BAR": 54227,
+      "HOTEL": 16444,
+      "total": 314952
+    },
+    {
+      "date": "2025-11-06",
+      "MOBILE": 31695,
+      "RESTAURANT_CAFE": 146052,
+      "TAKEAWAY": 66686,
+      "PUB_BAR": 54241,
+      "HOTEL": 16448,
+      "total": 315122
+    },
+    {
       "date": "2025-11-07",
       "MOBILE": 31692,
       "RESTAURANT_CAFE": 146056,
