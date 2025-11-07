@@ -23,6 +23,11 @@
     .history-badge{display:inline-block;background:#dbeafe;color:#1e40af;padding:.25rem .75rem;border-radius:9999px;font-size:.75rem;font-weight:600}
     .spinner{border:3px solid #f3f4f6;border-top:3px solid #3b82f6;border-radius:50%;width:20px;height:20px;animation:spin 1s linear infinite;display:inline-block}
     @keyframes spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+  
+    .card canvas {
+      max-height: 400px !important;
+      height: 400px !important;
+    }
   </style>
 </head>
 <body class="min-h-screen">
@@ -286,8 +291,8 @@
           <div class="spinner mx-auto mb-2"></div>
           <p class="text-sm text-gray-600">Loading daily data...</p>
         </div>
-        <canvas id="daily-chart" style="display:none; height: 400px !important; max-height: 400px;"></canvas>
-        <p id="daily-status" class="text-sm text-gray-500 mt-2 text-center" style="display:none;"></p>
+        <div style="height: 400px; max-height: 400px; overflow: hidden;"><canvas id="daily-chart" style="display:none; height: 400px !important; max-height: 400px;"></canvas>
+        </div><p id="daily-status" class="text-sm text-gray-500 mt-2 text-center" style="display:none;"></p>
       </section>
 
       <!-- NEW: Historical Month Browser -->
@@ -305,8 +310,8 @@
           <div class="spinner mx-auto mb-2"></div>
           <p class="text-sm text-gray-600">Loading month...</p>
         </div>
-        <canvas id="monthly-daily-chart" style="display:none; height: 400px !important; max-height: 400px;"></canvas>
-        <p id="monthly-status" class="text-sm text-gray-500 mt-2 text-center" style="display:none;"></p>
+        <div style="height: 400px; max-height: 400px; overflow: hidden;"><canvas id="monthly-daily-chart" style="display:none; height: 400px !important; max-height: 400px;"></canvas>
+        </div><p id="monthly-status" class="text-sm text-gray-500 mt-2 text-center" style="display:none;"></p>
       </section>
 
       <!-- Export Section - ENHANCED -->
