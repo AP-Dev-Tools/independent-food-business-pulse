@@ -893,11 +893,11 @@ async function loadLast30Days() {
     const baseline = dataPoints[0];
     const chartData = dataPoints.map(d => ({
       date: d.date,
-      mobileGrowth: ((d.MOBILE - baseline.MOBILE) / baseline.MOBILE * 100).toFixed(2),
-      restaurantGrowth: ((d.RESTAURANT_CAFE - baseline.RESTAURANT_CAFE) / baseline.RESTAURANT_CAFE * 100).toFixed(2),
-      pubGrowth: ((d.PUB_BAR - baseline.PUB_BAR) / baseline.PUB_BAR * 100).toFixed(2),
-      takeawayGrowth: ((d.TAKEAWAY - baseline.TAKEAWAY) / baseline.TAKEAWAY * 100).toFixed(2),
-      hotelGrowth: ((d.HOTEL - baseline.HOTEL) / baseline.HOTEL * 100).toFixed(2)
+      mobile: d.MOBILE,
+      restaurant: d.RESTAURANT_CAFE,
+      pub: d.PUB_BAR,
+      takeaway: d.TAKEAWAY,
+      hotel: d.HOTEL
     }));
     
     canvas.style.display = 'block';
@@ -920,11 +920,11 @@ function renderDailyChart(data) {
     data: {
       labels: data.map(d => d.date),
       datasets: [
-        {label: 'Mobile Caterers', data: data.map(d => parseFloat(d.mobileGrowth)), borderColor: '#ef4444', backgroundColor: 'rgba(239,68,68,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 2},
-        {label: 'Restaurants/Cafes', data: data.map(d => parseFloat(d.restaurantGrowth)), borderColor: '#10b981', backgroundColor: 'rgba(16,185,129,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 2},
-        {label: 'Pubs/Bars', data: data.map(d => parseFloat(d.pubGrowth)), borderColor: '#f59e0b', backgroundColor: 'rgba(245,158,11,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 2},
-        {label: 'Takeaways', data: data.map(d => parseFloat(d.takeawayGrowth)), borderColor: '#3b82f6', backgroundColor: 'rgba(59,130,246,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 2},
-        {label: 'Hotels/B&Bs', data: data.map(d => parseFloat(d.hotelGrowth)), borderColor: '#8b5cf6', backgroundColor: 'rgba(139,92,246,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 2}
+        {label: 'Mobile Caterers', data: data.map(d => d.mobile), borderColor: '#ef4444', backgroundColor: 'rgba(239,68,68,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 3},
+        {label: 'Restaurants/Cafes', data: data.map(d => d.restaurant), borderColor: '#10b981', backgroundColor: 'rgba(16,185,129,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 3},
+        {label: 'Pubs/Bars', data: data.map(d => d.pub), borderColor: '#f59e0b', backgroundColor: 'rgba(245,158,11,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 3},
+        {label: 'Takeaways', data: data.map(d => d.takeaway), borderColor: '#3b82f6', backgroundColor: 'rgba(59,130,246,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 3},
+        {label: 'Hotels/B&Bs', data: data.map(d => d.hotel), borderColor: '#8b5cf6', backgroundColor: 'rgba(139,92,246,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 3}
       ]
     },
     options: {
@@ -936,7 +936,7 @@ function renderDailyChart(data) {
         tooltip: {mode: 'index', intersect: false, callbacks: {label: ctx => ctx.dataset.label + ': ' + ctx.parsed.y.toFixed(2) + '%'}}
       },
       scales: {
-        y: {title: {display: true, text: '% Growth from Baseline'}, ticks: {callback: v => v + '%'}},
+        y: {title: {display: true, text: 'Number of Businesses'}, ticks: {callback: v => v + '%'}},
         x: {ticks: {maxRotation: 45, minRotation: 45}}
       }
     }
@@ -1052,11 +1052,11 @@ function renderMonthlyDailyChart(data) {
     data: {
       labels: data.map(d => d.date.slice(5)),
       datasets: [
-        {label: 'Mobile Caterers', data: data.map(d => parseFloat(d.mobileGrowth)), borderColor: '#ef4444', backgroundColor: 'rgba(239,68,68,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 2},
-        {label: 'Restaurants/Cafes', data: data.map(d => parseFloat(d.restaurantGrowth)), borderColor: '#10b981', backgroundColor: 'rgba(16,185,129,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 2},
-        {label: 'Pubs/Bars', data: data.map(d => parseFloat(d.pubGrowth)), borderColor: '#f59e0b', backgroundColor: 'rgba(245,158,11,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 2},
-        {label: 'Takeaways', data: data.map(d => parseFloat(d.takeawayGrowth)), borderColor: '#3b82f6', backgroundColor: 'rgba(59,130,246,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 2},
-        {label: 'Hotels/B&Bs', data: data.map(d => parseFloat(d.hotelGrowth)), borderColor: '#8b5cf6', backgroundColor: 'rgba(139,92,246,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 2}
+        {label: 'Mobile Caterers', data: data.map(d => d.mobile), borderColor: '#ef4444', backgroundColor: 'rgba(239,68,68,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 3},
+        {label: 'Restaurants/Cafes', data: data.map(d => d.restaurant), borderColor: '#10b981', backgroundColor: 'rgba(16,185,129,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 3},
+        {label: 'Pubs/Bars', data: data.map(d => d.pub), borderColor: '#f59e0b', backgroundColor: 'rgba(245,158,11,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 3},
+        {label: 'Takeaways', data: data.map(d => d.takeaway), borderColor: '#3b82f6', backgroundColor: 'rgba(59,130,246,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 3},
+        {label: 'Hotels/B&Bs', data: data.map(d => d.hotel), borderColor: '#8b5cf6', backgroundColor: 'rgba(139,92,246,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 3}
       ]
     },
     options: {
