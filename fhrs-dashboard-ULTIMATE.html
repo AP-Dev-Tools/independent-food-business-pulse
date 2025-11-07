@@ -281,7 +281,7 @@
       <!-- NEW: Daily Trends (Last 30 Days) -->
       <section class="card">
         <h2 class="text-xl font-semibold text-gray-800 mb-4">📊 Daily Trends (Last 30 Days)</h2>
-        <p class="text-sm text-gray-600 mb-4">Actual business counts - all business types on one chart</p>
+        <p class="text-sm text-gray-600 mb-4">Daily net change (growth/decline) - hover to see totals</p>
         <div id="daily-loading" class="text-center py-8">
           <div class="spinner mx-auto mb-2"></div>
           <p class="text-sm text-gray-600">Loading daily data...</p>
@@ -890,8 +890,41 @@ async function loadLast30Days() {
     }
     
     dataPoints.sort((a, b) => a.date.localeCompare(b.date));
-    // Use actual counts instead of percentages
-    const chartData = dataPoints;
+    // Calculate day-to-day change (net growth/decline)
+    const chartData = dataPoints.map((d, i) => {
+      if (i === 0) {
+        // First day - no previous day to compare
+        return {
+          date: d.date,
+          mobileChange: 0,
+          restaurantChange: 0,
+          pubChange: 0,
+          takeawayChange: 0,
+          hotelChange: 0,
+          // Store totals for tooltip
+          mobileTotal: d.MOBILE,
+          restaurantTotal: d.RESTAURANT_CAFE,
+          pubTotal: d.PUB_BAR,
+          takeawayTotal: d.TAKEAWAY,
+          hotelTotal: d.HOTEL
+        };
+      }
+      const prev = dataPoints[i - 1];
+      return {
+        date: d.date,
+        mobileChange: d.MOBILE - prev.MOBILE,
+        restaurantChange: d.RESTAURANT_CAFE - prev.RESTAURANT_CAFE,
+        pubChange: d.PUB_BAR - prev.PUB_BAR,
+        takeawayChange: d.TAKEAWAY - prev.TAKEAWAY,
+        hotelChange: d.HOTEL - prev.HOTEL,
+        // Store totals for tooltip
+        mobileTotal: d.MOBILE,
+        restaurantTotal: d.RESTAURANT_CAFE,
+        pubTotal: d.PUB_BAR,
+        takeawayTotal: d.TAKEAWAY,
+        hotelTotal: d.HOTEL
+      };
+    });
     
     canvas.style.display = 'block';
     status.textContent = `Showing ${dataPoints.length} days of data`;
@@ -913,11 +946,56 @@ function renderDailyChart(data) {
     data: {
       labels: data.map(d => d.date),
       datasets: [
-        {label: 'Mobile Caterers', data: data.map(d => d.MOBILE), borderColor: '#ef4444', backgroundColor: 'rgba(239,68,68,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 3, yAxisID: 'y'},
-        {label: 'Restaurants/Cafes', data: data.map(d => d.RESTAURANT_CAFE), borderColor: '#10b981', backgroundColor: 'rgba(16,185,129,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 3, yAxisID: 'y'},
-        {label: 'Pubs/Bars', data: data.map(d => d.PUB_BAR), borderColor: '#f59e0b', backgroundColor: 'rgba(245,158,11,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 3, yAxisID: 'y'},
-        {label: 'Takeaways', data: data.map(d => d.TAKEAWAY), borderColor: '#3b82f6', backgroundColor: 'rgba(59,130,246,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 3, yAxisID: 'y'},
-        {label: 'Hotels/B&Bs', data: data.map(d => d.HOTEL), borderColor: '#8b5cf6', backgroundColor: 'rgba(139,92,246,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 3, yAxisID: 'y'}
+        {
+          label: 'Mobile Caterers', 
+          data: data.map(d => d.mobileChange), 
+          borderColor: '#ef4444', 
+          backgroundColor: 'rgba(239,68,68,0.1)', 
+          borderWidth: 2, 
+          tension: 0.4, 
+          pointRadius: 4,
+          totalData: data.map(d => d.mobileTotal)
+        },
+        {
+          label: 'Restaurants/Cafes', 
+          data: data.map(d => d.restaurantChange), 
+          borderColor: '#10b981', 
+          backgroundColor: 'rgba(16,185,129,0.1)', 
+          borderWidth: 2, 
+          tension: 0.4, 
+          pointRadius: 4,
+          totalData: data.map(d => d.restaurantTotal)
+        },
+        {
+          label: 'Pubs/Bars', 
+          data: data.map(d => d.pubChange), 
+          borderColor: '#f59e0b', 
+          backgroundColor: 'rgba(245,158,11,0.1)', 
+          borderWidth: 2, 
+          tension: 0.4, 
+          pointRadius: 4,
+          totalData: data.map(d => d.pubTotal)
+        },
+        {
+          label: 'Takeaways', 
+          data: data.map(d => d.takeawayChange), 
+          borderColor: '#3b82f6', 
+          backgroundColor: 'rgba(59,130,246,0.1)', 
+          borderWidth: 2, 
+          tension: 0.4, 
+          pointRadius: 4,
+          totalData: data.map(d => d.takeawayTotal)
+        },
+        {
+          label: 'Hotels/B&Bs', 
+          data: data.map(d => d.hotelChange), 
+          borderColor: '#8b5cf6', 
+          backgroundColor: 'rgba(139,92,246,0.1)', 
+          borderWidth: 2, 
+          tension: 0.4, 
+          pointRadius: 4,
+          totalData: data.map(d => d.hotelTotal)
+        }
       ]
     },
     options: {
@@ -930,14 +1008,23 @@ function renderDailyChart(data) {
           mode: 'index', 
           intersect: false, 
           callbacks: {
-            label: ctx => ctx.dataset.label + ': ' + ctx.parsed.y.toLocaleString()
+            label: function(context) {
+              const change = context.parsed.y;
+              const total = context.dataset.totalData[context.dataIndex];
+              const sign = change >= 0 ? '+' : '';
+              return context.dataset.label + ': ' + sign + change + ' (Total: ' + total.toLocaleString() + ')';
+            }
           }
         }
       },
       scales: {
         y: {
-          title: {display: true, text: 'Number of Businesses'},
-          ticks: {callback: v => v.toLocaleString()}
+          title: {display: true, text: 'Daily Change (Net Growth/Decline)'},
+          ticks: {
+            callback: function(value) {
+              return (value >= 0 ? '+' : '') + value;
+            }
+          }
         },
         x: {ticks: {maxRotation: 45, minRotation: 45}}
       }
