@@ -84,3 +84,39 @@ date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLin
 2025-11-06,1888141,The Flower Belt,Mobile caterer,Sproxton Lodge Thirsk To Scarborough Road,,,Sproxton,YO62 5EE,North Yorkshire,AwaitingInspection,,FHRS,True,,,"Sproxton Lodge Thirsk To Scarborough Road, Sproxton, YO62 5EE"
 2025-11-06,1888159,Cj Snax And Catering,Mobile caterer,,,,,,Pendle,AwaitingInspection,,FHRS,False,,,
 2025-11-06,1887899,Scoops,Mobile caterer,,Mobile Street Trader,X176 GAW,,,Aberdeenshire,Awaiting Inspection,2025-11-04,FHIS,False,,,"Mobile Street Trader, X176 GAW"
+2025-11-07,1888398,Buffs Bites,Mobile caterer,,,,Powys,LD3,Powys,AwaitingInspection,,FHRS,False,,,"Powys, LD3"
+2025-11-07,1513405,Trigg Food Events,Mobile caterer,,,,,,Powys,5,2024-06-04,FHRS,False,,,
+2025-11-07,1888534,Maple Tree Farm,Mobile caterer,,,,,,Trafford,AwaitingInspection,,FHRS,False,,,
+2025-11-07,1888437,Field & Bean,Mobile caterer,,,,,,North Norfolk,AwaitingInspection,,FHRS,False,,,
+2025-11-07,1888565,DG Mobile Catering,Mobile caterer,,,,,,Cannock Chase,AwaitingInspection,,FHRS,False,,,
+2025-11-07,1678597,Arbeia,Mobile caterer,18-26 Ocean Road,South Shields,Tyne & Wear,,NE33 2HZ,South Tyneside,4,2022-05-05,FHRS,False,54.9989333,-1.4308102,"18-26 Ocean Road, South Shields, Tyne & Wear, NE33 2HZ"
+2025-11-07,1888423,Big Boys Bowls,Mobile caterer,Big Boy Bowls,15 North View,Jarrow,Tyne & Wear,NE32 5JQ,South Tyneside,AwaitingInspection,,FHRS,False,,,"Big Boy Bowls, 15 North View, Jarrow, Tyne & Wear, NE32 5JQ"
+2025-11-07,1888427,Bumble Beans,Mobile caterer,72 Grotto Road,South Shields,Tyne & Wear,,NE34 7AH,South Tyneside,AwaitingInspection,,FHRS,False,54.9760729,-1.3794365,"72 Grotto Road, South Shields, Tyne & Wear, NE34 7AH"
+2025-11-07,1888430,Singhs Wine Store & Candy Bar,Mobile caterer,128-134 Quarry Lane,South Shields,Tyne & Wear,,NE34 7RD,South Tyneside,5,2021-09-09,FHRS,False,54.970656,-1.397519,"128-134 Quarry Lane, South Shields, Tyne & Wear, NE34 7RD"
+2025-11-07,1888540,Bagel 7,Mobile caterer,,,,,,Bromsgrove,AwaitingInspection,,FHRS,False,,,
+2025-11-07,1888602,The Luv Box Co,Mobile caterer,,6 Fortingall Avenue,Glasgow,,G12 0LR,Glasgow City,Awaiting Inspection,2025-11-04,FHIS,False,55.888649,-4.300055,"6 Fortingall Avenue, Glasgow, G12 0LR"
+2025-11-07,1888628,Mylo's Pizza,Mobile caterer,,,,,,Ipswich,5,2025-10-31,FHRS,False,,,
+2025-11-07,1888509,Nic's Mobil Catering,Mobile caterer,,,,,,Bassetlaw,5,2025-10-22,FHRS,False,,,
+2025-11-07,1888518,The Potato Hut,Mobile caterer,,,,,,Bassetlaw,AwaitingInspection,,FHRS,False,,,
+2025-11-07,1888395,Coffee & Co,Mobile caterer,,,,,,Antrim and Newtownabbey,AwaitingInspection,,FHRS,False,,,
+2025-11-07,1888385,KRAKEN FISH & CHIPS LTD,Mobile caterer,72 Lough Road,,Antrim,,BT41 4DQ,Antrim and Newtownabbey,5,2025-10-22,FHRS,False,54.715405,-6.231476,"72 Lough Road, Antrim, BT41 4DQ"
+2025-11-07,1888390,Nibble,Mobile caterer,,,,,,Antrim and Newtownabbey,AwaitingInspection,,FHRS,False,,,
+2025-11-07,1888684,Express Diner,Mobile caterer,,,,,,Wakefield,AwaitingInspection,,FHRS,False,,,
+2025-11-07,1888544,Halfpenny's,Mobile caterer,,,,,,Malvern Hills,Exempt,,FHRS,False,,,
+2025-11-07,1888469,Olivia’s snacks,Mobile caterer,,,,,,Pembrokeshire,AwaitingInspection,,FHRS,False,,,
+2025-11-07,1888420,German Sausage,Mobile caterer,,,,,,Thurrock,5,2025-10-30,FHRS,False,,,
+2025-11-07,1888416,Kerbside Kitchen,Mobile caterer,The Railway Tavern,King Street,Stanford Le Hope,Essex,SS17 0HL,Thurrock,AwaitingInspection,,FHRS,False,51.515209197998,0.425532996654511,"The Railway Tavern, King Street, Stanford Le Hope, Essex, SS17 0HL"
+2025-11-07,1888421,Multi Purpose Food Court,Mobile caterer,,,,,,Thurrock,5,2025-10-30,FHRS,False,,,
+2025-11-07,1888469,Olivia’s snacks,Mobile caterer,,,,,,Sir Benfro,AwaitingInspection,,FHRS,False,,,
+2025-11-07,1888657,C and D Crepes,Mobile caterer,,,,,,Wiltshire,AwaitingInspection,,FHRS,False,,,
+2025-11-07,1888658,EP Services,Mobile caterer,,,,,,Wiltshire,AwaitingInspection,,FHRS,False,,,
+2025-11-07,1888652,Mannys Ices Limited,Mobile caterer,,,,,,Wiltshire,AwaitingInspection,,FHRS,False,,,
+2025-11-07,1888653,Moore Bites,Mobile caterer,,,,,,Wiltshire,AwaitingInspection,,FHRS,False,,,
+2025-11-07,579564,James Dickson & Son,Mobile caterer,James Dickson & Son Mobile Vehicle SD69 OMU Fish Van Base - West Harbour Road Cockenzie East Lothian,,,,EH32 0HU,East Lothian,Pass,2025-10-24,FHIS,False,,,"James Dickson & Son Mobile Vehicle SD69 OMU Fish Van Base - West Harbour Road Cockenzie East Lothian, EH32 0HU"
+2025-11-07,1888577,Gourmet On Wheels,Mobile caterer,,,,,,Woking,5,2025-10-28,FHRS,False,,,
+2025-11-07,1888578,Pampolini Bakery And Sweets,Mobile caterer,,,,,,Woking,AwaitingInspection,,FHRS,True,,,
+2025-11-07,1888398,Buffs Bites,Mobile caterer,,,,Powys,LD3,Powys,AwaitingInspection,,FHRS,False,,,"Powys, LD3"
+2025-11-07,1513405,Trigg Food Events,Mobile caterer,,,,,,Powys,5,2024-06-04,FHRS,False,,,
+2025-11-07,1888401,Ollies Street Food,Mobile caterer,8 Hamlin Way,Hardwick Narrows,King's Lynn,Norfolk,,King's Lynn and West Norfolk,AwaitingInspection,,FHRS,False,,,"8 Hamlin Way, Hardwick Narrows, King's Lynn, Norfolk"
+2025-11-07,1201245,Yum Yummy Food,Mobile caterer,,17a London Road,,Barking,IG11 8AF,Barking and Dagenham,3,2024-06-28,FHRS,False,51.5379463,0.0784508,"17a London Road, Barking, IG11 8AF"
+2025-11-07,1888559,Flick My Beans,Mobile caterer,Unit 3a Goldthorpe Industrial Estate,Commercial Road,,Goldthorpe,S63 9BL,Barnsley,AwaitingInspection,,FHRS,False,53.5282886,-1.320911,"Unit 3a Goldthorpe Industrial Estate, Commercial Road, Goldthorpe, S63 9BL"
