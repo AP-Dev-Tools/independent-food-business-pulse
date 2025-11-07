@@ -955,16 +955,20 @@ function getMonthsInRange(start, end) {
 // Month browser
 async function loadAvailableMonths() {
   const select = document.getElementById('month-selector');
-  const today = new Date();
   availableMonths = [];
   
-  for (let i = 0; i < 12; i++) {
-    const date = new Date(today.getFullYear(), today.getMonth() - i, 1);
-    const month = date.toISOString().slice(0, 7);
+  // Only check November 2025 for now (add more months as snapshot files are created)
+  const monthsToCheck = ['2025-11', '2025-12', '2024-11', '2024-12'];
+  
+  for (const month of monthsToCheck) {
     try {
       const res = await fetch(`data/snapshots/${month}.json?cb=${Date.now()}`, {cache: 'no-store'});
-      if (res.ok) availableMonths.push(month);
-    } catch (e) {}
+      if (res.ok) {
+        availableMonths.push(month);
+      }
+    } catch (e) {
+      // File doesn't exist, skip silently
+    }
   }
   
   if (availableMonths.length === 0) {
