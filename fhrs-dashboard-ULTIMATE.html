@@ -1094,15 +1094,26 @@ async function loadMonth(index) {
       return;
     }
     
-    const baseline = snapshot.days[0];
-    const chartData = snapshot.days.map(d => ({
-      date: d.date,
-      mobileGrowth: ((d.MOBILE - baseline.MOBILE) / baseline.MOBILE * 100).toFixed(2),
-      restaurantGrowth: ((d.RESTAURANT_CAFE - baseline.RESTAURANT_CAFE) / baseline.RESTAURANT_CAFE * 100).toFixed(2),
-      pubGrowth: ((d.PUB_BAR - baseline.PUB_BAR) / baseline.PUB_BAR * 100).toFixed(2),
-      takeawayGrowth: ((d.TAKEAWAY - baseline.TAKEAWAY) / baseline.TAKEAWAY * 100).toFixed(2),
-      hotelGrowth: ((d.HOTEL - baseline.HOTEL) / baseline.HOTEL * 100).toFixed(2)
-    }));
+    // Calculate day-to-day changes (same as daily chart)
+    const chartData = [];
+    for (let i = 0; i < snapshot.days.length; i++) {
+      const d = snapshot.days[i];
+      const prev = i > 0 ? snapshot.days[i - 1] : d;
+      
+      chartData.push({
+        date: d.date,
+        mobileChange: d.MOBILE - prev.MOBILE,
+        restaurantChange: d.RESTAURANT_CAFE - prev.RESTAURANT_CAFE,
+        pubChange: d.PUB_BAR - prev.PUB_BAR,
+        takeawayChange: d.TAKEAWAY - prev.TAKEAWAY,
+        hotelChange: d.HOTEL - prev.HOTEL,
+        mobileTotal: d.MOBILE,
+        restaurantTotal: d.RESTAURANT_CAFE,
+        pubTotal: d.PUB_BAR,
+        takeawayTotal: d.TAKEAWAY,
+        hotelTotal: d.HOTEL
+      });
+    }
     
     canvas.style.display = 'block';
     status.textContent = `${formatMonth(month)} - ${snapshot.days.length} days`;
@@ -1124,23 +1135,77 @@ function renderMonthlyDailyChart(data) {
     data: {
       labels: data.map(d => d.date.slice(5)),
       datasets: [
-        {label: 'Mobile Caterers', data: data.map(d => parseFloat(d.mobileGrowth)), borderColor: '#ef4444', backgroundColor: 'rgba(239,68,68,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 2},
-        {label: 'Restaurants/Cafes', data: data.map(d => parseFloat(d.restaurantGrowth)), borderColor: '#10b981', backgroundColor: 'rgba(16,185,129,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 2},
-        {label: 'Pubs/Bars', data: data.map(d => parseFloat(d.pubGrowth)), borderColor: '#f59e0b', backgroundColor: 'rgba(245,158,11,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 2},
-        {label: 'Takeaways', data: data.map(d => parseFloat(d.takeawayGrowth)), borderColor: '#3b82f6', backgroundColor: 'rgba(59,130,246,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 2},
-        {label: 'Hotels/B&Bs', data: data.map(d => parseFloat(d.hotelGrowth)), borderColor: '#8b5cf6', backgroundColor: 'rgba(139,92,246,0.1)', borderWidth: 2, tension: 0.4, pointRadius: 2}
+        {
+          label: 'Mobile', 
+          data: data.map(d => d.mobileChange || 0), 
+          borderColor: '#ef4444', 
+          borderWidth: 2, 
+          tension: 0.3,
+          mobileTotal: data.map(d => d.mobileTotal || 0)
+        },
+        {
+          label: 'Restaurants', 
+          data: data.map(d => d.restaurantChange || 0), 
+          borderColor: '#10b981', 
+          borderWidth: 2, 
+          tension: 0.3,
+          restaurantTotal: data.map(d => d.restaurantTotal || 0)
+        },
+        {
+          label: 'Pubs', 
+          data: data.map(d => d.pubChange || 0), 
+          borderColor: '#f59e0b', 
+          borderWidth: 2, 
+          tension: 0.3,
+          pubTotal: data.map(d => d.pubTotal || 0)
+        },
+        {
+          label: 'Takeaways', 
+          data: data.map(d => d.takeawayChange || 0), 
+          borderColor: '#3b82f6', 
+          borderWidth: 2, 
+          tension: 0.3,
+          takeawayTotal: data.map(d => d.takeawayTotal || 0)
+        },
+        {
+          label: 'Hotels', 
+          data: data.map(d => d.hotelChange || 0), 
+          borderColor: '#8b5cf6', 
+          borderWidth: 2, 
+          tension: 0.3,
+          hotelTotal: data.map(d => d.hotelTotal || 0)
+        }
       ]
     },
     options: {
       responsive: true,
-      maintainAspectRatio: false,
-      interaction: {mode: 'index', intersect: false},
+      maintainAspectRatio: true,
+      aspectRatio: 3,
       plugins: {
-        legend: {position: 'top', labels: {usePointStyle: true, padding: 15}},
-        tooltip: {mode: 'index', intersect: false, callbacks: {label: ctx => ctx.dataset.label + ': ' + ctx.parsed.y.toFixed(2) + '%'}}
+        legend: {position: 'top'},
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              const change = ctx.parsed.y;
+              const dataset = ctx.dataset;
+              let total = 0;
+              
+              if (dataset.mobileTotal) total = dataset.mobileTotal[ctx.dataIndex];
+              else if (dataset.restaurantTotal) total = dataset.restaurantTotal[ctx.dataIndex];
+              else if (dataset.pubTotal) total = dataset.pubTotal[ctx.dataIndex];
+              else if (dataset.takeawayTotal) total = dataset.takeawayTotal[ctx.dataIndex];
+              else if (dataset.hotelTotal) total = dataset.hotelTotal[ctx.dataIndex];
+              
+              return ctx.dataset.label + ': ' + (change >= 0 ? '+' : '') + change + ' (Total: ' + total.toLocaleString() + ')';
+            }
+          }
+        }
       },
       scales: {
-        y: {title: {display: true, text: '% Growth from Month Start'}, ticks: {callback: v => v + '%'}}
+        y: {
+          title: {display: true, text: 'Daily Change'},
+          ticks: {callback: v => (v >= 0 ? '+' : '') + v}
+        }
       }
     }
   });
