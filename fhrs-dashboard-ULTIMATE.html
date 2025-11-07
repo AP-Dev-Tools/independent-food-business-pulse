@@ -863,7 +863,9 @@ async function loadLast30Days() {
     const thirtyDaysAgo = new Date(today);
     thirtyDaysAgo.setDate(today.getDate() - 30);
     
-    const months = ['2025-11'];  // Only November 2025 for now
+    // Calculate months in range, but only from Nov 2025 onwards
+    const allMonths = getMonthsInRange(thirtyDaysAgo, today);
+    const months = allMonths.filter(m => m >= '2025-11');
     const dataPoints = [];
     
     for (const month of months) {
