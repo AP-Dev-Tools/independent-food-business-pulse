@@ -1,0 +1,4 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2025-11-08,1826906,Uno Thames Hotel,Hotel/bed & breakfast/guest house,Thames Hotel,Ray Mead Road,Maidenhead,,SL6 8NR,Windsor and Maidenhead,AwaitingInspection,,FHRS,False,,,"Thames Hotel, Ray Mead Road, Maidenhead, SL6 8NR"
+2025-11-08,733602,The Birch Hotel,Hotel/bed & breakfast/guest house,Birch Hotel,Manchester Road,Heywood,Lancashire,OL10 2QD,Rochdale,AwaitingInspection,,FHRS,True,53.572214,-2.221128,"Birch Hotel, Manchester Road, Heywood, Lancashire, OL10 2QD"
+2025-11-08,1888713,Stronsay Hotel,Hotel/bed & breakfast/guest house,Stronsay Hotel,Lower Whitehall Road,Stronsay,,KW17 2AR,Orkney Islands,Awaiting Inspection,,FHIS,False,59.1407617,-2.5962202,"Stronsay Hotel, Lower Whitehall Road, Stronsay, KW17 2AR"
