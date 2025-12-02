@@ -1,0 +1,4 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2025-12-02,1895622,Y Seren Hotel and Restaurant,Hotel/bed & breakfast/guest house,Y Seren Hotel & Spa,,Llangunnor,Carmarthen,SA31 2HY,Sir Gaerfyrddin,AwaitingInspection,,FHRS,False,,,"Y Seren Hotel & Spa, Llangunnor, Carmarthen, SA31 2HY"
+2025-12-02,1895622,Y Seren Hotel and Restaurant,Hotel/bed & breakfast/guest house,Y Seren Hotel & Spa,,Llangunnor,Carmarthen,SA31 2HY,Carmarthenshire,AwaitingInspection,,FHRS,False,,,"Y Seren Hotel & Spa, Llangunnor, Carmarthen, SA31 2HY"
+2025-12-02,1895721,The Gate,Hotel/bed & breakfast/guest house,The Gate Inn,108 Fairfield Road,Hugglescote,Coalville,LE67 2HG,North West Leicestershire,AwaitingInspection,,FHRS,False,52.713666,-1.372869,"The Gate Inn, 108 Fairfield Road, Hugglescote, Coalville, LE67 2HG"
