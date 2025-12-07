@@ -607,6 +607,19 @@
           "count": 3
         }
       }
+    },
+    {
+      "date": "2025-12-07",
+      "files": {
+        "RESTAURANT_CAFE": {
+          "file": "RESTAURANT_CAFE/2025-12.csv",
+          "count": 8
+        },
+        "MOBILE": {
+          "file": "MOBILE/2025-12.csv",
+          "count": 3
+        }
+      }
     }
   ]
 }
