@@ -670,6 +670,31 @@
           "count": 23
         }
       }
+    },
+    {
+      "date": "2025-12-11",
+      "files": {
+        "TAKEAWAY": {
+          "file": "TAKEAWAY/2025-12.csv",
+          "count": 47
+        },
+        "MOBILE": {
+          "file": "MOBILE/2025-12.csv",
+          "count": 24
+        },
+        "RESTAURANT_CAFE": {
+          "file": "RESTAURANT_CAFE/2025-12.csv",
+          "count": 79
+        },
+        "PUB_BAR": {
+          "file": "PUB_BAR/2025-12.csv",
+          "count": 21
+        },
+        "HOTEL": {
+          "file": "HOTEL/2025-12.csv",
+          "count": 4
+        }
+      }
     }
   ]
 }
