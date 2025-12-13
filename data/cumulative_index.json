@@ -720,6 +720,31 @@
           "count": 16
         }
       }
+    },
+    {
+      "date": "2025-12-13",
+      "files": {
+        "RESTAURANT_CAFE": {
+          "file": "RESTAURANT_CAFE/2025-12.csv",
+          "count": 176
+        },
+        "MOBILE": {
+          "file": "MOBILE/2025-12.csv",
+          "count": 35
+        },
+        "PUB_BAR": {
+          "file": "PUB_BAR/2025-12.csv",
+          "count": 27
+        },
+        "TAKEAWAY": {
+          "file": "TAKEAWAY/2025-12.csv",
+          "count": 79
+        },
+        "HOTEL": {
+          "file": "HOTEL/2025-12.csv",
+          "count": 6
+        }
+      }
     }
   ]
 }
