@@ -745,6 +745,23 @@
           "count": 6
         }
       }
+    },
+    {
+      "date": "2025-12-15",
+      "files": {
+        "TAKEAWAY": {
+          "file": "TAKEAWAY/2025-12.csv",
+          "count": 5
+        },
+        "RESTAURANT_CAFE": {
+          "file": "RESTAURANT_CAFE/2025-12.csv",
+          "count": 10
+        },
+        "MOBILE": {
+          "file": "MOBILE/2025-12.csv",
+          "count": 4
+        }
+      }
     }
   ]
 }
