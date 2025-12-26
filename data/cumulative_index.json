@@ -962,6 +962,15 @@
           "count": 29
         }
       }
+    },
+    {
+      "date": "2025-12-26",
+      "files": {
+        "RESTAURANT_CAFE": {
+          "file": "RESTAURANT_CAFE/2025-12.csv",
+          "count": 3
+        }
+      }
     }
   ]
 }
