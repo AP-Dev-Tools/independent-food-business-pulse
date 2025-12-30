@@ -1144,3 +1144,23 @@ date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLin
 2025-12-28,1904073,Fancy Shawarma & Grill,Takeaway/sandwich shop,15 Plashet Grove,East Ham,London,,E6 1AQ,Newham,AwaitingInspection,,FHRS,False,51.5374753,0.0350538,"15 Plashet Grove, East Ham, London, E6 1AQ"
 2025-12-28,1904076,Gujju Tadka,Takeaway/sandwich shop,235 Plashet Road,Plaistow,London,,E13 0QU,Newham,AwaitingInspection,,FHRS,True,51.537772,0.032907,"235 Plashet Road, Plaistow, London, E13 0QU"
 2025-12-28,1904077,Yuku Korean And Japanese,Takeaway/sandwich shop,159 Odessa Road,Forest Gate,London,,E7 9DU,Newham,AwaitingInspection,,FHRS,False,51.553105,0.017262,"159 Odessa Road, Forest Gate, London, E7 9DU"
+2025-12-30,1901245,Caprinos,Takeaway/sandwich shop,258 Oatsheaf Parade,Fleet Road,Fleet,,GU51 4BX,Hart,AwaitingInspection,,FHRS,True,51.2784976,-0.8458218,"258 Oatsheaf Parade, Fleet Road, Fleet, GU51 4BX"
+2025-12-30,1904107,Cluckbite,Takeaway/sandwich shop,1 Cowbridge Road West,Caerau,Cardiff,,CF5 5BP,Caerdydd,AwaitingInspection,,FHRS,False,51.4833179,-3.23254,"1 Cowbridge Road West, Caerau, Cardiff, CF5 5BP"
+2025-12-30,1904155,Deshi Spice,Takeaway/sandwich shop,,455 Llangyfelach Road,,Brynhyfryd,SA5 9LN,Swansea,AwaitingInspection,,FHRS,False,51.643245,-3.944239,"455 Llangyfelach Road, Brynhyfryd, SA5 9LN"
+2025-12-30,1904142,Pizza and Spice,Takeaway/sandwich shop,,31a Walter Road,,City Centre,SA1 5NW,Swansea,AwaitingInspection,,FHRS,False,51.6193401,-3.9561937,"31a Walter Road, City Centre, SA1 5NW"
+2025-12-30,1904149,Rock and Scallop,Takeaway/sandwich shop,Albert Hall,27 Cradock Street,,City Centre,SA1 3EP,Swansea,AwaitingInspection,,FHRS,False,51.6212965,-3.94726,"Albert Hall, 27 Cradock Street, City Centre, SA1 3EP"
+2025-12-30,1904145,Tawa & Thyme,Takeaway/sandwich shop,,,,,,Swansea,AwaitingInspection,,FHRS,False,,,
+2025-12-30,1730794,Chicken Cottage Thornton Heath,Takeaway/sandwich shop,37 High Street,Thornton Heath,,,CR7 8RU,Croydon,1,2025-12-08,FHRS,False,51.3982662,-0.0943928,"37 High Street, Thornton Heath, CR7 8RU"
+2025-12-30,1904107,Cluckbite,Takeaway/sandwich shop,1 Cowbridge Road West,Caerau,Cardiff,,CF5 5BP,Cardiff,AwaitingInspection,,FHRS,False,51.4833179,-3.23254,"1 Cowbridge Road West, Caerau, Cardiff, CF5 5BP"
+2025-12-30,1904115,Ernie's,Takeaway/sandwich shop,Kiosk 1 Cargo 2,Museum Street,Redcliff,Bristol,BS1 6ZA,Bristol,AwaitingInspection,,FHRS,False,51.4472473,-2.5986016,"Kiosk 1 Cargo 2, Museum Street, Redcliff, Bristol, BS1 6ZA"
+2025-12-30,1904114,Masala Munch by Shreeji Food,Takeaway/sandwich shop,,664 Fishponds Road,Fishponds,Bristol,BS16 3HJ,Bristol,AwaitingInspection,,FHRS,False,51.4781919,-2.5342247,"664 Fishponds Road, Fishponds, Bristol, BS16 3HJ"
+2025-12-30,1904094,Golder's Cakery,Takeaway/sandwich shop,,,,,,East Suffolk,AwaitingInspection,,FHRS,False,,,
+2025-12-30,1904177,Deliv Aroma,Takeaway/sandwich shop,187 Brent Crescent,Park Royal,,,NW10 7XR,Ealing,AwaitingInspection,,FHRS,False,51.5351501,-0.2908798,"187 Brent Crescent, Park Royal, NW10 7XR"
+2025-12-30,1904184,Khan Chicken & Rice,Takeaway/sandwich shop,245 High Street,Acton,,,W3 9BY,Ealing,AwaitingInspection,,FHRS,False,51.5080848,-0.2744279,"245 High Street, Acton, W3 9BY"
+2025-12-30,1904179,Taste Squad / Pies And Stacks / Bhookkad,Takeaway/sandwich shop,6A Greenock Road,Acton,,,W3 8DU,Ealing,AwaitingInspection,,FHRS,False,51.4984421,-0.272415,"6A Greenock Road, Acton, W3 8DU"
+2025-12-30,1904129,RV Kebab House,Takeaway/sandwich shop,,18 St James's Street,,Nottingham,NG1 6FG,Nottingham City,AwaitingInspection,,FHRS,False,52.9530427,-1.1524688,"18 St James's Street, Nottingham, NG1 6FG"
+2025-12-30,1538350,Victoria Kebabs,Takeaway/sandwich shop,,39 Mansfield Road,,Nottingham,NG1 3FB,Nottingham City,2,2025-02-05,FHRS,False,52.958206,-1.149437,"39 Mansfield Road, Nottingham, NG1 3FB"
+2025-12-30,1904155,Deshi Spice,Takeaway/sandwich shop,,455 Llangyfelach Road,,Brynhyfryd,SA5 9LN,Abertawe,AwaitingInspection,,FHRS,False,51.643245,-3.944239,"455 Llangyfelach Road, Brynhyfryd, SA5 9LN"
+2025-12-30,1904142,Pizza and Spice,Takeaway/sandwich shop,,31a Walter Road,,City Centre,SA1 5NW,Abertawe,AwaitingInspection,,FHRS,False,51.6193401,-3.9561937,"31a Walter Road, City Centre, SA1 5NW"
+2025-12-30,1904149,Rock and Scallop,Takeaway/sandwich shop,Albert Hall,27 Cradock Street,,City Centre,SA1 3EP,Abertawe,AwaitingInspection,,FHRS,False,51.6212965,-3.94726,"Albert Hall, 27 Cradock Street, City Centre, SA1 3EP"
+2025-12-30,1904145,Tawa & Thyme,Takeaway/sandwich shop,,,,,,Abertawe,AwaitingInspection,,FHRS,False,,,
