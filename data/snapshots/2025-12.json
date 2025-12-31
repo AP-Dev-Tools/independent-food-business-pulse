@@ -270,6 +270,15 @@
       "PUB_BAR": 54175,
       "HOTEL": 16238,
       "total": 314277
+    },
+    {
+      "date": "2025-12-31",
+      "MOBILE": 31614,
+      "RESTAURANT_CAFE": 145688,
+      "TAKEAWAY": 66557,
+      "PUB_BAR": 54164,
+      "HOTEL": 16234,
+      "total": 314257
     }
   ]
 }
