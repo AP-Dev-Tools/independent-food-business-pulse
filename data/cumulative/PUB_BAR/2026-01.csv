@@ -1,0 +1,6 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2026-01-01,1904340,Wheatsheaf Inn,Pub/bar/nightclub,16 Leyland Lane,Leyland,Lancashire,,PR26 8PH,South Ribble,AwaitingInspection,,FHRS,False,53.7015482,-2.713193,"16 Leyland Lane, Leyland, Lancashire, PR26 8PH"
+2026-01-01,1904445,The Old Wheatsheaf,Pub/bar/nightclub,Public House,3 Windmill Hill,ENFIELD,,EN2 6SE,Enfield,AwaitingInspection,,FHRS,False,51.653803,-0.089688,"Public House, 3 Windmill Hill, ENFIELD, EN2 6SE"
+2026-01-01,1661857,March Bears RUFC,Pub/bar/nightclub,March Sports Association (MSA),240 Elm Road,March,Cambridgeshire,PE15 8PS,Fenland,5,2025-12-06,FHRS,False,52.5720838,0.092315,"March Sports Association (MSA), 240 Elm Road, March, Cambridgeshire, PE15 8PS"
+2026-01-01,1904456,Salisbury City Hall,Pub/bar/nightclub,CITY HALL MALTHOUSE LANE,,SALISBURY,,SP2 7TU,Wiltshire,AwaitingInspection,,FHRS,False,51.0702791,-1.8004409,"CITY HALL MALTHOUSE LANE, SALISBURY, SP2 7TU"
+2026-01-01,1904302,The Tommy Wass Pub,Pub/bar/nightclub,450 Dewsbury Road,Hunslet,Leeds,,LS11 7LJ,Leeds,AwaitingInspection,,FHRS,False,53.764748,-1.561677,"450 Dewsbury Road, Hunslet, Leeds, LS11 7LJ"
