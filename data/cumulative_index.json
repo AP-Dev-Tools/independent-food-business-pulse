@@ -1516,6 +1516,19 @@
           "count": 5
         }
       }
+    },
+    {
+      "date": "2026-01-26",
+      "files": {
+        "HOTEL": {
+          "file": "HOTEL/2026-01.csv",
+          "count": 2
+        },
+        "RESTAURANT_CAFE": {
+          "file": "RESTAURANT_CAFE/2026-01.csv",
+          "count": 2
+        }
+      }
     }
   ]
 }
