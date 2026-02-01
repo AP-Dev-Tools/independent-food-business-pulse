@@ -1654,6 +1654,15 @@
           "count": 5
         }
       }
+    },
+    {
+      "date": "2026-02-01",
+      "files": {
+        "RESTAURANT_CAFE": {
+          "file": "RESTAURANT_CAFE/2026-02.csv",
+          "count": 1
+        }
+      }
     }
   ]
 }
