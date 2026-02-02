@@ -1,0 +1,6 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2026-02-02,1912197,Big Bean Energy,Mobile caterer,,,,,,Newham,AwaitingInspection,,FHRS,False,,,
+2026-02-02,1912192,Colombican,Mobile caterer,,,,,,Newham,AwaitingInspection,,FHRS,False,,,
+2026-02-02,1912199,Miss Dumpling,Mobile caterer,,,,,,Newham,AwaitingInspection,,FHRS,False,,,
+2026-02-02,1912204,Moosha,Mobile caterer,,,,,,Newham,AwaitingInspection,,FHRS,False,,,
+2026-02-02,1912203,Spiritual Beans,Mobile caterer,19 Silvertown Way,Canning Town,London,,E16 1DH,Newham,AwaitingInspection,,FHRS,False,51.5123458,0.0100338,"19 Silvertown Way, Canning Town, London, E16 1DH"

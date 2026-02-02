@@ -1,2 +1,9 @@
 date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
 2026-02-01,1912181,Barbarella,Restaurant/Cafe/Canteen,,42 Mackenzie Walk,London,,E14 5AH,Tower Hamlets,5,2025-11-13,FHRS,False,,,"42 Mackenzie Walk, London, E14 5AH"
+2026-02-02,1904499,Super Grill,Restaurant/Cafe/Canteen,365 Victoria Avenue,Southend-on-sea,Essex,,SS2 6NH,Southend-On-Sea,4,2026-01-29,FHRS,False,51.5506148,0.7030409,"365 Victoria Avenue, Southend-on-sea, Essex, SS2 6NH"
+2026-02-02,1910793,Baked Bird,Restaurant/Cafe/Canteen,ExCel,1 Western Gateway,Canning Town,London,E16 1XL,Newham,AwaitingInspection,,FHRS,False,51.50817,0.027108,"ExCel, 1 Western Gateway, Canning Town, London, E16 1XL"
+2026-02-02,1912187,Brazilian Roots Bakery & Restaurant,Restaurant/Cafe/Canteen,Unit 13 To 13A,Market Village,70 - 73 The Mall,Stratford,E15 1XQ,Newham,AwaitingInspection,,FHRS,False,51.5419491,0.001378,"Unit 13 To 13A, Market Village, 70 - 73 The Mall, Stratford, E15 1XQ"
+2026-02-02,1853214,C4 Coffee / GarageBurger,Restaurant/Cafe/Canteen,Rear Of 386,Barking Road,Plaistow,London,E13 8HJ,Newham,2,2025-09-20,FHRS,False,51.5221163,0.0230744,"Rear Of 386, Barking Road, Plaistow, London, E13 8HJ"
+2026-02-02,1912191,Chili Padi London Ltd,Restaurant/Cafe/Canteen,3 Aquatics Walk,Stratford,London,,E20 2AS,Newham,AwaitingInspection,,FHRS,False,51.54088,-0.0121819,"3 Aquatics Walk, Stratford, London, E20 2AS"
+2026-02-02,1912188,Tamping Grounds,Restaurant/Cafe/Canteen,2 Reginald Road,Forest Gate,London,,E7 9HS,Newham,AwaitingInspection,,FHRS,False,51.542069,0.018461,"2 Reginald Road, Forest Gate, London, E7 9HS"
+2026-02-02,1912194,The Wrap Corner,Restaurant/Cafe/Canteen,437 Katherine Road,Forest Gate,London,,E7 8LS,Newham,AwaitingInspection,,FHRS,False,51.5431538,0.0363742,"437 Katherine Road, Forest Gate, London, E7 8LS"
