@@ -1,0 +1,4 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2026-02-03,1912334,The Reserve,Hotel/bed & breakfast/guest house,The Reserve Chester Zoo Moston Road,Upton,Chester,Cheshire,CH2 1GA,Cheshire West and Chester,AwaitingInspection,,FHRS,False,53.2243186,-2.8891481,"The Reserve Chester Zoo Moston Road, Upton, Chester, Cheshire, CH2 1GA"
+2026-02-03,1912273,Sablé London,Hotel/bed & breakfast/guest house,188 Wandsworth Bridge Road,London,,,SW6 2UF,Hammersmith and Fulham,AwaitingInspection,,FHRS,False,51.4704962,-0.1914848,"188 Wandsworth Bridge Road, London, SW6 2UF"
+2026-02-03,1912543,Hazel Bakes,Hotel/bed & breakfast/guest house,,,,,,Stirling,Awaiting Inspection,2026-01-26,FHIS,False,,,
