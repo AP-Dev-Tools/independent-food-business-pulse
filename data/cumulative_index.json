@@ -1751,6 +1751,31 @@
           "count": 2
         }
       }
+    },
+    {
+      "date": "2026-02-06",
+      "files": {
+        "PUB_BAR": {
+          "file": "PUB_BAR/2026-02.csv",
+          "count": 11
+        },
+        "RESTAURANT_CAFE": {
+          "file": "RESTAURANT_CAFE/2026-02.csv",
+          "count": 62
+        },
+        "TAKEAWAY": {
+          "file": "TAKEAWAY/2026-02.csv",
+          "count": 23
+        },
+        "MOBILE": {
+          "file": "MOBILE/2026-02.csv",
+          "count": 29
+        },
+        "HOTEL": {
+          "file": "HOTEL/2026-02.csv",
+          "count": 2
+        }
+      }
     }
   ]
 }
