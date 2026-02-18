@@ -1981,6 +1981,31 @@
           "count": 5
         }
       }
+    },
+    {
+      "date": "2026-02-18",
+      "files": {
+        "RESTAURANT_CAFE": {
+          "file": "RESTAURANT_CAFE/2026-02.csv",
+          "count": 103
+        },
+        "MOBILE": {
+          "file": "MOBILE/2026-02.csv",
+          "count": 32
+        },
+        "TAKEAWAY": {
+          "file": "TAKEAWAY/2026-02.csv",
+          "count": 44
+        },
+        "HOTEL": {
+          "file": "HOTEL/2026-02.csv",
+          "count": 2
+        },
+        "PUB_BAR": {
+          "file": "PUB_BAR/2026-02.csv",
+          "count": 16
+        }
+      }
     }
   ]
 }
