@@ -759,3 +759,48 @@ date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLin
 2026-02-20,1917251,Ego's Fish Bar,Takeaway/sandwich shop,3 Derby Road,Kegworth,Derby,Leicestershire,DE74 2EN,North West Leicestershire,AwaitingInspection,,FHRS,False,52.837015,-1.281105,"3 Derby Road, Kegworth, Derby, Leicestershire, DE74 2EN"
 2026-02-20,1917249,ZEEZEES Coalville ( Zeezee's Burger Shack),Takeaway/sandwich shop,10 Hotel Street,Coalville,Leicestershire,,LE67 3EP,North West Leicestershire,AwaitingInspection,,FHRS,False,52.7240068,-1.3697955,"10 Hotel Street, Coalville, Leicestershire, LE67 3EP"
 2026-02-20,1917241,Burgerbel,Takeaway/sandwich shop,31-33 Main Street,Drumhaw,Lisnaskea,Fermanagh,BT92 0JB,Fermanagh and Omagh,AwaitingInspection,,FHRS,False,54.2553036,-7.4472581,"31-33 Main Street, Drumhaw, Lisnaskea, Fermanagh, BT92 0JB"
+2026-02-21,1917568,Spice Junction,Takeaway/sandwich shop,44 Station Road,,Histon,Cambridgeshire,CB24 9LQ,South Cambridgeshire,AwaitingInspection,,FHRS,False,52.2485612,0.1074778,"44 Station Road, Histon, Cambridgeshire, CB24 9LQ"
+2026-02-21,1917689,Mazaydar Indian Takeaway,Takeaway/sandwich shop,86 Fintry Road,Dundee,,,DD4 9EZ,Dundee City,Awaiting Inspection,2026-02-20,FHIS,False,56.489101,-2.940308,"86 Fintry Road, Dundee, DD4 9EZ"
+2026-02-21,1917597,Bangkok Kitchen,Takeaway/sandwich shop,Food Stall FC0.07,Newport Provisions Market,High Street,Newport,NP20 1DD,Newport,AwaitingInspection,,FHRS,False,51.5898429,-2.9963774,"Food Stall FC0.07, Newport Provisions Market, High Street, Newport, NP20 1DD"
+2026-02-21,1917484,Pizza Tow,Takeaway/sandwich shop,357 - 359 High Road Leytonstone,,Leytonstone,London,E11 4JT,Waltham Forest,AwaitingInspection,,FHRS,True,51.555594,0.0054101,"357 - 359 High Road Leytonstone, Leytonstone, London, E11 4JT"
+2026-02-21,1917461,Freddy's Pappas Limited,Takeaway/sandwich shop,185 Union Street Torquay,,,,TQ14BY,Torbay,AwaitingInspection,,FHRS,False,50.4702459,-3.5365836,"185 Union Street Torquay, TQ14BY"
+2026-02-21,1541648,A Slice with Ice,Takeaway/sandwich shop,,,,,,West Northamptonshire,4,2024-06-13,FHRS,False,,,
+2026-02-21,1917622,Chef Weetos Bakes,Takeaway/sandwich shop,,,,,,West Northamptonshire,AwaitingInspection,,FHRS,False,,,
+2026-02-21,1917626,eatkorea,Takeaway/sandwich shop,,,,,,West Northamptonshire,AwaitingInspection,,FHRS,False,,,
+2026-02-21,1917648,Elina's Kitchen ? Caribbean-inspired food made with,Takeaway/sandwich shop,,,,,,West Northamptonshire,AwaitingInspection,,FHRS,False,,,
+2026-02-21,1917636,FR,Takeaway/sandwich shop,,,,,,West Northamptonshire,AwaitingInspection,,FHRS,False,,,
+2026-02-21,1917631,JOYOUS CUPCAKES,Takeaway/sandwich shop,,,,,,West Northamptonshire,AwaitingInspection,,FHRS,False,,,
+2026-02-21,1917642,Lilly's Bakehouse,Takeaway/sandwich shop,,,,,,West Northamptonshire,AwaitingInspection,,FHRS,False,,,
+2026-02-21,1917635,Little Slice Of Heaven,Takeaway/sandwich shop,,,,,,West Northamptonshire,AwaitingInspection,,FHRS,False,,,
+2026-02-21,1917633,Mabels Bakehouse,Takeaway/sandwich shop,,,,,,West Northamptonshire,AwaitingInspection,,FHRS,False,,,
+2026-02-21,1917548,Khavu Che,Takeaway/sandwich shop,,,,,,Leicester City,AwaitingInspection,,FHRS,False,,,
+2026-02-21,1917550,TandoorI Fresh Naan,Takeaway/sandwich shop,76 Green Lane Road,Leicester,,,LE5 3TJ,Leicester City,AwaitingInspection,,FHRS,True,52.63918,-1.103337,"76 Green Lane Road, Leicester, LE5 3TJ"
+2026-02-21,1917764,Lotus House,Takeaway/sandwich shop,132 Lea Road,Wolverhampton,West Midlands,,WV3 0LQ,Wolverhampton,AwaitingInspection,,FHRS,False,52.575528,-2.142559,"132 Lea Road, Wolverhampton, West Midlands, WV3 0LQ"
+2026-02-21,1917715,Fresh Shawarma,Takeaway/sandwich shop,,69 Weston Road,Weston Coyney,Stoke-On-Trent,ST3 6AB,Stoke-On-Trent,AwaitingInspection,,FHRS,False,52.9789105,-2.1023183,"69 Weston Road, Weston Coyney, Stoke-On-Trent, ST3 6AB"
+2026-02-21,1917722,Kebab City 80,Takeaway/sandwich shop,,80-82 Roundwell Street,Tunstall,Stoke-On-Trent,ST6 5AN,Stoke-On-Trent,AwaitingInspection,,FHRS,False,53.059452,-2.21182,"80-82 Roundwell Street, Tunstall, Stoke-On-Trent, ST6 5AN"
+2026-02-21,1852822,Luxury Burgers,Takeaway/sandwich shop,,87 Broad Street,Hanley,Stoke-On-Trent,ST1 4JQ,Stoke-On-Trent,AwaitingInspection,,FHRS,False,53.021057,-2.181042,"87 Broad Street, Hanley, Stoke-On-Trent, ST1 4JQ"
+2026-02-21,1917706,Roots Stoke,Takeaway/sandwich shop,,95 Upper Normacot Road,Longton,Stoke-On-Trent,ST3 4QG,Stoke-On-Trent,AwaitingInspection,,FHRS,False,52.98036073,-2.12080378,"95 Upper Normacot Road, Longton, Stoke-On-Trent, ST3 4QG"
+2026-02-21,1917562,Urban spoon,Takeaway/sandwich shop,Unit 6,Spring Rise,Falconer Road,Haverhill,CB9 7XU,West Suffolk,AwaitingInspection,,FHRS,False,52.073562,0.454184,"Unit 6, Spring Rise, Falconer Road, Haverhill, CB9 7XU"
+2026-02-21,1917518,McEvoys Tearooms/ Park Bench Event Catering,Takeaway/sandwich shop,,,26 Woodvale Road,Belfast,BT13 3BS,Belfast City,AwaitingInspection,,FHRS,False,54.606271,-5.960727,"26 Woodvale Road, Belfast, BT13 3BS"
+2026-02-21,1917605,Hatters Meadows,Takeaway/sandwich shop,Clayway Farm,Padnal Bank,Queen Adelaide,Ely,CB7 4UE,East Cambridgeshire,AwaitingInspection,,FHRS,False,52.4228765,0.3078318,"Clayway Farm, Padnal Bank, Queen Adelaide, Ely, CB7 4UE"
+2026-02-21,1917603,Hatters Meadows,Takeaway/sandwich shop,,,,,,East Cambridgeshire,AwaitingInspection,,FHRS,False,,,
+2026-02-21,1917733,Pal Pizza,Takeaway/sandwich shop,1a Loughill Road,,Cloughmills,Antrim,BT44 9LZ,Causeway Coast and Glens,AwaitingInspection,,FHRS,False,54.9999514,-6.3325641,"1a Loughill Road, Cloughmills, Antrim, BT44 9LZ"
+2026-02-21,1917807,Peking Chef,Takeaway/sandwich shop,177 High Street,Rainham,Gillingham,Medway,ME8 8AY,Medway,AwaitingInspection,,FHRS,True,51.3621396,0.6146198,"177 High Street, Rainham, Gillingham, Medway, ME8 8AY"
+2026-02-21,1917670,Daffy's Deli,Takeaway/sandwich shop,,4 Raise Street,Saltcoats,North Ayrshire,KA21 5JU,North Ayrshire,Awaiting Inspection,,FHIS,False,55.6341571,-4.7846694,"4 Raise Street, Saltcoats, North Ayrshire, KA21 5JU"
+2026-02-21,1917671,Sizzlick,Takeaway/sandwich shop,,28 Fleming Terrace,Irvine,North Ayrshire,KA12 0XE,North Ayrshire,Awaiting Inspection,,FHIS,False,55.6256699,-4.6695883,"28 Fleming Terrace, Irvine, North Ayrshire, KA12 0XE"
+2026-02-21,1917665,Tempura,Takeaway/sandwich shop,,19w Bank Street,Irvine,North Ayrshire,KA12 0AJ,North Ayrshire,Awaiting Inspection,,FHIS,False,55.6153283,-4.6660897,"19w Bank Street, Irvine, North Ayrshire, KA12 0AJ"
+2026-02-21,1917597,Bangkok Kitchen,Takeaway/sandwich shop,Food Stall FC0.07,Newport Provisions Market,High Street,Newport,NP20 1DD,Casnewydd,AwaitingInspection,,FHRS,False,51.5898429,-2.9963774,"Food Stall FC0.07, Newport Provisions Market, High Street, Newport, NP20 1DD"
+2026-02-21,1917776,Burger Joint,Takeaway/sandwich shop,,217 Bury Old Road,Prestwich,Manchester,M25 1JF,Bury,AwaitingInspection,,FHRS,False,53.529319,-2.266493,"217 Bury Old Road, Prestwich, Manchester, M25 1JF"
+2026-02-21,1917777,Wendy’s Thai Corner,Takeaway/sandwich shop,,8 Clifton Road,Prestwich,Manchester,M25 3HQ,Bury,AwaitingInspection,,FHRS,False,53.532356,-2.286245,"8 Clifton Road, Prestwich, Manchester, M25 3HQ"
+2026-02-21,1917663,J\&J,Takeaway/sandwich shop,2 High Flatworth,Tyne Tunnel Trading Estate,North Shields,Tyne And Wear,NE29 7UZ,North Tyneside,AwaitingInspection,,FHRS,True,55.00379,-1.48384,"2 High Flatworth, Tyne Tunnel Trading Estate, North Shields, Tyne And Wear, NE29 7UZ"
+2026-02-21,1917839,Chicken & Burger Hub,Takeaway/sandwich shop,78 Portway,Stratford,London,,E15 3QJ,Newham,AwaitingInspection,,FHRS,False,51.537001,0.013522,"78 Portway, Stratford, London, E15 3QJ"
+2026-02-21,1917841,Corimint,Takeaway/sandwich shop,2E North Crescent,Canning Town,London,,E16 4TG,Newham,AwaitingInspection,,FHRS,False,51.52334,-0.00089,"2E North Crescent, Canning Town, London, E16 4TG"
+2026-02-21,1917838,Eat Loaded,Takeaway/sandwich shop,280 Barking Road,Plaistow,London,,E13 8HR,Newham,AwaitingInspection,,FHRS,False,51.520146,0.018342,"280 Barking Road, Plaistow, London, E13 8HR"
+2026-02-21,1917828,Kimchi Lab,Takeaway/sandwich shop,237 Barking Road,Plaistow,London,,E13 8EQ,Newham,AwaitingInspection,,FHRS,False,51.51978789,0.01699106,"237 Barking Road, Plaistow, London, E13 8EQ"
+2026-02-21,1917831,Whitehorse Fisheries East Ham,Takeaway/sandwich shop,106 High Street South,East Ham,London,,E6 3RL,Newham,AwaitingInspection,,FHRS,False,51.527019,0.056029,"106 High Street South, East Ham, London, E6 3RL"
+2026-02-21,1917746,GetSchnitz,Takeaway/sandwich shop,Hollyfield School,Surbiton Hill Road,Surbiton,,KT6 4TU,Kingston-Upon-Thames,AwaitingInspection,,FHRS,False,51.396821,-0.299066,"Hollyfield School, Surbiton Hill Road, Surbiton, KT6 4TU"
+2026-02-21,1900615,Samirs Kebab,Takeaway/sandwich shop,1 Apple Market,Kingston Upon Thames,,,KT1 1JE,Kingston-Upon-Thames,AwaitingInspection,,FHRS,False,51.4090954,-0.3059095,"1 Apple Market, Kingston Upon Thames, KT1 1JE"
+2026-02-21,1917528,CHICKY'S PIRI PIRI LTD,Takeaway/sandwich shop,112 Wembley Park Drive,Wembley,,,HA9 8HS,Brent,AwaitingInspection,,FHRS,False,51.5617469,-0.2832751,"112 Wembley Park Drive, Wembley, HA9 8HS"
+2026-02-21,1838042,Chilli Bites,Takeaway/sandwich shop,Chilli Bites,159 London Road,Burgess Hill,West Sussex,RH15 8LH,Mid Sussex,3,2025-10-22,FHRS,False,50.9583209,-0.1390979,"Chilli Bites, 159 London Road, Burgess Hill, West Sussex, RH15 8LH"
+2026-02-21,1917465,Coffee On The Drive,Takeaway/sandwich shop,,,,,,South Gloucestershire,AwaitingInspection,,FHRS,False,,,
+2026-02-21,1917535,Smoky Boro,Takeaway/sandwich shop,107 Parliament Road,Middlesbrough,,,TS1 4JE,Middlesbrough,AwaitingInspection,,FHRS,False,54.569252,-1.250138,"107 Parliament Road, Middlesbrough, TS1 4JE"
