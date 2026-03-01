@@ -2232,6 +2232,15 @@
           "count": 170
         }
       }
+    },
+    {
+      "date": "2026-03-01",
+      "files": {
+        "RESTAURANT_CAFE": {
+          "file": "RESTAURANT_CAFE/2026-03.csv",
+          "count": 1
+        }
+      }
     }
   ]
 }
