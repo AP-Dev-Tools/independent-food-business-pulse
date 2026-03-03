@@ -1,0 +1,56 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2026-03-03,986884,"Midlands Whippy, KV60 WRW, FJ72 WMC",Mobile caterer,,,,,,Nottingham City,5,2017-10-03,FHRS,False,,,
+2026-03-03,1920259,Sandy Takeaway,Mobile caterer,,,,,,Nottingham City,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1427889,TCITY,Mobile caterer,,,,,,Kingston-Upon-Thames,5,2026-02-26,FHRS,False,,,
+2026-03-03,1920238,Bark Ember,Mobile caterer,,,,,,Chelmsford,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920243,Mollys Lollys,Mobile caterer,,,,,,Chelmsford,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920090,The little oven,Mobile caterer,,,,,,Cheshire West and Chester,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920456,Sausage Stop,Mobile caterer,,,,,,Watford,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920448,The Filling Station,Mobile caterer,28 - 30 Greenhill Crescent,Watford,,,WD18 8JU,Watford,AwaitingInspection,,FHRS,False,51.6430127,-0.4257487,"28 - 30 Greenhill Crescent, Watford, WD18 8JU"
+2026-03-03,1920449,Yasmitas Kitchen,Mobile caterer,,,,,,Watford,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920315,Charlie Big Spuds,Mobile caterer,303 Chesterfield Road North,,Pleasley,Nottinghamshire,NG19 7QZ,Mansfield,AwaitingInspection,,FHRS,False,,,"303 Chesterfield Road North, Pleasley, Nottinghamshire, NG19 7QZ"
+2026-03-03,1920290,Desserts,Mobile caterer,The Old Sub Station Longster Lane,,Warsop Vale,Nottinghamshire,,Mansfield,AwaitingInspection,,FHRS,False,,,"The Old Sub Station Longster Lane, Warsop Vale, Nottinghamshire"
+2026-03-03,1920316,The Smoking Dough Pizza Co,Mobile caterer,,,,,,Mansfield,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920110,Meat And Greek,Mobile caterer,Meat And Greek Sully Moors Road,,Sully,Vale Of Glamorgan,CF64 5RP,Bro Morgannwg,AwaitingInspection,,FHRS,False,,,"Meat And Greek Sully Moors Road, Sully, Vale Of Glamorgan, CF64 5RP"
+2026-03-03,1920340,E & S Jenkins Ltd,Mobile caterer,Llwynon Johns Terrace,Llandeilo Road,Gorslas,Llanelli,SA14 7SD,Sir Gaerfyrddin,AwaitingInspection,,FHRS,False,,,"Llwynon Johns Terrace, Llandeilo Road, Gorslas, Llanelli, SA14 7SD"
+2026-03-03,1920323,Y Gegin Fach Binc,Mobile caterer,,,,,,Sir Gaerfyrddin,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920143,Chick & Load,Mobile caterer,,,,,,Caerdydd,5,2026-02-23,FHRS,False,,,
+2026-03-03,1920152,Coffee & Matcha More,Mobile caterer,,,,,,Caerdydd,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920140,Firelight,Mobile caterer,,,,,,Caerdydd,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920159,Wild Wood,Mobile caterer,,,,,,Caerdydd,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920281,Stable Door,Mobile caterer,34a High Street,,Holywood,,BT18 9AD,Ards and North Down,AwaitingInspection,,FHRS,False,54.6420972,-5.8337004,"34a High Street, Holywood, BT18 9AD"
+2026-03-03,1920210,Petit Miracles,Mobile caterer,30 Shepherd's Bush Green,London,,,W12 8RE,Hammersmith and Fulham,AwaitingInspection,,FHRS,False,51.5037807,-0.2201003,"30 Shepherd's Bush Green, London, W12 8RE"
+2026-03-03,1920340,E & S Jenkins Ltd,Mobile caterer,Llwynon Johns Terrace,Llandeilo Road,Gorslas,Llanelli,SA14 7SD,Carmarthenshire,AwaitingInspection,,FHRS,False,,,"Llwynon Johns Terrace, Llandeilo Road, Gorslas, Llanelli, SA14 7SD"
+2026-03-03,1920323,Y Gegin Fach Binc,Mobile caterer,,,,,,Carmarthenshire,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920173,The Rustic Crust,Mobile caterer,270 Conway Road,Mochdre,Colwyn Bay,Conwy,LL28 5DS,Conwy,AwaitingInspection,,FHRS,False,53.2920645,-3.7624861,"270 Conway Road, Mochdre, Colwyn Bay, Conwy, LL28 5DS"
+2026-03-03,1920443,Luma Del Mondo,Mobile caterer,,,,,,Three Rivers,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920219,The Potato Man,Mobile caterer,,,,,,West Lindsey,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920418,The Mexican Mashed,Mobile caterer,,,,,,Newham,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920422,TheCaffeinator,Mobile caterer,,,,,,Newham,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920110,Meat And Greek,Mobile caterer,Meat And Greek Sully Moors Road,,Sully,Vale Of Glamorgan,CF64 5RP,Vale of Glamorgan,AwaitingInspection,,FHRS,False,,,"Meat And Greek Sully Moors Road, Sully, Vale Of Glamorgan, CF64 5RP"
+2026-03-03,1920143,Chick & Load,Mobile caterer,,,,,,Cardiff,5,2026-02-23,FHRS,False,,,
+2026-03-03,1920152,Coffee & Matcha More,Mobile caterer,,,,,,Cardiff,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920140,Firelight,Mobile caterer,,,,,,Cardiff,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920159,Wild Wood,Mobile caterer,,,,,,Cardiff,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920382,Gango Kitchen,Mobile caterer,1 Raymond Road,Spencer,Northampton,NN5 7DX,NN5 7DX,West Northamptonshire,AwaitingInspection,,FHRS,False,52.2429334,-0.9112803,"1 Raymond Road, Spencer, Northampton, NN5 7DX, NN5 7DX"
+2026-03-03,1920398,Saints pizza company,Mobile caterer,65 Kingsway,Northampton,NN2 8HN,,NN2 8HN,West Northamptonshire,AwaitingInspection,,FHRS,False,52.2654357,-0.9091614,"65 Kingsway, Northampton, NN2 8HN, NN2 8HN"
+2026-03-03,1920385,The Flava Traila,Mobile caterer,23 College Street,Northampton,NN1 2FY,,NN1 2FY,West Northamptonshire,AwaitingInspection,,FHRS,False,,,"23 College Street, Northampton, NN1 2FY, NN1 2FY"
+2026-03-03,1920367,The Food Van,Mobile caterer,35A The Manor,Billing Garden Village,The Causeway,Great Billing,NN3 9EX,West Northamptonshire,AwaitingInspection,,FHRS,False,52.2447594,-0.8081493,"35A The Manor, Billing Garden Village, The Causeway, Great Billing, NN3 9EX"
+2026-03-03,1920046,Bean Towed @,Mobile caterer,Urban Self Store,Colonels Walk,Pontefract,,WF8 4PJ,Wakefield,AwaitingInspection,,FHRS,False,,,"Urban Self Store, Colonels Walk, Pontefract, WF8 4PJ"
+2026-03-03,1920050,The Yorkshire Kitchen,Mobile caterer,Unit C9,Ashmount Industrial Park Ford Street,Kinsley,Pontefract,WF9 5EE,Wakefield,5,2025-05-19,FHRS,False,,,"Unit C9, Ashmount Industrial Park Ford Street, Kinsley, Pontefract, WF9 5EE"
+2026-03-03,1920270,Dad and Daughters Pizza Ltd,Mobile caterer,3 Owers Close,Rattlesden,BURY ST EDMUNDS,Suffolk,IP30 0SL,Mid Suffolk,AwaitingInspection,,FHRS,False,52.1906017,0.8916277,"3 Owers Close, Rattlesden, BURY ST EDMUNDS, Suffolk, IP30 0SL"
+2026-03-03,1863833,Bliss Fast Food,Mobile caterer,Unit 27 Reed Business Park Balby Carr Bank,Balby,Doncaster,,DN4 8DP,Doncaster,5,2026-02-26,FHRS,False,53.5068748,-1.1406246,"Unit 27 Reed Business Park Balby Carr Bank, Balby, Doncaster, DN4 8DP"
+2026-03-03,1920193,Cherry Tree Food Truck,Mobile caterer,,,,,,Doncaster,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920192,Mr CCC Catering - Salt & Pepper Chicken,Mobile caterer,,,,,,Doncaster,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920191,Mr CCC's,Mobile caterer,,,,,,Doncaster,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920184,Rico,Mobile caterer,,,,,,Doncaster,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920183,The Nest,Mobile caterer,,,,,,Doncaster,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920360,NORTH BAY BITES,Mobile caterer,,,,,,North Yorkshire,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920344,Poppy Coffee and Vintage teas,Mobile caterer,,,,,,North Yorkshire,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920351,The Epicurean Duo,Mobile caterer,,,,,,North Yorkshire,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920133,Yum Treats Mr Whippy,Mobile caterer,,,,,,Slough,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920209,JR’s Swirls,Mobile caterer,,,,,,Mid and East Antrim,AwaitingInspection,,FHRS,False,,,
+2026-03-03,872022,Wayside Diner,Mobile caterer,,,,,,Fife,Pass,2025-02-21,FHIS,False,,,
+2026-03-03,1920469,Darideli pizza,Mobile caterer,,,,,,Cherwell,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1840551,The Blue King,Mobile caterer,,,,,,Cherwell,5,2025-02-12,FHRS,False,,,
+2026-03-03,1920173,The Rustic Crust,Mobile caterer,270 Conway Road,Mochdre,Colwyn Bay,Conwy,LL28 5DS,Conwy,AwaitingInspection,,FHRS,False,53.2920645,-3.7624861,"270 Conway Road, Mochdre, Colwyn Bay, Conwy, LL28 5DS"

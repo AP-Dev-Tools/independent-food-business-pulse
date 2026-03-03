@@ -1,0 +1,10 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2026-03-03,1875212,Travelodge London Beckenham,Hotel/bed & breakfast/guest house,75 High Street,,Beckenham,,BR3 1AN,Bromley,5,2025-11-27,FHRS,False,51.4075202,-0.0260096,"75 High Street, Beckenham, BR3 1AN"
+2026-03-03,1920237,The Lion,Hotel/bed & breakfast/guest house,The Lion Inn,Main Road,Boreham,Chelmsford,CM3 3JA,Chelmsford,AwaitingInspection,,FHRS,False,51.7599955,0.5352448,"The Lion Inn, Main Road, Boreham, Chelmsford, CM3 3JA"
+2026-03-03,872243,Oasis Hotel,Hotel/bed & breakfast/guest house,2 Hart Road,Old Harlow,Essex,,CM17 0HL,Harlow,AwaitingInspection,,FHRS,True,51.791979,0.134517,"2 Hart Road, Old Harlow, Essex, CM17 0HL"
+2026-03-03,1920322,The Wild Boar Guest House,Hotel/bed & breakfast/guest house,Manordaf,Bridge Street,St Clears,Carmarthen,SA33 4EW,Sir Gaerfyrddin,5,2026-02-17,FHRS,False,51.810222,-4.494316,"Manordaf, Bridge Street, St Clears, Carmarthen, SA33 4EW"
+2026-03-03,1830503,CitizenM London Olympia Hotel,Hotel/bed & breakfast/guest house,Olympia Exhibition Centre,Hammersmith Road,London,,W14 8UX,Hammersmith and Fulham,AwaitingInspection,,FHRS,False,51.496651,-0.210569,"Olympia Exhibition Centre, Hammersmith Road, London, W14 8UX"
+2026-03-03,1920212,Temple Lodge Club,Hotel/bed & breakfast/guest house,Temple Lodge,51 Queen Caroline Street,London,,W6 9QL,Hammersmith and Fulham,AwaitingInspection,,FHRS,False,51.490258,-0.225412,"Temple Lodge, 51 Queen Caroline Street, London, W6 9QL"
+2026-03-03,1920322,The Wild Boar Guest House,Hotel/bed & breakfast/guest house,Manordaf,Bridge Street,St Clears,Carmarthen,SA33 4EW,Carmarthenshire,5,2026-02-17,FHRS,False,51.810222,-4.494316,"Manordaf, Bridge Street, St Clears, Carmarthen, SA33 4EW"
+2026-03-03,1920359,Church Farm,Hotel/bed & breakfast/guest house,,,,,,North Yorkshire,AwaitingInspection,,FHRS,False,,,
+2026-03-03,1920358,The Green at Burnsall,Hotel/bed & breakfast/guest house,,,,,,North Yorkshire,AwaitingInspection,,FHRS,False,,,
