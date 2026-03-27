@@ -2756,6 +2756,31 @@
           "count": 6
         }
       }
+    },
+    {
+      "date": "2026-03-27",
+      "files": {
+        "MOBILE": {
+          "file": "MOBILE/2026-03.csv",
+          "count": 45
+        },
+        "TAKEAWAY": {
+          "file": "TAKEAWAY/2026-03.csv",
+          "count": 52
+        },
+        "PUB_BAR": {
+          "file": "PUB_BAR/2026-03.csv",
+          "count": 20
+        },
+        "RESTAURANT_CAFE": {
+          "file": "RESTAURANT_CAFE/2026-03.csv",
+          "count": 98
+        },
+        "HOTEL": {
+          "file": "HOTEL/2026-03.csv",
+          "count": 3
+        }
+      }
     }
   ]
 }
