@@ -2230,3 +2230,139 @@ date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLin
 2026-03-30,1929597,Vieni,Restaurant/Cafe/Canteen,41 Pitsford Street,Ladywood,Birmingham,,B18 6LJ,Birmingham,AwaitingInspection,,FHRS,False,52.4891595,-1.9144591,"41 Pitsford Street, Ladywood, Birmingham, B18 6LJ"
 2026-03-30,1929585,Yummy Meal,Restaurant/Cafe/Canteen,37 Pinfold Street,Birmingham,,,B2 4DG,Birmingham,AwaitingInspection,,FHRS,False,52.478599,-1.900703,"37 Pinfold Street, Birmingham, B2 4DG"
 2026-03-30,1929608,Yun Bistro,Restaurant/Cafe/Canteen,Dean House,38 Upper Dean Street,Birmingham,,B5 4SG,Birmingham,AwaitingInspection,,FHRS,False,52.4754862,-1.8940903,"Dean House, 38 Upper Dean Street, Birmingham, B5 4SG"
+2026-03-31,1929741,Simply Tea-licious Cafe,Restaurant/Cafe/Canteen,13 Bridge Street,Thrapston,Kettering,,NN14 4JW,North Northamptonshire,5,2026-03-10,FHRS,False,52.3964262,-0.541282,"13 Bridge Street, Thrapston, Kettering, NN14 4JW"
+2026-03-31,1126172,Bristol Road Baptist Church,Restaurant/Cafe/Canteen,,1 Southside,Weston-Super-Mare,,BS23 2QS,North Somerset,5,2026-03-04,FHRS,False,51.351927,-2.9764677,"1 Southside, Weston-Super-Mare, BS23 2QS"
+2026-03-31,1929840,Red Rose,Restaurant/Cafe/Canteen,,23-25 Old Church Road,Clevedon,,BS21 6LU,North Somerset,AwaitingInspection,,FHRS,True,51.4361417,-2.8539193,"23-25 Old Church Road, Clevedon, BS21 6LU"
+2026-03-31,1929841,Searock Restaurant,Restaurant/Cafe/Canteen,,313 Newfoundland Way,Portishead,Bristol,BS20 7QH,North Somerset,AwaitingInspection,,FHRS,True,51.4913571,-2.7576653,"313 Newfoundland Way, Portishead, Bristol, BS20 7QH"
+2026-03-31,1929687,The Monkey Puzzle Project (Chesterfield),Restaurant/Cafe/Canteen,14 Broad Pavement,,,Chesterfield,S40 1RP,Chesterfield,AwaitingInspection,,FHRS,False,53.2369399,-1.4262326,"14 Broad Pavement, Chesterfield, S40 1RP"
+2026-03-31,1862921,Bombay,Restaurant/Cafe/Canteen,11 High Street,Brownhills,,West Midlands,WS6 6ED,Walsall,5,2026-02-10,FHRS,False,,,"11 High Street, Brownhills, West Midlands, WS6 6ED"
+2026-03-31,1929822,The Sun Inn Community Pub Limited,Restaurant/Cafe/Canteen,Village Road Eryrys,,Mold,,CH7 4BX,Denbighshire,AwaitingInspection,,FHRS,False,,,"Village Road Eryrys, Mold, CH7 4BX"
+2026-03-31,1929654,RockSalt Kitchen & Bar,Restaurant/Cafe/Canteen,18 Frances Street,Corporation North,Newtownards,Down,BT23 7DN,Ards and North Down,AwaitingInspection,,FHRS,False,54.593818,-5.694506,"18 Frances Street, Corporation North, Newtownards, Down, BT23 7DN"
+2026-03-31,1929656,The Happy Coffee Bean / Netty's,Restaurant/Cafe/Canteen,2c-2d King Street,,Bangor,,BT20 3AH,Ards and North Down,5,2025-04-01,FHRS,False,54.66163,-5.6686893,"2c-2d King Street, Bangor, BT20 3AH"
+2026-03-31,1929796,Acento,Restaurant/Cafe/Canteen,,10 Kings Road,Clifton,Bristol,BS8 4AB,Bristol,AwaitingInspection,,FHRS,False,51.455542,-2.618598,"10 Kings Road, Clifton, Bristol, BS8 4AB"
+2026-03-31,1843044,Amics,Restaurant/Cafe/Canteen,,138-140 Stapleton Road,Easton,Bristol,BS5 0PU,Bristol,AwaitingInspection,,FHRS,True,51.4622054,-2.5722699,"138-140 Stapleton Road, Easton, Bristol, BS5 0PU"
+2026-03-31,1929781,El Buen Sazon,Restaurant/Cafe/Canteen,,,,,,Bristol,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1929795,Gongfu Noodle Bar,Restaurant/Cafe/Canteen,,8 Victoria Road,St Philips,Bristol,BS2 0UJ,Bristol,AwaitingInspection,,FHRS,False,51.448219,-2.575257,"8 Victoria Road, St Philips, Bristol, BS2 0UJ"
+2026-03-31,1929799,Lokal Food,Restaurant/Cafe/Canteen,,,,,,Bristol,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1929783,Magic Hamper House,Restaurant/Cafe/Canteen,,,,,,Bristol,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1929802,Natalie’s Bakehouse,Restaurant/Cafe/Canteen,,,,,,Bristol,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1929782,Our Cheesecake Story,Restaurant/Cafe/Canteen,,,,,,Bristol,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1929786,Persian Kebab,Restaurant/Cafe/Canteen,Unit 3 Clifton Down Station,Whiteladies Road,Clifton,Bristol,BS8 2PN,Bristol,AwaitingInspection,,FHRS,False,51.4648371,-2.6102356,"Unit 3 Clifton Down Station, Whiteladies Road, Clifton, Bristol, BS8 2PN"
+2026-03-31,1929792,Serranito,Restaurant/Cafe/Canteen,,87-89 Park Street,City Centre,Bristol,BS1 5PJ,Bristol,AwaitingInspection,,FHRS,False,51.455373,-2.604477,"87-89 Park Street, City Centre, Bristol, BS1 5PJ"
+2026-03-31,1929791,St. George Bowls & Social Club,Restaurant/Cafe/Canteen,St. George Park Pavillion St George Park,Church Road,Whitehall,Bristol,BS5 7AA,Bristol,AwaitingInspection,,FHRS,False,,,"St. George Park Pavillion St George Park, Church Road, Whitehall, Bristol, BS5 7AA"
+2026-03-31,1929785,The Criminal Bakery,Restaurant/Cafe/Canteen,,,,,,Bristol,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1929798,The Jammy Pickled Lady,Restaurant/Cafe/Canteen,,,,,,Bristol,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1929784,Vherbalkitchen,Restaurant/Cafe/Canteen,,87-89 Park Street,City Centre,Bristol,BS1 5PJ,Bristol,AwaitingInspection,,FHRS,False,51.455373,-2.604477,"87-89 Park Street, City Centre, Bristol, BS1 5PJ"
+2026-03-31,1929797,Vibrational Water,Restaurant/Cafe/Canteen,,,,,,Bristol,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1929787,Wheaty Bakery,Restaurant/Cafe/Canteen,,,,,,Bristol,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1665177,Indra Park Air (The Lounge),Restaurant/Cafe/Canteen,Park Air Systems,Whitley Way,Northfields Industrial Estate,Market Deeping,PE6 8UE,South Kesteven,5,2026-03-25,FHRS,False,,,"Park Air Systems, Whitley Way, Northfields Industrial Estate, Market Deeping, PE6 8UE"
+2026-03-31,1929682,Creigiau Recreation Charity,Restaurant/Cafe/Canteen,,,,,,Cardiff,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1929672,Cwtch Khana,Restaurant/Cafe/Canteen,108 Forgeside House Cardiff Bay Business Centre Forgeside Close,Splott,Cardiff,,CF24 5FA,Cardiff,AwaitingInspection,,FHRS,False,51.4764791,-3.1541048,"108 Forgeside House Cardiff Bay Business Centre Forgeside Close, Splott, Cardiff, CF24 5FA"
+2026-03-31,1929679,Grand Indian,Restaurant/Cafe/Canteen,151 Crwys Road,Cathays,Cardiff,,CF24 4XT,Cardiff,AwaitingInspection,,FHRS,False,51.4965154,-3.1812652,"151 Crwys Road, Cathays, Cardiff, CF24 4XT"
+2026-03-31,1174074,Jo’s Coffee Shop & Sandwich Bar,Restaurant/Cafe/Canteen,,2 Ashwell Avenue,,Luton,LU3 3AX,Luton,AwaitingInspection,,FHRS,False,51.9196342,-0.4723476,"2 Ashwell Avenue, Luton, LU3 3AX"
+2026-03-31,1929728,Tops Pizza - West Drayton,Restaurant/Cafe/Canteen,,91 High Street,,Yiewsley,UB7 7QH,Hillingdon,AwaitingInspection,,FHRS,False,51.51286,-0.472931,"91 High Street, Yiewsley, UB7 7QH"
+2026-03-31,1929892,Chick N Shake,Restaurant/Cafe/Canteen,560 Rayleigh Road,Eastwood,Essex,,SS9 5HX,Southend-On-Sea,AwaitingInspection,,FHRS,False,51.572835,0.639817,"560 Rayleigh Road, Eastwood, Essex, SS9 5HX"
+2026-03-31,1910868,The Sultan Lounge,Restaurant/Cafe/Canteen,708 - 710 Southchurch Road,Southend-on-sea,Essex,,SS1 2PS,Southend-On-Sea,1,2026-01-09,FHRS,False,51.5410973,0.7364716,"708 - 710 Southchurch Road, Southend-on-sea, Essex, SS1 2PS"
+2026-03-31,1929732,Downfield Golf Club Kitchen,Restaurant/Cafe/Canteen,Turnberry Avenue,Dundee,,,DD2 3QP,Dundee City,Pass,2026-03-05,FHIS,False,56.4892044067383,-3.02717900276184,"Turnberry Avenue, Dundee, DD2 3QP"
+2026-03-31,1929735,Wendys,Restaurant/Cafe/Canteen,26-28 Reform Street,Dundee,,,DD1 1RH,Dundee City,Pass,2026-03-25,FHIS,False,56.4610575,-2.9711626,"26-28 Reform Street, Dundee, DD1 1RH"
+2026-03-31,1929767,Indi-ish,Restaurant/Cafe/Canteen,4 Rawmarsh Road,Sunderland,,,SR5 5HF,Sunderland,AwaitingInspection,,FHRS,False,54.9273847,-1.4367359,"4 Rawmarsh Road, Sunderland, SR5 5HF"
+2026-03-31,1929822,The Sun Inn Community Pub Limited,Restaurant/Cafe/Canteen,Village Road Eryrys,,Mold,,CH7 4BX,Sir Ddinbych,AwaitingInspection,,FHRS,False,,,"Village Road Eryrys, Mold, CH7 4BX"
+2026-03-31,1929682,Creigiau Recreation Charity,Restaurant/Cafe/Canteen,,,,,,Caerdydd,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1929672,Cwtch Khana,Restaurant/Cafe/Canteen,108 Forgeside House Cardiff Bay Business Centre Forgeside Close,Splott,Cardiff,,CF24 5FA,Caerdydd,AwaitingInspection,,FHRS,False,51.4764791,-3.1541048,"108 Forgeside House Cardiff Bay Business Centre Forgeside Close, Splott, Cardiff, CF24 5FA"
+2026-03-31,1929679,Grand Indian,Restaurant/Cafe/Canteen,151 Crwys Road,Cathays,Cardiff,,CF24 4XT,Caerdydd,AwaitingInspection,,FHRS,False,51.4965154,-3.1812652,"151 Crwys Road, Cathays, Cardiff, CF24 4XT"
+2026-03-31,1910250,Pick Your Own,Restaurant/Cafe/Canteen,G01,8 Broadgate,London,,EC2M 2QS,City of London Corporation,AwaitingInspection,,FHRS,False,,,"G01, 8 Broadgate, London, EC2M 2QS"
+2026-03-31,1929661,Cafe express,Restaurant/Cafe/Canteen,173 Caerau Road,Caerau,Maesteg,Bridgend,CF34 0PD,Bridgend,AwaitingInspection,,FHRS,False,51.6355911,-3.6547836,"173 Caerau Road, Caerau, Maesteg, Bridgend, CF34 0PD"
+2026-03-31,1929661,Cafe express,Restaurant/Cafe/Canteen,173 Caerau Road,Caerau,Maesteg,Bridgend,CF34 0PD,Pen-y-bont ar Ogwr,AwaitingInspection,,FHRS,False,51.6355911,-3.6547836,"173 Caerau Road, Caerau, Maesteg, Bridgend, CF34 0PD"
+2026-03-31,1929750,500 Degrees Clapham,Restaurant/Cafe/Canteen,Business,71 Clapham Common South Side,London,,SW4 9DA,Lambeth,AwaitingInspection,,FHRS,False,51.4560925,-0.1438762,"Business, 71 Clapham Common South Side, London, SW4 9DA"
+2026-03-31,1929760,Arma Fusion,Restaurant/Cafe/Canteen,161 - 163 Greyhound Lane,London,,,SW16 5NJ,Lambeth,5,2026-02-18,FHRS,False,51.4219607,-0.1294661,"161 - 163 Greyhound Lane, London, SW16 5NJ"
+2026-03-31,1929759,China Kitchen,Restaurant/Cafe/Canteen,4 Lansdowne Hill,London,,,SE27 0AR,Lambeth,AwaitingInspection,,FHRS,False,51.434482,-0.104995,"4 Lansdowne Hill, London, SE27 0AR"
+2026-03-31,1929747,Noma,Restaurant/Cafe/Canteen,84 The Cut,London,,,SE1 8LW,Lambeth,AwaitingInspection,,FHRS,True,51.503046,-0.108103,"84 The Cut, London, SE1 8LW"
+2026-03-31,1929752,Paris Baguette Southbank,Restaurant/Cafe/Canteen,26 Casson Square,London,,,SE1 7BQ,Lambeth,AwaitingInspection,,FHRS,False,51.504437,-0.1158117,"26 Casson Square, London, SE1 7BQ"
+2026-03-31,1929753,SW Camel Coffee Shop,Restaurant/Cafe/Canteen,302 Streatham High Road,London,,,SW16 6HG,Lambeth,AwaitingInspection,,FHRS,False,51.4278181,-0.1313559,"302 Streatham High Road, London, SW16 6HG"
+2026-03-31,1929749,Top Coffee,Restaurant/Cafe/Canteen,131 Streatham Vale,London,,,SW16 5SP,Lambeth,5,2026-03-20,FHRS,False,51.4145137,-0.1401532,"131 Streatham Vale, London, SW16 5SP"
+2026-03-31,1929814,Brox Chippy,Restaurant/Cafe/Canteen,,184 Broxtowe Lane,,Nottingham,NG8 5NG,Nottingham City,AwaitingInspection,,FHRS,False,52.979431,-1.208208,"184 Broxtowe Lane, Nottingham, NG8 5NG"
+2026-03-31,1929804,Chefs Hut,Restaurant/Cafe/Canteen,,14 Alfreton Road,,Nottingham,NG7 3NG,Nottingham City,AwaitingInspection,,FHRS,False,52.956656,-1.162835,"14 Alfreton Road, Nottingham, NG7 3NG"
+2026-03-31,1901398,ALBAIK PERI PERI CHICKEN,Restaurant/Cafe/Canteen,170 London Road,,Mitcham,Merton,CR4 3LD,Merton,AwaitingInspection,,FHRS,False,51.4106955,-0.1619605,"170 London Road, Mitcham, Merton, CR4 3LD"
+2026-03-31,1811006,Altaf's Kitchen,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1868142,Amanda Berry,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,718457,Anas Cafe,Restaurant/Cafe/Canteen,31 - 33 Weir Road,,Wimbledon,Merton,SW19 8UG,Merton,5,2024-04-15,FHRS,False,51.4346869,-0.1932299,"31 - 33 Weir Road, Wimbledon, Merton, SW19 8UG"
+2026-03-31,1895851,Aria Artisan Pizza,Restaurant/Cafe/Canteen,12 Pope Close,,Colliers Wood,Merton,SW19 1TT,Merton,AwaitingInspection,,FHRS,False,51.4226098,-0.1781286,"12 Pope Close, Colliers Wood, Merton, SW19 1TT"
+2026-03-31,1800706,Arthur's Catering,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1840496,Babida Drinks Limited,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1875668,Bengalicious,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1883368,Berry and Crepe,Restaurant/Cafe/Canteen,116 Haydons Road,,Wimbledon,Merton,,Merton,AwaitingInspection,,FHRS,False,,,"116 Haydons Road, Wimbledon, Merton"
+2026-03-31,1811001,Billie's Bakes,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1862662,Catch a Vibe LDN,Restaurant/Cafe/Canteen,Karma Kitchen 18 Weir Road,,Wimbledon,Merton,SW19 8UG,Merton,AwaitingInspection,,FHRS,False,51.4323525,-0.1911352,"Karma Kitchen 18 Weir Road, Wimbledon, Merton, SW19 8UG"
+2026-03-31,1901402,Chicken Cottage Mitcham,Restaurant/Cafe/Canteen,31 Monarch Parade London Road,,Mitcham,Merton,CR4 3HA,Merton,AwaitingInspection,,FHRS,False,51.408873,-0.1630473,"31 Monarch Parade London Road, Mitcham, Merton, CR4 3HA"
+2026-03-31,1883366,CREAT BASE,Restaurant/Cafe/Canteen,Units 23 & 4 18 Weir Road,,Wimbledon,Merton,SW19 8UG,Merton,AwaitingInspection,,FHRS,False,51.4323525,-0.1911352,"Units 23 & 4 18 Weir Road, Wimbledon, Merton, SW19 8UG"
+2026-03-31,1833016,"Eat Me Treat Me, Cakes by Tracey",Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1862661,Homie Scones,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1810995,KDE Kitchen,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1854361,Last Bite,Restaurant/Cafe/Canteen,164 The Broadway,,Wimbledon,Merton,SW19 1RX,Merton,AwaitingInspection,,FHRS,False,51.4193302,-0.1982267,"164 The Broadway, Wimbledon, Merton, SW19 1RX"
+2026-03-31,1848822,Lunara Health,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1905563,Milan's Barkery,Restaurant/Cafe/Canteen,12 Evesham Road,,Morden,Merton,SM4 6PP,Merton,AwaitingInspection,,FHRS,False,51.388971,-0.1934355,"12 Evesham Road, Morden, Merton, SM4 6PP"
+2026-03-31,1854364,Mitalu Limited,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1824540,Mudasser Ahmad,Restaurant/Cafe/Canteen,308 Haydons Road,,Wimbledon,Merton,SW19 8JZ,Merton,AwaitingInspection,,FHRS,False,51.4271094,-0.1909937,"308 Haydons Road, Wimbledon, Merton, SW19 8JZ"
+2026-03-31,1848824,Naina's Catering and Event Services,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1827453,Obaa Yaa Kitchen,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1865019,Pekos London Limited,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1844559,Platinum Events Catering,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1805627,Rockin Ribs,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1901389,Rooroobakes,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1827454,Shaka Cafe,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1798025,Shery's Kitchen,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1788378,Shmarrn Fluffy Pancakes,Restaurant/Cafe/Canteen,256A London Road,,Mitcham,Merton,CR4 3HD,Merton,AwaitingInspection,,FHRS,False,51.406458,-0.1644989,"256A London Road, Mitcham, Merton, CR4 3HD"
+2026-03-31,1616371,Sports Focus Coaching LTD,Restaurant/Cafe/Canteen,Singlegate Primary School South Gardens,,Colliers Wood,Merton,SW19 2NT,Merton,AwaitingInspection,,FHRS,False,51.4173479,-0.1759003,"Singlegate Primary School South Gardens, Colliers Wood, Merton, SW19 2NT"
+2026-03-31,1798016,STEAM QUEENS COFFEE LIMITED,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1800704,Sunny Kitchen,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1929651,Taitussi Bakery,Restaurant/Cafe/Canteen,Unit 9 Karma Kitchen 18 Weir Road,,Wimbledon,Merton,SW19 8UG,Merton,5,2024-10-22,FHRS,False,51.4323525,-0.1911352,"Unit 9 Karma Kitchen 18 Weir Road, Wimbledon, Merton, SW19 8UG"
+2026-03-31,1890134,Tasty Twist,Restaurant/Cafe/Canteen,4 - 6 Crown Lane,,Morden,Merton,SM4 5BL,Merton,AwaitingInspection,,FHRS,False,51.4019947,-0.1953307,"4 - 6 Crown Lane, Morden, Merton, SM4 5BL"
+2026-03-31,1886226,The Origin,Restaurant/Cafe/Canteen,Unit 15/16 Lombard Business Park 8 Lombard Road,,Wimbledon,Merton,SW19 3TZ,Merton,AwaitingInspection,,FHRS,False,51.4084533,-0.1899094,"Unit 15/16 Lombard Business Park 8 Lombard Road, Wimbledon, Merton, SW19 3TZ"
+2026-03-31,1875671,The Queen Egg Cafe,Restaurant/Cafe/Canteen,Unit 10 The Long Shop 16 Watermill Way,,Colliers Wood,Merton,SW19 2RD,Merton,AwaitingInspection,,FHRS,False,51.4130171,-0.1831823,"Unit 10 The Long Shop 16 Watermill Way, Colliers Wood, Merton, SW19 2RD"
+2026-03-31,1886235,Top View London Ltd,Restaurant/Cafe/Canteen,43 Weir Road,,Wimbledon,Merton,SW19 8UG,Merton,AwaitingInspection,,FHRS,False,51.4357309,-0.1926996,"43 Weir Road, Wimbledon, Merton, SW19 8UG"
+2026-03-31,1875665,Triple L Parties,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1857990,Urban Baristas,Restaurant/Cafe/Canteen,Lsu4a Wimbledon Quarter 4 Queen's Road,,Wimbledon,Merton,SW19 8ND,Merton,AwaitingInspection,,FHRS,False,51.421679,-0.2040874,"Lsu4a Wimbledon Quarter 4 Queen's Road, Wimbledon, Merton, SW19 8ND"
+2026-03-31,1824541,Victoria's Coffee Limited,Restaurant/Cafe/Canteen,Mitcham Junction Railway Station Carshalton Road,,Mitcham,Merton,CR4 4HN,Merton,AwaitingInspection,,FHRS,False,51.3930085,-0.1576137,"Mitcham Junction Railway Station Carshalton Road, Mitcham, Merton, CR4 4HN"
+2026-03-31,1886234,Vietstop,Restaurant/Cafe/Canteen,,,,,,Merton,AwaitingInspection,,FHRS,False,,,
+2026-03-31,1901401,Yaki Sarsa Ltd,Restaurant/Cafe/Canteen,30 Abbotsbury Road,,Morden,Merton,SM4 5LQ,Merton,AwaitingInspection,,FHRS,False,51.4022227,-0.1926259,"30 Abbotsbury Road, Morden, Merton, SM4 5LQ"
+2026-03-31,1929689,Alexandra Lounge,Restaurant/Cafe/Canteen,5 Holme Street,Nelson,Lancashire,,BB9 9SS,Pendle,AwaitingInspection,,FHRS,False,53.83678,-2.21269,"5 Holme Street, Nelson, Lancashire, BB9 9SS"
+2026-03-31,1929690,Juno Bakery,Restaurant/Cafe/Canteen,101 Gisburn Road,Barrowford,Lancashire,,BB9 6DX,Pendle,AwaitingInspection,,FHRS,False,53.8519927,-2.2161279,"101 Gisburn Road, Barrowford, Lancashire, BB9 6DX"
+2026-03-31,1929868,Burgers & burrito grill,Restaurant/Cafe/Canteen,147 Upper Mostyn Street,,Llandudno,Conwy,LL30 2PE,Conwy,AwaitingInspection,,FHRS,False,53.3268168,-3.8324814,"147 Upper Mostyn Street, Llandudno, Conwy, LL30 2PE"
+2026-03-31,1929864,Creative Crafts Fairs,Restaurant/Cafe/Canteen,Church Hall St Johns Methodist Church Mostyn Street,,Llandudno,Conwy,LL30 2NN,Conwy,AwaitingInspection,,FHRS,False,53.3237857,-3.8282003,"Church Hall St Johns Methodist Church Mostyn Street, Llandudno, Conwy, LL30 2NN"
+2026-03-31,1929866,Jack's Burger - Colwyn Bay,Restaurant/Cafe/Canteen,38 Abergele Road,,Colwyn Bay,Conwy,LL29 7PA,Conwy,AwaitingInspection,,FHRS,False,53.2936515,-3.7250949,"38 Abergele Road, Colwyn Bay, Conwy, LL29 7PA"
+2026-03-31,1929877,Mr Yummy Cafe & Grill,Restaurant/Cafe/Canteen,1 Albert Street,,Llandudno,Conwy,LL30 2TS,Conwy,AwaitingInspection,,FHRS,False,53.322081,-3.8293643,"1 Albert Street, Llandudno, Conwy, LL30 2TS"
+2026-03-31,1929878,sole & mare,Restaurant/Cafe/Canteen,153 Upper Mostyn Street,,Llandudno,Conwy,LL30 2PE,Conwy,AwaitingInspection,,FHRS,False,53.3270008,-3.8326327,"153 Upper Mostyn Street, Llandudno, Conwy, LL30 2PE"
+2026-03-31,1929711,Burger King,Restaurant/Cafe/Canteen,Unit J2 Link Park Chickerell Link Road,,Chickerell,Dorset,DT3 4FL,Dorset,AwaitingInspection,,FHRS,False,50.6150476,-2.4949725,"Unit J2 Link Park Chickerell Link Road, Chickerell, Dorset, DT3 4FL"
+2026-03-31,976973,Garden Gate Tea Room,Restaurant/Cafe/Canteen,Unit 3 7 North Street,,Wareham,Dorset,BH20 4AB,Dorset,5,2026-03-09,FHRS,False,50.6865234375,-2.11031603813171,"Unit 3 7 North Street, Wareham, Dorset, BH20 4AB"
+2026-03-31,1929699,Garden Gate Tearooms,Restaurant/Cafe/Canteen,7 North Street,,Langton Matravers,Dorset,BH19 3HL,Dorset,AwaitingInspection,,FHRS,False,50.609004,-2.008431,"7 North Street, Langton Matravers, Dorset, BH19 3HL"
+2026-03-31,1929706,Jailhouse Gift and Plant shop,Restaurant/Cafe/Canteen,The Jailhouse Farm Shop Grove Point,,Portland,Dorset,DT5 1DW,Dorset,AwaitingInspection,,FHRS,False,,,"The Jailhouse Farm Shop Grove Point, Portland, Dorset, DT5 1DW"
+2026-03-31,1929707,The Wimborne Pig,Restaurant/Cafe/Canteen,26 West Borough,,Wimborne Minster,Dorset,BH21 1NF,Dorset,5,2026-02-26,FHRS,False,50.8012595,-1.9883476,"26 West Borough, Wimborne Minster, Dorset, BH21 1NF"
+2026-03-31,1929737,Liberty Coffee,Restaurant/Cafe/Canteen,Unit 4,Liberty Way,,Nuneaton,CV11 6RZ,Nuneaton and Bedworth,5,2026-03-11,FHRS,False,52.5199406,-1.4444169,"Unit 4, Liberty Way, Nuneaton, CV11 6RZ"
+2026-03-31,1929739,MISS FJ LTD A\T as FJ's Kitchen,Restaurant/Cafe/Canteen,,,,,,Nuneaton and Bedworth,5,2026-03-17,FHRS,False,,,
+2026-03-31,1929664,Fablas Ice Cream Ltd,Restaurant/Cafe/Canteen,Sea View Flats 8 Esplanade Buildings Friars Road,,Barry,Vale Of Glamorgan,CF62 5TJ,Bro Morgannwg,AwaitingInspection,,FHRS,False,,,"Sea View Flats 8 Esplanade Buildings Friars Road, Barry, Vale Of Glamorgan, CF62 5TJ"
+2026-03-31,1884593,La Cantina,Restaurant/Cafe/Canteen,The Business Centre Priority Business Park,,Barry,Vale Of Glamorgan,CF63 2AW,Bro Morgannwg,5,2026-03-16,FHRS,False,51.416633,-3.235738,"The Business Centre Priority Business Park, Barry, Vale Of Glamorgan, CF63 2AW"
+2026-03-31,1929666,Sequel Location Catering,Restaurant/Cafe/Canteen,Kings Head Hotel East Street,,Llantwit Major,Vale Of Glamorgan,CF61 1XY,Bro Morgannwg,AwaitingInspection,,FHRS,False,51.408651,-3.484196,"Kings Head Hotel East Street, Llantwit Major, Vale Of Glamorgan, CF61 1XY"
+2026-03-31,1929720,Pirbright Cricket Club,Restaurant/Cafe/Canteen,Pirbright Cricket Pavilion The Green,,Pirbright,Surrey,,Guildford,AwaitingInspection,,FHRS,False,,,"Pirbright Cricket Pavilion The Green, Pirbright, Surrey"
+2026-03-31,1929723,Stag on the river,Restaurant/Cafe/Canteen,The Stag Lower Eashing,,Godalming,Surrey,GU7 2QG,Guildford,AwaitingInspection,,FHRS,False,51.186421,-0.648685,"The Stag Lower Eashing, Godalming, Surrey, GU7 2QG"
+2026-03-31,1929645,Age UK South Gloucestershire,Restaurant/Cafe/Canteen,67 High Street,Thornbury,South Gloucestershire,,BS35 2AW,South Gloucestershire,AwaitingInspection,,FHRS,False,51.6062793,-2.5261418,"67 High Street, Thornbury, South Gloucestershire, BS35 2AW"
+2026-03-31,1929626,Little Nook,Restaurant/Cafe/Canteen,Unit 3,The Landscape Centre,Cutts Heath Road,Buckover,GL12 8QL,South Gloucestershire,AwaitingInspection,,FHRS,False,51.6087855,-2.4880318,"Unit 3, The Landscape Centre, Cutts Heath Road, Buckover, GL12 8QL"
+2026-03-31,1929857,2ts cafe,Restaurant/Cafe/Canteen,Ground Floor Unit,173 New Cross Road,London,,SE14 5DG,Lewisham,AwaitingInspection,,FHRS,False,51.4749391,-0.0463573,"Ground Floor Unit, 173 New Cross Road, London, SE14 5DG"
+2026-03-31,1929847,Brown Shuga Dumplin Event Caterers / Luv Jerk,Restaurant/Cafe/Canteen,Cedar Court,9-13 Somertrees Avenue,Grove Park,London,SE12 0LR,Lewisham,5,2025-11-29,FHRS,False,51.434825,0.023974,"Cedar Court, 9-13 Somertrees Avenue, Grove Park, London, SE12 0LR"
+2026-03-31,1929861,FOREST AND GRIND,Restaurant/Cafe/Canteen,95 Dartmouth Road,London,,,SE23 3HT,Lewisham,AwaitingInspection,,FHRS,False,51.4361243,-0.0549199,"95 Dartmouth Road, London, SE23 3HT"
+2026-03-31,1929851,Meeting Point,Restaurant/Cafe/Canteen,266-268 Hither Green Lane,London,,,SE13 6TT,Lewisham,AwaitingInspection,,FHRS,False,51.4475508,-0.000725,"266-268 Hither Green Lane, London, SE13 6TT"
+2026-03-31,1929853,The Juice Pantry Ltd,Restaurant/Cafe/Canteen,Unit 1 Goldcrest House,32-64 Lee High Road,London,,SE13 5FH,Lewisham,AwaitingInspection,,FHRS,False,51.4618099,-0.0073866,"Unit 1 Goldcrest House, 32-64 Lee High Road, London, SE13 5FH"
+2026-03-31,1929849,Whitefoot & Downham Community Food + Project,Restaurant/Cafe/Canteen,480 Whitefoot Lane,Bromley,,,BR1 5SF,Lewisham,AwaitingInspection,,FHRS,False,51.4333,0.006498,"480 Whitefoot Lane, Bromley, BR1 5SF"
+2026-03-31,1929868,Burgers & burrito grill,Restaurant/Cafe/Canteen,147 Upper Mostyn Street,,Llandudno,Conwy,LL30 2PE,Conwy,AwaitingInspection,,FHRS,False,53.3268168,-3.8324814,"147 Upper Mostyn Street, Llandudno, Conwy, LL30 2PE"
+2026-03-31,1929864,Creative Crafts Fairs,Restaurant/Cafe/Canteen,Church Hall St Johns Methodist Church Mostyn Street,,Llandudno,Conwy,LL30 2NN,Conwy,AwaitingInspection,,FHRS,False,53.3237857,-3.8282003,"Church Hall St Johns Methodist Church Mostyn Street, Llandudno, Conwy, LL30 2NN"
+2026-03-31,1929866,Jack's Burger - Colwyn Bay,Restaurant/Cafe/Canteen,38 Abergele Road,,Colwyn Bay,Conwy,LL29 7PA,Conwy,AwaitingInspection,,FHRS,False,53.2936515,-3.7250949,"38 Abergele Road, Colwyn Bay, Conwy, LL29 7PA"
+2026-03-31,1929877,Mr Yummy Cafe & Grill,Restaurant/Cafe/Canteen,1 Albert Street,,Llandudno,Conwy,LL30 2TS,Conwy,AwaitingInspection,,FHRS,False,53.322081,-3.8293643,"1 Albert Street, Llandudno, Conwy, LL30 2TS"
+2026-03-31,1929878,sole & mare,Restaurant/Cafe/Canteen,153 Upper Mostyn Street,,Llandudno,Conwy,LL30 2PE,Conwy,AwaitingInspection,,FHRS,False,53.3270008,-3.8326327,"153 Upper Mostyn Street, Llandudno, Conwy, LL30 2PE"
+2026-03-31,1929664,Fablas Ice Cream Ltd,Restaurant/Cafe/Canteen,Sea View Flats 8 Esplanade Buildings Friars Road,,Barry,Vale Of Glamorgan,CF62 5TJ,Vale of Glamorgan,AwaitingInspection,,FHRS,False,,,"Sea View Flats 8 Esplanade Buildings Friars Road, Barry, Vale Of Glamorgan, CF62 5TJ"
+2026-03-31,1884593,La Cantina,Restaurant/Cafe/Canteen,The Business Centre Priority Business Park,,Barry,Vale Of Glamorgan,CF63 2AW,Vale of Glamorgan,5,2026-03-16,FHRS,False,51.416633,-3.235738,"The Business Centre Priority Business Park, Barry, Vale Of Glamorgan, CF63 2AW"
+2026-03-31,1929666,Sequel Location Catering,Restaurant/Cafe/Canteen,Kings Head Hotel East Street,,Llantwit Major,Vale Of Glamorgan,CF61 1XY,Vale of Glamorgan,AwaitingInspection,,FHRS,False,51.408651,-3.484196,"Kings Head Hotel East Street, Llantwit Major, Vale Of Glamorgan, CF61 1XY"
+2026-03-31,1929830,Lemunn,Restaurant/Cafe/Canteen,Lemunn,416 Edge Lane,Droylsden,Tameside,M43 6JJ,Tameside,AwaitingInspection,,FHRS,False,53.4836832,-2.1679077,"Lemunn, 416 Edge Lane, Droylsden, Tameside, M43 6JJ"
+2026-03-31,1929832,Ornella's Kitchen At Hatters Food And Drinks Hall,Restaurant/Cafe/Canteen,Crown Point Tavern,16 Market Street,Denton,Tameside,M34 2XW,Tameside,AwaitingInspection,,FHRS,False,53.455488,-2.114653,"Crown Point Tavern, 16 Market Street, Denton, Tameside, M34 2XW"
+2026-03-31,1468620,Covs Catering Ltd,Restaurant/Cafe/Canteen,Cov's Pie and Mash 52 High Road,North Weald Bassett,Epping,Essex,CM16 6BY,Epping Forest,3,2024-03-13,FHRS,False,,,"Cov's Pie and Mash 52 High Road, North Weald Bassett, Epping, Essex, CM16 6BY"
+2026-03-31,1080871,Delimores,Restaurant/Cafe/Canteen,Delimores Cafe,19 High Street,Ongar,Essex,CM5 9DS,Epping Forest,5,2025-07-07,FHRS,False,51.7016323,0.2433781,"Delimores Cafe, 19 High Street, Ongar, Essex, CM5 9DS"
+2026-03-31,1929766,Starbucks,Restaurant/Cafe/Canteen,6 London Road,Hastingwood,Harlow,Essex,CM17 9NQ,Epping Forest,5,2025-12-01,FHRS,False,,,"6 London Road, Hastingwood, Harlow, Essex, CM17 9NQ"
+2026-03-31,668783,Theydon Bois Cricket club,Restaurant/Cafe/Canteen,Cricket Club Loughton Lane,Theydon Bois,Epping,Essex,CM16 7JY,Epping Forest,AwaitingInspection,,FHRS,False,,,"Cricket Club Loughton Lane, Theydon Bois, Epping, Essex, CM16 7JY"
