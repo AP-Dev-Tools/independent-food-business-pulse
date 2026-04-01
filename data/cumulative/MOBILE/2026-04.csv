@@ -1,0 +1,55 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2026-04-01,1929941,Joe's Ices,Mobile caterer,,,,,,Scottish Borders,Pass,2026-03-26,FHIS,False,,,
+2026-04-01,1929940,Tommy To You,Mobile caterer,,,,,,Scottish Borders,Pass,2026-03-26,FHIS,False,,,
+2026-04-01,1930096,LOCO.,Mobile caterer,,,,,,Wandsworth,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1927361,MAC's Snacks,Mobile caterer,Street Record,Rutherford Way,Northgate,Crawley,,Crawley,5,2026-03-24,FHRS,False,51.1372265914335,-0.16634408330115,"Street Record, Rutherford Way, Northgate, Crawley"
+2026-04-01,1930088,Little Bzzz,Mobile caterer,Unit 2 Industrial Estate Road,Edge,Malpas,Cheshire,SY14 8LU,Cheshire West and Chester,AwaitingInspection,,FHRS,False,,,"Unit 2 Industrial Estate Road, Edge, Malpas, Cheshire, SY14 8LU"
+2026-04-01,1930057,Naughty But Nice,Mobile caterer,FOLKESTONE HARBOUR HARBOUR APPROACH ROAD,,FOLKESTONE,,,Folkestone and Hythe,AwaitingInspection,,FHRS,False,,,"FOLKESTONE HARBOUR HARBOUR APPROACH ROAD, FOLKESTONE"
+2026-04-01,1930051,Sweet Wheels,Mobile caterer,,,,,,Folkestone and Hythe,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930173,Lilly's Thai Kitchen,Mobile caterer,The Curtilage,Barwick Road,Garforth,Leeds,LS25 2DL,Leeds,AwaitingInspection,,FHRS,False,53.8014147,-1.3866761,"The Curtilage, Barwick Road, Garforth, Leeds, LS25 2DL"
+2026-04-01,1930308,Moody Bean Coffee,Mobile caterer,,,,,,Rother,5,2026-03-24,FHRS,False,,,
+2026-04-01,1930125,Ceylon Curry House,Mobile caterer,,,,,,Mid Devon,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930128,Devon Paella Co.,Mobile caterer,,,,,,Mid Devon,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930130,Potato Wagon,Mobile caterer,,,,,,Mid Devon,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930317,HoHo,Mobile caterer,,,,,,Tower Hamlets,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1929950,Chill N Grill 359,Mobile caterer,,,,,,Cheltenham,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1929951,Food Lovers Lane,Mobile caterer,10 Tommy Taylors Lane,Cheltenham,Gloucestershire,,GL50 4NR,Cheltenham,AwaitingInspection,,FHRS,False,51.9158795,-2.0758537,"10 Tommy Taylors Lane, Cheltenham, Gloucestershire, GL50 4NR"
+2026-04-01,1929953,Impi,Mobile caterer,,,,,,Cheltenham,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1929952,Street Eats / The Cheeseworks,Mobile caterer,,,,,,Cheltenham,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1929949,The Local Fish Market,Mobile caterer,66 Townsend Street,Cheltenham,Gloucestershire,,GL51 9HB,Cheltenham,AwaitingInspection,,FHRS,False,51.9072696,-2.0838632,"66 Townsend Street, Cheltenham, Gloucestershire, GL51 9HB"
+2026-04-01,1930268,Berry Babes,Mobile caterer,,,,,,Oldham,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1929930,Fox & Pine - The Thirst Responder,Mobile caterer,Unit 1,Coin Street,Royton,Oldham,OL2 6EE,Oldham,AwaitingInspection,,FHRS,False,53.5651083,-2.1154459,"Unit 1, Coin Street, Royton, Oldham, OL2 6EE"
+2026-04-01,1929971,Fusion Treats,Mobile caterer,,,,,,Broxtowe,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930147,Braza Steak,Mobile caterer,,,,,,Horsham,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930151,Embers,Mobile caterer,,,,,,Horsham,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930226,Bishop's Pizza,Mobile caterer,AUCKLAND CASTLE MARKET PLACE,,BISHOP AUCKLAND,,DL14 7NR,Durham,AwaitingInspection,,FHRS,False,54.6660023,-1.6713324,"AUCKLAND CASTLE MARKET PLACE, BISHOP AUCKLAND, DL14 7NR"
+2026-04-01,1930205,ChapsBakes,Mobile caterer,,,,,,Durham,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930191,Dellow?s Delights,Mobile caterer,38 OLD HALL ROAD,,DELVES LANE,,DH8 7HX,Durham,AwaitingInspection,,FHRS,False,54.8462225,-1.8199579,"38 OLD HALL ROAD, DELVES LANE, DH8 7HX"
+2026-04-01,1930200,Palace Pizza,Mobile caterer,58 KINGSWAY,,BISHOP AUCKLAND,,DL14 7JF,Durham,AwaitingInspection,,FHRS,False,54.6645792,-1.6736362,"58 KINGSWAY, BISHOP AUCKLAND, DL14 7JF"
+2026-04-01,1930187,The coffee mobile catering unit,Mobile caterer,,,,,,Durham,5,2025-09-18,FHRS,False,,,
+2026-04-01,1930184,The hog roast mobile catering unit,Mobile caterer,,,,,,Durham,4,2025-09-18,FHRS,False,,,
+2026-04-01,1930186,The large multipurpose mobile catering unit,Mobile caterer,,,,,,Durham,4,2025-09-18,FHRS,False,,,
+2026-04-01,1930185,The shawarma mobile catering unit,Mobile caterer,,,,,,Durham,4,2025-09-18,FHRS,False,,,
+2026-04-01,1930167,Coffee Cove,Mobile caterer,,,,,,Causeway Coast and Glens,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930161,Stranded Events,Mobile caterer,,,,,,Causeway Coast and Glens,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930165,Stranded Events Coffee Unit,Mobile caterer,,,,,,Causeway Coast and Glens,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930162,The Pitstop Diner,Mobile caterer,,,,,,Causeway Coast and Glens,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930155,The 'Wee' Fat Fox,Mobile caterer,,,,,,Causeway Coast and Glens,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1929911,Cher's,Mobile caterer,1 Court Lane,Portsmouth,,,PO6 2LG,Portsmouth,AwaitingInspection,,FHRS,False,50.8442174,-1.0564029,"1 Court Lane, Portsmouth, PO6 2LG"
+2026-04-01,1930249,Do’licious Donuts,Mobile caterer,,,,,,Doncaster,5,2026-03-16,FHRS,False,,,
+2026-04-01,751074,Flaming Tasty,Mobile caterer,,,,,,Doncaster,5,2024-07-23,FHRS,False,,,
+2026-04-01,1891969,Hut 1,Mobile caterer,,,,,,Doncaster,5,2026-03-10,FHRS,False,,,
+2026-04-01,1929945,HELVETII Beans,Mobile caterer,,,,,,Salford,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930402,Dirty Dogz,Mobile caterer,,,,,,"Bournemouth, Christchurch and Poole",AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930377,Dorset Pedaling Pizza Co,Mobile caterer,,,,,,"Bournemouth, Christchurch and Poole",AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930388,Forest Edge Roasting Company Ltd,Mobile caterer,,,,,,"Bournemouth, Christchurch and Poole",AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930371,Rossi Isabellas,Mobile caterer,,,,,,"Bournemouth, Christchurch and Poole",AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930397,Ubuntu Flames,Mobile caterer,,,,,,"Bournemouth, Christchurch and Poole",AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930135,Big Cheese,Mobile caterer,,,,,,King's Lynn and West Norfolk,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930138,Carly's Pizzas (Unit 2),Mobile caterer,,,,,,King's Lynn and West Norfolk,5,2026-03-25,FHRS,False,,,
+2026-04-01,1930139,The Juniper Box,Mobile caterer,,,,,,King's Lynn and West Norfolk,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1929956,Bite2eat,Mobile caterer,,,,,,Plymouth City,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930353,Belles Barista,Mobile caterer,,,,,,Epping Forest,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930354,Tony's Pepperoni Pizzeria,Mobile caterer,,,,,,Epping Forest,5,2026-03-31,FHRS,False,,,
+2026-04-01,1930339,First Kick Coffee Co,Mobile caterer,,,,,,Wiltshire,AwaitingInspection,,FHRS,False,,,
+2026-04-01,1930341,The Hoo Heddern,Mobile caterer,,,,,,Wiltshire,AwaitingInspection,,FHRS,False,,,
