@@ -3254,6 +3254,19 @@
           "count": 3
         }
       }
+    },
+    {
+      "date": "2026-04-20",
+      "files": {
+        "RESTAURANT_CAFE": {
+          "file": "RESTAURANT_CAFE/2026-04.csv",
+          "count": 2
+        },
+        "PUB_BAR": {
+          "file": "PUB_BAR/2026-04.csv",
+          "count": 1
+        }
+      }
     }
   ]
 }
