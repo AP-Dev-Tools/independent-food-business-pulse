@@ -723,3 +723,55 @@ date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLin
 2026-04-19,1935652,The Wind Cafe,Takeaway/sandwich shop,The Caravan,27 Staffin,,,IV51 9JS,Highland,Awaiting Inspection,,FHIS,False,,,"The Caravan, 27 Staffin, IV51 9JS"
 2026-04-19,1935648,Waystone Books,Takeaway/sandwich shop,,46 Dunvegan,,,IV55 8GU,Highland,Awaiting Inspection,,FHIS,False,,,"46 Dunvegan, IV55 8GU"
 2026-04-19,1921152,"Pricy Kitchen, also T/A Darlings Kitchen",Takeaway/sandwich shop,,,,,,Coventry,4,2026-03-19,FHRS,False,,,
+2026-04-21,1935851,Brothers Kebab,Takeaway/sandwich shop,30 Station Road,Horley,Surrey,,RH6 9HL,Reigate and Banstead,3,2026-02-20,FHRS,False,51.1739524,-0.1594466,"30 Station Road, Horley, Surrey, RH6 9HL"
+2026-04-21,1935849,SK Authentic Biryani,Takeaway/sandwich shop,,,,,,Reigate and Banstead,AwaitingInspection,,FHRS,False,,,
+2026-04-21,1936169,Jasmine Inn,Takeaway/sandwich shop,,359 Mansfield Road,,Nottingham,NG5 2DA,Nottingham City,AwaitingInspection,,FHRS,False,52.972558,-1.152596,"359 Mansfield Road, Nottingham, NG5 2DA"
+2026-04-21,1936167,Smile Grill,Takeaway/sandwich shop,,177-181 Alfreton Road,,Nottingham,NG7 3NW,Nottingham City,AwaitingInspection,,FHRS,True,52.9591579,-1.1680843,"177-181 Alfreton Road, Nottingham, NG7 3NW"
+2026-04-21,1936172,Strelley Fish Bar,Takeaway/sandwich shop,,27 Flamsteed Road,,Nottingham,NG8 6LR,Nottingham City,AwaitingInspection,,FHRS,False,52.976538,-1.228992,"27 Flamsteed Road, Nottingham, NG8 6LR"
+2026-04-21,1935976,Beauty Cake Boutique,Takeaway/sandwich shop,,,,,,Surrey Heath,AwaitingInspection,,FHRS,False,,,
+2026-04-21,1935975,Fit Food,Takeaway/sandwich shop,,,,,,Surrey Heath,AwaitingInspection,,FHRS,False,,,
+2026-04-21,1935971,Ollie's Protein Bakes,Takeaway/sandwich shop,,,,,,Surrey Heath,AwaitingInspection,,FHRS,False,,,
+2026-04-21,1935974,The Batch Cook Fairy,Takeaway/sandwich shop,,,,,,Surrey Heath,AwaitingInspection,,FHRS,False,,,
+2026-04-21,1935970,Zen Catering,Takeaway/sandwich shop,,,,,,Surrey Heath,AwaitingInspection,,FHRS,False,,,
+2026-04-21,1935893,Indian Spice,Takeaway/sandwich shop,3 West Ruislip Station,Ickenham Road,,Ruislip,HA4 7DW,Hillingdon,1,2026-02-11,FHRS,False,51.569597,-0.437872,"3 West Ruislip Station, Ickenham Road, Ruislip, HA4 7DW"
+2026-04-21,1936148,The Dark Kitchen @ The Murray,Takeaway/sandwich shop,13 The Murray Square,,East Kilbride,,G75 0BH,South Lanarkshire,Awaiting Inspection,,FHIS,False,55.753245,-4.1837249,"13 The Murray Square, East Kilbride, G75 0BH"
+2026-04-21,1919048,This Is Gas Limited,Takeaway/sandwich shop,43 Progress Road,Eastwood,Essex,,SS9 5PR,Southend-On-Sea,4,2026-03-16,FHRS,False,51.5692718,0.6431477,"43 Progress Road, Eastwood, Essex, SS9 5PR"
+2026-04-21,1935881,7583,Takeaway/sandwich shop,140 Crwys Road,Cathays,Cardiff,,CF24 4NR,Caerdydd,AwaitingInspection,,FHRS,False,51.4968838,-3.1812891,"140 Crwys Road, Cathays, Cardiff, CF24 4NR"
+2026-04-21,1936079,Bitz n Pizza,Takeaway/sandwich shop,Bitz 'N' Pizza 24 Flowergate,,,Whitby,YO21 3BA,North Yorkshire,AwaitingInspection,,FHRS,False,54.486346,-0.6167661,"Bitz 'N' Pizza 24 Flowergate, Whitby, YO21 3BA"
+2026-04-21,1879677,Curly Fletchers,Takeaway/sandwich shop,Crab Stalls 1 And 2 And 3 West Pier,,,Scarborough,YO11 1PD,North Yorkshire,2,2024-04-30,FHRS,False,,,"Crab Stalls 1 And 2 And 3 West Pier, Scarborough, YO11 1PD"
+2026-04-21,1936114,Donatellos,Takeaway/sandwich shop,31A York Place,,,KNARESBOROUGH,HG5 0AD,North Yorkshire,AwaitingInspection,,FHRS,False,54.0064103,-1.4616667,"31A York Place, KNARESBOROUGH, HG5 0AD"
+2026-04-21,1936104,Serko food ltd,Takeaway/sandwich shop,20b Station Parade,,,Harrogate,HG1 1UE,North Yorkshire,AwaitingInspection,,FHRS,False,53.9949384,-1.5387379,"20b Station Parade, Harrogate, HG1 1UE"
+2026-04-21,1935961,Courier Coffee,Takeaway/sandwich shop,80 Basinghall Street,London,,,EC2V 5AG,City of London Corporation,AwaitingInspection,,FHRS,False,51.5154518,-0.09112,"80 Basinghall Street, London, EC2V 5AG"
+2026-04-21,1935942,BH22 Burrito,Takeaway/sandwich shop,34 Victoria Road,,Ferndown,Dorset,BH22 9HZ,Dorset,AwaitingInspection,,FHRS,False,50.8020539,-1.8902196,"34 Victoria Road, Ferndown, Dorset, BH22 9HZ"
+2026-04-21,1935956,Scoff It,Takeaway/sandwich shop,Brickyard Lane Corfe Mullen,,Wimborne,,BH21 3RJ,Dorset,AwaitingInspection,,FHRS,False,,,"Brickyard Lane Corfe Mullen, Wimborne, BH21 3RJ"
+2026-04-21,1047226,Downtown Peri Peri,Takeaway/sandwich shop,,115 Wellington Street,Eastgate,Peterborough,PE1 5DU,Peterborough City,AwaitingInspection,,FHRS,False,52.575461,-0.230573,"115 Wellington Street, Eastgate, Peterborough, PE1 5DU"
+2026-04-21,1936221,Chick-o-Land,Takeaway/sandwich shop,,62 Wind Street,,City Centre,SA1 1EG,Abertawe,AwaitingInspection,,FHRS,False,51.619311,-3.940716,"62 Wind Street, City Centre, SA1 1EG"
+2026-04-21,1936232,Hilton Indian Takeaway,Takeaway/sandwich shop,,72 Port Tennant Road,,Port Tennant,SA1 8JF,Abertawe,AwaitingInspection,,FHRS,False,51.621987,-3.925662,"72 Port Tennant Road, Port Tennant, SA1 8JF"
+2026-04-21,1936227,New Golden Palace,Takeaway/sandwich shop,,67 Peniel Green Road,,Llansamlet,SA7 9AP,Abertawe,AwaitingInspection,,FHRS,False,51.660541,-3.898408,"67 Peniel Green Road, Llansamlet, SA7 9AP"
+2026-04-21,1936216,Royal Pizza & Kebabs,Takeaway/sandwich shop,,11 Mansel Street,,Mount Pleasant,SA1 5SF,Abertawe,AwaitingInspection,,FHRS,False,51.6209602355957,-3.94819808006287,"11 Mansel Street, Mount Pleasant, SA1 5SF"
+2026-04-21,1936142,Mega Munch,Takeaway/sandwich shop,147 Magdalen Road,Norwich,,,NR3 4LA,Norwich City,AwaitingInspection,,FHRS,False,52.643461,1.297391,"147 Magdalen Road, Norwich, NR3 4LA"
+2026-04-21,1935855,Foodiez,Takeaway/sandwich shop,100A Briggate,Brighouse,Calderdale,,HD6 1EL,Calderdale,AwaitingInspection,,FHRS,False,53.6998254,-1.7825223,"100A Briggate, Brighouse, Calderdale, HD6 1EL"
+2026-04-21,1935929,Pizza Junction,Takeaway/sandwich shop,633C Bradford Road,Brighouse,Calderdale,,HD6 4DN,Calderdale,AwaitingInspection,,FHRS,False,53.7224734,-1.7765868,"633C Bradford Road, Brighouse, Calderdale, HD6 4DN"
+2026-04-21,1705511,Ridwans Takeaway,Takeaway/sandwich shop,4 Half House Lane,Brighouse,Calderdale,,HD6 2PH,Calderdale,2,2025-11-19,FHRS,False,53.7149438,-1.8037786,"4 Half House Lane, Brighouse, Calderdale, HD6 2PH"
+2026-04-21,1935921,The Little Pasta Kitchen,Takeaway/sandwich shop,,,,,,Stratford-on-Avon,AwaitingInspection,,FHRS,False,,,
+2026-04-21,1697088,Kebab Kingdom,Takeaway/sandwich shop,,25 Station Road,Llanelli,Carmarthenshire,SA15 1AW,Carmarthenshire,AwaitingInspection,,FHRS,False,51.6787859,-4.1625291,"25 Station Road, Llanelli, Carmarthenshire, SA15 1AW"
+2026-04-21,1936208,Kj Spice House,Takeaway/sandwich shop,,34 Station Road,Llanelli,Carmarthenshire,SA15 1AN,Carmarthenshire,AwaitingInspection,,FHRS,False,51.6786537,-4.16287,"34 Station Road, Llanelli, Carmarthenshire, SA15 1AN"
+2026-04-21,1624647,Stuart's Artisan Bakery,Takeaway/sandwich shop,,,,,,Carmarthenshire,AwaitingInspection,,FHRS,False,,,
+2026-04-21,1936210,Waffle Lads,Takeaway/sandwich shop,,Station Road,Glanaman,Ammanford,SA18 1LQ,Carmarthenshire,AwaitingInspection,,FHRS,False,51.8059616088867,-3.92292308807373,"Station Road, Glanaman, Ammanford, SA18 1LQ"
+2026-04-21,1936072,Yu To Go,Takeaway/sandwich shop,14-16 William Street,,Londonderry,,BT48 6EP,Derry City and Strabane,AwaitingInspection,,FHRS,False,54.9976003,-7.322327,"14-16 William Street, Londonderry, BT48 6EP"
+2026-04-21,1936221,Chick-o-Land,Takeaway/sandwich shop,,62 Wind Street,,City Centre,SA1 1EG,Swansea,AwaitingInspection,,FHRS,False,51.619311,-3.940716,"62 Wind Street, City Centre, SA1 1EG"
+2026-04-21,1936232,Hilton Indian Takeaway,Takeaway/sandwich shop,,72 Port Tennant Road,,Port Tennant,SA1 8JF,Swansea,AwaitingInspection,,FHRS,False,51.621987,-3.925662,"72 Port Tennant Road, Port Tennant, SA1 8JF"
+2026-04-21,1936227,New Golden Palace,Takeaway/sandwich shop,,67 Peniel Green Road,,Llansamlet,SA7 9AP,Swansea,AwaitingInspection,,FHRS,False,51.660541,-3.898408,"67 Peniel Green Road, Llansamlet, SA7 9AP"
+2026-04-21,1936216,Royal Pizza & Kebabs,Takeaway/sandwich shop,,11 Mansel Street,,Mount Pleasant,SA1 5SF,Swansea,AwaitingInspection,,FHRS,False,51.6209602355957,-3.94819808006287,"11 Mansel Street, Mount Pleasant, SA1 5SF"
+2026-04-21,1935881,7583,Takeaway/sandwich shop,140 Crwys Road,Cathays,Cardiff,,CF24 4NR,Cardiff,AwaitingInspection,,FHRS,False,51.4968838,-3.1812891,"140 Crwys Road, Cathays, Cardiff, CF24 4NR"
+2026-04-21,1936029,Chicken licking,Takeaway/sandwich shop,8 The Broadway,,St Ives,Cambridgeshire,PE27 5BN,Huntingdonshire,AwaitingInspection,,FHRS,False,52.3246235,-0.0752684,"8 The Broadway, St Ives, Cambridgeshire, PE27 5BN"
+2026-04-21,1936031,Curry Hut,Takeaway/sandwich shop,4 Alms Close,,Huntingdon,Cambridgeshire,PE29 6DY,Huntingdonshire,AwaitingInspection,,FHRS,False,52.3433433,-0.1896131,"4 Alms Close, Huntingdon, Cambridgeshire, PE29 6DY"
+2026-04-21,1936030,The Nestbox,Takeaway/sandwich shop,Hinchingbrooke Country Park Hinchingbrooke Country Park Hinchingbrooke Park Road,,Huntingdon,Cambridgeshire,PE29 6DB,Huntingdonshire,AwaitingInspection,,FHRS,False,,,"Hinchingbrooke Country Park Hinchingbrooke Country Park Hinchingbrooke Park Road, Huntingdon, Cambridgeshire, PE29 6DB"
+2026-04-21,1660517,Counter by Naroon,Takeaway/sandwich shop,BASEMENT AND GROUND FLOOR 63 GREAT TITCHFIELD STREET,,LONDON,,W1W 7PR,Westminster,AwaitingInspection,,FHRS,False,51.5188326,-0.1409233,"BASEMENT AND GROUND FLOOR 63 GREAT TITCHFIELD STREET, LONDON, W1W 7PR"
+2026-04-21,1932726,seoul kimbap,Takeaway/sandwich shop,3 VICTORIA ARCADE,,LONDON,,SW1E 5ND,Westminster,AwaitingInspection,,FHRS,True,51.4963925,-0.1438878,"3 VICTORIA ARCADE, LONDON, SW1E 5ND"
+2026-04-21,1855762,Smokey Sams,Takeaway/sandwich shop,,,,,,Torridge,AwaitingInspection,,FHRS,False,,,
+2026-04-21,1935978,birria cartel,Takeaway/sandwich shop,Unit 23 55 - 59 Weir Road,,Wimbledon,Merton,SW19 8UG,Merton,AwaitingInspection,,FHRS,False,51.4368292,-0.1916059,"Unit 23 55 - 59 Weir Road, Wimbledon, Merton, SW19 8UG"
+2026-04-21,1697088,Kebab Kingdom,Takeaway/sandwich shop,,25 Station Road,Llanelli,Carmarthenshire,SA15 1AW,Sir Gaerfyrddin,AwaitingInspection,,FHRS,False,51.6787859,-4.1625291,"25 Station Road, Llanelli, Carmarthenshire, SA15 1AW"
+2026-04-21,1936208,Kj Spice House,Takeaway/sandwich shop,,34 Station Road,Llanelli,Carmarthenshire,SA15 1AN,Sir Gaerfyrddin,AwaitingInspection,,FHRS,False,51.6786537,-4.16287,"34 Station Road, Llanelli, Carmarthenshire, SA15 1AN"
+2026-04-21,1624647,Stuart's Artisan Bakery,Takeaway/sandwich shop,,,,,,Sir Gaerfyrddin,AwaitingInspection,,FHRS,False,,,
+2026-04-21,1936210,Waffle Lads,Takeaway/sandwich shop,,Station Road,Glanaman,Ammanford,SA18 1LQ,Sir Gaerfyrddin,AwaitingInspection,,FHRS,False,51.8059616088867,-3.92292308807373,"Station Road, Glanaman, Ammanford, SA18 1LQ"
