@@ -1,0 +1,4 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2026-05-01,1940108,The Crown,Hotel/bed & breakfast/guest house,The Crown Inn,31 High Street,Woodstock,Oxfordshire,OX20 1TE,West Oxfordshire,AwaitingInspection,,FHRS,False,51.8470753,-1.3537224,"The Crown Inn, 31 High Street, Woodstock, Oxfordshire, OX20 1TE"
+2026-05-01,1940107,The Golden Pheasant Inn,Hotel/bed & breakfast/guest house,Golden Pheasant Hotel,91 High Street,Burford,Oxfordshire,OX18 4QA,West Oxfordshire,5,2026-04-14,FHRS,False,51.808351,-1.636097,"Golden Pheasant Hotel, 91 High Street, Burford, Oxfordshire, OX18 4QA"
+2026-05-01,1940015,Valley House Farm,Hotel/bed & breakfast/guest house,,,,,,South Norfolk,AwaitingInspection,,FHRS,False,,,

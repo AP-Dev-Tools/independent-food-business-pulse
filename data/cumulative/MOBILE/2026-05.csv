@@ -1,0 +1,51 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2026-05-01,1940263,Crust Daddy's LTD,Mobile caterer,,,,,,Wiltshire,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940258,Italian Kitchen,Mobile caterer,,,,,,Wiltshire,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940246,Jcs kitchen,Mobile caterer,,,,,,Wiltshire,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940257,Off Track,Mobile caterer,,,,,,Wiltshire,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940276,Street Food,Mobile caterer,JENNINGS BROS NURSTEED ROAD,,DEVIZES,,SN10 3AH,Wiltshire,AwaitingInspection,,FHRS,False,,,"JENNINGS BROS NURSTEED ROAD, DEVIZES, SN10 3AH"
+2026-05-01,1940268,The Horsebox Hotspot,Mobile caterer,,,,,,Wiltshire,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940232,The Neighbourhood Nook,Mobile caterer,,,,,,Wiltshire,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940273,West Country Treats,Mobile caterer,,,,,,Wiltshire,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940094,Kenilworth Whippy,Mobile caterer,,,,,,Warwick,5,2026-04-21,FHRS,False,,,
+2026-05-01,1940095,Sword Meats Fire,Mobile caterer,,206 Radford Road,,Leamington Spa,CV31 1LQ,Warwick,5,2024-04-25,FHRS,False,52.2832475,-1.5114419,"206 Radford Road, Leamington Spa, CV31 1LQ"
+2026-05-01,1940133,Cotswold Scoop,Mobile caterer,,,,,,Cotswold,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940150,On Smoke,Mobile caterer,,,,,,Worcester City,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1939964,Monodose Ltd,Mobile caterer,8 Standard Road,Park Royal,,,NW10 6EU,Ealing,AwaitingInspection,,FHRS,False,51.5286237,-0.261022,"8 Standard Road, Park Royal, NW10 6EU"
+2026-05-01,1939994,Sarah-Jane Reid,Mobile caterer,,106 Bothwell Road,Hamilton,South Lanarkshire,ML3 0EF,South Lanarkshire,Awaiting Inspection,,FHIS,False,55.7948227,-4.0560042,"106 Bothwell Road, Hamilton, South Lanarkshire, ML3 0EF"
+2026-05-01,1940044,Cup 2 U,Mobile caterer,,,,,,Derbyshire Dales,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940220,Crust and crumbs,Mobile caterer,,,,,,St Helens,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940219,Marra's Scran,Mobile caterer,,,,,,St Helens,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940060,Sticky Fingers,Mobile caterer,,,,,,Newark and Sherwood,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940006,The Gathered Table Co.,Mobile caterer,49 Milland Road,Winchester,Hampshire,,SO23 0QA,Winchester City,AwaitingInspection,,FHRS,False,51.0559646,-1.3032443,"49 Milland Road, Winchester, Hampshire, SO23 0QA"
+2026-05-01,1940004,Throwback Toasties,Mobile caterer,,,,,,Winchester City,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940208,Boo's Sweet and Savoury,Mobile caterer,,,,,,Gateshead,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940203,Victor Indigo November (Events) Limited,Mobile caterer,,,,,,Gateshead,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940169,Coffee & Cake,Mobile caterer,,The Helix Park,,Falkirk,FK2 7ZT,Falkirk,Awaiting Inspection,,FHIS,False,56.020126,-3.7571364,"The Helix Park, Falkirk, FK2 7ZT"
+2026-05-01,1940309,Buns on the Run Smokehouse,Mobile caterer,The Castle Inn,50 High Street,Coningsby,,LN4 4RF,East Lindsey,AwaitingInspection,,FHRS,True,53.1060727,-0.1726272,"The Castle Inn, 50 High Street, Coningsby, LN4 4RF"
+2026-05-01,899321,Fridas and Digeos,Mobile caterer,,,,,,Sefton,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940140,Cinder's Coffee Box,Mobile caterer,New Street Playground,Upton Upon Severn,Worcestershire,,WR8 0JJ,Malvern Hills,AwaitingInspection,,FHRS,False,,,"New Street Playground, Upton Upon Severn, Worcestershire, WR8 0JJ"
+2026-05-01,1940215,Macanta Coffee,Mobile caterer,Coffee Unit- Trailer Based and Trading In East Lothian,,,,,East Lothian,Pass,2026-04-17,FHIS,False,,,Coffee Unit- Trailer Based and Trading In East Lothian
+2026-05-01,1940191,Andy's,Mobile caterer,,,,,,West Northamptonshire,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940188,Pizza time woodford halse,Mobile caterer,Slade Lays Farm,Eydon Road,Woodford Halse,West Northamptonshire,NN11 3RG,West Northamptonshire,AwaitingInspection,,FHRS,False,52.1642194,-1.2080801,"Slade Lays Farm, Eydon Road, Woodford Halse, West Northamptonshire, NN11 3RG"
+2026-05-01,1940181,SweetMix,Mobile caterer,Clifford Hill Warehouse,Clifford Hill Mill,Clifford Hill,Little Houghton,NN7 1AL,West Northamptonshire,5,2025-07-02,FHRS,False,52.2373938,-0.8240592,"Clifford Hill Warehouse, Clifford Hill Mill, Clifford Hill, Little Houghton, NN7 1AL"
+2026-05-01,1940189,Woodford pizza plus,Mobile caterer,Slade Lays Farm,Eydon Road,Woodford Halse,West Northamptonshire,NN11 3RG,West Northamptonshire,AwaitingInspection,,FHRS,False,52.1642194,-1.2080801,"Slade Lays Farm, Eydon Road, Woodford Halse, West Northamptonshire, NN11 3RG"
+2026-05-01,1940086,Lemmon's,Mobile caterer,,,,,,King's Lynn and West Norfolk,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940081,Shake Awake,Mobile caterer,,,,,,King's Lynn and West Norfolk,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940082,The Norfolk Donut Co Ltd,Mobile caterer,,,,,,King's Lynn and West Norfolk,AwaitingInspection,,FHRS,False,,,
+2026-05-01,447538,Mr Twirly Tops,Mobile caterer,,,,,,Pendle,5,2016-01-14,FHRS,False,,,
+2026-05-01,1940109,Harry Pours,Mobile caterer,,,,,,West Oxfordshire,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940111,Hills Attractions,Mobile caterer,Mobile Catering Vehicle,3 - 4 Thorney Leys Park,Witney,Oxfordshire,,West Oxfordshire,AwaitingInspection,,FHRS,False,51.7763276,-1.4942697,"Mobile Catering Vehicle, 3 - 4 Thorney Leys Park, Witney, Oxfordshire"
+2026-05-01,1940096,I Like It,Mobile caterer,Unit 7,Cranbrook Court,Avenue Two,Witney,OX28 4YH,West Oxfordshire,AwaitingInspection,,FHRS,False,51.7766315,-1.4876279,"Unit 7, Cranbrook Court, Avenue Two, Witney, OX28 4YH"
+2026-05-01,1940100,JLC Cocktails Ltd,Mobile caterer,3A Worcester Road Industrial Estate,Chipping Norton,Oxfordshire,,OX7 5XW,West Oxfordshire,AwaitingInspection,,FHRS,False,,,"3A Worcester Road Industrial Estate, Chipping Norton, Oxfordshire, OX7 5XW"
+2026-05-01,1940113,Kaleb's Horsebox Bar,Mobile caterer,Coopers Croft Barn,Priory Road,Heythrop,Chipping Norton,OX7 5TA,West Oxfordshire,AwaitingInspection,,FHRS,False,51.9519344,-1.5155475,"Coopers Croft Barn, Priory Road, Heythrop, Chipping Norton, OX7 5TA"
+2026-05-01,1940103,The Potting Shed,Mobile caterer,The Thatched Barn,Asthall,Burford,Oxfordshire,OX18 4HW,West Oxfordshire,AwaitingInspection,,FHRS,False,51.800002,-1.582943,"The Thatched Barn, Asthall, Burford, Oxfordshire, OX18 4HW"
+2026-05-01,1939943,Capeesh,Mobile caterer,,Pitch Outside 38/39 Broad Street,Reading,,RG1 2AD,Reading,AwaitingInspection,,FHRS,False,51.4558701,-0.972613,"Pitch Outside 38/39 Broad Street, Reading, RG1 2AD"
+2026-05-01,1939934,Flip,Mobile caterer,,35 Bolton Drive,Reading,,RG2 9RD,Reading,AwaitingInspection,,FHRS,False,51.4057551,-0.9523788,"35 Bolton Drive, Reading, RG2 9RD"
+2026-05-01,1939941,Swaadish Fried Chicken by The Bowler Gourmet Balls,Mobile caterer,,Blue Collar Corner 15 Hosier Street,Reading,,RG1 7QL,Reading,AwaitingInspection,,FHRS,False,,,"Blue Collar Corner 15 Hosier Street, Reading, RG1 7QL"
+2026-05-01,1940201,Ollys Lollys,Mobile caterer,,,,,,Somerset,5,2018-08-21,FHRS,False,,,
+2026-05-01,1940034,North Norfolk Contemporary Catering,Mobile caterer,,,,,,North Norfolk,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1940164,1154COFFEE Ltd,Mobile caterer,,,,,,Canterbury City,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1937375,By The Seaside,Mobile caterer,,,,,,Canterbury City,AwaitingInspection,,FHRS,False,,,
+2026-05-01,1452422,Handlebar & Grill,Mobile caterer,,200 Harlaxton Road,Grantham,Lincolnshire,NG31 7AQ,South Kesteven,5,2026-04-28,FHRS,False,52.9056434631348,-0.650768995285034,"200 Harlaxton Road, Grantham, Lincolnshire, NG31 7AQ"
+2026-05-01,1940146,Rose & Daughters,Mobile caterer,,,,,,Redditch,Exempt,,FHRS,False,,,
