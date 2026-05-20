@@ -797,3 +797,53 @@ date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLin
 2026-05-19,1945933,Stringers,Mobile caterer,,Commercial Road,,,PL1 2NX,Plymouth City,AwaitingInspection,,FHRS,False,,,"Commercial Road, PL1 2NX"
 2026-05-19,1945969,Dans Delights Ice Cream,Mobile caterer,,,,,,Portsmouth,AwaitingInspection,,FHRS,False,,,
 2026-05-19,1945972,Tacos By Baja,Mobile caterer,,,,,,Portsmouth,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1947050,Ethos Supply Ltd,Mobile caterer,Within Triumph Newcastle,Ellison Road,Gateshead,Tyne and Wear,NE8 2QU,Gateshead,AwaitingInspection,,FHRS,False,,,"Within Triumph Newcastle, Ellison Road, Gateshead, Tyne and Wear, NE8 2QU"
+2026-05-20,1947051,JLI Nachos,Mobile caterer,,,,,,Gateshead,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1854994,Hungry Horsebox,Mobile caterer,,,,,,South Staffordshire,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1947116,Hot bites,Mobile caterer,,,,,,Caerdydd,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1946181,Fuel and Frosting,Mobile caterer,,,,,,Rhondda Cynon Taf,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1946182,HotBox Catering UK,Mobile caterer,,,,,,Rhondda Cynon Taf,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1946311,PORTABENTO,Mobile caterer,,,,,,Epping Forest,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1946324,De La Creams,Mobile caterer,,,,,,Harlow,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1922226,Phatgreeks,Mobile caterer,,115 High Street,,Boston,PE21 8TG,Boston,AwaitingInspection,,FHRS,False,52.9723446,-0.0250689,"115 High Street, Boston, PE21 8TG"
+2026-05-20,1947002,Prime Eats Company,Mobile caterer,8-12 Harold Road,Margate,Kent,,CT9 2HT,Thanet,AwaitingInspection,,FHRS,False,51.3900628,1.3998306,"8-12 Harold Road, Margate, Kent, CT9 2HT"
+2026-05-20,1947027,@icecreamboatco,Mobile caterer,Deverel Farm Deverel Farm Road,,Milborne St Andrew,Dorset,DT11 0HX,Dorset,AwaitingInspection,,FHRS,False,,,"Deverel Farm Deverel Farm Road, Milborne St Andrew, Dorset, DT11 0HX"
+2026-05-20,1947018,Bays Dough House,Mobile caterer,1a Aigburth Road,,Swanage,,BH19 1BH,Dorset,AwaitingInspection,,FHRS,False,50.611986,-1.9754902,"1a Aigburth Road, Swanage, BH19 1BH"
+2026-05-20,1947033,Commer Coffee & Co,Mobile caterer,,,,,,Dorset,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1947030,Dorset Field 2 Food,Mobile caterer,Halsey Arms,,Pulham,Dorset,DT2 7DZ,Dorset,5,2026-05-14,FHRS,False,50.8764572143555,-2.41880488395691,"Halsey Arms, Pulham, Dorset, DT2 7DZ"
+2026-05-20,1947035,MadeBy Maddie,Mobile caterer,,,,,,Dorset,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1947021,Swanage Fish and Food Festival,Mobile caterer,,,,,,Dorset,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1947022,The Food Workshop,Mobile caterer,Unit 10a Dreadnought Trading Estate,,Bridport,Dorset,DT6 5BU,Dorset,AwaitingInspection,,FHRS,False,,,"Unit 10a Dreadnought Trading Estate, Bridport, Dorset, DT6 5BU"
+2026-05-20,1946285,Kebab Express Van,Mobile caterer,,22 Denmark Street,City Centre,Bristol,BS1 5DQ,Bristol,AwaitingInspection,,FHRS,False,51.452822,-2.598615,"22 Denmark Street, City Centre, Bristol, BS1 5DQ"
+2026-05-20,1946295,Uncle Kelv's Ltd.,Mobile caterer,The Shakespeare,Lower Redland Road,Redland,Bristol,BS6 6SS,Bristol,AwaitingInspection,,FHRS,False,51.470322,-2.606776,"The Shakespeare, Lower Redland Road, Redland, Bristol, BS6 6SS"
+2026-05-20,1942038,LA MARITXU ICE CREAM/ GELATO,Mobile caterer,UNIT G10 AND G11 KINGLY COURT KINGLY COURT,,LONDON,,W1B 5PW,Westminster,AwaitingInspection,,FHRS,False,51.5125101,-0.1386155,"UNIT G10 AND G11 KINGLY COURT KINGLY COURT, LONDON, W1B 5PW"
+2026-05-20,1946163,"Andy’s Pies, Mash & Fries",Mobile caterer,,,,,,Stafford,5,2026-05-08,FHRS,False,,,
+2026-05-20,1946167,Ice Cold Lemonade,Mobile caterer,,,,,,Stafford,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1946165,KindRoots,Mobile caterer,,,,,,Stafford,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1946164,Pizza and Fast Food,Mobile caterer,,,,,,Stafford,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1947116,Hot bites,Mobile caterer,,,,,,Cardiff,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1946342,Halwest Hemm,Mobile caterer,,79 Calder Street,Glasgow,,G42 7RR,Glasgow City,Awaiting Inspection,2026-05-12,FHIS,False,55.8379711,-4.2645912,"79 Calder Street, Glasgow, G42 7RR"
+2026-05-20,1946352,Juju Bowls,Mobile caterer,Flat 3/1,20 Eldon Street,Glasgow,,G3 6NL,Glasgow City,Awaiting Inspection,2026-05-18,FHIS,False,55.8721467,-4.2793691,"Flat 3/1, 20 Eldon Street, Glasgow, G3 6NL"
+2026-05-20,1946339,Pour It,Mobile caterer,,3 Dochart Oval,Glasgow,,G33 1PS,Glasgow City,Awaiting Inspection,2026-05-12,FHIS,False,55.8970277,-4.1791464,"3 Dochart Oval, Glasgow, G33 1PS"
+2026-05-20,1946341,The Gla Sip,Mobile caterer,,7 Springbank Crescent,Glasgow,,G31 4PZ,Glasgow City,Awaiting Inspection,2026-05-12,FHIS,False,55.8455593,-4.2000818,"7 Springbank Crescent, Glasgow, G31 4PZ"
+2026-05-20,1946986,Smoke Brother,Mobile caterer,,,,,,Kingston-Upon-Thames,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1947120,Get Stuffed,Mobile caterer,,,,,,Preston,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1946399,Acai Hutt,Mobile caterer,,,,,,Ashford,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1946397,Auntie Sha's Kitchen,Mobile caterer,,,,,,Ashford,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1946394,Route 66 Ruckhinge,Mobile caterer,,,,,,Ashford,5,2024-05-10,FHRS,False,,,
+2026-05-20,1947067,Candy Reign,Mobile caterer,,,,,,Dartford,5,2026-04-17,FHRS,False,,,
+2026-05-20,1947078,Js Event Caterers,Mobile caterer,,,,,,Dartford,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1947072,Pull My Pork,Mobile caterer,,,,,,Dartford,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1911556,Anar Kitchen,Mobile caterer,,,,,,Hertsmere,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1946370,Burger Mania,Mobile caterer,,,,,,Hertsmere,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1946377,GH Events,Mobile caterer,,,,,,Hertsmere,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1946181,Fuel and Frosting,Mobile caterer,,,,,,Rhondda Cynon Taf,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1946182,HotBox Catering UK,Mobile caterer,,,,,,Rhondda Cynon Taf,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1947108,NAAN WRAP COMPANY,Mobile caterer,57 King George Road,Ware,Hertfordshire,,SG12 7DS,East Hertfordshire,AwaitingInspection,,FHRS,False,51.8145868,-0.0230675,"57 King George Road, Ware, Hertfordshire, SG12 7DS"
+2026-05-20,1520465,Trailer Swift Crew Catering,Mobile caterer,,,,,,Lancaster City,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1946278,Cookies N Co,Mobile caterer,,,,,,Perth and Kinross,Awaiting Inspection,2026-05-15,FHIS,False,,,
+2026-05-20,1947138,Tulsi Medica,Mobile caterer,2 EVELYN STREET,,BURNLEY,,BB10 1QA,Burnley,AwaitingInspection,,FHRS,False,53.8043345,-2.2418919,"2 EVELYN STREET, BURNLEY, BB10 1QA"
+2026-05-20,1946360,DockDrop,Mobile caterer,Wood Farm,Woodlands,Bramdean Common,Alresford,SO24 0JH,Winchester City,AwaitingInspection,,FHRS,False,51.0564554,-1.1033196,"Wood Farm, Woodlands, Bramdean Common, Alresford, SO24 0JH"
+2026-05-20,1947097,GoodBoyBurger / MorMor,Mobile caterer,,,,,,Leeds,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1947091,Gooey 'n' Chewy,Mobile caterer,,,,,,Leeds,AwaitingInspection,,FHRS,False,,,
+2026-05-20,1947096,MASRI EGYPTIAN SREET FOOD,Mobile caterer,,,,,,Leeds,AwaitingInspection,,FHRS,False,,,
