@@ -3936,6 +3936,19 @@
           "count": 3
         }
       }
+    },
+    {
+      "date": "2026-05-24",
+      "files": {
+        "TAKEAWAY": {
+          "file": "TAKEAWAY/2026-05.csv",
+          "count": 6
+        },
+        "RESTAURANT_CAFE": {
+          "file": "RESTAURANT_CAFE/2026-05.csv",
+          "count": 12
+        }
+      }
     }
   ]
 }
