@@ -1,0 +1,14 @@
+{
+  "month": "2026-06",
+  "days": [
+    {
+      "date": "2026-06-01",
+      "MOBILE": 32213,
+      "RESTAURANT_CAFE": 146441,
+      "TAKEAWAY": 66079,
+      "PUB_BAR": 53706,
+      "HOTEL": 15837,
+      "total": 314276
+    }
+  ]
+}
