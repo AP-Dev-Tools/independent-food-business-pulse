@@ -1,0 +1,104 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2026-06-02,1951660,BashBros,Mobile caterer,4 - 6 Countisbury Avenue,Llanrumney,Cardiff,,CF3 5SJ,Cardiff,AwaitingInspection,,FHRS,False,51.5196573,-3.1203532,"4 - 6 Countisbury Avenue, Llanrumney, Cardiff, CF3 5SJ"
+2026-06-02,1951663,Chaat Factory,Mobile caterer,,,,,,Cardiff,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1951656,Dipped desserts,Mobile caterer,Number 9 Ipswich Road,Penylan,Cardiff,,CF23 9XX,Cardiff,AwaitingInspection,,FHRS,False,51.4981329,-3.1460263,"Number 9 Ipswich Road, Penylan, Cardiff, CF23 9XX"
+2026-06-02,1951659,Kool Dipped Pineapples,Mobile caterer,Flat 1 335 Newport Road,Roath,Cardiff,,CF24 1RL,Cardiff,AwaitingInspection,,FHRS,False,51.4913708,-3.1506529,"Flat 1 335 Newport Road, Roath, Cardiff, CF24 1RL"
+2026-06-02,1952456,Sis 'N' Mix,Mobile caterer,,19 Nichols Street,Desborough,North Northamptonshire,NN14 2QU,North Northamptonshire,AwaitingInspection,,FHRS,False,52.4445618,-0.8217473,"19 Nichols Street, Desborough, North Northamptonshire, NN14 2QU"
+2026-06-02,1952451,WildWood Coffee,Mobile caterer,,40 Copelands Road,Desborough,North Northamptonshire,NN14 2QF,North Northamptonshire,AwaitingInspection,,FHRS,False,52.4439742,-0.8052992,"40 Copelands Road, Desborough, North Northamptonshire, NN14 2QF"
+2026-06-02,1952465,Latitude On The Wheels,Mobile caterer,Emma Cons Gardens,Waterloo Road,London,,,Lambeth,AwaitingInspection,,FHRS,False,51.5737,0.17883,"Emma Cons Gardens, Waterloo Road, London"
+2026-06-02,1952487,"Rockin' Rolls, London",Mobile caterer,,,,,,Lambeth,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1952609,Dough And Disco,Mobile caterer,,,,,,Wyre,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1950829,Cart Crew,Mobile caterer,,,,,,Chesterfield,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1945802,Tom's Street Crepes,Mobile caterer,,,,,,Ceredigion,AwaitingInspection,,FHRS,True,,,
+2026-06-02,1950853,Crepe Delcious,Mobile caterer,,,,,,Sir y Fflint,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1950812,Blend And Bite,Mobile caterer,Pedestrianised Area,Market Place,Bexleyheath,Kent,DA6 7JN,Bexley,AwaitingInspection,,FHRS,False,,,"Pedestrianised Area, Market Place, Bexleyheath, Kent, DA6 7JN"
+2026-06-02,1950809,Bright Lights And Party Delights,Mobile caterer,,,,,,Bexley,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1950813,Y B Hungry Also T/A Rosies Loaded Dogs,Mobile caterer,Unit 30,Optima Park,Thames Road,Crayford,DA1 4QX,Bexley,AwaitingInspection,,FHRS,False,51.4627017,0.1915992,"Unit 30, Optima Park, Thames Road, Crayford, DA1 4QX"
+2026-06-02,1951648,Bubble Tea by the Sea,Mobile caterer,,,,,,Eastleigh,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1952590,Feast from the East,Mobile caterer,,,,,,Westmorland and Furness,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1952593,Lakes Bar Hire Co,Mobile caterer,,,,,,Westmorland and Furness,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1952495,Falafel Revolution,Mobile caterer,Unit 4-5,Lynwood Road,Bedminster,Bristol,BS3 3HH,Bristol,5,2026-05-28,FHRS,False,51.43477,-2.612014,"Unit 4-5, Lynwood Road, Bedminster, Bristol, BS3 3HH"
+2026-06-02,1950105,Rice Time Nice Time,Mobile caterer,Unit 25g,Merton Road,Bishopston,Bristol,BS7 8TL,Bristol,AwaitingInspection,,FHRS,False,,,"Unit 25g, Merton Road, Bishopston, Bristol, BS7 8TL"
+2026-06-02,1952523,ARUVI,Mobile caterer,,,,,,Dover,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1950853,Crepe Delcious,Mobile caterer,,,,,,Flintshire,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1952569,Tea on the Green,Mobile caterer,,,,,,North Yorkshire,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1952624,Hakky's Van,Mobile caterer,,,,,,Wiltshire,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1950822,James',Mobile caterer,Kitnocks Farm,Outlands Lane,Curdridge,Southampton,SO30 2HD,Winchester City,AwaitingInspection,,FHRS,False,50.91516,-1.25116,"Kitnocks Farm, Outlands Lane, Curdridge, Southampton, SO30 2HD"
+2026-06-02,1951920,"""Sweet Clouds"" Candy Floss",Mobile caterer,,,,,,Lewes,5,2024-11-25,FHRS,False,,,
+2026-06-02,1951967,Alfresco,Mobile caterer,,,,,,Lewes,4,2025-03-17,FHRS,False,,,
+2026-06-02,1951730,Atacama Textiles Ltd,Mobile caterer,Tomkins Farm Cinder Hill,,Chailey,East Sussex,BN8 4HP,Lewes,4,2025-07-17,FHRS,False,,,"Tomkins Farm Cinder Hill, Chailey, East Sussex, BN8 4HP"
+2026-06-02,1952354,Bangs Food Truck - kitchen,Mobile caterer,Unit A Ote Hall Farm Janes Lane,,Wivelsfield,East Sussex,RH15 0SR,Lewes,5,2024-12-02,FHRS,False,,,"Unit A Ote Hall Farm Janes Lane, Wivelsfield, East Sussex, RH15 0SR"
+2026-06-02,1951776,Bang's Food Truck X Hairy Dog Brewery,Mobile caterer,Unit 38 More House Farm Ditchling Road,,Wivelsfield,East Sussex,RH17 7RE,Lewes,5,2024-10-09,FHRS,False,50.9709729,-0.0900205,"Unit 38 More House Farm Ditchling Road, Wivelsfield, East Sussex, RH17 7RE"
+2026-06-02,1952075,BOHO BAJA,Mobile caterer,The Malthouse Daveys Lane,,Lewes,East Sussex,BN7 2BF,Lewes,4,2025-03-03,FHRS,False,50.8770878,0.0201626,"The Malthouse Daveys Lane, Lewes, East Sussex, BN7 2BF"
+2026-06-02,1951852,Bushnelli's,Mobile caterer,,,,,,Lewes,5,2025-02-27,FHRS,False,,,
+2026-06-02,1951745,Cairovan,Mobile caterer,,,,,,Lewes,5,2024-05-15,FHRS,False,,,
+2026-06-02,1952067,Catch of the Day,Mobile caterer,,,,,,Lewes,5,2023-06-15,FHRS,False,,,
+2026-06-02,1952003,Cool Cow Company,Mobile caterer,More House Farm Ditchling Road,,Wivelsfield,East Sussex,RH17 7RE,Lewes,5,2025-06-30,FHRS,False,50.9709729,-0.0900205,"More House Farm Ditchling Road, Wivelsfield, East Sussex, RH17 7RE"
+2026-06-02,1952373,Downsview Farm (Mobile Cafe),Mobile caterer,Downsview Farm Laughton Road,,Ringmer,East Sussex,BN8 5UT,Lewes,5,2023-05-25,FHRS,False,50.8922693,0.0933854,"Downsview Farm Laughton Road, Ringmer, East Sussex, BN8 5UT"
+2026-06-02,1952190,Dreami Delights Sussex,Mobile caterer,4 Monarch Gardens,,Seaford,East Sussex,BN25 3BZ,Lewes,5,2025-07-07,FHRS,False,50.7847636,0.1185008,"4 Monarch Gardens, Seaford, East Sussex, BN25 3BZ"
+2026-06-02,1952168,First & Foremost Entertainment Ltd,Mobile caterer,,,,,,Lewes,5,2025-07-25,FHRS,False,,,
+2026-06-02,1952170,Flanco Pizza,Mobile caterer,,,,,,Lewes,5,2024-05-23,FHRS,False,,,
+2026-06-02,1952184,Frowd's Ices,Mobile caterer,,,,,,Lewes,5,2023-06-13,FHRS,False,,,
+2026-06-02,1951922,Guns N Posies Bakery (Mobile Trailer),Mobile caterer,,,,,,Lewes,5,2025-07-25,FHRS,False,,,
+2026-06-02,1952415,ICEMAN Ice Cream,Mobile caterer,,,,,,Lewes,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1951699,Janet Hughes Waitressing,Mobile caterer,,,,,,Lewes,5,2024-08-29,FHRS,False,,,
+2026-06-02,1952118,Just Get It Done,Mobile caterer,,,,,,Lewes,5,2024-03-12,FHRS,False,,,
+2026-06-02,1951900,La Maison Mobile BBQ and Catering Services,Mobile caterer,,,,,,Lewes,5,2025-10-16,FHRS,False,,,
+2026-06-02,1951888,La Squadra della Pizza - Mobile,Mobile caterer,,,,,,Lewes,5,2025-02-26,FHRS,False,,,
+2026-06-02,1952200,Off The Wagon,Mobile caterer,,,,,,Lewes,5,2025-03-31,FHRS,False,,,
+2026-06-02,1952261,"Orange Beach Events, TAP BAR",Mobile caterer,Harveys Depot Daveys Lane,,Lewes,East Sussex,BN7 2BQ,Lewes,5,2025-07-11,FHRS,False,50.8776962,0.0179887,"Harveys Depot Daveys Lane, Lewes, East Sussex, BN7 2BQ"
+2026-06-02,1951802,Pats Pizza,Mobile caterer,,,,,,Lewes,5,2026-03-30,FHRS,False,,,
+2026-06-02,1952233,Pippa's Pantry,Mobile caterer,,,,,,Lewes,5,2023-05-31,FHRS,False,,,
+2026-06-02,1952246,Potters,Mobile caterer,,,,,,Lewes,5,2025-08-29,FHRS,False,,,
+2026-06-02,1952252,Rainbow Ices,Mobile caterer,Unit 30 Park Farm Hundred Acre Lane,,Wivelsfield,East Sussex,RH17 7RU,Lewes,5,2023-07-06,FHRS,False,50.9514351,-0.0818297,"Unit 30 Park Farm Hundred Acre Lane, Wivelsfield, East Sussex, RH17 7RU"
+2026-06-02,1951687,Relish,Mobile caterer,Sussex Innovation Centre Science Park Square,University Of Sussex,Falmer,East Sussex,BN1 9SB,Lewes,5,2024-09-03,FHRS,False,50.8643482,-0.0827332,"Sussex Innovation Centre Science Park Square, University Of Sussex, Falmer, East Sussex, BN1 9SB"
+2026-06-02,1952416,Serena Jennings t/a W&W Event Catering,Mobile caterer,,,,,,Lewes,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1952284,Small World Cafe,Mobile caterer,,,,,,Lewes,5,2023-06-15,FHRS,False,,,
+2026-06-02,1951833,South Barn Coffee,Mobile caterer,South Hill Barn South Hill,Cuckmere Haven,Seaford,East Sussex,BN25 4AR,Lewes,5,2024-07-16,FHRS,False,50.7622692,0.1318778,"South Hill Barn South Hill, Cuckmere Haven, Seaford, East Sussex, BN25 4AR"
+2026-06-02,1951760,Sussex Coffee Trucks,Mobile caterer,,,,,,Lewes,5,2024-06-20,FHRS,False,,,
+2026-06-02,1952046,ThaiAngle,Mobile caterer,,,,,,Lewes,5,2025-02-26,FHRS,False,,,
+2026-06-02,1952322,The Bajan Jerk Box,Mobile caterer,,,,,,Lewes,5,2022-04-26,FHRS,True,,,
+2026-06-02,1952203,The Beloved's Arms,Mobile caterer,,,,,,Lewes,5,2025-03-31,FHRS,False,,,
+2026-06-02,1952344,The Dog and Peacock Mobile Bar,Mobile caterer,Wivelsden Farm North Common Road,,North Chailey,East Sussex,BN8 4EH,Lewes,5,2023-10-10,FHRS,False,50.96999,-0.0599205,"Wivelsden Farm North Common Road, North Chailey, East Sussex, BN8 4EH"
+2026-06-02,1952345,The Dog and Swan Mobile Bar,Mobile caterer,Harveys Depot Daveys Lane,,Lewes,East Sussex,BN7 2BQ,Lewes,5,2025-10-20,FHRS,False,50.8776962,0.0179887,"Harveys Depot Daveys Lane, Lewes, East Sussex, BN7 2BQ"
+2026-06-02,1951822,The Dough Box,Mobile caterer,,,,,,Lewes,5,2024-05-21,FHRS,False,,,
+2026-06-02,1951823,The Ice Cream Lady,Mobile caterer,,,,,,Lewes,5,2024-05-21,FHRS,False,,,
+2026-06-02,1951686,The Mac Shack,Mobile caterer,The Macs Farm Dumbrells Court Road,,Ditchling,East Sussex,BN6 8GT,Lewes,5,2026-03-30,FHRS,False,50.926901,-0.1077412,"The Macs Farm Dumbrells Court Road, Ditchling, East Sussex, BN6 8GT"
+2026-06-02,1952332,The Old Racecourse,Mobile caterer,County Stables The Motor Road,Old Racecourse,Lewes,East Sussex,BN7 1UR,Lewes,5,2023-05-22,FHRS,False,50.8834223,-0.0217705,"County Stables The Motor Road, Old Racecourse, Lewes, East Sussex, BN7 1UR"
+2026-06-02,1952338,The Roaming Rotisserie,Mobile caterer,,,,,,Lewes,5,2025-10-02,FHRS,False,,,
+2026-06-02,1952122,The Secret Restaurant Ltd,Mobile caterer,The Old Collection Yard The Street,,Iford,East Sussex,BN7 3ES,Lewes,5,2025-05-22,FHRS,False,50.8459241,0.002823,"The Old Collection Yard The Street, Iford, East Sussex, BN7 3ES"
+2026-06-02,1951738,The Village Chippy,Mobile caterer,,,,,,Lewes,5,2024-05-13,FHRS,True,,,
+2026-06-02,1952035,Whambam,Mobile caterer,,,,,,Lewes,5,2025-06-27,FHRS,False,,,
+2026-06-02,1952141,Zoggs,Mobile caterer,A26 Layby Beddingham Road,,South Heighton,East Sussex,BN9 0TP,Lewes,4,2025-06-04,FHRS,False,,,"A26 Layby Beddingham Road, South Heighton, East Sussex, BN9 0TP"
+2026-06-02,1951511,Bibs food truck,Mobile caterer,,,,,,Eastbourne,5,2025-09-15,FHRS,False,,,
+2026-06-02,1951100,Carnival Ice Cream Van 1 YH08 DMX,Mobile caterer,,,,,,Eastbourne,5,2024-11-20,FHRS,False,,,
+2026-06-02,1951184,Carnival Ice Cream Van 3,Mobile caterer,,,,,,Eastbourne,5,2025-03-14,FHRS,False,,,
+2026-06-02,1951195,Carnival Ice Cream Van 4,Mobile caterer,,,,,,Eastbourne,5,2025-07-29,FHRS,False,,,
+2026-06-02,1951196,Carnival Ice Cream Van 5,Mobile caterer,,,,,,Eastbourne,5,2025-03-14,FHRS,False,,,
+2026-06-02,1951198,Carnival Ice Cream Van 6,Mobile caterer,,,,,,Eastbourne,5,2024-11-20,FHRS,False,,,
+2026-06-02,1951202,Carnival Ice Cream Van 7,Mobile caterer,,,,,,Eastbourne,5,2024-11-20,FHRS,False,,,
+2026-06-02,1919610,Criollo,Mobile caterer,,,,,,Eastbourne,5,2025-10-20,FHRS,False,,,
+2026-06-02,1951059,Del Boy's,Mobile caterer,,,,,,Eastbourne,5,2024-08-05,FHRS,False,,,
+2026-06-02,1951298,Falafil Box,Mobile caterer,,,,,,Eastbourne,5,2025-07-18,FHRS,False,,,
+2026-06-02,1951638,Mandy's Snack Shack,Mobile caterer,Car Park Of Parker Building Supplies 8 Courtlands Road,,Eastbourne,East Sussex,BN22 8TR,Eastbourne,5,2025-12-03,FHRS,False,50.7789,0.2877,"Car Park Of Parker Building Supplies 8 Courtlands Road, Eastbourne, East Sussex, BN22 8TR"
+2026-06-02,1951410,Road Grill,Mobile caterer,,,,,,Eastbourne,5,2026-03-30,FHRS,False,,,
+2026-06-02,1950980,Spacca Napoli,Mobile caterer,,,,,,Eastbourne,5,2024-07-10,FHRS,False,,,
+2026-06-02,1951111,Taste Celebration - TC Food Company,Mobile caterer,,,,,,Eastbourne,5,2025-02-07,FHRS,False,,,
+2026-06-02,1950904,The Good Grub - food truck,Mobile caterer,12 Grand Hotel Buildings Compton Street,,Eastbourne,East Sussex,BN21 4EJ,Eastbourne,5,2024-06-25,FHRS,False,50.7604086,0.282428,"12 Grand Hotel Buildings Compton Street, Eastbourne, East Sussex, BN21 4EJ"
+2026-06-02,1951155,Yanni's Grill,Mobile caterer,1 Whittle Drive,,Eastbourne,East Sussex,BN23 6QH,Eastbourne,4,2025-02-03,FHRS,False,50.7970083,0.2896175,"1 Whittle Drive, Eastbourne, East Sussex, BN23 6QH"
+2026-06-02,1951665,Hook Norton Veterinary Group,Mobile caterer,White Hills Surgery Sibford Road,,Hook Norton,Oxfordshire,OX15 5DG,Cherwell,AwaitingInspection,,FHRS,False,52.0102783,-1.4801002,"White Hills Surgery Sibford Road, Hook Norton, Oxfordshire, OX15 5DG"
+2026-06-02,1951664,LEMON 'N' LIFE,Mobile caterer,,,,,,Cherwell,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1951669,Moo Bells,Mobile caterer,,,,,,Cherwell,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1945802,Tom's Street Crepes,Mobile caterer,,,,,,Ceredigion,AwaitingInspection,,FHRS,True,,,
+2026-06-02,1952667,4 Brothers,Mobile caterer,42 Fosbrooke Road,Birmingham,,,B10 9JX,Birmingham,AwaitingInspection,,FHRS,False,52.4701291,-1.8372271,"42 Fosbrooke Road, Birmingham, B10 9JX"
+2026-06-02,1952636,Bambu Garden Mobile Catering,Mobile caterer,66 Gunter Road,Birmingham,,,B24 0RU,Birmingham,5,2026-05-20,FHRS,False,52.5215278,-1.8064462,"66 Gunter Road, Birmingham, B24 0RU"
+2026-06-02,1952714,Mr Yummy,Mobile caterer,,,,,,Birmingham,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1952698,Protein Kitchen,Mobile caterer,.,St Chads Queensway,Ladywood,Birmingham,B4 6HY,Birmingham,AwaitingInspection,,FHRS,False,,,"., St Chads Queensway, Ladywood, Birmingham, B4 6HY"
+2026-06-02,1952735,sweet street,Mobile caterer,40 George Road,South Yardley,Birmingham,,B25 8HX,Birmingham,AwaitingInspection,,FHRS,False,52.4625054,-1.8370784,"40 George Road, South Yardley, Birmingham, B25 8HX"
+2026-06-02,1952676,The outdoor cooking club cic,Mobile caterer,47 Woodfield Road,Moseley And Kings Heath,Birmingham,,B13 9UL,Birmingham,AwaitingInspection,,FHRS,False,52.4360589,-1.8851133,"47 Woodfield Road, Moseley And Kings Heath, Birmingham, B13 9UL"
+2026-06-02,1952603,The Coffee Pod,Mobile caterer,,,,,,Tonbridge and Malling,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1952605,ZHOOZSH BQ Theatre,Mobile caterer,,,,,,Tonbridge and Malling,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1951660,BashBros,Mobile caterer,4 - 6 Countisbury Avenue,Llanrumney,Cardiff,,CF3 5SJ,Caerdydd,AwaitingInspection,,FHRS,False,51.5196573,-3.1203532,"4 - 6 Countisbury Avenue, Llanrumney, Cardiff, CF3 5SJ"
+2026-06-02,1951663,Chaat Factory,Mobile caterer,,,,,,Caerdydd,AwaitingInspection,,FHRS,False,,,
+2026-06-02,1951656,Dipped desserts,Mobile caterer,Number 9 Ipswich Road,Penylan,Cardiff,,CF23 9XX,Caerdydd,AwaitingInspection,,FHRS,False,51.4981329,-3.1460263,"Number 9 Ipswich Road, Penylan, Cardiff, CF23 9XX"
+2026-06-02,1951659,Kool Dipped Pineapples,Mobile caterer,Flat 1 335 Newport Road,Roath,Cardiff,,CF24 1RL,Caerdydd,AwaitingInspection,,FHRS,False,51.4913708,-3.1506529,"Flat 1 335 Newport Road, Roath, Cardiff, CF24 1RL"
