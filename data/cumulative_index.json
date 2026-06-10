@@ -4250,6 +4250,31 @@
           "count": 3
         }
       }
+    },
+    {
+      "date": "2026-06-10",
+      "files": {
+        "RESTAURANT_CAFE": {
+          "file": "RESTAURANT_CAFE/2026-06.csv",
+          "count": 80
+        },
+        "PUB_BAR": {
+          "file": "PUB_BAR/2026-06.csv",
+          "count": 9
+        },
+        "TAKEAWAY": {
+          "file": "TAKEAWAY/2026-06.csv",
+          "count": 39
+        },
+        "MOBILE": {
+          "file": "MOBILE/2026-06.csv",
+          "count": 38
+        },
+        "HOTEL": {
+          "file": "HOTEL/2026-06.csv",
+          "count": 2
+        }
+      }
     }
   ]
 }
