@@ -4488,6 +4488,15 @@
           "count": 19
         }
       }
+    },
+    {
+      "date": "2026-06-21",
+      "files": {
+        "RESTAURANT_CAFE": {
+          "file": "RESTAURANT_CAFE/2026-06.csv",
+          "count": 1
+        }
+      }
     }
   ]
 }
