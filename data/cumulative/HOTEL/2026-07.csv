@@ -1,0 +1,3 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2026-07-01,1021562,Bonners Lodge B and B,Hotel/bed & breakfast/guest house,BONNERS LODGE,,WASKERLEY,,DH8 9HW,Durham,5,2026-06-29,FHRS,False,,,"BONNERS LODGE, WASKERLEY, DH8 9HW"
+2026-07-01,520870,Teffont House,Hotel/bed & breakfast/guest house,TEFFONT HOUSE,,TEFFONT EVIAS,,SP3 5RJ,Wiltshire,AwaitingInspection,,FHRS,False,,,"TEFFONT HOUSE, TEFFONT EVIAS, SP3 5RJ"
