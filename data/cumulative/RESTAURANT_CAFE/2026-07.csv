@@ -1482,3 +1482,7 @@ date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLin
 2026-07-11,256983,La Pharmacie (Was),Restaurant/Cafe/Canteen,72-80 Corporation Road,Middlesbrough,,,TS1 2RF,Middlesbrough,3,2019-11-28,FHRS,False,54.575645,-1.229199,"72-80 Corporation Road, Middlesbrough, TS1 2RF"
 2026-07-11,999626,Lane7 Middlesbrough (WAS),Restaurant/Cafe/Canteen,73-75 Albert Road,Middlesbrough,,,TS1 2RU,Middlesbrough,5,2018-05-15,FHRS,False,54.575979,-1.235056,"73-75 Albert Road, Middlesbrough, TS1 2RU"
 2026-07-11,1002001,Lounge 2.0 (WAS),Restaurant/Cafe/Canteen,7-13 Waterloo Road,Middlesbrough,,,TS1 3PR,Middlesbrough,2,2019-11-21,FHRS,False,54.568865,-1.238514,"7-13 Waterloo Road, Middlesbrough, TS1 3PR"
+2026-07-12,1966636,The Tea Cosy,Restaurant/Cafe/Canteen,1 Y Ganolfan North Street,Dowlais,Merthyr Tydfil,,CF48 3LT,Merthyr Tydfil,AwaitingInspection,,FHRS,False,,,"1 Y Ganolfan North Street, Dowlais, Merthyr Tydfil, CF48 3LT"
+2026-07-12,1966639,Thomas Franks,Restaurant/Cafe/Canteen,Street Record,,Merthyr Tydfil,,,Merthyr Tydfil,AwaitingInspection,,FHRS,False,,,"Street Record, Merthyr Tydfil"
+2026-07-12,1966636,The Tea Cosy,Restaurant/Cafe/Canteen,1 Y Ganolfan North Street,Dowlais,Merthyr Tydfil,,CF48 3LT,Merthyr Tudful,AwaitingInspection,,FHRS,False,,,"1 Y Ganolfan North Street, Dowlais, Merthyr Tydfil, CF48 3LT"
+2026-07-12,1966639,Thomas Franks,Restaurant/Cafe/Canteen,Street Record,,Merthyr Tydfil,,,Merthyr Tudful,AwaitingInspection,,FHRS,False,,,"Street Record, Merthyr Tydfil"
