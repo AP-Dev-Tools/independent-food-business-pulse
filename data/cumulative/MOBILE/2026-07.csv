@@ -476,3 +476,44 @@ date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLin
 2026-07-11,1966512,Castle Cafe,Mobile caterer,,Castle Street,Caerphilly,,CF83 1JD,Caerphilly,AwaitingInspection,,FHRS,False,51.5762329101563,-3.21918201446533,"Castle Street, Caerphilly, CF83 1JD"
 2026-07-12,1966634,Crazy Joe’s Coffee Club,Mobile caterer,Unit G 31 Pant Industrial Estate,Pant,Merthyr Tydfil,,CF48 2SR,Merthyr Tydfil,AwaitingInspection,,FHRS,False,51.7676596,-3.3668675,"Unit G 31 Pant Industrial Estate, Pant, Merthyr Tydfil, CF48 2SR"
 2026-07-12,1966634,Crazy Joe’s Coffee Club,Mobile caterer,Unit G 31 Pant Industrial Estate,Pant,Merthyr Tydfil,,CF48 2SR,Merthyr Tudful,AwaitingInspection,,FHRS,False,51.7676596,-3.3668675,"Unit G 31 Pant Industrial Estate, Pant, Merthyr Tydfil, CF48 2SR"
+2026-07-14,1966668,Ornery Owl Coffee,Mobile caterer,,,,,,Chelmsford,AwaitingInspection,,FHRS,False,,,
+2026-07-14,1966663,Chocolate Pot,Mobile caterer,562 Cowbridge Road East,Canton,Cardiff,,CF5 1BP,Caerdydd,AwaitingInspection,,FHRS,False,51.4848389,-3.227281,"562 Cowbridge Road East, Canton, Cardiff, CF5 1BP"
+2026-07-14,1966667,It’sAllGood,Mobile caterer,,,,,,Caerdydd,AwaitingInspection,,FHRS,False,,,
+2026-07-14,1966655,Just Burgers,Mobile caterer,The Corporation Hotel 188 Cowbridge Road East,Canton,Cardiff,,CF5 1GW,Caerdydd,AwaitingInspection,,FHRS,False,51.4819326,-3.2022742,"The Corporation Hotel 188 Cowbridge Road East, Canton, Cardiff, CF5 1GW"
+2026-07-14,1966653,Sumac and Soy,Mobile caterer,Management Suite Queens Arcade,Cathays,Cardiff,,CF10 2BY,Caerdydd,AwaitingInspection,,FHRS,False,51.4809397,-3.1769453,"Management Suite Queens Arcade, Cathays, Cardiff, CF10 2BY"
+2026-07-14,1966789,Floyds American BBQ,Mobile caterer,,,,,,South Gloucestershire,AwaitingInspection,,FHRS,False,,,
+2026-07-14,1966730,The RaviOllie Stall,Mobile caterer,Unit 12 Avonside Industrial Park,Avonside Road,St Philips,Bristol,BS2 0UQ,Bristol,5,2026-07-09,FHRS,False,51.4506027,-2.5580219,"Unit 12 Avonside Industrial Park, Avonside Road, St Philips, Bristol, BS2 0UQ"
+2026-07-14,1966758,Bunbee,Mobile caterer,Land Adjacent 1A,Warwick Road,Manor Park,London,E12 6QP,Newham,AwaitingInspection,,FHRS,False,51.5473749,0.0490674,"Land Adjacent 1A, Warwick Road, Manor Park, London, E12 6QP"
+2026-07-14,1966702,Proper Burgerz,Mobile caterer,,,,,,Doncaster,AwaitingInspection,,FHRS,False,,,
+2026-07-14,1966703,Trevor’s Breakfast Trailer,Mobile caterer,,,,,,Doncaster,5,2026-07-09,FHRS,False,,,
+2026-07-14,1966821,Ej Ices,Mobile caterer,,,,,,Medway,AwaitingInspection,,FHRS,False,,,
+2026-07-14,560279,Davies Adventure,Mobile caterer,,,,Powys,LD3,Powys,AwaitingInspection,,FHRS,False,,,"Powys, LD3"
+2026-07-14,1966959,Smash 'N' Grab,Mobile caterer,,,,Powys,SY10,Powys,AwaitingInspection,,FHRS,False,,,"Powys, SY10"
+2026-07-14,1966644,Hang Fire,Mobile caterer,,,,,,Bro Morgannwg,AwaitingInspection,,FHRS,False,,,
+2026-07-14,1966812,Zaryaantradersltd,Mobile caterer,,,,,,Nottingham City,AwaitingInspection,,FHRS,False,,,
+2026-07-14,1966853,Halal Corn Dog,Mobile caterer,,,,,,Redbridge,5,2026-07-06,FHRS,False,,,
+2026-07-14,1966714,KG1 Flavours,Mobile caterer,20 Rowlings Road,Winchester,Hampshire,,SO22 6HH,Winchester City,AwaitingInspection,,FHRS,False,51.0789026,-1.3338201,"20 Rowlings Road, Winchester, Hampshire, SO22 6HH"
+2026-07-14,1966854,Holly Green Dairy,Mobile caterer,Holly Green Farm,Sandpit Lane,Bledlow,Buckinghamshire,HP27 9QJ,Buckinghamshire,AwaitingInspection,,FHRS,False,51.7255121,-0.8797723,"Holly Green Farm, Sandpit Lane, Bledlow, Buckinghamshire, HP27 9QJ"
+2026-07-14,1966857,Pretzels & Porters,Mobile caterer,,,,,,Buckinghamshire,AwaitingInspection,,FHRS,False,,,
+2026-07-14,1966745,Gelato Dawg,Mobile caterer,14 George Street Oban Argyll And Bute PA34 5SB,,,,PA34 5SB,Argyll and Bute,Awaiting Inspection,2026-06-29,FHIS,False,56.4132998,-5.4719251,"14 George Street Oban Argyll And Bute PA34 5SB, PA34 5SB"
+2026-07-14,1966644,Hang Fire,Mobile caterer,,,,,,Vale of Glamorgan,AwaitingInspection,,FHRS,False,,,
+2026-07-14,560279,Davies Adventure,Mobile caterer,,,,Powys,LD3,Powys,AwaitingInspection,,FHRS,False,,,"Powys, LD3"
+2026-07-14,1966959,Smash 'N' Grab,Mobile caterer,,,,Powys,SY10,Powys,AwaitingInspection,,FHRS,False,,,"Powys, SY10"
+2026-07-14,1966774,Kaia Juicery,Mobile caterer,,1 Edmond Grove,,,NG15 7TH,Ashfield,AwaitingInspection,,FHRS,False,53.0401332,-1.191523,"1 Edmond Grove, NG15 7TH"
+2026-07-14,1966760,SWEET CREATIONS,Mobile caterer,,129 Nottingham Road,,,NG16 6BT,Ashfield,5,2026-07-03,FHRS,False,53.0701558,-1.3035861,"129 Nottingham Road, NG16 6BT"
+2026-07-14,1966771,what the focaccia,Mobile caterer,,,,,,Ashfield,AwaitingInspection,,FHRS,False,,,
+2026-07-14,1966941,The Joint,Mobile caterer,Mobile Vehicle Trading In Newport,South Wales,,,,Newport,AwaitingInspection,,FHRS,False,,,"Mobile Vehicle Trading In Newport, South Wales"
+2026-07-14,1966797,Tasty Bites,Mobile caterer,,,,,,Norwich City,AwaitingInspection,,FHRS,False,,,
+2026-07-14,1966931,Infinity Jewellery,Mobile caterer,,,,,,North Yorkshire,AwaitingInspection,,FHRS,False,,,
+2026-07-14,1966830,Cube Collectables,Mobile caterer,10a Arundel House,Rylands Street,,,WA1 1EN,Warrington,AwaitingInspection,,FHRS,False,53.3876223,-2.5945603,"10a Arundel House, Rylands Street, WA1 1EN"
+2026-07-14,1966825,Tucka Ltd,Mobile caterer,,65 The Park,,,WA5 2SG,Warrington,AwaitingInspection,,FHRS,False,53.3802157,-2.6636586,"65 The Park, WA5 2SG"
+2026-07-14,1966963,Nourish Coffee Co,Mobile caterer,,6 Thurso Close,,Stockton-on-tees,TS19 7JD,Stockton On Tees,AwaitingInspection,,FHRS,False,54.5673839,-1.3678691,"6 Thurso Close, Stockton-on-tees, TS19 7JD"
+2026-07-14,1966941,The Joint,Mobile caterer,Mobile Vehicle Trading In Newport,South Wales,,,,Casnewydd,AwaitingInspection,,FHRS,False,,,"Mobile Vehicle Trading In Newport, South Wales"
+2026-07-14,1888658,EP Services,Mobile caterer,,,,,,Wiltshire,AwaitingInspection,,FHRS,True,,,
+2026-07-14,767200,The Plant Kitchen,Mobile caterer,,,,,,Wiltshire,AwaitingInspection,,FHRS,False,,,
+2026-07-14,1966866,Lizard Events Ltd,Mobile caterer,Unit 12,Hilsea Industrial Estate,Limberline Spur,Portsmouth,PO3 5JW,Portsmouth,AwaitingInspection,,FHRS,False,50.8318625,-1.0624438,"Unit 12, Hilsea Industrial Estate, Limberline Spur, Portsmouth, PO3 5JW"
+2026-07-14,1966870,Piecaramba Events,Mobile caterer,116 Albert Road,Southsea,,,PO4 0JS,Portsmouth,5,2026-07-04,FHRS,False,50.7865511,-1.0762615,"116 Albert Road, Southsea, PO4 0JS"
+2026-07-14,1966663,Chocolate Pot,Mobile caterer,562 Cowbridge Road East,Canton,Cardiff,,CF5 1BP,Cardiff,AwaitingInspection,,FHRS,False,51.4848389,-3.227281,"562 Cowbridge Road East, Canton, Cardiff, CF5 1BP"
+2026-07-14,1966667,It’sAllGood,Mobile caterer,,,,,,Cardiff,AwaitingInspection,,FHRS,False,,,
+2026-07-14,1966655,Just Burgers,Mobile caterer,The Corporation Hotel 188 Cowbridge Road East,Canton,Cardiff,,CF5 1GW,Cardiff,AwaitingInspection,,FHRS,False,51.4819326,-3.2022742,"The Corporation Hotel 188 Cowbridge Road East, Canton, Cardiff, CF5 1GW"
+2026-07-14,1966653,Sumac and Soy,Mobile caterer,Management Suite Queens Arcade,Cathays,Cardiff,,CF10 2BY,Cardiff,AwaitingInspection,,FHRS,False,51.4809397,-3.1769453,"Management Suite Queens Arcade, Cathays, Cardiff, CF10 2BY"
