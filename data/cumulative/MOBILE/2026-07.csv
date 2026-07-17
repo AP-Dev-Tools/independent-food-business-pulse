@@ -643,3 +643,98 @@ date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLin
 2026-07-16,1967398,The Tiffin Man,Mobile caterer,,,,,,Westmorland and Furness,AwaitingInspection,,FHRS,False,,,
 2026-07-16,1967318,Chaiiwala,Mobile caterer,Sutton Scotney Services Northbound,A34,Sutton Scotney,Winchester,SO21 3JY,Winchester City,AwaitingInspection,,FHRS,False,51.156336,-1.344298,"Sutton Scotney Services Northbound, A34, Sutton Scotney, Winchester, SO21 3JY"
 2026-07-16,1967356,Rohalios,Mobile caterer,,,,,,Stroud,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1968724,2 Much Passion,Mobile caterer,Ymca,300 Reservoir Road,Stockland Green,Birmingham,B23 6DB,Birmingham,AwaitingInspection,,FHRS,False,,,"Ymca, 300 Reservoir Road, Stockland Green, Birmingham, B23 6DB"
+2026-07-17,1968707,Birmingham icecream / Toyo ices,Mobile caterer,71A Norton Street,Birmingham,,,B18 5RB,Birmingham,AwaitingInspection,,FHRS,False,,,"71A Norton Street, Birmingham, B18 5RB"
+2026-07-17,1968672,Drip Chicken Station,Mobile caterer,565 Stratford Road,Springfield,Birmingham,,B11 4LS,Birmingham,AwaitingInspection,,FHRS,True,,,"565 Stratford Road, Springfield, Birmingham, B11 4LS"
+2026-07-17,1968668,Jerk Centre Street Food,Mobile caterer,119C,119 Baltimore Road,Birmingham,,B42 1DD,Birmingham,AwaitingInspection,,FHRS,False,,,"119C, 119 Baltimore Road, Birmingham, B42 1DD"
+2026-07-17,1968706,Shawarma al chef,Mobile caterer,Units 1 & 4,Burbidge Road,Birmingham,,B9 4US,Birmingham,AwaitingInspection,,FHRS,False,,,"Units 1 & 4, Burbidge Road, Birmingham, B9 4US"
+2026-07-17,1968749,Sportsmania,Mobile caterer,40 Woodview Drive,Birmingham,,,B15 2HU,Birmingham,AwaitingInspection,,FHRS,False,,,"40 Woodview Drive, Birmingham, B15 2HU"
+2026-07-17,1968675,Support Through Sport,Mobile caterer,The Lighthouse,100 Alma Way,Birmingham,,B19 2LN,Birmingham,AwaitingInspection,,FHRS,False,,,"The Lighthouse, 100 Alma Way, Birmingham, B19 2LN"
+2026-07-17,1968742,Tandaks Express LTD,Mobile caterer,60 Holcombe Road,Birmingham,,,B11 3PR,Birmingham,AwaitingInspection,,FHRS,False,,,"60 Holcombe Road, Birmingham, B11 3PR"
+2026-07-17,1968670,The Shawarma Shop,Mobile caterer,Fort Shopping Park,Fort Parkway,Birmingham,,B24 9FP,Birmingham,AwaitingInspection,,FHRS,False,,,"Fort Shopping Park, Fort Parkway, Birmingham, B24 9FP"
+2026-07-17,1968788,Cheshire Catering,Mobile caterer,,Vicarage Lane,Bowden,Altrincham,WA14 3BN,Trafford,AwaitingInspection,,FHRS,False,,,"Vicarage Lane, Bowden, Altrincham, WA14 3BN"
+2026-07-17,1968839,Sweetfluffy24,Mobile caterer,,,,,,Woking,5,2026-07-02,FHRS,False,,,
+2026-07-17,1773597,A20 Grill,Mobile caterer,Catering Van at Blue and White Cafe Hythe Road,,Smeeth,,TN25 6SP,Ashford,3,2026-02-20,FHRS,False,,,"Catering Van at Blue and White Cafe Hythe Road, Smeeth, TN25 6SP"
+2026-07-17,1773583,Angie's,Mobile caterer,,,,,,Ashford,5,2024-10-03,FHRS,False,,,
+2026-07-17,1773403,Beach Bums,Mobile caterer,,,,,,Ashford,5,2023-03-28,FHRS,False,,,
+2026-07-17,1773509,Blooming Beans,Mobile caterer,,,,,,Ashford,5,2023-08-17,FHRS,False,,,
+2026-07-17,1774030,Blue Egg Catering,Mobile caterer,,,,,,Ashford,5,2026-01-06,FHRS,False,,,
+2026-07-17,1773340,Boswell's (Closed),Mobile caterer,,,,,,Ashford,5,2023-03-23,FHRS,False,,,
+2026-07-17,1773736,Burger and Chips,Mobile caterer,Willow Farm Reading Street,,Tenterden,,TN30 7LA,Ashford,5,2026-05-13,FHRS,False,,,"Willow Farm Reading Street, Tenterden, TN30 7LA"
+2026-07-17,1773122,Caffeine and Fizz,Mobile caterer,,,,,,Ashford,5,2026-03-04,FHRS,False,,,
+2026-07-17,1773852,Capralama Farm (The Reindeer Centre),Mobile caterer,Capralama Farm Pluckley Road,,Bethersden,,TN26 3EQ,Ashford,5,2024-05-10,FHRS,False,,,"Capralama Farm Pluckley Road, Bethersden, TN26 3EQ"
+2026-07-17,1773185,Chin Chin Mobile Bars,Mobile caterer,,,,,,Ashford,5,2022-02-17,FHRS,False,,,
+2026-07-17,1773005,Churros,Mobile caterer,Ashford Designer Outlet Kimberley Way,,Ashford,,TN24 0SD,Ashford,5,2026-02-06,FHRS,False,,,"Ashford Designer Outlet Kimberley Way, Ashford, TN24 0SD"
+2026-07-17,1773593,Defender of the Taste,Mobile caterer,,,,,,Ashford,5,2024-09-12,FHRS,False,,,
+2026-07-17,1773900,Delicious,Mobile caterer,,,,,,Ashford,5,2025-06-24,FHRS,False,,,
+2026-07-17,1773962,Donalds Ice Cream,Mobile caterer,,,,,,Ashford,5,2023-08-01,FHRS,False,,,
+2026-07-17,1772931,Fish & Chips Kent,Mobile caterer,,,,,,Ashford,5,2026-02-09,FHRS,False,,,
+2026-07-17,1773326,Flossies Ltd,Mobile caterer,Lay-by opposite 49 to 53 Avocet Way,Finberry,Sevington,,,Ashford,5,2023-08-24,FHRS,False,,,"Lay-by opposite 49 to 53 Avocet Way, Finberry, Sevington"
+2026-07-17,1773198,Food Junkies,Mobile caterer,,,,,,Ashford,5,2023-10-16,FHRS,False,,,
+2026-07-17,1773775,Hello Treacle,Mobile caterer,,,,,,Ashford,5,2026-02-24,FHRS,False,,,
+2026-07-17,1773192,Hel's Kitchen,Mobile caterer,20 Ellingham Industrial Centre Ellingham Way,,Ashford,,TN23 6NF,Ashford,5,2026-03-05,FHRS,False,,,"20 Ellingham Industrial Centre Ellingham Way, Ashford, TN23 6NF"
+2026-07-17,1773495,Janners Catering,Mobile caterer,,,,,,Ashford,5,2023-08-10,FHRS,False,,,
+2026-07-17,1772935,John Lawson's Circus Ltd,Mobile caterer,,,,,,Ashford,5,2026-03-12,FHRS,False,,,
+2026-07-17,1773163,Le's Treats,Mobile caterer,Ashford Market Monument Way,,Sevington,,TN24 0HB,Ashford,5,2026-01-14,FHRS,False,,,"Ashford Market Monument Way, Sevington, TN24 0HB"
+2026-07-17,1773401,Little Rock on the Road,Mobile caterer,Five Bells The Street,,Brabourne,,TN25 5LP,Ashford,5,2023-01-23,FHRS,False,,,"Five Bells The Street, Brabourne, TN25 5LP"
+2026-07-17,1773715,Louise Woolls,Mobile caterer,,,,,,Ashford,5,2014-04-30,FHRS,False,,,
+2026-07-17,1773102,Mark's Ices,Mobile caterer,,,,,,Ashford,5,2026-06-15,FHRS,False,,,
+2026-07-17,1946394,Megamunch,Mobile caterer,,,,,,Ashford,5,2026-06-16,FHRS,False,,,
+2026-07-17,1773402,Neptune Bars,Mobile caterer,,,,,,Ashford,5,2023-02-01,FHRS,False,,,
+2026-07-17,1773628,Newenden Quality Kebab,Mobile caterer,Land opposite the Wharf Rye Road,,Newenden,,TN18 5PN,Ashford,1,2026-05-28,FHRS,False,,,"Land opposite the Wharf Rye Road, Newenden, TN18 5PN"
+2026-07-17,1773454,Pimp My Chicken,Mobile caterer,,,,,,Ashford,5,2026-01-15,FHRS,False,,,
+2026-07-17,1773464,Purple Fizz Events Limited,Mobile caterer,,,,,,Ashford,5,2023-10-03,FHRS,False,,,
+2026-07-17,1774093,Really Awesome Coffee Ashford,Mobile caterer,,,,,,Ashford,5,2024-05-15,FHRS,False,,,
+2026-07-17,1772967,Roadside Catering Services,Mobile caterer,Chilham Mill Layby Ashford Road,,Chilham,,,Ashford,5,2025-11-05,FHRS,False,,,"Chilham Mill Layby Ashford Road, Chilham"
+2026-07-17,1774059,Simply Good Food,Mobile caterer,A28 Layby Tenterden Bound Great Chart Bypass,,Great Chart,,,Ashford,5,2026-02-25,FHRS,False,,,"A28 Layby Tenterden Bound Great Chart Bypass, Great Chart"
+2026-07-17,1773734,Simply Good Food,Mobile caterer,Simply Good Food Lay by at Hothfield Common Maidstone Road,,Westwell,,TN26 1AN,Ashford,5,2026-05-22,FHRS,False,,,"Simply Good Food Lay by at Hothfield Common Maidstone Road, Westwell, TN26 1AN"
+2026-07-17,1773423,Simply Marvellous,Mobile caterer,,,,,,Ashford,5,2023-04-06,FHRS,False,,,
+2026-07-17,1773420,Stanleys Fudge,Mobile caterer,,,,,,Ashford,5,2023-03-14,FHRS,False,,,
+2026-07-17,1773027,The Camp Kitchen,Mobile caterer,,,,,,Ashford,5,2024-07-26,FHRS,False,,,
+2026-07-17,1773116,The Coffee Box,Mobile caterer,Mobile Coffee Van Hubert Foundation Victoria Park Victoria Road,,Ashford,,,Ashford,5,2022-09-13,FHRS,False,,,"Mobile Coffee Van Hubert Foundation Victoria Park Victoria Road, Ashford"
+2026-07-17,1773392,The Food Shack (Wild British Game),Mobile caterer,,,,,,Ashford,5,2025-03-04,FHRS,False,,,
+2026-07-17,1772940,The Lunch Box,Mobile caterer,The Lunch Box B and Q Warehouse Norman Road,,Ashford,,,Ashford,5,2026-06-23,FHRS,False,,,"The Lunch Box B and Q Warehouse Norman Road, Ashford"
+2026-07-17,1773039,The Thirsty Farrier,Mobile caterer,Britcher Farm Green Hill Lane,,Egerton,,TN27 9HA,Ashford,5,2024-03-05,FHRS,False,,,"Britcher Farm Green Hill Lane, Egerton, TN27 9HA"
+2026-07-17,1773393,This Little Cupcake,Mobile caterer,,,,,,Ashford,5,2022-02-28,FHRS,False,,,
+2026-07-17,1773774,Tony's Catering Ltd,Mobile caterer,Layby at Furners Wood Ashford Road,,Bethersden,,,Ashford,5,2026-02-23,FHRS,False,,,"Layby at Furners Wood Ashford Road, Bethersden"
+2026-07-17,1773311,Vintage Pimms Bar,Mobile caterer,,,,,,Ashford,5,2025-06-24,FHRS,False,,,
+2026-07-17,1773181,Wayne's Whippy,Mobile caterer,Frith Business Centre Frith Road,,Aldington,,,Ashford,5,2026-06-10,FHRS,False,,,"Frith Business Centre Frith Road, Aldington"
+2026-07-17,1773530,Wild Man Cook,Mobile caterer,,,,,,Ashford,5,2026-03-06,FHRS,False,,,
+2026-07-17,1773483,Yorkshire Pudding Wraps,Mobile caterer,87-92 Ashford Designer Outlet Kimberley Way,,Ashford,,TN24 0SD,Ashford,5,2025-12-15,FHRS,False,,,"87-92 Ashford Designer Outlet Kimberley Way, Ashford, TN24 0SD"
+2026-07-17,1968825,Ashers Ice Cream FJ26 SDZ,Mobile caterer,,4 Inchyra Road,,Grangemouth,FK3 9XB,Falkirk,Pass,2026-07-09,FHIS,False,,,"4 Inchyra Road, Grangemouth, FK3 9XB"
+2026-07-17,1969194,Braeside Bees (trades In Oxfordshire & Wiltshire),Mobile caterer,,,,,,Swindon,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1969191,The Olde Spud Van (trades Around Swindon),Mobile caterer,,,,,,Swindon,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1968607,The Hungry Gooner,Mobile caterer,Sports Ground,Barnsley Road,West Melton,Rotherham,S63 6DQ,Rotherham,AwaitingInspection,,FHRS,False,,,"Sports Ground, Barnsley Road, West Melton, Rotherham, S63 6DQ"
+2026-07-17,1969284,Fork Aye,Mobile caterer,No EO16 NHK East Lothian,,,,,East Lothian,Pass,2026-06-19,FHIS,False,,,No EO16 NHK East Lothian
+2026-07-17,1969283,Wats Cooking,Mobile caterer,Mobile Food Unit Based in East Lothian,,,,EH42 1RX,East Lothian,Pass,2026-07-02,FHIS,False,,,"Mobile Food Unit Based in East Lothian, EH42 1RX"
+2026-07-17,1969220,JRP Country Pursuits,Mobile caterer,,,,,,West Berkshire,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1969223,Premier Plus Events,Mobile caterer,Green Gables Tidmarsh Lane,Tidmarsh,Reading,West Berkshire,RG8 8HG,West Berkshire,AwaitingInspection,,FHRS,False,,,"Green Gables Tidmarsh Lane, Tidmarsh, Reading, West Berkshire, RG8 8HG"
+2026-07-17,1969224,Rossi Ice Cream,Mobile caterer,,,,,,West Berkshire,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1969222,Soul Taste,Mobile caterer,Wasing Place Wasing Park,Aldermaston,Reading,West Berkshire,RG7 4NG,West Berkshire,AwaitingInspection,,FHRS,False,,,"Wasing Place Wasing Park, Aldermaston, Reading, West Berkshire, RG7 4NG"
+2026-07-17,1969289,Mals Mobile Bar,Mobile caterer,,,,,,Dacorum,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1969130,The Coffee Station,Mobile caterer,,,,,,West Oxfordshire,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1969236,The Golden Cod Fish and Chips,Mobile caterer,21 The Avenue,,Bracknell,Bracknell Forest,RG12 1BD,Bracknell Forest,AwaitingInspection,,FHRS,False,,,"21 The Avenue, Bracknell, Bracknell Forest, RG12 1BD"
+2026-07-17,1968830,Porky Kong,Mobile caterer,9 Christmas Crescent,,Guildford,Surrey,GU3 3FD,Guildford,AwaitingInspection,,FHRS,False,,,"9 Christmas Crescent, Guildford, Surrey, GU3 3FD"
+2026-07-17,1969300,MCS Juice's,Mobile caterer,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1969158,Hola Churros,Mobile caterer,Brighton I360,Kings Road Arches,Brighton,,BN1 2LN,Brighton and Hove,AwaitingInspection,,FHRS,False,,,"Brighton I360, Kings Road Arches, Brighton, BN1 2LN"
+2026-07-17,1966147,CPBS Marine Services,Mobile caterer,TEMPLE PIER VICTORIA EMBANKMENT,,LONDON,,WC2R 2PN,Westminster,AwaitingInspection,,FHRS,False,,,"TEMPLE PIER VICTORIA EMBANKMENT, LONDON, WC2R 2PN"
+2026-07-17,1946264,Kernel,Mobile caterer,,,,,,Westminster,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1968868,AJ Ices,Mobile caterer,,,,,,Manchester,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1969046,Car Boot Coffee,Mobile caterer,,,,,,Manchester,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1969088,Country Home Cafe,Mobile caterer,,,,,,Manchester,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1968982,Daisy Delights,Mobile caterer,MOSTON HAND CAR WASH,3 GILL STREET,MANCHESTER,,M9 4HA,Manchester,AwaitingInspection,,FHRS,False,,,"MOSTON HAND CAR WASH, 3 GILL STREET, MANCHESTER, M9 4HA"
+2026-07-17,1968937,Handy Bites,Mobile caterer,The Piccadilly Street Food Market,Piccadilly Gardens,Manchester,,M1 1LY,Manchester,AwaitingInspection,,FHRS,False,,,"The Piccadilly Street Food Market, Piccadilly Gardens, Manchester, M1 1LY"
+2026-07-17,1969107,Kewals Kerala spice hut,Mobile caterer,,,,,,Manchester,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1968925,Lion City Street Food,Mobile caterer,,,,,,Manchester,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1969090,Louis Lobster Cart,Mobile caterer,OUTSIDE LOUIS RESTAURANT,3 HARDMAN SQUARE,MANCHESTER,,M3 3AB,Manchester,AwaitingInspection,,FHRS,False,,,"OUTSIDE LOUIS RESTAURANT, 3 HARDMAN SQUARE, MANCHESTER, M3 3AB"
+2026-07-17,1968959,Maíz & Margs,Mobile caterer,,,,,,Manchester,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1969019,Mamoyos Kitchen Limited,Mobile caterer,,,,,,Manchester,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1968869,Olchi,Mobile caterer,,,,,,Manchester,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1969024,Rizzo´s Sicilian food,Mobile caterer,SADLERS CAT OLD BANK BUILDING,HANOVER STREET,MANCHESTER,,M60 0AB,Manchester,AwaitingInspection,,FHRS,False,,,"SADLERS CAT OLD BANK BUILDING, HANOVER STREET, MANCHESTER, M60 0AB"
+2026-07-17,1968969,Spice & Grind Mayfield Depot,Mobile caterer,BOWMER & KIRKLAND THE REPUBLICAN CONSTRUCTION SITE MAYFIELD DEVELOPMENT,HOYLE STREET,MANCHESTER,,M12 6HG,Manchester,AwaitingInspection,,FHRS,False,,,"BOWMER & KIRKLAND THE REPUBLICAN CONSTRUCTION SITE MAYFIELD DEVELOPMENT, HOYLE STREET, MANCHESTER, M12 6HG"
+2026-07-17,1969053,TDKitchen's,Mobile caterer,,,,,,Manchester,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1969108,The Strawberry House,Mobile caterer,,,,,,Manchester,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1969073,Velora Mix,Mobile caterer,,,,,,Manchester,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1969080,Wok & roll kitchen,Mobile caterer,,,,,,Manchester,AwaitingInspection,,FHRS,False,,,
+2026-07-17,1969112,Wunder bar,Mobile caterer,,37 Fairholme  Collingham Street,Manchester,,M8 8RQ,Manchester,AwaitingInspection,,FHRS,False,,,"37 Fairholme  Collingham Street, Manchester, M8 8RQ"
+2026-07-17,1968979,Yaz's Food Cabin,Mobile caterer,,,,,,Manchester,AwaitingInspection,,FHRS,False,,,
