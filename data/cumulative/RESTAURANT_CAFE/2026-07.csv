@@ -2523,3 +2523,591 @@ date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLin
 2026-07-22,1970551,Day Release,Restaurant/Cafe/Canteen,6a-6b Signal Yard Park Square,Milton,Abingdon,,OX14 4RR,South Oxfordshire,AwaitingInspection,,FHRS,False,51.6214834,-1.2992382,"6a-6b Signal Yard Park Square, Milton, Abingdon, OX14 4RR"
 2026-07-22,1089600,La Lunchera,Restaurant/Cafe/Canteen,,80b Chorley Road,Swinton,,M27 5XB,Salford,3,2025-11-06,FHRS,False,53.5100250244141,-2.33617210388184,"80b Chorley Road, Swinton, M27 5XB"
 2026-07-22,1958926,Southsea Fish And Chips,Restaurant/Cafe/Canteen,Unit 6,South Parade Pier,South Parade,Southsea,PO4 0SP,Portsmouth,AwaitingInspection,,FHRS,True,50.7789386,-1.0761337,"Unit 6, South Parade Pier, South Parade, Southsea, PO4 0SP"
+2026-07-23,1971054,BUNE,Restaurant/Cafe/Canteen,,,,,,Runnymede,AwaitingInspection,,FHRS,False,,,
+2026-07-23,315267,Norinos,Restaurant/Cafe/Canteen,Rose And Olive Branch,Callow Hill,,Virginia Water,GU25 4LH,Runnymede,AwaitingInspection,,FHRS,False,51.412718,-0.574728,"Rose And Olive Branch, Callow Hill, Virginia Water, GU25 4LH"
+2026-07-23,429738,Real Home-made Delights,Restaurant/Cafe/Canteen,,,,,,Runnymede,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1648251,The Cove,Restaurant/Cafe/Canteen,31 - 32 Front Street,Tynemouth,Tyne And Wear,,NE30 4DZ,North Tyneside,5,2025-06-25,FHRS,False,55.017926,-1.422131,"31 - 32 Front Street, Tynemouth, Tyne And Wear, NE30 4DZ"
+2026-07-23,1970836,Aramark@NEScol Fraserburgh Campus,Restaurant/Cafe/Canteen,,North East Scotland College Fraserburgh Campus,Henderson Road,Fraserburgh,AB43 9GA,Aberdeenshire,Awaiting Inspection,2026-07-21,FHIS,False,,,"North East Scotland College Fraserburgh Campus, Henderson Road, Fraserburgh, AB43 9GA"
+2026-07-23,1704439,Bazaar Foodhall Limited,Restaurant/Cafe/Canteen,15 Captain Cook Square,Middlesbrough,,,TS1 5UB,Middlesbrough,0,2026-05-05,FHRS,False,54.575491,-1.238917,"15 Captain Cook Square, Middlesbrough, TS1 5UB"
+2026-07-23,1971225,Lazy Burgers,Restaurant/Cafe/Canteen,387-391 Stoney Stanton Road,,,Coventry,CV6 5DT,Coventry,AwaitingInspection,,FHRS,False,52.4215055,-1.4960927,"387-391 Stoney Stanton Road, Coventry, CV6 5DT"
+2026-07-23,1971222,The Ceylon Flame,Restaurant/Cafe/Canteen,2 Ford Street,,,Coventry,CV1 5WT,Coventry,AwaitingInspection,,FHRS,False,52.4114523,-1.5041161,"2 Ford Street, Coventry, CV1 5WT"
+2026-07-23,1971223,The Chaat Club,Restaurant/Cafe/Canteen,551 Foleshill Road,,,Coventry,CV6 5JW,Coventry,AwaitingInspection,,FHRS,False,52.429565,-1.4988076,"551 Foleshill Road, Coventry, CV6 5JW"
+2026-07-23,1909240,Hot Express Pizza,Restaurant/Cafe/Canteen,4 New Broadway,Uxbridge Road,,Uxbridge,UB10 0LH,Hillingdon,4,2026-03-04,FHRS,False,51.530845,-0.448325,"4 New Broadway, Uxbridge Road, Uxbridge, UB10 0LH"
+2026-07-23,1970941,Feeling Perky,Restaurant/Cafe/Canteen,6 The Parade Cokeham Road,,Sompting,West Sussex,BN15 0AH,Adur,AwaitingInspection,,FHRS,False,50.832861,-0.3365367,"6 The Parade Cokeham Road, Sompting, West Sussex, BN15 0AH"
+2026-07-23,1970943,Shoreham Rugby Football Club (SRFC),Restaurant/Cafe/Canteen,North Pavilion Buckingham Park Upper Shoreham Road,,Shoreham-by-sea,West Sussex,BN43 6FB,Adur,AwaitingInspection,,FHRS,False,,,"North Pavilion Buckingham Park Upper Shoreham Road, Shoreham-by-sea, West Sussex, BN43 6FB"
+2026-07-23,1971172,Applegreen Cromwell -Taco Bell,Restaurant/Cafe/Canteen,Taco Bell,Applegreen Cromwell,Great North Road,Cromwell,NG23 6JE,Newark and Sherwood,AwaitingInspection,,FHRS,False,,,"Taco Bell, Applegreen Cromwell, Great North Road, Cromwell, NG23 6JE"
+2026-07-23,1971168,Brunchy,Restaurant/Cafe/Canteen,72 Kirklington Road,Bilsthorpe,,,NG22 8SP,Newark and Sherwood,AwaitingInspection,,FHRS,False,53.1325638,-1.0273637,"72 Kirklington Road, Bilsthorpe, NG22 8SP"
+2026-07-23,1968505,LIBERTYS,Restaurant/Cafe/Canteen,Marriots Cycles,16A Appleton Gate,Newark On Trent,,NG24 1JY,Newark and Sherwood,AwaitingInspection,,FHRS,False,53.0769573,-0.8060008,"Marriots Cycles, 16A Appleton Gate, Newark On Trent, NG24 1JY"
+2026-07-23,1945319,Sister Coffee Ltd,Restaurant/Cafe/Canteen,Unit 3 39-41 Old Co Op Buildings,High Street,Abersychan,Pontypool,NP4 7AD,Torfaen,AwaitingInspection,,FHRS,False,51.7247389,-3.06274,"Unit 3 39-41 Old Co Op Buildings, High Street, Abersychan, Pontypool, NP4 7AD"
+2026-07-23,254952,Re Masaniello,Restaurant/Cafe/Canteen,118 Sydenham Road,London,,,SE26 5JX,Lewisham,1,2012-04-06,FHRS,False,51.425569,-0.048473,"118 Sydenham Road, London, SE26 5JX"
+2026-07-23,1971210,Good Food at The Shed,Restaurant/Cafe/Canteen,,17 Jersey Road,,Bonymaen,SA1 7DG,Swansea,AwaitingInspection,,FHRS,False,51.6401996,-3.9165539,"17 Jersey Road, Bonymaen, SA1 7DG"
+2026-07-23,1971203,Hungry Wild Hogs,Restaurant/Cafe/Canteen,,1 Meadow Street,,Townhill,SA1 6RZ,Swansea,AwaitingInspection,,FHRS,False,51.6327403,-3.9697281,"1 Meadow Street, Townhill, SA1 6RZ"
+2026-07-23,1971202,Palais Coffee,Restaurant/Cafe/Canteen,,91 Mansel Street,,Mount Pleasant,SA1 5TZ,Swansea,AwaitingInspection,,FHRS,False,51.6211051940918,-3.94869589805603,"91 Mansel Street, Mount Pleasant, SA1 5TZ"
+2026-07-23,1971200,Pixie Cakes and Coffee,Restaurant/Cafe/Canteen,Unit C Marina Villas,Trawler Road,,Maritime Quarter,SA1 1FZ,Swansea,AwaitingInspection,,FHRS,False,51.6156696,-3.9312791,"Unit C Marina Villas, Trawler Road, Maritime Quarter, SA1 1FZ"
+2026-07-23,1971198,Roasted Coffee Shop,Restaurant/Cafe/Canteen,Technology Centre,Victoria Road,,Kingsbridge,SA4 4AS,Swansea,AwaitingInspection,,FHRS,False,51.6603902,-4.0381401,"Technology Centre, Victoria Road, Kingsbridge, SA4 4AS"
+2026-07-23,1971212,Theatre Bistro Ltd,Restaurant/Cafe/Canteen,,176 Neath Road,,Landore,SA1 2JT,Swansea,AwaitingInspection,,FHRS,False,51.63993,-3.93836,"176 Neath Road, Landore, SA1 2JT"
+2026-07-23,1970903,Baron Hill Golf Club Catering,Restaurant/Cafe/Canteen,Baron Hill Golf Club,Allt Goch Bach,Beaumaris,Isle Of Anglesey,LL58 8YW,Anglesey,5,2026-07-17,FHRS,False,53.257081,-4.110702,"Baron Hill Golf Club, Allt Goch Bach, Beaumaris, Isle Of Anglesey, LL58 8YW"
+2026-07-23,1945319,Sister Coffee Ltd,Restaurant/Cafe/Canteen,Unit 3 39-41 Old Co Op Buildings,High Street,Abersychan,Pontypool,NP4 7AD,Torfaen,AwaitingInspection,,FHRS,False,51.7247389,-3.06274,"Unit 3 39-41 Old Co Op Buildings, High Street, Abersychan, Pontypool, NP4 7AD"
+2026-07-23,1971062,1852 Brewery Company,Restaurant/Cafe/Canteen,2 Station Road,Wigston,Leicestershire,,LE18 2DH,Oadby and Wigston,AwaitingInspection,,FHRS,False,52.581879,-1.121583,"2 Station Road, Wigston, Leicestershire, LE18 2DH"
+2026-07-23,1971065,Preparing Pathways LTD,Restaurant/Cafe/Canteen,18 Pullman Road,Wigston,Leicestershire,,LE18 2DA,Oadby and Wigston,AwaitingInspection,,FHRS,False,52.582628,-1.120741,"18 Pullman Road, Wigston, Leicestershire, LE18 2DA"
+2026-07-23,1971069,Press House Coffee \& Eatery,Restaurant/Cafe/Canteen,6 - 8 The Arcade,Wigston,Leicestershire,,LE18 1NZ,Oadby and Wigston,AwaitingInspection,,FHRS,False,,,"6 - 8 The Arcade, Wigston, Leicestershire, LE18 1NZ"
+2026-07-23,1928258,The Dessert Boutique,Restaurant/Cafe/Canteen,,,,,,Oadby and Wigston,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1970852,DIAMOND TAKE AWAY,Restaurant/Cafe/Canteen,12 Townhall Street,Enniskillen,Enniskillen,Fermanagh,BT74 7BA,Fermanagh and Omagh,AwaitingInspection,,FHRS,False,54.344543,-7.638005,"12 Townhall Street, Enniskillen, Enniskillen, Fermanagh, BT74 7BA"
+2026-07-23,1970839,Fat Matt’s Pizzeria,Restaurant/Cafe/Canteen,134 Sligo Road,Scaffog,Enniskillen,Fermanagh,BT74 7PA,Fermanagh and Omagh,AwaitingInspection,,FHRS,False,54.3338966369629,-7.66192579269409,"134 Sligo Road, Scaffog, Enniskillen, Fermanagh, BT74 7PA"
+2026-07-23,1970849,The Forge,Restaurant/Cafe/Canteen,40 Main Street,Finner,Belleek,Fermanagh,BT93 3FX,Fermanagh and Omagh,AwaitingInspection,,FHRS,False,54.479957,-8.091891,"40 Main Street, Finner, Belleek, Fermanagh, BT93 3FX"
+2026-07-23,1970853,The Sunrise Diner,Restaurant/Cafe/Canteen,Seskanore,,Omagh,,BT78 1UG,Fermanagh and Omagh,AwaitingInspection,,FHRS,False,,,"Seskanore, Omagh, BT78 1UG"
+2026-07-23,1970850,The Timeless Teapot,Restaurant/Cafe/Canteen,Castle Archdale Country Park,Irvinestown,,Co Fermanagh,BT94 1PP,Fermanagh and Omagh,AwaitingInspection,,FHRS,False,,,"Castle Archdale Country Park, Irvinestown, Co Fermanagh, BT94 1PP"
+2026-07-23,1970899,Pilates Refinery / Refined Coffee,Restaurant/Cafe/Canteen,46 Main Street,Garvaghy,Portglenone,Antrim,BT44 8HS,Mid and East Antrim,AwaitingInspection,,FHRS,False,54.8728381,-6.4775426,"46 Main Street, Garvaghy, Portglenone, Antrim, BT44 8HS"
+2026-07-23,701969,Coliseum Cinema,Restaurant/Cafe/Canteen,Wheat Street,Brecon,Powys,,LD3 7DG,Powys,AwaitingInspection,,FHRS,False,51.947259,-3.39199,"Wheat Street, Brecon, Powys, LD3 7DG"
+2026-07-23,702189,Kerry Bowling Club,Restaurant/Cafe/Canteen,Common Road,Kerry,Newtown,Powys,SY16 4NA,Powys,AwaitingInspection,,FHRS,False,,,"Common Road, Kerry, Newtown, Powys, SY16 4NA"
+2026-07-23,1970940,Newtown Food Surplus,Restaurant/Cafe/Canteen,15 Bear Lanes,Newtown,Powys,,SY16 2QZ,Powys,AwaitingInspection,,FHRS,False,52.5152917,-3.3167103,"15 Bear Lanes, Newtown, Powys, SY16 2QZ"
+2026-07-23,1970882,Fable Coffee and Stories,Restaurant/Cafe/Canteen,,29 Fore Street,Wellington,Somerset,TA21 8AG,Somerset,AwaitingInspection,,FHRS,False,50.977504,-3.229426,"29 Fore Street, Wellington, Somerset, TA21 8AG"
+2026-07-23,1970891,GLITCH,Restaurant/Cafe/Canteen,16 Park Street,Minehead,Somerset,,TA24 5NQ,Somerset,AwaitingInspection,,FHRS,False,51.205512,-3.480003,"16 Park Street, Minehead, Somerset, TA24 5NQ"
+2026-07-23,1970881,Little Escapes,Restaurant/Cafe/Canteen,Unit 8 The Venture Eleven,Venture Way,Taunton,Somerset,TA2 8DG,Somerset,AwaitingInspection,,FHRS,False,51.0255904,-3.0862713,"Unit 8 The Venture Eleven, Venture Way, Taunton, Somerset, TA2 8DG"
+2026-07-23,1970886,Little Fig Play Lounge,Restaurant/Cafe/Canteen,,Unit O24,Westpark,Chelston,TA21 9SF,Somerset,AwaitingInspection,,FHRS,False,50.9792376,-3.2101141,"Unit O24, Westpark, Chelston, TA21 9SF"
+2026-07-23,1042400,Buono Taste Also T/A Juicd And Breakfast Bar,Restaurant/Cafe/Canteen,Buono Taste Also T/A Juicd And Breakfast Bar,1 North Street,Ashton-under-lyne,Tameside,OL6 7HP,Tameside,3,2025-01-02,FHRS,False,53.4872896,-2.1031039,"Buono Taste Also T/A Juicd And Breakfast Bar, 1 North Street, Ashton-under-lyne, Tameside, OL6 7HP"
+2026-07-23,1970788,The Olive Tree Play Cafe,Restaurant/Cafe/Canteen,5 Ladygate Centre,High Street,Wickford,Essex,SS12 9AJ,Basildon,AwaitingInspection,,FHRS,False,51.6122573,0.520793,"5 Ladygate Centre, High Street, Wickford, Essex, SS12 9AJ"
+2026-07-23,1970814,Viva Chill’d,Restaurant/Cafe/Canteen,1 Repton House,Repton Close,Basildon,Essex,SS13 1LJ,Basildon,AwaitingInspection,,FHRS,False,51.5858524,0.5012172,"1 Repton House, Repton Close, Basildon, Essex, SS13 1LJ"
+2026-07-23,1970784,Brew And Chew,Restaurant/Cafe/Canteen,216 London Road,Hadleigh,Benfleet,Essex,SS7 2PD,Castle Point,AwaitingInspection,,FHRS,False,51.553672,0.608369,"216 London Road, Hadleigh, Benfleet, Essex, SS7 2PD"
+2026-07-23,1971076,Esquires Coffee Newbury,Restaurant/Cafe/Canteen,21 Northbrook Street,,Newbury,West Berkshire,RG14 1DJ,West Berkshire,5,2026-07-08,FHRS,False,51.4029782,-1.3242299,"21 Northbrook Street, Newbury, West Berkshire, RG14 1DJ"
+2026-07-23,1971073,Gourmet Barn,Restaurant/Cafe/Canteen,Field Barn Farm Beenham Hill,Beenham,Reading,West Berkshire,RG7 5LT,West Berkshire,AwaitingInspection,,FHRS,False,51.4133494,-1.1344723,"Field Barn Farm Beenham Hill, Beenham, Reading, West Berkshire, RG7 5LT"
+2026-07-23,1971074,Tealith Bubble Tea (Newbury),Restaurant/Cafe/Canteen,39 Parkway Shopping Centre,,Newbury,West Berkshire,RG14 1AY,West Berkshire,AwaitingInspection,,FHRS,False,51.4042533,-1.3239093,"39 Parkway Shopping Centre, Newbury, West Berkshire, RG14 1AY"
+2026-07-23,1971136,The Dog And Gun Restaurant,Restaurant/Cafe/Canteen,The Dog And Gun,Boreham Road,Great Leighs,Chelmsford,CM3 3NF,Chelmsford,AwaitingInspection,,FHRS,False,51.798338,0.520895,"The Dog And Gun, Boreham Road, Great Leighs, Chelmsford, CM3 3NF"
+2026-07-23,701969,Coliseum Cinema,Restaurant/Cafe/Canteen,Wheat Street,Brecon,Powys,,LD3 7DG,Powys,AwaitingInspection,,FHRS,False,51.947259,-3.39199,"Wheat Street, Brecon, Powys, LD3 7DG"
+2026-07-23,702189,Kerry Bowling Club,Restaurant/Cafe/Canteen,Common Road,Kerry,Newtown,Powys,SY16 4NA,Powys,AwaitingInspection,,FHRS,False,,,"Common Road, Kerry, Newtown, Powys, SY16 4NA"
+2026-07-23,1970940,Newtown Food Surplus,Restaurant/Cafe/Canteen,15 Bear Lanes,Newtown,Powys,,SY16 2QZ,Powys,AwaitingInspection,,FHRS,False,52.5152917,-3.3167103,"15 Bear Lanes, Newtown, Powys, SY16 2QZ"
+2026-07-23,1970994,GH Floral Cafe,Restaurant/Cafe/Canteen,7 Rowlands Road,,Worthing,West Sussex,BN11 3JJ,Worthing,AwaitingInspection,,FHRS,False,50.8097586,-0.3788764,"7 Rowlands Road, Worthing, West Sussex, BN11 3JJ"
+2026-07-23,1968453,Maa Kitchen,Restaurant/Cafe/Canteen,2 Field Row,,Worthing,West Sussex,BN11 1TD,Worthing,AwaitingInspection,,FHRS,False,50.8105128,-0.3722706,"2 Field Row, Worthing, West Sussex, BN11 1TD"
+2026-07-23,1971181,The Swan Banton,Restaurant/Cafe/Canteen,Main Street,Banton,,,G65 0QW,North Lanarkshire,Awaiting Inspection,,FHIS,False,,,"Main Street, Banton, G65 0QW"
+2026-07-23,1971164,ARV Studios,Restaurant/Cafe/Canteen,Unit 1C Register Buildings,Lambton Street,Sunderland,,SR1 1TP,Sunderland,AwaitingInspection,,FHRS,False,54.9078101,-1.3797388,"Unit 1C Register Buildings, Lambton Street, Sunderland, SR1 1TP"
+2026-07-23,1971161,Balér,Restaurant/Cafe/Canteen,23A Fawcett Street,Sunderland,,,SR1 1RH,Sunderland,AwaitingInspection,,FHRS,False,54.905727,-1.381236,"23A Fawcett Street, Sunderland, SR1 1RH"
+2026-07-23,1881584,Leaf & Bean,Restaurant/Cafe/Canteen,3 Emmerson Terrace,Columbia,Washington,,NE38 7LN,Sunderland,5,2026-01-21,FHRS,False,54.8981996,-1.5167132,"3 Emmerson Terrace, Columbia, Washington, NE38 7LN"
+2026-07-23,1971166,Namaste Seaburn,Restaurant/Cafe/Canteen,3 Queens Parade,Sunderland,,,SR6 8DA,Sunderland,AwaitingInspection,,FHRS,False,54.9343358,-1.3680772,"3 Queens Parade, Sunderland, SR6 8DA"
+2026-07-23,1971167,Pit And Plate At The Scullery,Restaurant/Cafe/Canteen,The Scullery Restaurant,Drift House,Silksworth Lane,Sunderland,SR3 1BN,Sunderland,AwaitingInspection,,FHRS,False,,,"The Scullery Restaurant, Drift House, Silksworth Lane, Sunderland, SR3 1BN"
+2026-07-23,1538832,Sweet Dreams Dessert Cafe,Restaurant/Cafe/Canteen,Sweet Dreams Desert Café,21A Derwent Street,Sunderland,,SR1 3NU,Sunderland,5,2025-03-28,FHRS,False,54.9034613,-1.3863547,"Sweet Dreams Desert Café, 21A Derwent Street, Sunderland, SR1 3NU"
+2026-07-23,1971147,Taverna Di Gusto Ltd,Restaurant/Cafe/Canteen,144 High Street West,Sunderland,,,SR1 1UN,Sunderland,AwaitingInspection,,FHRS,False,54.9081231,-1.3770349,"144 High Street West, Sunderland, SR1 1UN"
+2026-07-23,1971152,Thomas Franks Ltd,Restaurant/Cafe/Canteen,BT,6 Camberwell Way,Doxford International,Sunderland,SR3 3XN,Sunderland,AwaitingInspection,,FHRS,False,,,"BT, 6 Camberwell Way, Doxford International, Sunderland, SR3 3XN"
+2026-07-23,1970997,Oh My Pasta & Desserts,Restaurant/Cafe/Canteen,70 Holton Road,,Barry,Vale Of Glamorgan,CF63 4HE,Vale of Glamorgan,AwaitingInspection,,FHRS,False,51.405278,-3.269203,"70 Holton Road, Barry, Vale Of Glamorgan, CF63 4HE"
+2026-07-23,1970996,Sushi Life Penarth,Restaurant/Cafe/Canteen,Old Rb Furnishings,,Penarth,,CF64 1EA,Vale of Glamorgan,AwaitingInspection,,FHRS,False,,,"Old Rb Furnishings, Penarth, CF64 1EA"
+2026-07-23,1908215,4 Coffee First,Restaurant/Cafe/Canteen,201 Rush Green Road,Romford,,,RM7 0JR,Havering,4,2026-01-23,FHRS,False,51.5652632,0.1756247,"201 Rush Green Road, Romford, RM7 0JR"
+2026-07-23,1924347,4 Coffee First Ltd,Restaurant/Cafe/Canteen,199 Rush Green Road,Romford,,,RM7 0JR,Havering,3,2026-06-26,FHRS,False,51.565251,0.1756997,"199 Rush Green Road, Romford, RM7 0JR"
+2026-07-23,1959121,A Slice of Joy,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1384476,A&D_allaboutfood,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-04-22,FHRS,False,,,
+2026-07-23,924449,Abigails Cafe,Restaurant/Cafe/Canteen,191 St Mary's Lane,Upminster,,,RM14 3BU,Havering,5,2025-10-16,FHRS,False,51.556513,0.252027,"191 St Mary's Lane, Upminster, RM14 3BU"
+2026-07-23,1823242,AD Allaboutfood,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1832463,Adana,Restaurant/Cafe/Canteen,The Broadway,Hornchurch,,,RM12 4RS,Havering,5,2025-08-01,FHRS,False,51.55062,0.198134,"The Broadway, Hornchurch, RM12 4RS"
+2026-07-23,1667169,AdesKitchen,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-03-10,FHRS,False,,,
+2026-07-23,854607,Admiral,Restaurant/Cafe/Canteen,54 South Street,Romford,,,RM1 1RB,Havering,5,2026-04-24,FHRS,False,51.576953,0.181205,"54 South Street, Romford, RM1 1RB"
+2026-07-23,1400853,AfroBites Mixes,Restaurant/Cafe/Canteen,37 Ravenswood Close,Romford,,,RM5 2UD,Havering,Exempt,,FHRS,False,51.6085503,0.1646409,"37 Ravenswood Close, Romford, RM5 2UD"
+2026-07-23,1455826,Albz Restaurant,Restaurant/Cafe/Canteen,Victoria Road,Romford,,,RM1 2HU,Havering,4,2025-08-14,FHRS,False,51.574516,0.184581,"Victoria Road, Romford, RM1 2HU"
+2026-07-23,1590130,Aleisha's Bakes,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-05-23,FHRS,False,,,
+2026-07-23,1959143,Alina Perehinska,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1894116,Ali's Cafe,Restaurant/Cafe/Canteen,North Street,Romford,,,RM1 1DS,Havering,5,2025-11-19,FHRS,False,51.584065,0.174934,"North Street, Romford, RM1 1DS"
+2026-07-23,372618,All Saints' Church,Restaurant/Cafe/Canteen,The Chase,Upminster,,,RM14 3YB,Havering,Exempt,,FHRS,False,51.553218,0.265799,"The Chase, Upminster, RM14 3YB"
+2026-07-23,373548,Allmans Catering,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-02-06,FHRS,False,,,
+2026-07-23,373260,Amana Trust,Restaurant/Cafe/Canteen,Orange Tree Hill,Havering-Atte-Bower,,,RM4 1PB,Havering,5,2025-01-22,FHRS,False,51.611867,0.17999,"Orange Tree Hill, Havering-Atte-Bower, RM4 1PB"
+2026-07-23,1096585,Amen Ethiopian Cuisine / Amen Jerk BBQ / Amen Tropical,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-02-17,FHRS,False,,,
+2026-07-23,902112,Andrews Catering,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-03-11,FHRS,False,,,
+2026-07-23,1772392,Angel Cafe,Restaurant/Cafe/Canteen,145 London Road,Romford,,,RM7 9QH,Havering,5,2026-05-13,FHRS,False,51.574217,0.170625,"145 London Road, Romford, RM7 9QH"
+2026-07-23,373167,Angeli Fish & Chips,Restaurant/Cafe/Canteen,51 Suttons Lane,Hornchurch,,,RM12 6RJ,Havering,5,2026-01-23,FHRS,False,51.551967,0.218798,"51 Suttons Lane, Hornchurch, RM12 6RJ"
+2026-07-23,1543985,Angels Cakes,Restaurant/Cafe/Canteen,,,,,,Havering,5,2023-07-25,FHRS,False,,,
+2026-07-23,910670,Aroma / Spice Garden,Restaurant/Cafe/Canteen,55 High Street,Romford,,,RM1 1JL,Havering,5,2024-08-09,FHRS,False,51.577186,0.178329,"55 High Street, Romford, RM1 1JL"
+2026-07-23,1908212,Arusuvai,Restaurant/Cafe/Canteen,,,,,,Havering,3,2026-04-17,FHRS,False,,,
+2026-07-23,1884264,Asia Spice,Restaurant/Cafe/Canteen,62 Victoria Road,Romford,,,RM1 2JH,Havering,4,2026-02-12,FHRS,False,51.574551,0.18604,"62 Victoria Road, Romford, RM1 2JH"
+2026-07-23,1155139,Asia Villa,Restaurant/Cafe/Canteen,19 Victoria Road,Romford,,,RM1 2JT,Havering,5,2026-03-31,FHRS,False,51.5747718811035,0.185387000441551,"19 Victoria Road, Romford, RM1 2JT"
+2026-07-23,1823236,Aso Rock Restaurant,Restaurant/Cafe/Canteen,Melksham Close,Romford,,,RM3 8QX,Havering,4,2025-08-15,FHRS,False,51.599515,0.230054,"Melksham Close, Romford, RM3 8QX"
+2026-07-23,1874987,Atlantis BBQ and Fish Bar,Restaurant/Cafe/Canteen,158 Hornchurch Road,Hornchurch,,,RM11 1QH,Havering,5,2025-11-17,FHRS,False,51.564956,0.201928,"158 Hornchurch Road, Hornchurch, RM11 1QH"
+2026-07-23,1894130,Ava Grill & Lounge,Restaurant/Cafe/Canteen,222 South Street,Romford,,,RM1 2AD,Havering,5,2026-02-27,FHRS,False,51.570908,0.185144,"222 South Street, Romford, RM1 2AD"
+2026-07-23,1415566,Baked Stunners,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-06-23,FHRS,False,,,
+2026-07-23,1943987,BakedwithLoveUK,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1725573,Baker,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-08-26,FHRS,False,,,
+2026-07-23,783875,Bakers & Baristas,Restaurant/Cafe/Canteen,Mercury Gardens,Romford,,,RM1 3EE,Havering,5,2026-04-28,FHRS,False,51.57929,0.185098,"Mercury Gardens, Romford, RM1 3EE"
+2026-07-23,1575788,Bamboo Japanese Takeaway,Restaurant/Cafe/Canteen,41 New Road,Rainham,,,RM13 8DR,Havering,3,2025-05-06,FHRS,False,51.5259463,0.1683105,"41 New Road, Rainham, RM13 8DR"
+2026-07-23,1535806,Banging Bakes,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-06-20,FHRS,False,,,
+2026-07-23,1711731,Banh 4 Mi,Restaurant/Cafe/Canteen,,,,,,Havering,1,2026-01-07,FHRS,True,,,
+2026-07-23,907223,Barracuda Seafood & Grill,Restaurant/Cafe/Canteen,52 Station Road,Upminster,,,RM14 2TU,Havering,3,2025-08-12,FHRS,False,51.558049,0.2503,"52 Station Road, Upminster, RM14 2TU"
+2026-07-23,1065079,Beam Park Cafe,Restaurant/Cafe/Canteen,133 New Road,Rainham,,,RM13 8ES,Havering,5,2025-05-06,FHRS,False,51.5245847,0.1750663,"133 New Road, Rainham, RM13 8ES"
+2026-07-23,1753544,Bekash,Restaurant/Cafe/Canteen,70 Victoria Road,Romford,,,RM1 2LA,Havering,1,2026-02-02,FHRS,False,51.574883,0.187081,"70 Victoria Road, Romford, RM1 2LA"
+2026-07-23,373669,Belhus Woods Country Park Visitors Centre,Restaurant/Cafe/Canteen,Romford Road,Aveley,,,RM15 4XJ,Havering,5,2026-02-16,FHRS,False,51.519682,0.253727,"Romford Road, Aveley, RM15 4XJ"
+2026-07-23,1731600,Bengal Spice,Restaurant/Cafe/Canteen,64 Upminster Road South,Rainham,,,RM13 9AA,Havering,3,2025-02-11,FHRS,False,51.51874,0.193788,"64 Upminster Road South, Rainham, RM13 9AA"
+2026-07-23,1604747,Besi Bar Restaurant,Restaurant/Cafe/Canteen,134 North Street,Romford,,,RM1 1DL,Havering,4,2025-05-07,FHRS,False,51.581694,0.177232,"134 North Street, Romford, RM1 1DL"
+2026-07-23,1705382,Black Sheep Coffee,Restaurant/Cafe/Canteen,The Liberty,Romford,,,RM1 3RL,Havering,4,2026-05-15,FHRS,False,51.57834,0.18348,"The Liberty, Romford, RM1 3RL"
+2026-07-23,1786266,Blackmore House,Restaurant/Cafe/Canteen,19 Junction Road,Romford,,,RM1 3QS,Havering,4,2025-08-27,FHRS,False,51.580749,0.187896,"19 Junction Road, Romford, RM1 3QS"
+2026-07-23,372968,Blue Orchid,Restaurant/Cafe/Canteen,70 North Street,Romford,,,RM1 1DA,Havering,5,2025-06-05,FHRS,False,51.580702,0.178324,"70 North Street, Romford, RM1 1DA"
+2026-07-23,1495323,Boba Tigers Bubble Tea,Restaurant/Cafe/Canteen,The Mercury Mall,Mercury Gardens,,,RM1 3EE,Havering,5,2025-12-03,FHRS,False,51.5794371,0.1856868,"The Mercury Mall, Mercury Gardens, RM1 3EE"
+2026-07-23,1101245,Boutique Cake Studio Ltd,Restaurant/Cafe/Canteen,,,,,,Havering,4,2024-02-22,FHRS,False,,,
+2026-07-23,1667180,Bow Bell’s Cafe,Restaurant/Cafe/Canteen,43 Market Place,Romford,,,RM1 3AB,Havering,5,2025-06-05,FHRS,False,51.580071,0.182292,"43 Market Place, Romford, RM1 3AB"
+2026-07-23,1450738,Brick Lane Bagel Co,Restaurant/Cafe/Canteen,87 Main Road,Romford,,,RM2 5EL,Havering,5,2024-12-05,FHRS,False,51.5868262,0.2001765,"87 Main Road, Romford, RM2 5EL"
+2026-07-23,571274,Britannia Cafe,Restaurant/Cafe/Canteen,53 Upminster Road South,Rainham,,,RM13 9YS,Havering,4,2026-05-19,FHRS,False,51.518603,0.191562,"53 Upminster Road South, Rainham, RM13 9YS"
+2026-07-23,1373281,Burgaholic,Restaurant/Cafe/Canteen,208 Hornchurch Road,Hornchurch,,,RM11 1QJ,Havering,1,2025-10-29,FHRS,True,51.565297,0.199087,"208 Hornchurch Road, Hornchurch, RM11 1QJ"
+2026-07-23,1884260,Burger Joint,Restaurant/Cafe/Canteen,107 Upminster Road South,Rainham,,,RM13 9AA,Havering,3,2025-11-22,FHRS,False,51.518741,0.193788,"107 Upminster Road South, Rainham, RM13 9AA"
+2026-07-23,373194,Burger King,Restaurant/Cafe/Canteen,272 Hornchurch Road,Hornchurch,,,RM11 1PZ,Havering,5,2024-10-29,FHRS,False,51.565322,0.193432,"272 Hornchurch Road, Hornchurch, RM11 1PZ"
+2026-07-23,1914383,Burlingtons FIsh and Grill,Restaurant/Cafe/Canteen,168 Main Road,Romford,,,RM2 5HS,Havering,AwaitingInspection,,FHRS,False,51.585965,0.197025,"168 Main Road, Romford, RM2 5HS"
+2026-07-23,1875003,Cafe 90,Restaurant/Cafe/Canteen,90 Petersfield Avenue,Romford,,,RM3 9PH,Havering,5,2025-11-14,FHRS,False,51.604934,0.234955,"90 Petersfield Avenue, Romford, RM3 9PH"
+2026-07-23,1150442,Cafe Break,Restaurant/Cafe/Canteen,25 Station Road,Harold Wood,,,RM3 0BP,Havering,5,2025-05-20,FHRS,False,51.593724,0.233784,"25 Station Road, Harold Wood, RM3 0BP"
+2026-07-23,373624,Cafe Bueno,Restaurant/Cafe/Canteen,4 High Street,Romford,,,RM1 1HR,Havering,5,2025-05-06,FHRS,False,51.578142,0.17914,"4 High Street, Romford, RM1 1HR"
+2026-07-23,373257,Cafe Chateau,Restaurant/Cafe/Canteen,7-9 North Street,Romford,,,RM1 1BH,Havering,5,2025-12-01,FHRS,False,51.579263,0.179786,"7-9 North Street, Romford, RM1 1BH"
+2026-07-23,851619,Cafe Fino,Restaurant/Cafe/Canteen,88 Market Place,Romford,,,RM1 3ER,Havering,5,2026-05-18,FHRS,False,51.579502,0.182886,"88 Market Place, Romford, RM1 3ER"
+2026-07-23,1026383,Cafe Royale,Restaurant/Cafe/Canteen,624 Upper Brentwood Road,Romford,,,RM2 6HS,Havering,5,2024-12-30,FHRS,False,51.590693,0.211026,"624 Upper Brentwood Road, Romford, RM2 6HS"
+2026-07-23,1495325,Cafe with a Purpose,Restaurant/Cafe/Canteen,Springfield Gardens,Upminster,,,RM14 3EH,Havering,5,2025-03-11,FHRS,False,51.55316,0.250592,"Springfield Gardens, Upminster, RM14 3EH"
+2026-07-23,372965,Caffe Nero,Restaurant/Cafe/Canteen,26 Station Road,Upminster,,,RM14 2UB,Havering,4,2026-03-20,FHRS,False,51.556737,0.249773,"26 Station Road, Upminster, RM14 2UB"
+2026-07-23,1625754,Cakealicious LDN,Restaurant/Cafe/Canteen,,,,,,Havering,5,2023-08-24,FHRS,False,,,
+2026-07-23,1367285,Cakes by Franciska,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-06-20,FHRS,False,,,
+2026-07-23,1823245,Cakes by Hifee,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-10-13,FHRS,False,,,
+2026-07-23,373650,Cakes by Verna,Restaurant/Cafe/Canteen,,,,,,Havering,4,2026-04-21,FHRS,False,,,
+2026-07-23,372704,Campion Rugby Club,Restaurant/Cafe/Canteen,London Road,Romford,,,RM7 9QX,Havering,Exempt,,FHRS,False,51.575545,0.175624,"London Road, Romford, RM7 9QX"
+2026-07-23,1918580,Caprinos Pizza,Restaurant/Cafe/Canteen,185 St Mary's Lane,Upminster,,,RM14 3BU,Havering,AwaitingInspection,,FHRS,False,51.556514,0.252027,"185 St Mary's Lane, Upminster, RM14 3BU"
+2026-07-23,977588,Cardamons Restaurant,Restaurant/Cafe/Canteen,123 Hornchurch Road,Hornchurch,,,RM12 4SY,Havering,3,2025-03-25,FHRS,False,51.564607,0.201825,"123 Hornchurch Road, Hornchurch, RM12 4SY"
+2026-07-23,1331937,Casa Mia,Restaurant/Cafe/Canteen,136 Hornchurch Road,Hornchurch,,,RM11 1DP,Havering,5,2025-11-10,FHRS,False,51.5649981,0.2033092,"136 Hornchurch Road, Hornchurch, RM11 1DP"
+2026-07-23,1770602,Celino Cakes,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-02-13,FHRS,False,,,
+2026-07-23,624112,Central Cafe,Restaurant/Cafe/Canteen,The Broadway,Hornchurch,,,RM12 4RS,Havering,5,2026-02-26,FHRS,False,51.55062,0.198134,"The Broadway, Hornchurch, RM12 4RS"
+2026-07-23,1673393,Champa’s Cakes,Restaurant/Cafe/Canteen,,,,,,Havering,5,2024-02-21,FHRS,False,,,
+2026-07-23,1763123,Chariots Fish & Chips,Restaurant/Cafe/Canteen,626 Upper Brentwood Road,Romford,,,RM2 6HS,Havering,4,2025-08-11,FHRS,False,51.590693,0.211026,"626 Upper Brentwood Road, Romford, RM2 6HS"
+2026-07-23,1959148,Chef Syed Catering Services,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1669663,Chicken & Peri Peri Upminster,Restaurant/Cafe/Canteen,171 St Mary's Lane,Upminster,,,RM14 3BL,Havering,4,2025-07-21,FHRS,False,51.556438,0.250812,"171 St Mary's Lane, Upminster, RM14 3BL"
+2026-07-23,1840218,Chicken Hut,Restaurant/Cafe/Canteen,107 Mungo Park Road,Rainham,,,RM13 7PP,Havering,1,2026-02-25,FHRS,False,51.5403187,0.1922872,"107 Mungo Park Road, Rainham, RM13 7PP"
+2026-07-23,404651,Chilli Tree,Restaurant/Cafe/Canteen,111 Rainham Road,Rainham,,,RM13 7QX,Havering,1,2025-08-27,FHRS,False,51.528144,0.190592,"111 Rainham Road, Rainham, RM13 7QX"
+2026-07-23,1874993,Chocolate & Sprinkles,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-02-04,FHRS,False,,,
+2026-07-23,1384491,Chopstix,Restaurant/Cafe/Canteen,64a South Street,Romford,,,RM1 1RB,Havering,5,2025-06-09,FHRS,False,51.5766351,0.1814571,"64a South Street, Romford, RM1 1RB"
+2026-07-23,372736,Church Of The Good Shepherd,Restaurant/Cafe/Canteen,3 Redriff Road,Romford,,,RM7 8HD,Havering,5,2016-03-12,FHRS,False,51.590665,0.163757,"3 Redriff Road, Romford, RM7 8HD"
+2026-07-23,1845655,Ciao Bella,Restaurant/Cafe/Canteen,95 South Street,Romford,,,RM1 1NX,Havering,5,2026-02-26,FHRS,False,51.575964,0.183106,"95 South Street, Romford, RM1 1NX"
+2026-07-23,1944003,Cinoxcare,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,372705,Clockhouse Bowling Club,Restaurant/Cafe/Canteen,St. Marys Lane,Upminster,,,RM14 2QR,Havering,5,2026-01-22,FHRS,False,51.556866,0.243504,"St. Marys Lane, Upminster, RM14 2QR"
+2026-07-23,1202601,Cobe Cafe Bar,Restaurant/Cafe/Canteen,165-167 South Street,Romford,,,RM1 1PS,Havering,2,2025-09-03,FHRS,False,51.5739471,0.1842056,"165-167 South Street, Romford, RM1 1PS"
+2026-07-23,862964,Coffee Bloom Cafe,Restaurant/Cafe/Canteen,155 St Mary's Lane,Upminster,,,RM14 3BL,Havering,5,2026-01-12,FHRS,False,51.556438,0.250812,"155 St Mary's Lane, Upminster, RM14 3BL"
+2026-07-23,1199917,Coffee Haven,Restaurant/Cafe/Canteen,Nags Head Lane,Upminster,,,RM14 1TS,Havering,5,2024-11-05,FHRS,False,51.594436,0.255347,"Nags Head Lane, Upminster, RM14 1TS"
+2026-07-23,1532771,Coffee Master Vibe,Restaurant/Cafe/Canteen,179 St Mary's Lane,Upminster,,,RM14 3BU,Havering,1,2026-06-29,FHRS,False,51.5564352,0.2514648,"179 St Mary's Lane, Upminster, RM14 3BU"
+2026-07-23,1714594,Cookie Mumster,Restaurant/Cafe/Canteen,,,,,,Havering,5,2024-05-22,FHRS,False,,,
+2026-07-23,1010256,Coral Romford Stadium Restaurants,Restaurant/Cafe/Canteen,London Road,Romford,,,RM7 9DU,Havering,5,2025-07-11,FHRS,False,51.572235,0.166923,"London Road, Romford, RM7 9DU"
+2026-07-23,1908220,Cosmo The Brewery,Restaurant/Cafe/Canteen,4a The Brewery,Romford,,,RM1 1AU,Havering,5,2026-02-09,FHRS,False,51.575964,0.18071,"4a The Brewery, Romford, RM1 1AU"
+2026-07-23,897350,Costa Coffee,Restaurant/Cafe/Canteen,156-158 High Street,Hornchurch,,,RM12 6QX,Havering,5,2024-02-22,FHRS,False,51.562035,0.219966,"156-158 High Street, Hornchurch, RM12 6QX"
+2026-07-23,897349,Costa Coffee,Restaurant/Cafe/Canteen,34 Station Road,Upminster,,,RM14 2TR,Havering,5,2026-03-13,FHRS,False,51.557736,0.250198,"34 Station Road, Upminster, RM14 2TR"
+2026-07-23,582595,Costa Coffee,Restaurant/Cafe/Canteen,83 Main Road,Romford,,,RM2 5EL,Havering,5,2025-06-25,FHRS,False,51.587024,0.200497,"83 Main Road, Romford, RM2 5EL"
+2026-07-23,372481,Costa Coffee,Restaurant/Cafe/Canteen,83 South Street,Romford,,,RM1 1NL,Havering,5,2026-03-19,FHRS,False,51.576907,0.182199,"83 South Street, Romford, RM1 1NL"
+2026-07-23,897352,Costa Coffee,Restaurant/Cafe/Canteen,94 High Street,Hornchurch,,,RM12 4UH,Havering,5,2024-02-22,FHRS,False,51.562543,0.218317,"94 High Street, Hornchurch, RM12 4UH"
+2026-07-23,372849,Costa Coffee,Restaurant/Cafe/Canteen,Pod 1 The Brewery,Waterloo Road,,,RM1 1AU,Havering,5,2025-12-29,FHRS,False,,,"Pod 1 The Brewery, Waterloo Road, RM1 1AU"
+2026-07-23,1838217,Cosy Corner Coffee,Restaurant/Cafe/Canteen,2b Moor Lane,Upminster,,,RM14 1EB,Havering,5,2025-07-21,FHRS,False,51.5617269,0.2675342,"2b Moor Lane, Upminster, RM14 1EB"
+2026-07-23,1283388,Courtney's Cakes,Restaurant/Cafe/Canteen,,,,,,Havering,5,2023-07-09,FHRS,False,,,
+2026-07-23,373819,Cranham Baptist Church,Restaurant/Cafe/Canteen,Severn Drive,Upminster,,,RM14 1SN,Havering,5,2026-05-15,FHRS,False,51.569446,0.266476,"Severn Drive, Upminster, RM14 1SN"
+2026-07-23,373415,Cranham Golf Course,Restaurant/Cafe/Canteen,St. Marys Lane,Upminster,,,RM14 3NU,Havering,5,2024-02-22,FHRS,False,51.559585,0.284799,"St. Marys Lane, Upminster, RM14 3NU"
+2026-07-23,1199912,Creams Cafe,Restaurant/Cafe/Canteen,21-23 South Street,Romford,,,RM1 1NJ,Havering,4,2026-04-24,FHRS,False,51.5780792236328,0.181096002459526,"21-23 South Street, Romford, RM1 1NJ"
+2026-07-23,1838213,CREM Kitchen,Restaurant/Cafe/Canteen,43 Main Road,Romford,,,RM2 5EB,Havering,5,2025-05-23,FHRS,False,51.584524,0.192336,"43 Main Road, Romford, RM2 5EB"
+2026-07-23,1786271,Cristina’s Cafe,Restaurant/Cafe/Canteen,273 London Road,Romford,,,RM7 9NJ,Havering,5,2025-07-27,FHRS,False,51.574403,0.161542,"273 London Road, Romford, RM7 9NJ"
+2026-07-23,980507,Crowlands Cafe,Restaurant/Cafe/Canteen,263 London Road,Romford,,,RM7 9NJ,Havering,4,2026-01-16,FHRS,False,51.574403,0.161542,"263 London Road, Romford, RM7 9NJ"
+2026-07-23,1625740,D&G Sweets,Restaurant/Cafe/Canteen,6 Smart Close,Romford,,,RM3 7BP,Havering,Exempt,,FHRS,False,51.5959916,0.2067737,"6 Smart Close, Romford, RM3 7BP"
+2026-07-23,1178766,Da Vinci's,Restaurant/Cafe/Canteen,13-15 Station Lane,Hornchurch,,,RM12 6JL,Havering,5,2026-03-09,FHRS,False,51.560774,0.22103,"13-15 Station Lane, Hornchurch, RM12 6JL"
+2026-07-23,1943957,Daggers Bakery,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-06-15,FHRS,False,,,
+2026-07-23,1964037,Daisy May Bakes,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,373623,David Lloyd Leisure,Restaurant/Cafe/Canteen,Squirrels Heath Lane,Hornchurch,,,RM11 2DY,Havering,5,2026-02-26,FHRS,False,51.583371,0.217773,"Squirrels Heath Lane, Hornchurch, RM11 2DY"
+2026-07-23,1246861,De Quilox Lounge,Restaurant/Cafe/Canteen,Victoria Road,Romford,,,RM1 2JA,Havering,5,2024-12-16,FHRS,False,51.574076,0.184531,"Victoria Road, Romford, RM1 2JA"
+2026-07-23,1964032,Debbiecooking,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,815038,Delhi Live,Restaurant/Cafe/Canteen,40 Victoria Road,Romford,,,RM1 2JH,Havering,5,2025-08-28,FHRS,False,51.574551,0.18604,"40 Victoria Road, Romford, RM1 2JH"
+2026-07-23,373009,Delight Cafe,Restaurant/Cafe/Canteen,24 Upminster Road South,Rainham,,,RM13 9YX,Havering,5,2026-01-13,FHRS,False,51.51829,0.191936,"24 Upminster Road South, Rainham, RM13 9YX"
+2026-07-23,1219755,Della Continental,Restaurant/Cafe/Canteen,Unit 36 & 37 The Mercury Mall,Mercury Gardens,,,RM1 3EE,Havering,4,2025-03-24,FHRS,False,51.5794372558594,0.185320004820824,"Unit 36 & 37 The Mercury Mall, Mercury Gardens, RM1 3EE"
+2026-07-23,1173810,Deshi,Restaurant/Cafe/Canteen,45 Station Road,Harold Wood,,,RM3 0BS,Havering,5,2025-05-20,FHRS,False,51.593892,0.234398,"45 Station Road, Harold Wood, RM3 0BS"
+2026-07-23,1823243,Desserthead,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-08-15,FHRS,False,,,
+2026-07-23,1850447,Dessertia,Restaurant/Cafe/Canteen,Victoria Road,Romford,,,RM1 2HU,Havering,5,2025-11-29,FHRS,False,51.574516,0.184581,"Victoria Road, Romford, RM1 2HU"
+2026-07-23,1840216,Deyaar Afghan Cuisine,Restaurant/Cafe/Canteen,45-47 White Hart Lane,Romford,,,RM7 8JB,Havering,4,2025-11-13,FHRS,False,51.5910905,0.1574836,"45-47 White Hart Lane, Romford, RM7 8JB"
+2026-07-23,1790604,DH Kitchen,Restaurant/Cafe/Canteen,,,,,,Havering,4,2025-02-12,FHRS,False,,,
+2026-07-23,1525255,Disha's Kitchen,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-07-07,FHRS,False,,,
+2026-07-23,1918572,Divan Cafe,Restaurant/Cafe/Canteen,7-13 High Street,Romford,,,RM1 1JU,Havering,AwaitingInspection,,FHRS,False,51.5780982971191,0.18011899292469,"7-13 High Street, Romford, RM1 1JU"
+2026-07-23,1959136,Dixy chicken,Restaurant/Cafe/Canteen,Victoria Road,Romford,,,RM1 2HU,Havering,AwaitingInspection,,FHRS,False,51.574516,0.184581,"Victoria Road, Romford, RM1 2HU"
+2026-07-23,1641002,Don Churro,Restaurant/Cafe/Canteen,The Liberty,Romford,,,RM1 3RL,Havering,5,2023-10-11,FHRS,False,51.57834,0.18348,"The Liberty, Romford, RM1 3RL"
+2026-07-23,897340,Dragon Inn,Restaurant/Cafe/Canteen,10-12 South End Road,Rainham,,,RM13 7XH,Havering,5,2024-08-16,FHRS,False,51.529555,0.19066,"10-12 South End Road, Rainham, RM13 7XH"
+2026-07-23,1964018,Dream Cakes,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1543047,Dream Catering,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-06-18,FHRS,False,,,
+2026-07-23,1679423,Eat from a Box,Restaurant/Cafe/Canteen,29 The Broadway,Hornchurch,,,RM12 4RW,Havering,5,2025-10-22,FHRS,False,51.550329,0.198827,"29 The Broadway, Hornchurch, RM12 4RW"
+2026-07-23,372742,Edmund Campion Social Club,Restaurant/Cafe/Canteen,Wingletye Lane,Hornchurch,,,RM11 3BX,Havering,Exempt,,FHRS,False,51.579945,0.23344,"Wingletye Lane, Hornchurch, RM11 3BX"
+2026-07-23,1908213,Elena's food house,Restaurant/Cafe/Canteen,,,,,,Havering,4,2026-04-01,FHRS,False,,,
+2026-07-23,998644,Elm Park Cafe,Restaurant/Cafe/Canteen,25 The Broadway,Hornchurch,,,RM12 4RW,Havering,3,2026-02-26,FHRS,False,51.550329,0.198827,"25 The Broadway, Hornchurch, RM12 4RW"
+2026-07-23,372670,Elm Park Tennis Club,Restaurant/Cafe/Canteen,Woburn Avenue,Hornchurch,,,RM12 4NG,Havering,Exempt,,FHRS,False,51.549408,0.195177,"Woburn Avenue, Hornchurch, RM12 4NG"
+2026-07-23,1859757,Emerson Dhaba Bar & Grill,Restaurant/Cafe/Canteen,118 North Street,Hornchurch,,,RM11 1SU,Havering,4,2026-03-10,FHRS,False,51.56765,0.2203079,"118 North Street, Hornchurch, RM11 1SU"
+2026-07-23,1763110,Empire Chinese Restaurant,Restaurant/Cafe/Canteen,42 Victoria Road,Romford,,,RM1 2JH,Havering,0,2026-05-15,FHRS,False,51.574551,0.18604,"42 Victoria Road, Romford, RM1 2JH"
+2026-07-23,1696964,Erianna Cakes,Restaurant/Cafe/Canteen,,,,,,Havering,5,2024-05-30,FHRS,False,,,
+2026-07-23,1943971,ESK Catering,Restaurant/Cafe/Canteen,St Mary's Lane,Upminster,,,RM14 3NU,Havering,AwaitingInspection,,FHRS,False,51.559585,0.2848,"St Mary's Lane, Upminster, RM14 3NU"
+2026-07-23,955346,Essex Chef,Restaurant/Cafe/Canteen,28 Roneo Corner,Hornchurch,,,RM12 4TN,Havering,3,2025-03-18,FHRS,False,51.565283,0.187789,"28 Roneo Corner, Hornchurch, RM12 4TN"
+2026-07-23,1279869,Eurest @ The Royal Mail Centre,Restaurant/Cafe/Canteen,Sandgate Close,Romford,,,RM7 0AB,Havering,5,2025-06-23,FHRS,False,51.57026,0.170624,"Sandgate Close, Romford, RM7 0AB"
+2026-07-23,1625753,Everyone Active Rainham,Restaurant/Cafe/Canteen,Viking Way,Rainham,,,RM13 9YZ,Havering,5,2023-08-15,FHRS,False,51.51945265,0.19079209,"Viking Way, Rainham, RM13 9YZ"
+2026-07-23,1763132,Evo Pizzeria,Restaurant/Cafe/Canteen,160 Upminster Road,Upminster,,,RM14 2RB,Havering,5,2025-07-28,FHRS,False,51.5584319,0.2383079,"160 Upminster Road, Upminster, RM14 2RB"
+2026-07-23,904261,Fete Lounge,Restaurant/Cafe/Canteen,6 Station Road,Upminster,,,RM14 2UB,Havering,4,2025-06-12,FHRS,False,51.556737,0.249773,"6 Station Road, Upminster, RM14 2UB"
+2026-07-23,1559516,Five Guys,Restaurant/Cafe/Canteen,The Brewery,Waterloo Road,,,RM1 1AU,Havering,5,2025-07-14,FHRS,False,51.5751,0.180522,"The Brewery, Waterloo Road, RM1 1AU"
+2026-07-23,1943975,Forest Row Community Association,Restaurant/Cafe/Canteen,Lodge Lane,Romford,,,RM5 2LD,Havering,5,2026-07-04,FHRS,False,51.605633,0.153291,"Lodge Lane, Romford, RM5 2LD"
+2026-07-23,1971115,Four Coffee Lounge,Restaurant/Cafe/Canteen,4 Moray Way,Romford,,,RM1 4YD,Havering,AwaitingInspection,,FHRS,False,51.598138,0.177397,"4 Moray Way, Romford, RM1 4YD"
+2026-07-23,372780,"Frankie & Benny’s also t/a Bao Now, Bird Box, Bone Jam, Breakfast & Lu",Restaurant/Cafe/Canteen,The Brewery,Romford,,,RM1 1AU,Havering,5,2025-04-30,FHRS,False,51.575964,0.18071,"The Brewery, Romford, RM1 1AU"
+2026-07-23,1698827,Frankie’s Cakes & Bakes,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-01-22,FHRS,False,,,
+2026-07-23,1371128,Frenchos Peri Peri,Restaurant/Cafe/Canteen,163 High Street,Hornchurch,,,RM11 3XS,Havering,5,2025-09-01,FHRS,False,51.5618633,0.2210073,"163 High Street, Hornchurch, RM11 3XS"
+2026-07-23,372535,Frenchs,Restaurant/Cafe/Canteen,3 North Street,Hornchurch,,,RM11 1RL,Havering,4,2025-08-07,FHRS,False,51.563127,0.219745,"3 North Street, Hornchurch, RM11 1RL"
+2026-07-23,1673399,Friends of Upminster Windmill,Restaurant/Cafe/Canteen,89 St Mary's Lane,Upminster,,,RM14 2QL,Havering,5,2024-08-05,FHRS,False,51.5579607,0.2446488,"89 St Mary's Lane, Upminster, RM14 2QL"
+2026-07-23,1797781,Frosted Aura Bakery,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1649888,Fumiko,Restaurant/Cafe/Canteen,44 High Street,Hornchurch,,,RM12 4UN,Havering,5,2026-07-15,FHRS,False,51.562853,0.215202,"44 High Street, Hornchurch, RM12 4UN"
+2026-07-23,373085,Fun n Funky Cakes,Restaurant/Cafe/Canteen,,,,,,Havering,5,2024-02-22,FHRS,False,,,
+2026-07-23,373191,Gah Shing,Restaurant/Cafe/Canteen,14 Upminster Road South,Rainham,,,RM13 9YX,Havering,1,2025-03-17,FHRS,False,51.51829,0.191936,"14 Upminster Road South, Rainham, RM13 9YX"
+2026-07-23,373757,Gallows Kebabs/GY54 WCP,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-09-22,FHRS,False,,,
+2026-07-23,1908228,German Doner Kebab,Restaurant/Cafe/Canteen,46 South Street,Romford,,,RM1 1RB,Havering,5,2026-02-03,FHRS,False,51.5771965,0.1812186,"46 South Street, Romford, RM1 1RB"
+2026-07-23,1354269,Gidea Park Spice,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-03-18,FHRS,False,,,
+2026-07-23,1410461,Giggling Squid,Restaurant/Cafe/Canteen,168 High Street,Hornchurch,,,RM12 6QU,Havering,5,2025-12-05,FHRS,False,51.550614,0.207614,"168 High Street, Hornchurch, RM12 6QU"
+2026-07-23,372639,Gingham Kitchen,Restaurant/Cafe/Canteen,5 Stewards Walk,Romford,,,RM1 3RJ,Havering,5,2025-11-03,FHRS,False,51.577242,0.182575,"5 Stewards Walk, Romford, RM1 3RJ"
+2026-07-23,1943972,Gio's Kitchen,Restaurant/Cafe/Canteen,70 Rainham Road,Rainham,,,RM13 7RL,Havering,AwaitingInspection,,FHRS,False,51.528517,0.19087,"70 Rainham Road, Rainham, RM13 7RL"
+2026-07-23,1959149,Globes Best Grill,Restaurant/Cafe/Canteen,9 Oak Road,Romford,,,RM3 0PH,Havering,AwaitingInspection,,FHRS,False,51.592655,0.233731,"9 Oak Road, Romford, RM3 0PH"
+2026-07-23,1664030,Goat,Restaurant/Cafe/Canteen,8 Station Road,Upminster,,,RM14 2UB,Havering,5,2026-02-13,FHRS,False,51.5565428,0.2497309,"8 Station Road, Upminster, RM14 2UB"
+2026-07-23,1943988,Gods Hand Kitchen,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-07-20,FHRS,False,,,
+2026-07-23,1864097,Gong Cha,Restaurant/Cafe/Canteen,The Brewery,Romford,,,RM1 1AU,Havering,5,2025-09-22,FHRS,False,51.575964,0.18071,"The Brewery, Romford, RM1 1AU"
+2026-07-23,1655196,Gotham Boba,Restaurant/Cafe/Canteen,215 Pettits Lane North,Romford,,,RM1 4NU,Havering,4,2023-12-20,FHRS,False,51.5927466,0.1809832,"215 Pettits Lane North, Romford, RM1 4NU"
+2026-07-23,372661,Grangewood Transport Cafe,Restaurant/Cafe/Canteen,New Road,Rainham,,,RM13 9PH,Havering,5,2025-01-06,FHRS,False,51.520233,0.20581,"New Road, Rainham, RM13 9PH"
+2026-07-23,1049433,Greggs,Restaurant/Cafe/Canteen,72 Station Road,Upminster,,,RM14 2TD,Havering,5,2026-01-05,FHRS,False,51.5584297180176,0.250535011291504,"72 Station Road, Upminster, RM14 2TD"
+2026-07-23,1612521,Greggs PLC,Restaurant/Cafe/Canteen,300 Hornchurch Road,Hornchurch,,,RM11 1PY,Havering,5,2025-07-01,FHRS,False,51.565646,0.191976,"300 Hornchurch Road, Hornchurch, RM11 1PY"
+2026-07-23,1964023,Grill n Jollof,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1959135,Grillish,Restaurant/Cafe/Canteen,175 South Street,Romford,,,RM1 1PS,Havering,AwaitingInspection,,FHRS,False,51.573801,0.184301,"175 South Street, Romford, RM1 1PS"
+2026-07-23,1807725,Gusto Di Brunch,Restaurant/Cafe/Canteen,Mercury Gardens,Romford,,,RM1 3EE,Havering,AwaitingInspection,,FHRS,True,51.57929,0.185098,"Mercury Gardens, Romford, RM1 3EE"
+2026-07-23,924443,Harefield Manor Hotel,Restaurant/Cafe/Canteen,33 Main Road,Romford,,,RM1 3DL,Havering,5,2025-07-02,FHRS,False,51.582952,0.188854,"33 Main Road, Romford, RM1 3DL"
+2026-07-23,1753545,Harold Hill Football Club,Restaurant/Cafe/Canteen,Kenilworth Avenue,Romford,,,RM3 9NE,Havering,3,2025-12-05,FHRS,False,51.604584,0.246202,"Kenilworth Avenue, Romford, RM3 9NE"
+2026-07-23,918825,Harry's Angel Cakes,Restaurant/Cafe/Canteen,,,,,,Havering,5,2024-02-22,FHRS,False,,,
+2026-07-23,616865,Havering Asian Social & Welfare Association,Restaurant/Cafe/Canteen,Kilmartin Way,Hornchurch,,,RM12 5NB,Havering,5,2024-02-22,FHRS,False,51.544109,0.201513,"Kilmartin Way, Hornchurch, RM12 5NB"
+2026-07-23,372708,Havering Association for People with Disabilities,Restaurant/Cafe/Canteen,1a Woodhall Crescent,Hornchurch,,,RM11 3NN,Havering,Exempt,,FHRS,False,51.563727,0.232703,"1a Woodhall Crescent, Hornchurch, RM11 3NN"
+2026-07-23,372729,Havering Mind,Restaurant/Cafe/Canteen,Hornchurch Road,Hornchurch,,,RM11 1JU,Havering,Exempt,,FHRS,False,51.561334,0.208029,"Hornchurch Road, Hornchurch, RM11 1JU"
+2026-07-23,1896116,Heal Era,Restaurant/Cafe/Canteen,,,,,,Havering,4,2026-04-07,FHRS,False,,,
+2026-07-23,1629030,Hermak,Restaurant/Cafe/Canteen,,,,,,Havering,4,2023-10-11,FHRS,False,,,
+2026-07-23,1605499,Hibah Food Limited,Restaurant/Cafe/Canteen,,,,,,Havering,4,2025-05-15,FHRS,False,,,
+2026-07-23,1747235,Holly’s London,Restaurant/Cafe/Canteen,,,,,,Havering,5,2024-12-13,FHRS,False,,,
+2026-07-23,1848051,Home Bites,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,372710,Hornchurch Athletic Sports Club,Restaurant/Cafe/Canteen,Osborne Road,Hornchurch,,,RM11 1DY,Havering,Exempt,,FHRS,False,51.568707,0.202831,"Osborne Road, Hornchurch, RM11 1DY"
+2026-07-23,457991,HR's Cafe House,Restaurant/Cafe/Canteen,122 Upminster Road,Hornchurch,,,RM12 6PL,Havering,3,2026-06-25,FHRS,False,51.558957,0.235225,"122 Upminster Road, Hornchurch, RM12 6PL"
+2026-07-23,1022368,Inco Restaurant & Fish Bar,Restaurant/Cafe/Canteen,86-88 Petersfield Avenue,Romford,,,RM3 9PH,Havering,4,2025-08-19,FHRS,False,51.6049346923828,0.234954997897148,"86-88 Petersfield Avenue, Romford, RM3 9PH"
+2026-07-23,1900298,Indian Ocean Romford,Restaurant/Cafe/Canteen,146 Rush Green Road,Romford,,,RM7 0QA,Havering,5,2026-02-05,FHRS,False,51.565919,0.178281,"146 Rush Green Road, Romford, RM7 0QA"
+2026-07-23,987228,Ingrebourne Links Golf and Country Club,Restaurant/Cafe/Canteen,New Road,Rainham,,,RM13 9FL,Havering,5,2025-02-11,FHRS,False,51.5091094970703,0.224800005555153,"New Road, Rainham, RM13 9FL"
+2026-07-23,810961,Ingrebourne Valley Visitor Centre,Restaurant/Cafe/Canteen,Squadrons Approach,Hornchurch,,,RM12 6DF,Havering,5,2026-02-23,FHRS,False,51.5409013,0.2148029,"Squadrons Approach, Hornchurch, RM12 6DF"
+2026-07-23,1845654,Inna’s Delights,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-03-31,FHRS,False,,,
+2026-07-23,1864096,Istanbul Grill,Restaurant/Cafe/Canteen,47 Suttons Lane,Hornchurch,,,RM12 6RJ,Havering,5,2026-06-12,FHRS,False,51.551967,0.218798,"47 Suttons Lane, Hornchurch, RM12 6RJ"
+2026-07-23,1810439,Ivan's Kitchen,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-01-27,FHRS,False,,,
+2026-07-23,1099628,Jack's Cafe,Restaurant/Cafe/Canteen,145a Rainham Road,Rainham,,,RM13 7RB,Havering,5,2024-09-05,FHRS,False,51.529599,0.188254,"145a Rainham Road, Rainham, RM13 7RB"
+2026-07-23,374062,Jackson's Cafe,Restaurant/Cafe/Canteen,47 High Street,Romford,,,RM1 1JL,Havering,5,2026-02-06,FHRS,False,51.577186,0.178329,"47 High Street, Romford, RM1 1JL"
+2026-07-23,1649190,Jamie Leadbeatter,Restaurant/Cafe/Canteen,,,,,,Havering,5,2023-09-07,FHRS,False,,,
+2026-07-23,1900305,Janu's cake,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-03-31,FHRS,False,,,
+2026-07-23,1108298,Jaxon's Eating House,Restaurant/Cafe/Canteen,St Mary's Lane,Upminster,,,RM14 3NU,Havering,5,2026-06-09,FHRS,False,51.559585,0.2848,"St Mary's Lane, Upminster, RM14 3NU"
+2026-07-23,1335427,Jemima's Deli,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-09-17,FHRS,False,,,
+2026-07-23,1543038,Jenny's Cafe,Restaurant/Cafe/Canteen,222-224 Hornchurch Road,Hornchurch,,,RM11 1QJ,Havering,4,2026-01-27,FHRS,False,51.565297,0.199087,"222-224 Hornchurch Road, Hornchurch, RM11 1QJ"
+2026-07-23,1709066,Jibbys Cookout,Restaurant/Cafe/Canteen,,,,,,Havering,5,2024-05-24,FHRS,False,,,
+2026-07-23,1397275,JJ’s Coffee House,Restaurant/Cafe/Canteen,Northolt Way,Hornchurch,,,RM12 5RX,Havering,5,2026-02-26,FHRS,False,51.543685,0.207824,"Northolt Way, Hornchurch, RM12 5RX"
+2026-07-23,1684567,Jovy Foods,Restaurant/Cafe/Canteen,,,,,,Havering,4,2025-08-18,FHRS,False,,,
+2026-07-23,499387,Just Jules Handmade,Restaurant/Cafe/Canteen,,,,,,Havering,5,2024-02-22,FHRS,False,,,
+2026-07-23,1691281,K’s Cafe @ Selco,Restaurant/Cafe/Canteen,Unit 2 King George Close,Romford,,,RM7 7PN,Havering,4,2025-09-30,FHRS,False,51.5863768,0.1669371,"Unit 2 King George Close, Romford, RM7 7PN"
+2026-07-23,1943997,Kaprao Thai Street Food,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,948474,Kaspa's Desserts Ltd,Restaurant/Cafe/Canteen,The Brewery,Romford,,,RM1 1AU,Havering,5,2026-04-10,FHRS,False,51.575964,0.18071,"The Brewery, Romford, RM1 1AU"
+2026-07-23,1792482,Kay’s BakeHouse,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1562263,Kebabish Extra,Restaurant/Cafe/Canteen,80 Rainham Road,Rainham,,,RM13 7RL,Havering,5,2025-03-11,FHRS,False,51.5289595,0.1902227,"80 Rainham Road, Rainham, RM13 7RL"
+2026-07-23,1884277,Kelly Ann Bradbrook,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1842127,Kervansaray Restaurant,Restaurant/Cafe/Canteen,66 Masefield Crescent,Romford,,,RM3 7PB,Havering,4,2026-02-20,FHRS,False,51.594772,0.212163,"66 Masefield Crescent, Romford, RM3 7PB"
+2026-07-23,374024,KFC,Restaurant/Cafe/Canteen,11 High Street,Hornchurch,,,RM11 1TP,Havering,5,2025-07-25,FHRS,False,51.563274,0.215309,"11 High Street, Hornchurch, RM11 1TP"
+2026-07-23,1084843,KFC,Restaurant/Cafe/Canteen,53-55 South Street,Romford,,,RM1 1RB,Havering,5,2025-06-30,FHRS,False,51.5769538879395,0.181205004453659,"53-55 South Street, Romford, RM1 1RB"
+2026-07-23,1655194,Kiddiewinks Softplay,Restaurant/Cafe/Canteen,43 Market Place,Romford,,,RM1 3AB,Havering,5,2026-05-20,FHRS,False,51.580071,0.182292,"43 Market Place, Romford, RM1 3AB"
+2026-07-23,1037893,Kika's Cupcakes,Restaurant/Cafe/Canteen,149 Upper Rainham Road,Hornchurch,,,RM12 4ES,Havering,5,2024-02-26,FHRS,False,51.5594029,0.1882825,"149 Upper Rainham Road, Hornchurch, RM12 4ES"
+2026-07-23,1918587,King Fryer Fish and Chips,Restaurant/Cafe/Canteen,259 London Road,Romford,,,RM7 9NJ,Havering,1,2026-06-16,FHRS,False,51.574403,0.161542,"259 London Road, Romford, RM7 9NJ"
+2026-07-23,1930132,King of Wings/ Tinseltown/ Dog 'N' Bun,Restaurant/Cafe/Canteen,57 High Street,Hornchurch,,,RM11 1TP,Havering,4,2026-05-07,FHRS,False,51.563274,0.215309,"57 High Street, Hornchurch, RM11 1TP"
+2026-07-23,1783621,Kings Dine,Restaurant/Cafe/Canteen,307 Hornchurch Road,Hornchurch,,,RM12 4TQ,Havering,2,2025-08-27,FHRS,False,51.565041,0.190634,"307 Hornchurch Road, Hornchurch, RM12 4TQ"
+2026-07-23,1918577,Kingz,Restaurant/Cafe/Canteen,28a Station Parade,Elm Park,,,RM12 5AB,Havering,4,2026-02-27,FHRS,False,51.548956,0.199107,"28a Station Parade, Elm Park, RM12 5AB"
+2026-07-23,1387438,Kitchen Extraordinaire,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-10-06,FHRS,False,,,
+2026-07-23,999859,Koru Educational Services,Restaurant/Cafe/Canteen,90 Taunton Road,Romford,,,RM3 7YD,Havering,5,2025-06-23,FHRS,False,51.6124992370605,0.214497998356819,"90 Taunton Road, Romford, RM3 7YD"
+2026-07-23,1950797,K's Chicken,Restaurant/Cafe/Canteen,135 Wennington Road,Rainham,,,RM13 9TR,Havering,AwaitingInspection,,FHRS,False,51.51675,0.196388,"135 Wennington Road, Rainham, RM13 9TR"
+2026-07-23,1943955,Kung Pao Panda,Restaurant/Cafe/Canteen,177 South Street,Romford,,,RM1 1PS,Havering,2,2026-04-23,FHRS,False,51.573665,0.1842446,"177 South Street, Romford, RM1 1PS"
+2026-07-23,372436,Kusadasi Taverna,Restaurant/Cafe/Canteen,90a Rainham Road,Rainham,,,RM13 7RJ,Havering,5,2025-09-16,FHRS,False,51.529745,0.189155,"90a Rainham Road, Rainham, RM13 7RJ"
+2026-07-23,1014594,Kushoom Bugh,Restaurant/Cafe/Canteen,174 St Mary's Lane,Upminster,,,RM14 3BT,Havering,5,2025-07-31,FHRS,False,51.55619,0.25204,"174 St Mary's Lane, Upminster, RM14 3BT"
+2026-07-23,1828432,Kyice's Kitchen,Restaurant/Cafe/Canteen,197 St Mary's Lane,Upminster,,,RM14 3BU,Havering,5,2025-07-31,FHRS,False,51.556514,0.252027,"197 St Mary's Lane, Upminster, RM14 3BU"
+2026-07-23,987232,Lake View Palace,Restaurant/Cafe/Canteen,Hornchurch Road,Hornchurch,,,RM12 4DU,Havering,5,2025-12-04,FHRS,False,51.5633659362793,0.184595003724098,"Hornchurch Road, Hornchurch, RM12 4DU"
+2026-07-23,1725581,Lanzhou,Restaurant/Cafe/Canteen,99 North Street,Romford,,,RM1 1EU,Havering,3,2026-05-11,FHRS,False,51.580863,0.177394,"99 North Street, Romford, RM1 1EU"
+2026-07-23,1640999,Laser Quest & VR Centre,Restaurant/Cafe/Canteen,57-59 High Street,Romford,,,RM1 1JL,Havering,4,2026-05-13,FHRS,False,51.5768253,0.1779504,"57-59 High Street, Romford, RM1 1JL"
+2026-07-23,1413597,Le Hope Balti House,Restaurant/Cafe/Canteen,25-27 Upminster Road South,Rainham,,,RM13 9YS,Havering,4,2025-02-11,FHRS,False,51.518602,0.191561,"25-27 Upminster Road South, Rainham, RM13 9YS"
+2026-07-23,373745,Leave it to Us,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-01-22,FHRS,False,,,
+2026-07-23,1709064,Lins Artisan Desserts,Restaurant/Cafe/Canteen,4 Quadrant Arcade,Romford,,,RM1 3ED,Havering,5,2026-05-18,FHRS,False,51.578156,0.181291,"4 Quadrant Arcade, Romford, RM1 3ED"
+2026-07-23,1208325,Little Cake Island,Restaurant/Cafe/Canteen,,,,,,Havering,5,2024-02-22,FHRS,False,,,
+2026-07-23,373891,Little India,Restaurant/Cafe/Canteen,140 Upminster Road,Hornchurch,,,RM12 6PL,Havering,5,2026-01-29,FHRS,False,51.558957,0.235225,"140 Upminster Road, Hornchurch, RM12 6PL"
+2026-07-23,1546059,Little Olive,Restaurant/Cafe/Canteen,164 Station Lane,Hornchurch,,,RM12 6LS,Havering,5,2025-11-26,FHRS,False,51.554366,0.218915,"164 Station Lane, Hornchurch, RM12 6LS"
+2026-07-23,1894129,Little Oven Bakes,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1740252,Locavore Foods Ltd,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-03-11,FHRS,False,,,
+2026-07-23,1669665,Lushi's Coffee,Restaurant/Cafe/Canteen,Mawney Road,Romford,,,RM7 7HH,Havering,4,2026-05-18,FHRS,False,51.578153,0.175662,"Mawney Road, Romford, RM7 7HH"
+2026-07-23,1543039,M.A Dessertss Ltd,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-06-18,FHRS,False,,,
+2026-07-23,1825196,Mahalko London,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-10-22,FHRS,False,,,
+2026-07-23,1543036,Mali's Cafe,Restaurant/Cafe/Canteen,63 Masefield Crescent,Romford,,,RM3 7PB,Havering,5,2025-12-08,FHRS,False,51.594772,0.212163,"63 Masefield Crescent, Romford, RM3 7PB"
+2026-07-23,1908214,Mandarin Palace,Restaurant/Cafe/Canteen,197-201 High Street,Hornchurch,,,RM11 3XT,Havering,5,2026-02-19,FHRS,False,51.561606,0.223625,"197-201 High Street, Hornchurch, RM11 3XT"
+2026-07-23,1055229,Mangal Meze,Restaurant/Cafe/Canteen,100 South Street,Romford,,,RM1 1RX,Havering,5,2026-05-18,FHRS,False,51.575871,0.182308,"100 South Street, Romford, RM1 1RX"
+2026-07-23,373326,Mardyke Community Centre,Restaurant/Cafe/Canteen,52 South Street,Rainham,,,RM13 8PJ,Havering,5,2026-02-09,FHRS,False,51.5282608,0.1690565,"52 South Street, Rainham, RM13 8PJ"
+2026-07-23,1959124,Maria’s Traditional Kitchen,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,457996,Maria's Cupcakes,Restaurant/Cafe/Canteen,,,,,,Havering,5,2023-10-24,FHRS,False,,,
+2026-07-23,1276427,Market Cafe,Restaurant/Cafe/Canteen,25 High Street,Romford,,,RM1 1JL,Havering,4,2026-01-21,FHRS,False,51.577186,0.178329,"25 High Street, Romford, RM1 1JL"
+2026-07-23,1971109,McCalla's Events,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,373150,McDonald's,Restaurant/Cafe/Canteen,125-129 South Street,Romford,,,RM1 1NX,Havering,5,2025-07-23,FHRS,False,51.575964,0.183106,"125-129 South Street, Romford, RM1 1NX"
+2026-07-23,373187,McDonald's,Restaurant/Cafe/Canteen,Mercury Gardens,Romford,,,RM1 3EE,Havering,5,2025-02-06,FHRS,False,51.57929,0.185098,"Mercury Gardens, Romford, RM1 3EE"
+2026-07-23,373459,McDonald's,Restaurant/Cafe/Canteen,Straight Road,Romford,,,RM3 8XR,Havering,5,2025-06-23,FHRS,False,51.601287,0.210992,"Straight Road, Romford, RM3 8XR"
+2026-07-23,372784,McDonald's,Restaurant/Cafe/Canteen,The Brewery,Romford,,,RM1 1AU,Havering,5,2026-01-05,FHRS,False,51.575964,0.18071,"The Brewery, Romford, RM1 1AU"
+2026-07-23,1384485,McKlunky’s,Restaurant/Cafe/Canteen,185b High Street,Hornchurch,,,RM11 3XS,Havering,5,2025-08-07,FHRS,False,51.561845,0.221458,"185b High Street, Hornchurch, RM11 3XS"
+2026-07-23,1734857,McKlunky’s & Bubble Tea,Restaurant/Cafe/Canteen,185b High Street,Hornchurch,,,RM11 3XS,Havering,5,2024-08-28,FHRS,False,51.561845,0.221458,"185b High Street, Hornchurch, RM11 3XS"
+2026-07-23,373885,Mecca Bingo Ltd,Restaurant/Cafe/Canteen,Mercury Gardens,Romford,,,RM1 3EE,Havering,5,2026-06-11,FHRS,False,51.57929,0.185098,"Mercury Gardens, Romford, RM1 3EE"
+2026-07-23,1673395,Mela’s sweets,Restaurant/Cafe/Canteen,,,,,,Havering,5,2024-02-07,FHRS,False,,,
+2026-07-23,1801745,Meteor Restaurant,Restaurant/Cafe/Canteen,216-218 Main Road,Romford,,,RM2 5HA,Havering,5,2025-03-24,FHRS,False,51.586603,0.2010486,"216-218 Main Road, Romford, RM2 5HA"
+2026-07-23,372697,Methodist Church,Restaurant/Cafe/Canteen,The Drive,Harold Wood,,,RM3 0DU,Havering,5,2025-01-21,FHRS,False,51.594343,0.230103,"The Drive, Harold Wood, RM3 0DU"
+2026-07-23,1804723,Metros,Restaurant/Cafe/Canteen,178 Rush Green Road,Romford,,,RM7 0JU,Havering,5,2026-03-09,FHRS,False,51.56564,0.175368,"178 Rush Green Road, Romford, RM7 0JU"
+2026-07-23,1858273,Migo,Restaurant/Cafe/Canteen,187 St Mary's Lane,Upminster,,,RM14 3BU,Havering,5,2026-02-20,FHRS,False,51.5564705,0.2517734,"187 St Mary's Lane, Upminster, RM14 3BU"
+2026-07-23,1086570,Mimibelle Bakes,Restaurant/Cafe/Canteen,,,,,,Havering,4,2025-10-18,FHRS,False,,,
+2026-07-23,1964021,Mina's Spice Pantry,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1876430,Mio Yatai,Restaurant/Cafe/Canteen,106b North Street,Hornchurch,,,RM11 1SU,Havering,1,2025-11-13,FHRS,False,51.567659,0.220269,"106b North Street, Hornchurch, RM11 1SU"
+2026-07-23,1377845,Miracles Cafe,Restaurant/Cafe/Canteen,86 South Street,Romford,,,RM1 1RX,Havering,4,2025-05-06,FHRS,False,51.5759291,0.1822868,"86 South Street, Romford, RM1 1RX"
+2026-07-23,1894115,Miro Brasserie & Lounge,Restaurant/Cafe/Canteen,3-5 Station Road,Upminster,,,RM14 2SJ,Havering,5,2026-02-20,FHRS,False,51.556894,0.249045,"3-5 Station Road, Upminster, RM14 2SJ"
+2026-07-23,1874985,Moana Poke Bowls,Restaurant/Cafe/Canteen,The Liberty Shopping Centre,Romford,,,RM1 3RL,Havering,3,2025-12-22,FHRS,False,,,"The Liberty Shopping Centre, Romford, RM1 3RL"
+2026-07-23,1273727,Mooboo Bubble Tea,Restaurant/Cafe/Canteen,The Liberty,Romford,,,RM1 3RL,Havering,5,2024-02-22,FHRS,False,51.57834,0.18348,"The Liberty, Romford, RM1 3RL"
+2026-07-23,839260,Moon Lee Gardens,Restaurant/Cafe/Canteen,85 Station Lane,Hornchurch,,,RM12 6JU,Havering,4,2026-01-08,FHRS,False,51.559185,0.220866,"85 Station Lane, Hornchurch, RM12 6JU"
+2026-07-23,1801744,Morley's Hornchurch,Restaurant/Cafe/Canteen,14 The Broadway,Hornchurch,,,RM12 4RW,Havering,4,2025-03-25,FHRS,False,51.550329,0.198827,"14 The Broadway, Hornchurch, RM12 4RW"
+2026-07-23,1026385,Muffin Break,Restaurant/Cafe/Canteen,5 Lockwood Walk,Romford,,,RM1 3RH,Havering,2,2026-04-10,FHRS,False,51.5772323608398,0.183152005076408,"5 Lockwood Walk, Romford, RM1 3RH"
+2026-07-23,1625743,Mumbai Cafe,Restaurant/Cafe/Canteen,11 Melksham Gardens,Romford,,,RM3 8QS,Havering,5,2025-08-13,FHRS,False,51.598484,0.229382,"11 Melksham Gardens, Romford, RM3 8QS"
+2026-07-23,1918576,Munch Dipperz,Restaurant/Cafe/Canteen,171 St Mary's Lane,Upminster,,,RM14 3BL,Havering,5,2026-03-16,FHRS,False,51.556438,0.250812,"171 St Mary's Lane, Upminster, RM14 3BL"
+2026-07-23,486278,Mustard Indian Kitchen,Restaurant/Cafe/Canteen,190 High Street,Hornchurch,,,RM12 6QP,Havering,5,2026-03-02,FHRS,False,51.561253,0.222771,"190 High Street, Hornchurch, RM12 6QP"
+2026-07-23,1799089,Naan Staap,Restaurant/Cafe/Canteen,Victoria Road,Romford,,,RM1 2HS,Havering,5,2025-05-06,FHRS,False,51.574477,0.184218,"Victoria Road, Romford, RM1 2HS"
+2026-07-23,372786,Namco Funscape,Restaurant/Cafe/Canteen,The Brewery,Romford,,,RM1 1AU,Havering,5,2024-11-12,FHRS,False,51.575964,0.18071,"The Brewery, Romford, RM1 1AU"
+2026-07-23,1629036,Nande Carribean Restaurant,Restaurant/Cafe/Canteen,15 Victoria Road,Romford,,,RM1 2JT,Havering,4,2026-01-22,FHRS,False,51.574805,0.1853806,"15 Victoria Road, Romford, RM1 2JT"
+2026-07-23,373425,Nandos,Restaurant/Cafe/Canteen,111-113 High Street,Hornchurch,,,RM11 1TX,Havering,5,2024-11-25,FHRS,False,51.5627852,0.2193353,"111-113 High Street, Hornchurch, RM11 1TX"
+2026-07-23,372776,Nandos,Restaurant/Cafe/Canteen,The Brewery,Romford,,,RM1 1AU,Havering,5,2024-07-03,FHRS,False,51.575964,0.18071,"The Brewery, Romford, RM1 1AU"
+2026-07-23,1702091,Nasi Isda Bubble Tea / Nasi Isda,Restaurant/Cafe/Canteen,Mercury Gardens,Romford,,,RM1 3EE,Havering,5,2026-01-13,FHRS,False,51.57929,0.185098,"Mercury Gardens, Romford, RM1 3EE"
+2026-07-23,1455820,Nest Cookies,Restaurant/Cafe/Canteen,,,,,,Havering,5,2023-05-17,FHRS,False,,,
+2026-07-23,372589,New Windmill Hall Community Association,Restaurant/Cafe/Canteen,St Mary's Lane,Upminster,,,RM14 2QH,Havering,Exempt,,FHRS,False,51.556478,0.244985,"St Mary's Lane, Upminster, RM14 2QH"
+2026-07-23,1578819,Neyzen Turkish / Indian,Restaurant/Cafe/Canteen,290 North Street,Romford,,,RM5 3AB,Havering,3,2024-11-12,FHRS,False,51.585249,0.17271,"290 North Street, Romford, RM5 3AB"
+2026-07-23,1959128,Niyabelle Bakes,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1908237,Noakes Kebabs Burger,Restaurant/Cafe/Canteen,New Road,Wennington,,,RM13 9EB,Havering,4,2026-02-19,FHRS,False,51.5023765563965,0.226429998874664,"New Road, Wennington, RM13 9EB"
+2026-07-23,372928,Noor Restaurant,Restaurant/Cafe/Canteen,56 Station Lane,Hornchurch,,,RM12 6NB,Havering,3,2025-05-22,FHRS,False,51.560391,0.220348,"56 Station Lane, Hornchurch, RM12 6NB"
+2026-07-23,844857,North Street Cafe,Restaurant/Cafe/Canteen,138 North Street,Romford,,,RM1 1DL,Havering,5,2024-12-23,FHRS,False,51.581694,0.177232,"138 North Street, Romford, RM1 1DL"
+2026-07-23,907217,Nuffield Health,Restaurant/Cafe/Canteen,4 The Brewery,Romford,,,RM1 1AU,Havering,5,2026-01-29,FHRS,False,51.575964,0.18071,"4 The Brewery, Romford, RM1 1AU"
+2026-07-23,1731597,Ocean Aura,Restaurant/Cafe/Canteen,,,,,,Havering,5,2024-06-05,FHRS,False,,,
+2026-07-23,1641003,Ocha Bubble Tea Bar,Restaurant/Cafe/Canteen,The Liberty Romford Centre,The Liberty,,,RM1 3RL,Havering,5,2023-09-01,FHRS,False,,,"The Liberty Romford Centre, The Liberty, RM1 3RL"
+2026-07-23,1943963,OfficialMamaJollof,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1858271,Oh my Cod,Restaurant/Cafe/Canteen,96 North Street,Hornchurch,,,RM11 1SU,Havering,5,2025-09-30,FHRS,False,51.567659,0.220269,"96 North Street, Hornchurch, RM11 1SU"
+2026-07-23,1959122,Onyx Restaurant and Bar,Restaurant/Cafe/Canteen,48 Station Lane,Hornchurch,,,RM12 6NB,Havering,AwaitingInspection,,FHRS,False,51.5605416,0.2202936,"48 Station Lane, Hornchurch, RM12 6NB"
+2026-07-23,924440,Opera Restaurant,Restaurant/Cafe/Canteen,76-78 North Street,Romford,,,RM1 1DA,Havering,5,2025-02-13,FHRS,False,51.580702,0.178324,"76-78 North Street, Romford, RM1 1DA"
+2026-07-23,1667186,Orchid Indian Cuisine/Trendy Grill & Burger,Restaurant/Cafe/Canteen,17 Station Parade,Elm Park,,,RM12 5AB,Havering,4,2026-01-30,FHRS,False,51.548956,0.199107,"17 Station Parade, Elm Park, RM12 5AB"
+2026-07-23,1943964,Orginal Kebabish,Restaurant/Cafe/Canteen,11a Tadworth Parade,Hornchurch,,,RM12 5BA,Havering,AwaitingInspection,,FHRS,False,51.5492425,0.2002196,"11a Tadworth Parade, Hornchurch, RM12 5BA"
+2026-07-23,926697,Oxygen Freejumping,Restaurant/Cafe/Canteen,Spilsby Road,Harold Hill,,,RM3 8SB,Havering,5,2026-07-01,FHRS,False,51.59898,0.223659,"Spilsby Road, Harold Hill, RM3 8SB"
+2026-07-23,1876431,Panghat,Restaurant/Cafe/Canteen,157 High Street,Hornchurch,,,RM11 3YD,Havering,5,2025-11-13,FHRS,False,51.5620296,0.2208272,"157 High Street, Hornchurch, RM11 3YD"
+2026-07-23,1605500,Paradise Romford,Restaurant/Cafe/Canteen,42 London Road,Romford,,,RM7 9RB,Havering,4,2025-05-12,FHRS,False,51.575929,0.176263,"42 London Road, Romford, RM7 9RB"
+2026-07-23,457998,Passage to India,Restaurant/Cafe/Canteen,99 Upminster Road,Hornchurch,,,RM11 3XB,Havering,4,2026-03-12,FHRS,False,51.559392,0.235059,"99 Upminster Road, Hornchurch, RM11 3XB"
+2026-07-23,1943967,PaulinaRoseCakes,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-06-16,FHRS,False,,,
+2026-07-23,1964019,Pearl Restaurant,Restaurant/Cafe/Canteen,35 High Street,Hornchurch,,,RM11 1TP,Havering,5,2026-06-10,FHRS,False,51.5632531,0.2159674,"35 High Street, Hornchurch, RM11 1TP"
+2026-07-23,1495319,Ped's Pizza,Restaurant/Cafe/Canteen,79 Main Road,Romford,,,RM2 5EL,Havering,5,2025-06-25,FHRS,False,51.5867543,0.1998347,"79 Main Road, Romford, RM2 5EL"
+2026-07-23,1271956,Pemberton Cakes,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-06-27,FHRS,False,,,
+2026-07-23,1842131,Pepe's Hornchurch,Restaurant/Cafe/Canteen,182-184 High Street,Hornchurch,,,RM12 6QP,Havering,5,2025-10-27,FHRS,False,51.56127,0.2222254,"182-184 High Street, Hornchurch, RM12 6QP"
+2026-07-23,1275177,Pepe's Piri Piri,Restaurant/Cafe/Canteen,172-174 South Street,Romford,,,RM1 1TR,Havering,5,2025-02-13,FHRS,False,51.5732224,0.1837886,"172-174 South Street, Romford, RM1 1TR"
+2026-07-23,1943960,Phatbuns,Restaurant/Cafe/Canteen,14 South Street,Romford,,,RM1 1RA,Havering,5,2026-06-04,FHRS,False,51.5779111,0.1805255,"14 South Street, Romford, RM1 1RA"
+2026-07-23,1664032,Pieno-Lleno Restaurant,Restaurant/Cafe/Canteen,25 Station Road,Upminster,,,RM14 2SJ,Havering,5,2026-02-09,FHRS,False,51.556895,0.249045,"25 Station Road, Upminster, RM14 2SJ"
+2026-07-23,372546,Pizza Express,Restaurant/Cafe/Canteen,131-133 St Mary's Lane,Upminster,,,RM14 2SH,Havering,5,2025-07-21,FHRS,False,51.556412,0.248892,"131-133 St Mary's Lane, Upminster, RM14 2SH"
+2026-07-23,372783,Pizza Express,Restaurant/Cafe/Canteen,The Brewery,Romford,,,RM1 1AU,Havering,5,2026-05-13,FHRS,False,51.575964,0.18071,"The Brewery, Romford, RM1 1AU"
+2026-07-23,1151655,Pizzeria Di Napoli,Restaurant/Cafe/Canteen,32 Victoria Road,Romford,,,RM1 2JH,Havering,4,2025-06-05,FHRS,False,51.5744188,0.1855015,"32 Victoria Road, Romford, RM1 2JH"
+2026-07-23,1959127,Point 13 Kitchen,Restaurant/Cafe/Canteen,Lambs Lane North,Rainham,,,RM13 9XL,Havering,AwaitingInspection,,FHRS,False,51.519254,0.210505,"Lambs Lane North, Rainham, RM13 9XL"
+2026-07-23,1518407,Popeye's Louisiana Kitchen,Restaurant/Cafe/Canteen,60-62 South Street,Romford,,,RM1 1RB,Havering,5,2026-06-11,FHRS,False,51.576953,0.181205,"60-62 South Street, Romford, RM1 1RB"
+2026-07-23,766142,Poppins Cafe,Restaurant/Cafe/Canteen,1 Western Road,Romford,,,RM1 3LD,Havering,5,2025-06-09,FHRS,False,51.577032,0.183215,"1 Western Road, Romford, RM1 3LD"
+2026-07-23,1971112,Pret A Manager,Restaurant/Cafe/Canteen,23 New Road,Rainham,,,RM13 8DP,Havering,AwaitingInspection,,FHRS,False,51.514402,0.199584,"23 New Road, Rainham, RM13 8DP"
+2026-07-23,1667176,Pret A Manger,Restaurant/Cafe/Canteen,The Liberty,Romford,,,RM1 3RL,Havering,5,2026-03-13,FHRS,False,51.57834,0.18348,"The Liberty, Romford, RM1 3RL"
+2026-07-23,373500,Prezzo,Restaurant/Cafe/Canteen,189 High Street,Hornchurch,,,RM11 3XT,Havering,5,2024-11-25,FHRS,False,51.561606,0.223625,"189 High Street, Hornchurch, RM11 3XT"
+2026-07-23,1811884,Prima Stella Cafe,Restaurant/Cafe/Canteen,Station Road,Upminster,,,RM14 2TD,Havering,5,2025-04-10,FHRS,False,51.558431,0.250535,"Station Road, Upminster, RM14 2TD"
+2026-07-23,373633,Puddle Cafe,Restaurant/Cafe/Canteen,St Mary's Lane,Upminster,,,RM14 3NX,Havering,5,2026-01-05,FHRS,False,51.560617,0.294605,"St Mary's Lane, Upminster, RM14 3NX"
+2026-07-23,1894127,Radhuni,Restaurant/Cafe/Canteen,206 Main Road,Romford,,,RM2 5HA,Havering,5,2026-02-02,FHRS,False,51.586576,0.200866,"206 Main Road, Romford, RM2 5HA"
+2026-07-23,1787760,Rainham Pizza & Kebab,Restaurant/Cafe/Canteen,121 Wennington Road,Rainham,,,RM13 9TH,Havering,4,2025-07-14,FHRS,False,51.517055,0.194039,"121 Wennington Road, Rainham, RM13 9TH"
+2026-07-23,964918,Raj of India,Restaurant/Cafe/Canteen,152 Upminster Road,Hornchurch,,,RM14 2RB,Havering,5,2026-03-12,FHRS,False,51.558442,0.2382,"152 Upminster Road, Hornchurch, RM14 2RB"
+2026-07-23,1971110,Rangoon Eats,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,924445,Razza,Restaurant/Cafe/Canteen,248 Main Road,Romford,,,RM2 5EU,Havering,4,2026-01-05,FHRS,False,51.587084,0.202579,"248 Main Road, Romford, RM2 5EU"
+2026-07-23,716217,RDS Custom Cakes Ltd,Restaurant/Cafe/Canteen,,,,,,Havering,5,2024-02-23,FHRS,False,,,
+2026-07-23,1943983,Rex Africa Kitchen,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1256745,Rienna's Restaurant,Restaurant/Cafe/Canteen,196 High Street,Hornchurch,,,RM12 6QP,Havering,4,2026-03-10,FHRS,False,51.561253,0.222771,"196 High Street, Hornchurch, RM12 6QP"
+2026-07-23,1205297,Risebridge Golf Centre,Restaurant/Cafe/Canteen,Risebridge Chase,Romford,,,RM1 4PR,Havering,4,2025-05-23,FHRS,False,51.601554,0.189546,"Risebridge Chase, Romford, RM1 4PR"
+2026-07-23,1615733,Rising Flavourses,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-02-16,FHRS,False,,,
+2026-07-23,1801749,RJ’s Kitchen,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1971107,RK Coffee & Desserts,Restaurant/Cafe/Canteen,43 Market Place,Romford,,,RM1 3AB,Havering,AwaitingInspection,,FHRS,False,51.580071,0.182292,"43 Market Place, Romford, RM1 3AB"
+2026-07-23,373597,Robins Pie & Mash,Restaurant/Cafe/Canteen,40 South Street,Romford,,,RM1 1RB,Havering,5,2025-07-23,FHRS,False,51.5772965,0.1809995,"40 South Street, Romford, RM1 1RB"
+2026-07-23,1734851,Rom Skatepark Limited,Restaurant/Cafe/Canteen,Upper Rainham Road,Hornchurch,,,RM12 4ES,Havering,4,2026-03-06,FHRS,False,51.5601485,0.1880372,"Upper Rainham Road, Hornchurch, RM12 4ES"
+2026-07-23,372688,Romford Baptist Church,Restaurant/Cafe/Canteen,Main Road,Romford,,,RM1 3BL,Havering,5,2026-04-09,FHRS,False,51.58094,0.185842,"Main Road, Romford, RM1 3BL"
+2026-07-23,1725571,Romford Cafe,Restaurant/Cafe/Canteen,138 South Street,Romford,,,RM1 1TE,Havering,1,2026-05-15,FHRS,False,51.574478,0.183208,"138 South Street, Romford, RM1 1TE"
+2026-07-23,1612524,Romford Elim Church,Restaurant/Cafe/Canteen,Wheatsheaf Road,Romford,,,RM1 2HD,Havering,Exempt,,FHRS,False,51.5719596,0.18753755,"Wheatsheaf Road, Romford, RM1 2HD"
+2026-07-23,373487,Roneo Cafe,Restaurant/Cafe/Canteen,14 Roneo Corner,Hornchurch,,,RM12 4TN,Havering,4,2025-06-12,FHRS,False,51.565283,0.187789,"14 Roneo Corner, Hornchurch, RM12 4TN"
+2026-07-23,616850,Roomes Restaurant,Restaurant/Cafe/Canteen,41-49 Station Road,Upminster,,,RM14 2TR,Havering,5,2026-01-12,FHRS,False,51.557736,0.250198,"41-49 Station Road, Upminster, RM14 2TR"
+2026-07-23,1562261,Rooster Piri Piri (Romford),Restaurant/Cafe/Canteen,93 South Street,Romford,,,RM1 1NX,Havering,4,2025-01-15,FHRS,True,51.5762398,0.1828702,"93 South Street, Romford, RM1 1NX"
+2026-07-23,1924323,Rose Cafe,Restaurant/Cafe/Canteen,42 The Broadway,Hornchurch,,,RM12 4RN,Havering,5,2026-04-07,FHRS,False,51.550398,0.199422,"42 The Broadway, Hornchurch, RM12 4RN"
+2026-07-23,1789574,Royal Lounge,Restaurant/Cafe/Canteen,14 Victoria Road,Romford,,,RM1 2JH,Havering,5,2025-08-28,FHRS,False,51.574551,0.18604,"14 Victoria Road, Romford, RM1 2JH"
+2026-07-23,553382,Royal Voluntary Services,Restaurant/Cafe/Canteen,The Drive,Harold Wood,,,RM3 0FE,Havering,4,2014-04-24,FHRS,False,51.593186,0.225672,"The Drive, Harold Wood, RM3 0FE"
+2026-07-23,372789,Royals Youth Centre,Restaurant/Cafe/Canteen,Viking Way,Rainham,,,RM13 9YG,Havering,5,2026-02-09,FHRS,False,51.519139,0.19078,"Viking Way, Rainham, RM13 9YG"
+2026-07-23,372435,Rush Green Community Association,Restaurant/Cafe/Canteen,Rush Green Road,Romford,,,RM7 0LB,Havering,Exempt,,FHRS,False,51.56516,0.170684,"Rush Green Road, Romford, RM7 0LB"
+2026-07-23,1797785,Sabsdeli,Restaurant/Cafe/Canteen,213c Pettits Lane North,Romford,,,RM1 4NU,Havering,5,2025-03-24,FHRS,False,51.593101,0.180867,"213c Pettits Lane North, Romford, RM1 4NU"
+2026-07-23,1335429,Saffron,Restaurant/Cafe/Canteen,256 Rush Green Road,Romford,,,RM7 0LA,Havering,4,2026-03-04,FHRS,False,51.565521,0.173054,"256 Rush Green Road, Romford, RM7 0LA"
+2026-07-23,1874995,Saffron Spoon and Big Bev's,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-04-17,FHRS,False,,,
+2026-07-23,1026384,Sapphire Ice & Leisure Centre,Restaurant/Cafe/Canteen,24 Western Road,Romford,,,RM1 3JT,Havering,5,2024-12-16,FHRS,False,51.5768508911133,0.183826997876167,"24 Western Road, Romford, RM1 3JT"
+2026-07-23,931222,Sara-Soo Cakery,Restaurant/Cafe/Canteen,,,,,,Havering,5,2024-02-23,FHRS,False,,,
+2026-07-23,726759,Sara-Soo Cakery Co,Restaurant/Cafe/Canteen,,,,,,Havering,5,2024-02-23,FHRS,False,,,
+2026-07-23,616819,Seasoned Events,Restaurant/Cafe/Canteen,236 London Road,Romford,,,RM7 9EL,Havering,5,2026-03-19,FHRS,False,51.574659,0.166172,"236 London Road, Romford, RM7 9EL"
+2026-07-23,1830196,Sefsayifinestbrand,Restaurant/Cafe/Canteen,,,,,,Havering,4,2025-11-05,FHRS,False,,,
+2026-07-23,1959151,Sell Fast Food/Drink and Coffee,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1777481,Sharmin Bakes,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-03-02,FHRS,False,,,
+2026-07-23,1964039,Shelly V's,Restaurant/Cafe/Canteen,64-68 High Street,Hornchurch,,,RM12 4UW,Havering,5,2026-07-17,FHRS,False,51.562685,0.216982,"64-68 High Street, Hornchurch, RM12 4UW"
+2026-07-23,1091827,Shelly's Bar,Restaurant/Cafe/Canteen,72 Station Lane,Hornchurch,,,RM12 6NA,Havering,4,2026-06-26,FHRS,False,51.55899,0.220236,"72 Station Lane, Hornchurch, RM12 6NA"
+2026-07-23,999852,Shish Legends,Restaurant/Cafe/Canteen,140-142 Rush Green Road,Romford,,,RM7 0QA,Havering,4,2025-11-28,FHRS,False,51.56591796875,0.178280994296074,"140-142 Rush Green Road, Romford, RM7 0QA"
+2026-07-23,372927,Signature Cakes & Flowers,Restaurant/Cafe/Canteen,,,,,,Havering,5,2024-02-23,FHRS,False,,,
+2026-07-23,759605,Silver Cafe,Restaurant/Cafe/Canteen,123 Mungo Park Road,Rainham,,,RM13 7PP,Havering,3,2026-03-02,FHRS,False,51.540727,0.192423,"123 Mungo Park Road, Rainham, RM13 7PP"
+2026-07-23,1108301,Small Talk Tearooms,Restaurant/Cafe/Canteen,17 Laurie Walk,Romford,,,RM1 3RT,Havering,4,2025-08-11,FHRS,False,51.5794033,0.1839454,"17 Laurie Walk, Romford, RM1 3RT"
+2026-07-23,1950804,Smash & Shakez,Restaurant/Cafe/Canteen,107N Mungo Park Road,Rainham,,,RM13 7PP,Havering,3,2026-06-04,FHRS,False,51.540727,0.192423,"107N Mungo Park Road, Rainham, RM13 7PP"
+2026-07-23,1918574,Smash Wave,Restaurant/Cafe/Canteen,184 New Road,Rainham,,,RM13 8RS,Havering,AwaitingInspection,,FHRS,False,51.5229656,0.1790749,"184 New Road, Rainham, RM13 8RS"
+2026-07-23,1950796,Smoke & Pepper - Romford,Restaurant/Cafe/Canteen,58 South Street,Romford,,,RM1 1RB,Havering,AwaitingInspection,,FHRS,False,51.576953,0.181205,"58 South Street, Romford, RM1 1RB"
+2026-07-23,1971119,SnackHaven by Jols,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,372880,Sorrento,Restaurant/Cafe/Canteen,13 Station Road,Upminster,,,RM14 2SJ,Havering,4,2026-06-10,FHRS,False,51.556895,0.249045,"13 Station Road, Upminster, RM14 2SJ"
+2026-07-23,1112181,Sortie Grill & Bar,Restaurant/Cafe/Canteen,40-44 Station Lane,Hornchurch,,,RM12 6NB,Havering,5,2024-10-29,FHRS,False,51.560391,0.220348,"40-44 Station Lane, Hornchurch, RM12 6NB"
+2026-07-23,1523910,South Hornchurch Community Association,Restaurant/Cafe/Canteen,Nelson Road,Rainham,,,RM13 7RD,Havering,Exempt,,FHRS,False,51.53024995,0.18645965,"Nelson Road, Rainham, RM13 7RD"
+2026-07-23,1874991,Spice Hut,Restaurant/Cafe/Canteen,143 High Street,Hornchurch,,,RM11 3YD,Havering,5,2025-11-06,FHRS,False,51.5622605,0.2205937,"143 High Street, Hornchurch, RM11 3YD"
+2026-07-23,1743281,Spring Cafe,Restaurant/Cafe/Canteen,113 Suttons Lane,Hornchurch,,,RM12 6RR,Havering,5,2025-05-02,FHRS,False,51.54935106,0.21797217,"113 Suttons Lane, Hornchurch, RM12 6RR"
+2026-07-23,372700,St Albans Parish Centre,Restaurant/Cafe/Canteen,1 Ullswater Way,Hornchurch,,,RM12 5JX,Havering,Exempt,,FHRS,False,51.546575,0.195156,"1 Ullswater Way, Hornchurch, RM12 5JX"
+2026-07-23,372712,St Josephs Catholic Club,Restaurant/Cafe/Canteen,117 St Mary's Lane,Upminster,,,RM14 2QB,Havering,5,2025-10-08,FHRS,False,51.556482,0.24852,"117 St Mary's Lane, Upminster, RM14 2QB"
+2026-07-23,1359448,St Thomas JSO Church London,Restaurant/Cafe/Canteen,2a Taunton Road,Romford,,,RM3 7ST,Havering,4,2023-07-05,FHRS,False,51.6111772,0.2174645,"2a Taunton Road, Romford, RM3 7ST"
+2026-07-23,1629034,Starbucks,Restaurant/Cafe/Canteen,142 High Street,Hornchurch,,,RM12 6QX,Havering,5,2025-08-07,FHRS,False,51.5622242,0.2198483,"142 High Street, Hornchurch, RM12 6QX"
+2026-07-23,909240,Starbucks,Restaurant/Cafe/Canteen,8b The Brewery,Romford,,,RM1 1AU,Havering,5,2026-03-20,FHRS,False,51.575992,0.180105,"8b The Brewery, Romford, RM1 1AU"
+2026-07-23,909243,Starbucks,Restaurant/Cafe/Canteen,The Liberty,Romford,,,RM1 3RR,Havering,4,2026-02-11,FHRS,False,51.577793,0.183872,"The Liberty, Romford, RM1 3RR"
+2026-07-23,1753546,Station Parade Lounge,Restaurant/Cafe/Canteen,1 Station Parade,Elm Park,,,RM12 5AB,Havering,5,2025-07-21,FHRS,False,51.5482499,0.1993172,"1 Station Parade, Elm Park, RM12 5AB"
+2026-07-23,372523,Stubbers Adventure Centre,Restaurant/Cafe/Canteen,Ockendon Road,Upminster,,,RM14 2TY,Havering,Exempt,,FHRS,False,51.54084,0.267391,"Ockendon Road, Upminster, RM14 2TY"
+2026-07-23,1943956,Subhaan Caterers,Restaurant/Cafe/Canteen,34 London Road,Romford,,,RM7 9RB,Havering,1,2026-06-26,FHRS,False,51.575929,0.176263,"34 London Road, Romford, RM7 9RB"
+2026-07-23,1943979,Subway,Restaurant/Cafe/Canteen,78a South Street,Romford,,,RM1 1RX,Havering,AwaitingInspection,,FHRS,False,51.575871,0.182308,"78a South Street, Romford, RM1 1RX"
+2026-07-23,1014604,Subway,Restaurant/Cafe/Canteen,Mercury Gardens,Romford,,,RM1 3EE,Havering,5,2024-08-27,FHRS,False,51.57929,0.185098,"Mercury Gardens, Romford, RM1 3EE"
+2026-07-23,1971114,Sugar Kiss Cakes,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,902906,Sukhothai Restaurant,Restaurant/Cafe/Canteen,155 High Street,Hornchurch,,,RM11 3YD,Havering,5,2025-10-30,FHRS,False,51.562239,0.220597,"155 High Street, Hornchurch, RM11 3YD"
+2026-07-23,1844130,Summer Bakes Co.,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-02-13,FHRS,False,,,
+2026-07-23,1667171,Sunrise Lutong Bahay,Restaurant/Cafe/Canteen,43 Market Place,Romford,,,RM1 3AB,Havering,5,2026-01-05,FHRS,False,51.580071,0.182292,"43 Market Place, Romford, RM1 3AB"
+2026-07-23,373163,Sunshine Fish Bar,Restaurant/Cafe/Canteen,371a South End Road,Hornchurch,,,RM12 5NA,Havering,5,2025-05-30,FHRS,False,51.5440406799316,0.202259004116058,"371a South End Road, Hornchurch, RM12 5NA"
+2026-07-23,1590127,Sushi Boom,Restaurant/Cafe/Canteen,12-14 Western Road,Romford,,,RM1 3JT,Havering,5,2025-06-09,FHRS,False,51.5768508911133,0.183826997876167,"12-14 Western Road, Romford, RM1 3JT"
+2026-07-23,1694794,Sushi Handroll,Restaurant/Cafe/Canteen,18 South Street,Romford,,,RM1 1RA,Havering,5,2025-11-03,FHRS,False,51.5778532,0.1806675,"18 South Street, Romford, RM1 1RA"
+2026-07-23,1495318,Sushi Park,Restaurant/Cafe/Canteen,88 Station Road,Gidea Park,,,RM2 6DB,Havering,4,2026-01-05,FHRS,False,51.5812008,0.2082609,"88 Station Road, Gidea Park, RM2 6DB"
+2026-07-23,1797778,Sutra,Restaurant/Cafe/Canteen,168 Main Road,Romford,,,RM2 5HS,Havering,5,2025-03-20,FHRS,False,51.585965,0.197025,"168 Main Road, Romford, RM2 5HS"
+2026-07-23,1964028,Suziebakes,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1950786,Sweet & spice by Akhi's kitchen,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1714592,Sweet Somethings Baked with Love,Restaurant/Cafe/Canteen,,,,,,Havering,5,2024-05-29,FHRS,False,,,
+2026-07-23,1767166,Sweet Treat Post,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-10-08,FHRS,False,,,
+2026-07-23,1971108,Swirl and Bloom Cupcakes,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1532766,Sylvia’s Artisan Bubble Milk Tea Ice Cream,Restaurant/Cafe/Canteen,96 South Street,Romford,,,RM1 1RX,Havering,5,2026-04-24,FHRS,False,51.575871,0.182308,"96 South Street, Romford, RM1 1RX"
+2026-07-23,1523921,Taco Bell,Restaurant/Cafe/Canteen,138 High Street,Hornchurch,,,RM12 6QX,Havering,5,2025-06-30,FHRS,False,51.5622901,0.2197693,"138 High Street, Hornchurch, RM12 6QX"
+2026-07-23,1400857,Taco Bell,Restaurant/Cafe/Canteen,1B The Brewery,Romford,,,RM1 1AU,Havering,5,2025-07-14,FHRS,False,51.5746795,0.1800849,"1B The Brewery, Romford, RM1 1AU"
+2026-07-23,1035543,Tandoori Lounge,Restaurant/Cafe/Canteen,185 High Street,Hornchurch,,,RM11 3XS,Havering,4,2025-05-30,FHRS,False,51.561845,0.221458,"185 High Street, Hornchurch, RM11 3XS"
+2026-07-23,372703,Tapestry,Restaurant/Cafe/Canteen,Inskip Drive,Hornchurch,,,RM11 3UR,Havering,5,2025-06-02,FHRS,False,51.561682,0.22484,"Inskip Drive, Hornchurch, RM11 3UR"
+2026-07-23,844851,Tapestry Kitchen,Restaurant/Cafe/Canteen,14 Paines Brook Way,Romford,,,RM3 9JN,Havering,5,2026-05-27,FHRS,False,51.602958,0.2348,"14 Paines Brook Way, Romford, RM3 9JN"
+2026-07-23,1315429,Tarantino,Restaurant/Cafe/Canteen,51 High Street,Hornchurch,,,RM11 1TP,Havering,5,2026-01-23,FHRS,False,51.563274,0.215309,"51 High Street, Hornchurch, RM11 1TP"
+2026-07-23,1279870,Taste Haven,Restaurant/Cafe/Canteen,10 Tadworth Parade,Hornchurch,,,RM12 5AS,Havering,5,2025-03-06,FHRS,False,51.549214,0.200245,"10 Tadworth Parade, Hornchurch, RM12 5AS"
+2026-07-23,963939,Taste of Bengal,Restaurant/Cafe/Canteen,194 High Street,Hornchurch,,,RM12 6QP,Havering,4,2026-01-22,FHRS,False,51.561253,0.222771,"194 High Street, Hornchurch, RM12 6QP"
+2026-07-23,1612528,Taste of Dominica,Restaurant/Cafe/Canteen,,,,,,Havering,5,2023-08-09,FHRS,False,,,
+2026-07-23,1834666,Tasty African Food,Restaurant/Cafe/Canteen,49 High Street,Romford,,,RM1 1JL,Havering,5,2025-08-14,FHRS,False,51.5770275,0.1781772,"49 High Street, Romford, RM1 1JL"
+2026-07-23,924448,Tasty Place Cafe,Restaurant/Cafe/Canteen,Victoria Road,Romford,,,RM1 2JA,Havering,1,2026-06-11,FHRS,False,51.574076,0.184531,"Victoria Road, Romford, RM1 2JA"
+2026-07-23,1842132,Tasty Ug Bites,Restaurant/Cafe/Canteen,,,,,,Havering,4,2026-06-23,FHRS,False,,,
+2026-07-23,1971111,Taylor Made Cakes,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1896123,Taylors Treats,Restaurant/Cafe/Canteen,,,,,,Havering,3,2026-03-09,FHRS,False,,,
+2026-07-23,1738379,Tea Cozy Cafe,Restaurant/Cafe/Canteen,7-11 The Arcade,Farnham Road,,,RM3 8EB,Havering,5,2026-07-01,FHRS,False,51.6062261,0.218567,"7-11 The Arcade, Farnham Road, RM3 8EB"
+2026-07-23,972710,Tea Island,Restaurant/Cafe/Canteen,168 High Street,Hornchurch,,,RM12 6AF,Havering,5,2024-08-28,FHRS,False,51.561408,0.221263,"168 High Street, Hornchurch, RM12 6AF"
+2026-07-23,372642,Teapot Cafe,Restaurant/Cafe/Canteen,43 Market Place,Romford,,,RM1 3AB,Havering,4,2025-12-04,FHRS,False,51.580071,0.182292,"43 Market Place, Romford, RM1 3AB"
+2026-07-23,1455827,Tegzy's Kitchen,Restaurant/Cafe/Canteen,,,,,,Havering,5,2023-08-24,FHRS,False,,,
+2026-07-23,1693832,Tesco Family Dining,Restaurant/Cafe/Canteen,300 Hornchurch Road,Hornchurch,,,RM11 1PY,Havering,5,2026-01-23,FHRS,False,51.565646,0.191976,"300 Hornchurch Road, Hornchurch, RM11 1PY"
+2026-07-23,372961,Tey Cafe,Restaurant/Cafe/Canteen,3 Ockendon Road,Upminster,,,RM14 2DN,Havering,5,2026-01-12,FHRS,False,51.543094,0.252114,"3 Ockendon Road, Upminster, RM14 2DN"
+2026-07-23,1712717,Tey Cafe,Restaurant/Cafe/Canteen,6 Ockendon Road,Upminster,,,RM14 2DN,Havering,5,2026-05-12,FHRS,False,51.5430934,0.2522006,"6 Ockendon Road, Upminster, RM14 2DN"
+2026-07-23,1055230,Thai Orchid/Fung chines food,Restaurant/Cafe/Canteen,17 Station Parade,Elm Park,,,RM12 5AB,Havering,3,2024-11-19,FHRS,False,51.548956,0.199107,"17 Station Parade, Elm Park, RM12 5AB"
+2026-07-23,1637050,The Aviary Ltd,Restaurant/Cafe/Canteen,179 High Street,Hornchurch,,,RM11 3XS,Havering,5,2025-05-02,FHRS,False,51.561845,0.221458,"179 High Street, Hornchurch, RM11 3XS"
+2026-07-23,945531,The Bank,Restaurant/Cafe/Canteen,St Nicholas Avenue,Hornchurch,,,RM12 4RH,Havering,5,2026-05-20,FHRS,False,51.551486,0.198941,"St Nicholas Avenue, Hornchurch, RM12 4RH"
+2026-07-23,372570,The Chippy,Restaurant/Cafe/Canteen,41 Station Road,Harold Wood,,,RM3 0BS,Havering,5,2025-09-24,FHRS,False,51.593892,0.234398,"41 Station Road, Harold Wood, RM3 0BS"
+2026-07-23,1725582,The Clove South Asian Restaurant,Restaurant/Cafe/Canteen,177 Squirrels Heath Lane,Hornchurch,,,RM11 2DX,Havering,5,2025-06-30,FHRS,False,51.583492,0.219944,"177 Squirrels Heath Lane, Hornchurch, RM11 2DX"
+2026-07-23,1629032,The Forest Centre Tea Room,Restaurant/Cafe/Canteen,Pike Lane,Upminster,,,RM14 3NS,Havering,4,2026-05-12,FHRS,False,51.551822,0.28167,"Pike Lane, Upminster, RM14 3NS"
+2026-07-23,1089762,The Grill,Restaurant/Cafe/Canteen,129 New Road,Rainham,,,RM13 8ES,Havering,5,2026-01-13,FHRS,False,51.524662,0.17474,"129 New Road, Rainham, RM13 8ES"
+2026-07-23,1603397,The Hungry Cow – Rainham,Restaurant/Cafe/Canteen,169 New Road,Rainham,,,RM13 8SH,Havering,1,2026-04-14,FHRS,False,51.523831,0.178319,"169 New Road, Rainham, RM13 8SH"
+2026-07-23,1081085,The Meeting Place,Restaurant/Cafe/Canteen,Main Road,Romford,,,RM1 3BL,Havering,5,2026-06-26,FHRS,False,51.58094,0.185842,"Main Road, Romford, RM1 3BL"
+2026-07-23,1649894,The New Garden Cafe,Restaurant/Cafe/Canteen,85 North Street,Hornchurch,,,RM11 1ST,Havering,4,2025-12-18,FHRS,False,51.566867,0.219827,"85 North Street, Hornchurch, RM11 1ST"
+2026-07-23,1859755,The Peri Peri Box,Restaurant/Cafe/Canteen,Victoria Road,Romford,,,RM1 2HU,Havering,4,2025-09-22,FHRS,False,51.574516,0.184581,"Victoria Road, Romford, RM1 2HU"
+2026-07-23,912108,The Pink Parachute,Restaurant/Cafe/Canteen,6 North Street,Hornchurch,,,RM11 1QX,Havering,5,2024-02-23,FHRS,False,51.562798,0.220465,"6 North Street, Hornchurch, RM11 1QX"
+2026-07-23,766139,The Salvation Army,Restaurant/Cafe/Canteen,Petersfield Avenue,Romford,,,RM3 9PP,Havering,5,2024-02-23,FHRS,False,51.603635,0.237057,"Petersfield Avenue, Romford, RM3 9PP"
+2026-07-23,372604,The Ship Centre,Restaurant/Cafe/Canteen,1-3 Upminster Road South,Rainham,,,RM13 9YS,Havering,5,2026-03-02,FHRS,False,51.518603,0.191562,"1-3 Upminster Road South, Rainham, RM13 9YS"
+2026-07-23,1944002,The Shortbread Studio,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1374893,The Sipping House Limited,Restaurant/Cafe/Canteen,179 Station Lane,Hornchurch,,,RM12 6LL,Havering,4,2026-02-03,FHRS,False,51.5552061,0.2200989,"179 Station Lane, Hornchurch, RM12 6LL"
+2026-07-23,1950777,The Soft Batch,Restaurant/Cafe/Canteen,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-07-23,479063,The Source Coffee Shop,Restaurant/Cafe/Canteen,Ockendon Road,Upminster,,,RM14 2TY,Havering,5,2026-02-25,FHRS,False,51.54084,0.267391,"Ockendon Road, Upminster, RM14 2TY"
+2026-07-23,924444,The Station Pantry,Restaurant/Cafe/Canteen,61 Station Road,Upminster,,,RM14 2SU,Havering,5,2026-02-25,FHRS,False,51.558593,0.249591,"61 Station Road, Upminster, RM14 2SU"
+2026-07-23,1373280,The Sweet Rose Cakery,Restaurant/Cafe/Canteen,162 St Mary's Lane,Upminster,,,RM14 3BS,Havering,5,2025-10-18,FHRS,False,51.556071,0.250707,"162 St Mary's Lane, Upminster, RM14 3BS"
+2026-07-23,848902,The Tea Room,Restaurant/Cafe/Canteen,Ockendon Road,Upminster,,,RM14 2UY,Havering,4,2026-06-23,FHRS,False,51.5434,0.258216,"Ockendon Road, Upminster, RM14 2UY"
+2026-07-23,1175074,The Vine,Restaurant/Cafe/Canteen,3 Laurie Walk,Romford,,,RM1 3RT,Havering,5,2025-11-03,FHRS,False,51.579414,0.183748,"3 Laurie Walk, Romford, RM1 3RT"
+2026-07-23,1562278,The Yummy Greek,Restaurant/Cafe/Canteen,104-106 South Street,Romford,,,RM1 1RX,Havering,4,2026-01-12,FHRS,False,51.575944,0.182268,"104-106 South Street, Romford, RM1 1RX"
+2026-07-23,1590128,Tilaw,Restaurant/Cafe/Canteen,24-25 Quadrant Arcade,Romford,,,RM1 3ED,Havering,3,2025-02-13,FHRS,False,51.578156,0.181291,"24-25 Quadrant Arcade, Romford, RM1 3ED"
+2026-07-23,1797788,TM Bespoke Bakery,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-09-09,FHRS,False,,,
+2026-07-23,1065073,Toastea Cafe,Restaurant/Cafe/Canteen,161 Whitchurch Road,Romford,,,RM3 9AA,Havering,4,2025-05-19,FHRS,False,51.612578,0.221681,"161 Whitchurch Road, Romford, RM3 9AA"
+2026-07-23,372957,Toby Carvery,Restaurant/Cafe/Canteen,3 The Brewery,Romford,,,RM1 1AU,Havering,4,2025-06-30,FHRS,False,51.575964,0.18071,"3 The Brewery, Romford, RM1 1AU"
+2026-07-23,1770600,Tonys Bakery,Restaurant/Cafe/Canteen,59 White Hart Lane,Romford,,,RM7 8JB,Havering,3,2025-08-15,FHRS,False,51.591689,0.157497,"59 White Hart Lane, Romford, RM7 8JB"
+2026-07-23,1062539,Top's Cafe,Restaurant/Cafe/Canteen,183 High Street,Hornchurch,,,RM11 3XS,Havering,3,2025-05-02,FHRS,False,51.5616416,0.2217901,"183 High Street, Hornchurch, RM11 3XS"
+2026-07-23,1900297,Torturi Delicioase By Loredana,Restaurant/Cafe/Canteen,,,,,,Havering,5,2026-05-18,FHRS,False,,,
+2026-07-23,1567727,Towers Cafe,Restaurant/Cafe/Canteen,206 Lyndhurst Drive,Hornchurch,,,RM11 1JW,Havering,5,2025-07-01,FHRS,False,51.5693157,0.2129842,"206 Lyndhurst Drive, Hornchurch, RM11 1JW"
+2026-07-23,1725576,Trendy Grill & Burger,Restaurant/Cafe/Canteen,17a Station Parade,Elm Park,,,RM12 5AA,Havering,3,2024-11-19,FHRS,False,51.5489933,0.1991118,"17a Station Parade, Elm Park, RM12 5AA"
+2026-07-23,1844142,Turkcuisine,Restaurant/Cafe/Canteen,168 High Street,Hornchurch,,,RM12 6AF,Havering,3,2025-09-30,FHRS,False,51.561408,0.221263,"168 High Street, Hornchurch, RM12 6AF"
+2026-07-23,1971120,Turkish Kebab,Restaurant/Cafe/Canteen,171 South Street,Romford,,,RM1 1PS,Havering,AwaitingInspection,,FHRS,False,51.573801,0.184301,"171 South Street, Romford, RM1 1PS"
+2026-07-23,1515335,Turtle Bay,Restaurant/Cafe/Canteen,7A The Brewery,Romford,,,RM1 1AU,Havering,5,2025-06-30,FHRS,False,51.5759869,0.180877,"7A The Brewery, Romford, RM1 1AU"
+2026-07-23,372587,Tweed Way Hall Community Association,Restaurant/Cafe/Canteen,Tweed Way,Romford,,,RM1 4AZ,Havering,Exempt,,FHRS,False,51.599218,0.178358,"Tweed Way, Romford, RM1 4AZ"
+2026-07-23,374083,Umberto,Restaurant/Cafe/Canteen,195 High Street,Hornchurch,,,RM11 3XT,Havering,5,2025-10-30,FHRS,False,51.561606,0.223625,"195 High Street, Hornchurch, RM11 3XT"
+2026-07-23,1838218,Uncle Fab’s,Restaurant/Cafe/Canteen,46 Station Lane,Hornchurch,,,RM12 6NB,Havering,3,2025-09-22,FHRS,False,51.5605712,0.2203888,"46 Station Lane, Hornchurch, RM12 6NB"
+2026-07-23,803721,Upminster Taproom,Restaurant/Cafe/Canteen,1b Sunnyside Gardens,Upminster,,,RM14 3DT,Havering,5,2026-05-20,FHRS,False,51.554668,0.251647,"1b Sunnyside Gardens, Upminster, RM14 3DT"
+2026-07-23,1918583,Uraswamys Restaurant,Restaurant/Cafe/Canteen,17 High Street,Hornchurch,,,RM11 1TP,Havering,5,2026-03-12,FHRS,False,51.563274,0.215309,"17 High Street, Hornchurch, RM11 1TP"
+2026-07-23,1900300,Varleys,Restaurant/Cafe/Canteen,15 Station Road,Upminster,,,RM14 2SJ,Havering,5,2026-02-06,FHRS,False,51.5569191,0.2491687,"15 Station Road, Upminster, RM14 2SJ"
+2026-07-23,1731595,Venue by Easydine,Restaurant/Cafe/Canteen,Marsh Way,Rainham,,,RM13 8EU,Havering,5,2024-08-23,FHRS,False,51.518633,0.17108,"Marsh Way, Rainham, RM13 8EU"
+2026-07-23,1400852,Victoria Andri Cake Studio,Restaurant/Cafe/Canteen,,,,,,Havering,5,2023-06-02,FHRS,False,,,
+2026-07-23,924442,Vida Verde Juices,Restaurant/Cafe/Canteen,,,,,,Havering,5,2024-02-27,FHRS,False,,,
+2026-07-23,1804718,Village Indian Dining,Restaurant/Cafe/Canteen,207 St Mary's Lane,Upminster,,,RM14 3BU,Havering,5,2025-05-28,FHRS,False,51.556514,0.252027,"207 St Mary's Lane, Upminster, RM14 3BU"
+2026-07-23,1313750,Violet Velvet Treats,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-08-05,FHRS,False,,,
+2026-07-23,373220,W Cafe,Restaurant/Cafe/Canteen,20 Stewards Walk,Romford,,,RM1 3RJ,Havering,4,2026-05-29,FHRS,False,51.577242,0.182575,"20 Stewards Walk, Romford, RM1 3RJ"
+2026-07-23,1523914,Wagamama,Restaurant/Cafe/Canteen,12b The Brewery,Romford,,,RM1 1AU,Havering,5,2025-03-17,FHRS,False,51.5770266,0.1800463,"12b The Brewery, Romford, RM1 1AU"
+2026-07-23,1127172,Wah Ping,Restaurant/Cafe/Canteen,51-55 London Road,Romford,,,RM7 9QA,Havering,3,2026-02-19,FHRS,False,51.57509,0.175429,"51-55 London Road, Romford, RM7 9QA"
+2026-07-23,373354,Waterstones Cafe,Restaurant/Cafe/Canteen,Lockwood Walk,The Liberty Centre,,,RM1 3RJ,Havering,5,2025-06-20,FHRS,False,51.5776297,0.1833118,"Lockwood Walk, The Liberty Centre, RM1 3RJ"
+2026-07-23,1110884,Welcome Inn,Restaurant/Cafe/Canteen,49 High Street,Hornchurch,,,RM11 1TP,Havering,4,2024-09-06,FHRS,False,51.563274,0.215309,"49 High Street, Hornchurch, RM11 1TP"
+2026-07-23,1400854,Wendy's,Restaurant/Cafe/Canteen,64 South Street,Romford,,,RM1 1RB,Havering,5,2024-11-12,FHRS,False,51.5766351,0.1814571,"64 South Street, Romford, RM1 1RB"
+2026-07-23,1804722,Whisked Away,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-08-05,FHRS,False,,,
+2026-07-23,372963,Wimpy,Restaurant/Cafe/Canteen,121 High Street,Hornchurch,,,RM11 1TX,Havering,3,2025-06-30,FHRS,False,51.562726,0.219582,"121 High Street, Hornchurch, RM11 1TX"
+2026-07-23,372987,Wimpy Restaurant,Restaurant/Cafe/Canteen,50 Station Road,Upminster,,,RM14 2TR,Havering,5,2026-07-21,FHRS,False,51.557736,0.250198,"50 Station Road, Upminster, RM14 2TR"
+2026-07-23,1252588,Wingz N Dat,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-11-12,FHRS,False,,,
+2026-07-23,1208326,Wonderland of Cake,Restaurant/Cafe/Canteen,,,,,,Havering,5,2024-02-26,FHRS,False,,,
+2026-07-23,907216,Xich Lo,Restaurant/Cafe/Canteen,24 Station Lane,Hornchurch,,,RM12 6NJ,Havering,4,2026-01-15,FHRS,False,51.561287,0.220507,"24 Station Lane, Hornchurch, RM12 6NJ"
+2026-07-23,1943982,Yard 2 Yard,Restaurant/Cafe/Canteen,105-111 South Street,Romford,,,RM1 1NX,Havering,AwaitingInspection,,FHRS,False,51.575964,0.183106,"105-111 South Street, Romford, RM1 1NX"
+2026-07-23,1823241,Yebaba Levantine Kitchen,Restaurant/Cafe/Canteen,92 Station Road,Gidea Park,,,RM2 6DB,Havering,4,2025-08-15,FHRS,False,51.581176,0.208283,"92 Station Road, Gidea Park, RM2 6DB"
+2026-07-23,1767163,Yifang Bubble Tea,Restaurant/Cafe/Canteen,Mercury Gardens,Romford,,,RM1 3EE,Havering,3,2025-07-29,FHRS,False,51.57929,0.185098,"Mercury Gardens, Romford, RM1 3EE"
+2026-07-23,1073194,Yin Court,Restaurant/Cafe/Canteen,153 St Mary's Lane,Upminster,,,RM14 3BL,Havering,4,2025-10-30,FHRS,False,51.556438,0.250812,"153 St Mary's Lane, Upminster, RM14 3BL"
+2026-07-23,1751499,Young’s Farm Café A,Restaurant/Cafe/Canteen,St Mary's Lane,Upminster,,,RM14 3NU,Havering,5,2026-03-03,FHRS,False,51.559585,0.2848,"St Mary's Lane, Upminster, RM14 3NU"
+2026-07-23,1354285,Yummy Bite,Restaurant/Cafe/Canteen,,,,,,Havering,5,2025-06-11,FHRS,False,,,
+2026-07-23,1622663,Zaafran,Restaurant/Cafe/Canteen,234 Main Road,Romford,,,RM2 5HA,Havering,2,2025-10-15,FHRS,False,51.586576,0.200866,"234 Main Road, Romford, RM2 5HA"
+2026-07-23,372959,Zarana,Restaurant/Cafe/Canteen,55 High Street,Hornchurch,,,RM11 1TP,Havering,3,2025-02-17,FHRS,False,51.563274,0.215309,"55 High Street, Hornchurch, RM11 1TP"
+2026-07-23,1603400,Zero7 Restaurant,Restaurant/Cafe/Canteen,7 North Street,Hornchurch,,,RM11 1RL,Havering,3,2025-05-15,FHRS,False,51.563127,0.219745,"7 North Street, Hornchurch, RM11 1RL"
+2026-07-23,373218,Zizzi,Restaurant/Cafe/Canteen,41-43 Station Lane,Hornchurch,,,RM12 6JT,Havering,5,2025-08-07,FHRS,False,51.560236,0.220932,"41-43 Station Lane, Hornchurch, RM12 6JT"
+2026-07-23,373084,Zizzi,Restaurant/Cafe/Canteen,The Brewery,Romford,,,RM1 1AU,Havering,5,2026-01-15,FHRS,False,51.575964,0.18071,"The Brewery, Romford, RM1 1AU"
+2026-07-23,1970903,Baron Hill Golf Club Catering,Restaurant/Cafe/Canteen,Baron Hill Golf Club,Allt Goch Bach,Beaumaris,Isle Of Anglesey,LL58 8YW,Ynys Môn,5,2026-07-17,FHRS,False,53.257081,-4.110702,"Baron Hill Golf Club, Allt Goch Bach, Beaumaris, Isle Of Anglesey, LL58 8YW"
+2026-07-23,1970927,Kettle & Bean,Restaurant/Cafe/Canteen,,,,,,Wealden,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1971091,ARAMARK AT BROCKENHURST COLLEGE STARBUCKS,Restaurant/Cafe/Canteen,LYNDHURST ROAD,BROCKENHURST,,,SO42 7ZE,New Forest,AwaitingInspection,,FHRS,False,50.81834116,-1.57202956,"LYNDHURST ROAD, BROCKENHURST, SO42 7ZE"
+2026-07-23,1971134,Wingstop,Restaurant/Cafe/Canteen,19 Head Street,Colchester,Essex,,CO1 1NX,Colchester,AwaitingInspection,,FHRS,False,51.8890821,0.8960515,"19 Head Street, Colchester, Essex, CO1 1NX"
+2026-07-23,1971031,A Grape Pairing,Restaurant/Cafe/Canteen,19 Lydia Ann Street,,Liverpool,,L1 5BW,Liverpool,AwaitingInspection,,FHRS,False,53.4007072,-2.9810264,"19 Lydia Ann Street, Liverpool, L1 5BW"
+2026-07-23,1971028,Aissatu Pastelaria Orquídea,Restaurant/Cafe/Canteen,117 Breck Road,,Liverpool,,L4 2QX,Liverpool,AwaitingInspection,,FHRS,False,53.4253481,-2.9530069,"117 Breck Road, Liverpool, L4 2QX"
+2026-07-23,1971025,Breathe Coffee Shop,Restaurant/Cafe/Canteen,164 Hamilton Road,,Liverpool,,L5 4RT,Liverpool,AwaitingInspection,,FHRS,False,53.4235409,-2.9620409,"164 Hamilton Road, Liverpool, L5 4RT"
+2026-07-23,1971027,Crabbish,Restaurant/Cafe/Canteen,52 Duke Street,,Liverpool,,L1 5AA,Liverpool,AwaitingInspection,,FHRS,False,53.4018859,-2.9829034,"52 Duke Street, Liverpool, L1 5AA"
+2026-07-23,1971003,Dock & Brew,Restaurant/Cafe/Canteen,352B St Marys Road,,Liverpool,,L19 0NQ,Liverpool,AwaitingInspection,,FHRS,False,53.3601426,-2.9103642,"352B St Marys Road, Liverpool, L19 0NQ"
+2026-07-23,1971019,Makers Cove,Restaurant/Cafe/Canteen,98 - 100 Longmoor Lane,,Liverpool,,L9 0EF,Liverpool,AwaitingInspection,,FHRS,False,53.4650745,-2.9545891,"98 - 100 Longmoor Lane, Liverpool, L9 0EF"
+2026-07-23,1971035,Olive Catering Services at Adient,Restaurant/Cafe/Canteen,25 Estuary Boulevard,,Liverpool,,L24 8RF,Liverpool,AwaitingInspection,,FHRS,False,53.3431191,-2.8758811,"25 Estuary Boulevard, Liverpool, L24 8RF"
+2026-07-23,1971034,Olwens,Restaurant/Cafe/Canteen,110 Mill Street,,Liverpool,,L8 5UB,Liverpool,AwaitingInspection,,FHRS,False,53.3906706,-2.9740211,"110 Mill Street, Liverpool, L8 5UB"
+2026-07-23,1971022,Polidor,Restaurant/Cafe/Canteen,89 Lark Lane,,Liverpool,,L17 8UP,Liverpool,AwaitingInspection,,FHRS,True,53.3814234,-2.9457418,"89 Lark Lane, Liverpool, L17 8UP"
+2026-07-23,1971039,Sipside,Restaurant/Cafe/Canteen,118 Hunts Cross Avenue,,Liverpool,,L25 8SQ,Liverpool,AwaitingInspection,,FHRS,False,53.3764182,-2.8586107,"118 Hunts Cross Avenue, Liverpool, L25 8SQ"
+2026-07-23,1971042,Starbucks,Restaurant/Cafe/Canteen,Liverpool Lime Street Railway Station Lime Street,,Liverpool,,L1 1JD,Liverpool,AwaitingInspection,,FHRS,False,53.407935,-2.9766512,"Liverpool Lime Street Railway Station Lime Street, Liverpool, L1 1JD"
+2026-07-23,1971037,The Gaining Station,Restaurant/Cafe/Canteen,Unit C The Rag And Yacht Alfred Street,,Liverpool,,L15 2JJ,Liverpool,AwaitingInspection,,FHRS,False,,,"Unit C The Rag And Yacht Alfred Street, Liverpool, L15 2JJ"
+2026-07-23,1971043,Uppercrust,Restaurant/Cafe/Canteen,Liverpool Lime Street Railway Station Lime Street,,Liverpool,,L1 1JD,Liverpool,AwaitingInspection,,FHRS,False,53.407935,-2.9766512,"Liverpool Lime Street Railway Station Lime Street, Liverpool, L1 1JD"
+2026-07-23,1970897,Wasted Degrees Brewing Pub,Restaurant/Cafe/Canteen,62-64 GEORGE STREET,,,PERTH,PH1 5JL,Perth and Kinross,Awaiting Inspection,2026-07-16,FHIS,False,56.3979601,-3.4280257,"62-64 GEORGE STREET, PERTH, PH1 5JL"
+2026-07-23,1970951,THE DELI BAR LTD,Restaurant/Cafe/Canteen,71 Main Street,Town Parks,Ballymoney,Antrim,BT53 6AN,Causeway Coast and Glens,AwaitingInspection,,FHRS,False,55.06909,-6.516543,"71 Main Street, Town Parks, Ballymoney, Antrim, BT53 6AN"
+2026-07-23,1926768,Starbucks,Restaurant/Cafe/Canteen,Unit 1,Brookfield Centre,Halfhide Lane,Cheshunt,EN8 0NN,Broxbourne,AwaitingInspection,,FHRS,False,51.719668,-0.038167,"Unit 1, Brookfield Centre, Halfhide Lane, Cheshunt, EN8 0NN"
+2026-07-23,1971210,Good Food at The Shed,Restaurant/Cafe/Canteen,,17 Jersey Road,,Bonymaen,SA1 7DG,Abertawe,AwaitingInspection,,FHRS,False,51.6401996,-3.9165539,"17 Jersey Road, Bonymaen, SA1 7DG"
+2026-07-23,1971203,Hungry Wild Hogs,Restaurant/Cafe/Canteen,,1 Meadow Street,,Townhill,SA1 6RZ,Abertawe,AwaitingInspection,,FHRS,False,51.6327403,-3.9697281,"1 Meadow Street, Townhill, SA1 6RZ"
+2026-07-23,1971202,Palais Coffee,Restaurant/Cafe/Canteen,,91 Mansel Street,,Mount Pleasant,SA1 5TZ,Abertawe,AwaitingInspection,,FHRS,False,51.6211051940918,-3.94869589805603,"91 Mansel Street, Mount Pleasant, SA1 5TZ"
+2026-07-23,1971200,Pixie Cakes and Coffee,Restaurant/Cafe/Canteen,Unit C Marina Villas,Trawler Road,,Maritime Quarter,SA1 1FZ,Abertawe,AwaitingInspection,,FHRS,False,51.6156696,-3.9312791,"Unit C Marina Villas, Trawler Road, Maritime Quarter, SA1 1FZ"
+2026-07-23,1971198,Roasted Coffee Shop,Restaurant/Cafe/Canteen,Technology Centre,Victoria Road,,Kingsbridge,SA4 4AS,Abertawe,AwaitingInspection,,FHRS,False,51.6603902,-4.0381401,"Technology Centre, Victoria Road, Kingsbridge, SA4 4AS"
+2026-07-23,1971212,Theatre Bistro Ltd,Restaurant/Cafe/Canteen,,176 Neath Road,,Landore,SA1 2JT,Abertawe,AwaitingInspection,,FHRS,False,51.63993,-3.93836,"176 Neath Road, Landore, SA1 2JT"
+2026-07-23,1970997,Oh My Pasta & Desserts,Restaurant/Cafe/Canteen,70 Holton Road,,Barry,Vale Of Glamorgan,CF63 4HE,Bro Morgannwg,AwaitingInspection,,FHRS,False,51.405278,-3.269203,"70 Holton Road, Barry, Vale Of Glamorgan, CF63 4HE"
+2026-07-23,1970996,Sushi Life Penarth,Restaurant/Cafe/Canteen,Old Rb Furnishings,,Penarth,,CF64 1EA,Bro Morgannwg,AwaitingInspection,,FHRS,False,,,"Old Rb Furnishings, Penarth, CF64 1EA"
+2026-07-23,1970990,Banh-Mi Caphe,Restaurant/Cafe/Canteen,,181 North Street,Bedminster,Bristol,BS3 1JQ,Bristol,AwaitingInspection,,FHRS,False,51.440132,-2.609614,"181 North Street, Bedminster, Bristol, BS3 1JQ"
+2026-07-23,1970958,Feather,Restaurant/Cafe/Canteen,,105 Whiteladies Road,Clifton,Bristol,BS8 2PB,Bristol,AwaitingInspection,,FHRS,False,51.4639885,-2.609159,"105 Whiteladies Road, Clifton, Bristol, BS8 2PB"
+2026-07-23,1970989,Fed Cafe,Restaurant/Cafe/Canteen,,16 Narrow Quay,City Centre,Bristol,BS1 4QA,Bristol,AwaitingInspection,,FHRS,False,51.44925,-2.597345,"16 Narrow Quay, City Centre, Bristol, BS1 4QA"
+2026-07-23,1970957,Good vibe food,Restaurant/Cafe/Canteen,,,,,,Bristol,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1970962,hajis catering/streetfood,Restaurant/Cafe/Canteen,,,,,,Bristol,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1970988,Hatters House Cafe,Restaurant/Cafe/Canteen,,58 Park Street,City Centre,Bristol,BS1 5JN,Bristol,AwaitingInspection,,FHRS,False,51.454771,-2.602656,"58 Park Street, City Centre, Bristol, BS1 5JN"
+2026-07-23,1970968,Home Kitchen,Restaurant/Cafe/Canteen,,,,,,Bristol,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1970991,NATURES INFUSION,Restaurant/Cafe/Canteen,,,,,,Bristol,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1970992,Olive Branch Bakery,Restaurant/Cafe/Canteen,,,,,,Bristol,AwaitingInspection,,FHRS,False,,,
+2026-07-23,1970955,The Star Coffee,Restaurant/Cafe/Canteen,,86 Stapleton Road,Easton,Bristol,BS5 0PW,Bristol,AwaitingInspection,,FHRS,False,51.461083,-2.573965,"86 Stapleton Road, Easton, Bristol, BS5 0PW"
+2026-07-23,1971129,Sipora,Restaurant/Cafe/Canteen,,24 Albert Road,Morecambe,Lancashire,LA4 4HB,Lancaster City,AwaitingInspection,,FHRS,False,54.0665104,-2.878752,"24 Albert Road, Morecambe, Lancashire, LA4 4HB"
+2026-07-23,1970866,Thireteenbells cafe,Restaurant/Cafe/Canteen,55 Church Street,Rugby,,Warwickshire,CV21 3PT,Rugby,AwaitingInspection,,FHRS,False,52.3726863,-1.2598451,"55 Church Street, Rugby, Warwickshire, CV21 3PT"
+2026-07-23,1970828,The Gurkha Lounge and Bar,Restaurant/Cafe/Canteen,,Harborough Road Desborough,Kettering,North Northamptonshire,NN14 2UG,North Northamptonshire,AwaitingInspection,,FHRS,False,,,"Harborough Road Desborough, Kettering, North Northamptonshire, NN14 2UG"
