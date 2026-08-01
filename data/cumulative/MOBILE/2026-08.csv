@@ -1,0 +1,54 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2026-08-01,1136593,Brat Haus,Mobile caterer,,,,,,Northumberland,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1974182,Cafe 472,Mobile caterer,Willowburn Trading Estate,Alnwick,Northumberland,,NE66 2PF,Northumberland,AwaitingInspection,,FHRS,False,55.402752,-1.689937,"Willowburn Trading Estate, Alnwick, Northumberland, NE66 2PF"
+2026-08-01,1974177,The Lilac Lemons,Mobile caterer,,,,,,Northumberland,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1974175,The Pheasant Feeder,Mobile caterer,,,,,,Northumberland,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1719128,3J's,Mobile caterer,,,,,,Breckland,5,2026-04-27,FHRS,False,,,
+2026-08-01,1974302,Civil Society,Mobile caterer,,,,,,Breckland,AwaitingInspection,,FHRS,False,,,
+2026-08-01,111009,Curry Muncherz,Mobile caterer,,,,,,Breckland,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1963487,City Grill,Mobile caterer,,,,,,Bath and North East Somerset,5,2026-07-15,FHRS,False,,,
+2026-08-01,1963486,Mr D's (mobile),Mobile caterer,,,,,,Bath and North East Somerset,5,2026-07-15,FHRS,False,,,
+2026-08-01,1319863,Embers Camping,Mobile caterer,Standing Hall Farm,Paddockhurst Road,Turners Hill,Crawley,RH10 4ND,Mid Sussex,AwaitingInspection,,FHRS,True,,,"Standing Hall Farm, Paddockhurst Road, Turners Hill, Crawley, RH10 4ND"
+2026-08-01,1973994,Euphrosyne,Mobile caterer,,,,,,Mid Sussex,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1974054,Anglesey Leaf & Bean,Mobile caterer,Morawelon,,Newborough,Llanfair Pwllgwyngyll,LL61 6TH,Anglesey,5,2026-07-29,FHRS,False,53.167208,-4.3572118,"Morawelon, Newborough, Llanfair Pwllgwyngyll, LL61 6TH"
+2026-08-01,1974238,Charcoal house,Mobile caterer,,,,,,Cambridge City,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1859471,Hayleys Parlour,Mobile caterer,,,,,,Moray,Awaiting Inspection,2025-08-05,FHIS,False,,,
+2026-08-01,1974385,Maxwell Catering,Mobile caterer,,,,,,Moray,Awaiting Inspection,2026-07-29,FHIS,False,,,
+2026-08-01,1974045,Press’d,Mobile caterer,,,,,,Lewes,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1974075,Mrchillervan LTD,Mobile caterer,,,,,,Spelthorne,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1974256,GEF Get 'Er' Fuelled,Mobile caterer,,,,,,Mid and East Antrim,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1973981,Barista Bar,Mobile caterer,1 Hightown Avenue,,Newtownabbey,,BT36 4RT,Antrim and Newtownabbey,5,2026-07-29,FHRS,False,54.6737118,-5.9795199,"1 Hightown Avenue, Newtownabbey, BT36 4RT"
+2026-08-01,1974186,MeatoFresh,Mobile caterer,16 Beresford Square,,Woolwich,Greenwich,SE18 6AY,Greenwich,AwaitingInspection,,FHRS,False,51.4907569,0.0695043,"16 Beresford Square, Woolwich, Greenwich, SE18 6AY"
+2026-08-01,1974187,RitaEs Kitchen,Mobile caterer,71 Nickelby Close,,Thamesmead,Greenwich,SE28 8LY,Greenwich,AwaitingInspection,,FHRS,False,51.509629,0.119561,"71 Nickelby Close, Thamesmead, Greenwich, SE28 8LY"
+2026-08-01,1974023,Cove And Clover,Mobile caterer,,,,,,Sunderland,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1944916,Froth,Mobile caterer,,,,,,Sunderland,5,2026-07-22,FHRS,False,,,
+2026-08-01,1974020,Hollywood Classics,Mobile caterer,,,,,,Sunderland,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1974026,Ronnie's Street Food,Mobile caterer,,,,,,Sunderland,5,2026-05-19,FHRS,False,,,
+2026-08-01,1974287,Beetle Juice South West,Mobile caterer,Kilminorth Farm,Looe,Cornwall,,PL13 2NE,Cornwall,AwaitingInspection,,FHRS,True,,,"Kilminorth Farm, Looe, Cornwall, PL13 2NE"
+2026-08-01,1948796,Burger Bros,Mobile caterer,Mobile Catering Unit,Treen Farm Campsite,Treen,St Levan,TR19 6LF,Cornwall,AwaitingInspection,,FHRS,True,50.0479377,-5.6441845,"Mobile Catering Unit, Treen Farm Campsite, Treen, St Levan, TR19 6LF"
+2026-08-01,1945569,The Braai Box,Mobile caterer,,,,,,Cornwall,5,2026-07-27,FHRS,False,,,
+2026-08-01,1948770,The Burrow,Mobile caterer,,,,,,Cornwall,5,2026-07-09,FHRS,False,,,
+2026-08-01,1974054,Anglesey Leaf & Bean,Mobile caterer,Morawelon,,Newborough,Llanfair Pwllgwyngyll,LL61 6TH,Ynys Môn,5,2026-07-29,FHRS,False,53.167208,-4.3572118,"Morawelon, Newborough, Llanfair Pwllgwyngyll, LL61 6TH"
+2026-08-01,1974361,The Mane Event,Mobile caterer,,,,,,North Ayrshire,Awaiting Inspection,,FHIS,False,,,
+2026-08-01,1974362,Treasy's Snacks,Mobile caterer,,,,,,North Ayrshire,Awaiting Inspection,,FHIS,False,,,
+2026-08-01,1974389,Whipped!,Mobile caterer,,,,,,Charnwood,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1974100,Rich Jones Fruit And Veg,Mobile caterer,,,,,,North East Derbyshire,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1151559,Latitude On The Wheels,Mobile caterer,Emma Cons Gardens,Waterloo Road,London,,,Lambeth,3,2019-11-09,FHRS,False,51.5737,0.17883,"Emma Cons Gardens, Waterloo Road, London"
+2026-08-01,1974305,Reeka's (Van),Mobile caterer,,,,,,Lambeth,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1974333,The Bake Box - The Waffle Box,Mobile caterer,,,,,,Gloucester City,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1974352,Cartel Catering,Mobile caterer,,,,,,Nuneaton and Bedworth,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1974347,Morning glory,Mobile caterer,,Unit 12 Ptarmigan Place,,Food trailer next to dulux,CV11 6RX,Nuneaton and Bedworth,AwaitingInspection,,FHRS,False,,,"Unit 12 Ptarmigan Place, Food trailer next to dulux, CV11 6RX"
+2026-08-01,1974354,Pazzo Coffee,Mobile caterer,,,,,,Nuneaton and Bedworth,5,2026-07-28,FHRS,False,,,
+2026-08-01,1862402,Viral Eats,Mobile caterer,,,,,,Leicester City,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1973968,Gaza UP,Mobile caterer,,,,,,Croydon,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1973969,Il Raviolo,Mobile caterer,,,,,,Croydon,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1973970,Lolo's Burritos,Mobile caterer,,,,,,Croydon,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1974062,Griff's Grill,Mobile caterer,,,,,,Blackburn,AwaitingInspection,,FHRS,False,,,
+2026-08-01,1930414,Grounded,Mobile caterer,,,,,,Rushmoor,5,2026-07-29,FHRS,False,,,
+2026-08-01,1974127,cairngorm ices,Mobile caterer,,66 Strathspey Drive,Grantown-On-Spey,Highland,PH26 3EY,Highland,Awaiting Inspection,,FHIS,False,57.3254727,-3.61948,"66 Strathspey Drive, Grantown-On-Spey, Highland, PH26 3EY"
+2026-08-01,1974126,Caley Jags Kitchen,Mobile caterer,Caledonian Stadium,Stadium Road,Inverness,Highland,IV1 1FF,Highland,Awaiting Inspection,,FHIS,False,57.4953415,-4.2168246,"Caledonian Stadium, Stadium Road, Inverness, Highland, IV1 1FF"
+2026-08-01,1974106,Hatties,Mobile caterer,,15 Duncraig Street,Inverness,Highland,IV3 5DQ,Highland,Awaiting Inspection,,FHIS,False,57.4770673,-4.2319801,"15 Duncraig Street, Inverness, Highland, IV3 5DQ"
+2026-08-01,1974115,McChip&Co Van- YP14WVJ,Mobile caterer,,,,,,Highland,Awaiting Inspection,,FHIS,False,,,
+2026-08-01,1974116,McChip&Co Van-NK18PNO,Mobile caterer,,,,,,Highland,Awaiting Inspection,,FHIS,False,,,
+2026-08-01,1974160,Moffs Coffee,Mobile caterer,,,,,,Highland,Awaiting Inspection,,FHIS,False,,,
+2026-08-01,1974118,Spud Box,Mobile caterer,,,,,,Highland,Awaiting Inspection,,FHIS,False,,,

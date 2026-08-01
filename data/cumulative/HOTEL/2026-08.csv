@@ -1,0 +1,5 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2026-08-01,1974222,River Arts Club,Hotel/bed & breakfast/guest house,Oldfield,Guards Club Road,Maidenhead,,SL6 8DN,Windsor and Maidenhead,AwaitingInspection,,FHRS,False,51.522984,-0.703785,"Oldfield, Guards Club Road, Maidenhead, SL6 8DN"
+2026-08-01,1974140,An Airigh Bed and Breakfast,Hotel/bed & breakfast/guest house,An Aiseirigh Cabrich,,Kirkhill,Inverness,IV5 7PH,Highland,Awaiting Inspection,,FHIS,False,,,"An Aiseirigh Cabrich, Kirkhill, Inverness, IV5 7PH"
+2026-08-01,1974135,Craik Na Dav Bed and Breakfast,Hotel/bed & breakfast/guest house,Craik-Na-Dav,,Invermoriston,Inverness,IV63 7YA,Highland,Awaiting Inspection,,FHIS,False,,,"Craik-Na-Dav, Invermoriston, Inverness, IV63 7YA"
+2026-08-01,1974162,The Roy Bridge Hotel,Hotel/bed & breakfast/guest house,Roybridge Hotel,,Roy Bridge,Highland,PH31 4AN,Highland,Awaiting Inspection,,FHIS,False,,,"Roybridge Hotel, Roy Bridge, Highland, PH31 4AN"
