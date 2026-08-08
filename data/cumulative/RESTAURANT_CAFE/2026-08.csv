@@ -530,3 +530,554 @@ date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLin
 2026-08-07,1975815,Trio Tacos / Mad Sandwich,Restaurant/Cafe/Canteen,239 - 241 London Road,Croydon,,,CR0 2RL,Croydon,AwaitingInspection,,FHRS,False,,,"239 - 241 London Road, Croydon, CR0 2RL"
 2026-08-07,1976047,G's Cafe,Restaurant/Cafe/Canteen,The Chapel,5 The Green,Standlake,Witney,OX29 7SD,West Oxfordshire,AwaitingInspection,,FHRS,False,,,"The Chapel, 5 The Green, Standlake, Witney, OX29 7SD"
 2026-08-07,1976048,The Merrymouth Inn,Restaurant/Cafe/Canteen,Stow Road,Fifield,Chipping Norton,Oxfordshire,OX7 6HR,West Oxfordshire,AwaitingInspection,,FHRS,False,,,"Stow Road, Fifield, Chipping Norton, Oxfordshire, OX7 6HR"
+2026-08-08,1976408,New Meaning Training Ltd,Restaurant/Cafe/Canteen,1 Walton Court Centre,Hannon Road,Aylesbury,Buckinghamshire,HP21 8TJ,Buckinghamshire,AwaitingInspection,,FHRS,False,,,"1 Walton Court Centre, Hannon Road, Aylesbury, Buckinghamshire, HP21 8TJ"
+2026-08-08,1976424,Tbc Desserts,Restaurant/Cafe/Canteen,First Floor Lansdales House,Lansdales Road,High Wycombe,Buckinghamshire,HP11 2PB,Buckinghamshire,AwaitingInspection,,FHRS,False,,,"First Floor Lansdales House, Lansdales Road, High Wycombe, Buckinghamshire, HP11 2PB"
+2026-08-08,1976473,Baguette Express,Restaurant/Cafe/Canteen,198 Portobello High Street,Edinburgh,,,EH15 1EX,Edinburgh (City of),Awaiting Inspection,2026-07-31,FHIS,False,,,"198 Portobello High Street, Edinburgh, EH15 1EX"
+2026-08-08,1976477,Bariuma Ramen,Restaurant/Cafe/Canteen,41 Cockburn Street,Edinburgh,,,EH1 1BS,Edinburgh (City of),Awaiting Inspection,2026-08-07,FHIS,False,,,"41 Cockburn Street, Edinburgh, EH1 1BS"
+2026-08-08,1976475,Gilded Stone Cafe,Restaurant/Cafe/Canteen,186 Causewayside,Edinburgh,,,EH9 1PN,Edinburgh (City of),Awaiting Inspection,2026-08-04,FHIS,False,,,"186 Causewayside, Edinburgh, EH9 1PN"
+2026-08-08,1976479,Meyhane,Restaurant/Cafe/Canteen,31 Jeffrey Street,Edinburgh,,,EH1 1DH,Edinburgh (City of),Awaiting Inspection,2026-08-07,FHIS,False,,,"31 Jeffrey Street, Edinburgh, EH1 1DH"
+2026-08-08,1976330,Damiar Uk Ltd,Restaurant/Cafe/Canteen,Cluckster,61 The Brow,Watford,,WD25 7FF,Watford,AwaitingInspection,,FHRS,False,,,"Cluckster, 61 The Brow, Watford, WD25 7FF"
+2026-08-08,1976329,SMOKINGPOTS,Restaurant/Cafe/Canteen,Sandwich Box Cafe,Unit 7 To 8,Faircross House,116 The Parade High Street,WD17 1BD,Watford,AwaitingInspection,,FHRS,False,,,"Sandwich Box Cafe, Unit 7 To 8, Faircross House, 116 The Parade High Street, WD17 1BD"
+2026-08-08,1976213,Chaiistan,Restaurant/Cafe/Canteen,Langley Green Pavilion,Cherry Lane,Langley Green,Crawley,RH11 7NX,Crawley,AwaitingInspection,,FHRS,True,,,"Langley Green Pavilion, Cherry Lane, Langley Green, Crawley, RH11 7NX"
+2026-08-08,1976547,Kahumbo,Restaurant/Cafe/Canteen,464 Alexandra Avenue,Harrow,,,HA2 9TL,Harrow,AwaitingInspection,,FHRS,False,,,"464 Alexandra Avenue, Harrow, HA2 9TL"
+2026-08-08,1976543,Pizza Hut Delivery,Restaurant/Cafe/Canteen,151 Greenford Road,Harrow,,,HA1 3QN,Harrow,AwaitingInspection,,FHRS,False,,,"151 Greenford Road, Harrow, HA1 3QN"
+2026-08-08,1976542,Pizza Hut Delivery,Restaurant/Cafe/Canteen,250 High Road,Harrow,,,HA3 7BB,Harrow,AwaitingInspection,,FHRS,False,,,"250 High Road, Harrow, HA3 7BB"
+2026-08-08,1976549,Soniador Catering,Restaurant/Cafe/Canteen,Harrow Crown Courts Hailsham Drive,Harrow,,,HA1 4TU,Harrow,AwaitingInspection,,FHRS,False,,,"Harrow Crown Courts Hailsham Drive, Harrow, HA1 4TU"
+2026-08-08,1976332,Bombay Tandoori,Restaurant/Cafe/Canteen,8 Norwich Street,,Dereham,,NR19 1BX,Breckland,AwaitingInspection,,FHRS,True,,,"8 Norwich Street, Dereham, NR19 1BX"
+2026-08-08,1976594,KFC,Restaurant/Cafe/Canteen,,Monks Cross Drive,,,YO32 9GX,York,AwaitingInspection,,FHRS,False,,,"Monks Cross Drive, YO32 9GX"
+2026-08-08,1632655,Combe Grove,Restaurant/Cafe/Canteen,Brassknocker Hill,Monkton Combe,Bath,Bath And North East Somerset,BA2 7HS,Bath and North East Somerset,4,2025-07-29,FHRS,False,,,"Brassknocker Hill, Monkton Combe, Bath, Bath And North East Somerset, BA2 7HS"
+2026-08-08,1976355,Robun,Restaurant/Cafe/Canteen,4 Princes Buildings,City Centre,Bath,Bath And North East Somerset,BA1 2ED,Bath and North East Somerset,AwaitingInspection,,FHRS,True,,,"4 Princes Buildings, City Centre, Bath, Bath And North East Somerset, BA1 2ED"
+2026-08-08,1976242,B2V Community Hall,Restaurant/Cafe/Canteen,The Bedwas And Trethomas Community Hall,Newport Road,Bedwas,Caerphilly,CF83 8BJ,Caerffili,AwaitingInspection,,FHRS,False,,,"The Bedwas And Trethomas Community Hall, Newport Road, Bedwas, Caerphilly, CF83 8BJ"
+2026-08-08,1976239,Fuel & Feast,Restaurant/Cafe/Canteen,Bridgefield House,Bedwas Road,Bedwas,Caerphilly,CF83 8DZ,Caerffili,AwaitingInspection,,FHRS,False,,,"Bridgefield House, Bedwas Road, Bedwas, Caerphilly, CF83 8DZ"
+2026-08-08,1976235,Fuel Food,Restaurant/Cafe/Canteen,Unit 18,Fern Close,Pen-Y-Fan Industrial Estate,Pen-Y-Fan,NP11 3EH,Caerffili,AwaitingInspection,,FHRS,False,,,"Unit 18, Fern Close, Pen-Y-Fan Industrial Estate, Pen-Y-Fan, NP11 3EH"
+2026-08-08,159089,Chequers,Restaurant/Cafe/Canteen,6 Dryden Road Loanhead Midlothian EH20 9TY,,,,EH20 9TY,Midlothian,Pass,2026-08-05,FHIS,False,,,"6 Dryden Road Loanhead Midlothian EH20 9TY, EH20 9TY"
+2026-08-08,1976130,Sussex Guildhall Community Hub,Restaurant/Cafe/Canteen,Town Hall Grove Road,,Eastbourne,East Sussex,BN21 4UG,Eastbourne,AwaitingInspection,,FHRS,False,,,"Town Hall Grove Road, Eastbourne, East Sussex, BN21 4UG"
+2026-08-08,1974083,Masala Lounge Exeter Ltd.,Restaurant/Cafe/Canteen,Masala Lounge Exeter Ltd,49 Fore Street,Heavitree,,EX1 2QN,Exeter City,AwaitingInspection,,FHRS,False,,,"Masala Lounge Exeter Ltd, 49 Fore Street, Heavitree, EX1 2QN"
+2026-08-08,1976242,B2V Community Hall,Restaurant/Cafe/Canteen,The Bedwas And Trethomas Community Hall,Newport Road,Bedwas,Caerphilly,CF83 8BJ,Caerphilly,AwaitingInspection,,FHRS,False,,,"The Bedwas And Trethomas Community Hall, Newport Road, Bedwas, Caerphilly, CF83 8BJ"
+2026-08-08,1976239,Fuel & Feast,Restaurant/Cafe/Canteen,Bridgefield House,Bedwas Road,Bedwas,Caerphilly,CF83 8DZ,Caerphilly,AwaitingInspection,,FHRS,False,,,"Bridgefield House, Bedwas Road, Bedwas, Caerphilly, CF83 8DZ"
+2026-08-08,1976235,Fuel Food,Restaurant/Cafe/Canteen,Unit 18,Fern Close,Pen-Y-Fan Industrial Estate,Pen-Y-Fan,NP11 3EH,Caerphilly,AwaitingInspection,,FHRS,False,,,"Unit 18, Fern Close, Pen-Y-Fan Industrial Estate, Pen-Y-Fan, NP11 3EH"
+2026-08-08,1976224,East Philip Cafe,Restaurant/Cafe/Canteen,Unit 5,East Philip Street,Salford,,M3 7LE,Salford,AwaitingInspection,,FHRS,False,,,"Unit 5, East Philip Street, Salford, M3 7LE"
+2026-08-08,1976190,Next Door,Restaurant/Cafe/Canteen,,339 Brook Street,Broughty Ferry,Dundee,DD5 2DS,Dundee City,Awaiting Inspection,2026-08-07,FHIS,False,,,"339 Brook Street, Broughty Ferry, Dundee, DD5 2DS"
+2026-08-08,1976132,Malling Community Cafe,Restaurant/Cafe/Canteen,Malling Community Centre Spences Lane,,Lewes,East Sussex,BN7 2HQ,Lewes,AwaitingInspection,,FHRS,False,,,"Malling Community Centre Spences Lane, Lewes, East Sussex, BN7 2HQ"
+2026-08-08,1976133,The Salt Block,Restaurant/Cafe/Canteen,County Stables The Motor Road,Old Racecourse,Lewes,East Sussex,BN7 1UR,Lewes,AwaitingInspection,,FHRS,False,,,"County Stables The Motor Road, Old Racecourse, Lewes, East Sussex, BN7 1UR"
+2026-08-08,1976252,Breakfast Babes,Restaurant/Cafe/Canteen,Doveridge Village Hall,Sand Lane,Doveridge,Derbyshire,DE6 5JZ,Derbyshire Dales,AwaitingInspection,,FHRS,False,,,"Doveridge Village Hall, Sand Lane, Doveridge, Derbyshire, DE6 5JZ"
+2026-08-08,1976261,Cafe @ George Street Funishers,Restaurant/Cafe/Canteen,19 - 24 George Street,Newport,South Wales,,NP20 1EN,Newport,AwaitingInspection,,FHRS,False,,,"19 - 24 George Street, Newport, South Wales, NP20 1EN"
+2026-08-08,1976262,Result Plan,Restaurant/Cafe/Canteen,171 Corporation Road,Newport,South Wales,,NP19 0BJ,Newport,AwaitingInspection,,FHRS,False,,,"171 Corporation Road, Newport, South Wales, NP19 0BJ"
+2026-08-08,1976223,Sound Bites Cafe,Restaurant/Cafe/Canteen,Woodend Farm,Bromyard Road,,Cradley,WR13 5JW,Herefordshire,AwaitingInspection,,FHRS,False,,,"Woodend Farm, Bromyard Road, Cradley, WR13 5JW"
+2026-08-08,1976316,HIDDEN,Restaurant/Cafe/Canteen,,Normacot Road,Longton,Stoke-On-Trent,ST3 1PP,Stoke-On-Trent,AwaitingInspection,,FHRS,False,,,"Normacot Road, Longton, Stoke-On-Trent, ST3 1PP"
+2026-08-08,1976496,Masala n Malt,Restaurant/Cafe/Canteen,,12 Abbeygate,,Grimsby,DN31 1JY,North East Lincolnshire,AwaitingInspection,,FHRS,False,,,"12 Abbeygate, Grimsby, DN31 1JY"
+2026-08-08,439004,Hidden Valley,Restaurant/Cafe/Canteen,Hidden Valley Discovery Park,Tredidon Farm,Egloskerry,Launceston,PL15 8SJ,Cornwall,5,2026-05-06,FHRS,False,,,"Hidden Valley Discovery Park, Tredidon Farm, Egloskerry, Launceston, PL15 8SJ"
+2026-08-08,1976575,Indian Ocean,Restaurant/Cafe/Canteen,New Indian Ocean,Tywardreath Highway,Par,Cornwall,PL24 2RN,Cornwall,AwaitingInspection,,FHRS,True,,,"New Indian Ocean, Tywardreath Highway, Par, Cornwall, PL24 2RN"
+2026-08-08,1976588,Pop Up Kitchen At The Tree Inn,Restaurant/Cafe/Canteen,Pop Up Kitchen,Tree Inn,Fore Street,Stratton,EX23 9DA,Cornwall,AwaitingInspection,,FHRS,True,,,"Pop Up Kitchen, Tree Inn, Fore Street, Stratton, EX23 9DA"
+2026-08-08,402176,The Beach Club / Stingis / Mexikos,Restaurant/Cafe/Canteen,The Beach Club,Pentewan Sands Holiday Park,Pentewan,St Austell,PL26 6BT,Cornwall,5,2025-04-01,FHRS,False,,,"The Beach Club, Pentewan Sands Holiday Park, Pentewan, St Austell, PL26 6BT"
+2026-08-08,1962634,The Cove Macmillan Centre,Restaurant/Cafe/Canteen,Macmillan Support Centre,Royal Cornwall Hospitals NHS Trust,Treliske,Truro,TR1 3LJ,Cornwall,5,2026-07-31,FHRS,False,,,"Macmillan Support Centre, Royal Cornwall Hospitals NHS Trust, Treliske, Truro, TR1 3LJ"
+2026-08-08,577998,The Wavecrest Pub,Restaurant/Cafe/Canteen,Crantock Beach Holiday Park,Crantock,Newquay,Cornwall,TR8 5JR,Cornwall,5,2025-10-23,FHRS,False,,,"Crantock Beach Holiday Park, Crantock, Newquay, Cornwall, TR8 5JR"
+2026-08-08,1950479,Wadebridge Cricket Club,Restaurant/Cafe/Canteen,Egloshayle Road,Wadebridge,Cornwall,,PL27 6AD,Cornwall,5,2026-08-04,FHRS,False,,,"Egloshayle Road, Wadebridge, Cornwall, PL27 6AD"
+2026-08-08,402485,Walkers Fish Restaurant,Restaurant/Cafe/Canteen,Walkers Fish And Chips,The Strand,Padstow,Cornwall,PL28 8AH,Cornwall,5,2025-10-21,FHRS,False,,,"Walkers Fish And Chips, The Strand, Padstow, Cornwall, PL28 8AH"
+2026-08-08,1976289,Bombay Heath,Restaurant/Cafe/Canteen,First Floor,101-103 London Road,,,WA4 6LG,Warrington,AwaitingInspection,,FHRS,False,,,"First Floor, 101-103 London Road, WA4 6LG"
+2026-08-08,1976295,Brew in the park,Restaurant/Cafe/Canteen,Armed forces community support hub,Alder Lane,,,WA2 8AG,Warrington,AwaitingInspection,,FHRS,False,,,"Armed forces community support hub, Alder Lane, WA2 8AG"
+2026-08-08,1976290,East 101,Restaurant/Cafe/Canteen,54-58 The Courtyard,Horsemarket Street,,,WA1 1XL,Warrington,AwaitingInspection,,FHRS,True,,,"54-58 The Courtyard, Horsemarket Street, WA1 1XL"
+2026-08-08,1976294,Kiernan’s kitchen by KPT catering,Restaurant/Cafe/Canteen,Bar 9,9 Bruche Heath Gardens,,,WA1 3TP,Warrington,AwaitingInspection,,FHRS,False,,,"Bar 9, 9 Bruche Heath Gardens, WA1 3TP"
+2026-08-08,1976268,Royal India,Restaurant/Cafe/Canteen,,27 Church Street,,,WA1 2SS,Warrington,AwaitingInspection,,FHRS,True,,,"27 Church Street, WA1 2SS"
+2026-08-08,1976271,Safi’s Desserts,Restaurant/Cafe/Canteen,,114 Bridge Street,,,WA1 2RU,Warrington,AwaitingInspection,,FHRS,True,,,"114 Bridge Street, WA1 2RU"
+2026-08-08,1943156,The Party Arch,Restaurant/Cafe/Canteen,,2 Crown Street,,,WA1 2AE,Warrington,5,2026-07-31,FHRS,False,,,"2 Crown Street, WA1 2AE"
+2026-08-08,271788,Spice Merchant,Restaurant/Cafe/Canteen,8 Hart Street,,HENLEY-ON-THAMES,Oxon,RG9 2AU,South Oxfordshire,AwaitingPublication,,FHRS,False,51.537525,-0.903186,"8 Hart Street, HENLEY-ON-THAMES, Oxon, RG9 2AU"
+2026-08-08,1976540,Houston & Hawkes Ltd @ The Royal Society of Chemistry,Restaurant/Cafe/Canteen,Thomas Graham House 290 Cambridge Science Park Milton Road,,Cambridge,Cambridgeshire,CB4 0WF,South Cambridgeshire,AwaitingInspection,,FHRS,False,,,"Thomas Graham House 290 Cambridge Science Park Milton Road, Cambridge, Cambridgeshire, CB4 0WF"
+2026-08-08,1976142,MJ Catering,Restaurant/Cafe/Canteen,Tintinhull Working Mens Club,2 Vicarage Street,Tintinhull,Yeovil,BA22 8PY,Somerset,AwaitingInspection,,FHRS,False,,,"Tintinhull Working Mens Club, 2 Vicarage Street, Tintinhull, Yeovil, BA22 8PY"
+2026-08-08,1976146,ML Catering,Restaurant/Cafe/Canteen,Tintinhull Working Mens Club,2 Vicarage Street,Tintinhull,Yeovil,BA22 8PY,Somerset,AwaitingInspection,,FHRS,True,,,"Tintinhull Working Mens Club, 2 Vicarage Street, Tintinhull, Yeovil, BA22 8PY"
+2026-08-08,1834386,Costcutter,Restaurant/Cafe/Canteen,Texaco,Carlton Square Filling Station,Carlton Hill,Carlton,NG4 1BG,Gedling,5,2026-07-14,FHRS,False,,,"Texaco, Carlton Square Filling Station, Carlton Hill, Carlton, NG4 1BG"
+2026-08-08,1976302,Butter & Bloom,Restaurant/Cafe/Canteen,32 Linkwood Road,Airdrie,North Lanarkshire,,ML6 6GP,North Lanarkshire,Awaiting Inspection,,FHIS,False,,,"32 Linkwood Road, Airdrie, North Lanarkshire, ML6 6GP"
+2026-08-08,1875617,Coffee Shop,Restaurant/Cafe/Canteen,31 Reliance Arcade,Brixton Road,London,,SW9 8JZ,Lambeth,AwaitingInspection,,FHRS,False,,,"31 Reliance Arcade, Brixton Road, London, SW9 8JZ"
+2026-08-08,1976558,Griddle Guys,Restaurant/Cafe/Canteen,94 - 95 Granville Arcade,Coldharbour Lane,London,,SW9 8PS,Lambeth,AwaitingInspection,,FHRS,False,,,"94 - 95 Granville Arcade, Coldharbour Lane, London, SW9 8PS"
+2026-08-08,1293126,A Decadent Affair Limited,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-06-02,FHRS,False,,,
+2026-08-08,1939784,A Star Briyani Hut,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-07-21,FHRS,False,,,
+2026-08-08,1719344,A&E Bakery,Restaurant/Cafe/Canteen,,353 Eastern Avenue,,Ilford,IG2 6NE,Redbridge,4,2025-02-04,FHRS,False,,,"353 Eastern Avenue, Ilford, IG2 6NE"
+2026-08-08,1722909,A2H Trading LTD,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-05-22,FHRS,False,,,
+2026-08-08,1684194,Abbasi food,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2024-08-29,FHRS,False,,,
+2026-08-08,1847833,ACAM Beauty Lounge,Restaurant/Cafe/Canteen,,14 High Road,,South Woodford,E18 2QL,Redbridge,5,2025-08-21,FHRS,False,,,"14 High Road, South Woodford, E18 2QL"
+2026-08-08,1738584,Actimoss,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-01-13,FHRS,False,,,
+2026-08-08,444133,Ajanta Catering,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-07-07,FHRS,False,,,
+2026-08-08,1684190,Al-Fatiha London,Restaurant/Cafe/Canteen,,678 Green Lane,,Seven Kings,IG3 9RX,Redbridge,5,2024-07-10,FHRS,False,,,"678 Green Lane, Seven Kings, IG3 9RX"
+2026-08-08,443249,All Saints Church Early Educators,Restaurant/Cafe/Canteen,,Goodmayes Lane,,Goodmayes,IG3 9PB,Redbridge,5,2025-03-03,FHRS,False,,,"Goodmayes Lane, Goodmayes, IG3 9PB"
+2026-08-08,1397392,All Saints Goodmayes Foodbank,Restaurant/Cafe/Canteen,All Saints Church,Goodmayes Lane,,Goodmayes,IG3 9PB,Redbridge,5,2025-09-17,FHRS,False,,,"All Saints Church, Goodmayes Lane, Goodmayes, IG3 9PB"
+2026-08-08,1795999,All Set Bake,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-04-22,FHRS,False,,,
+2026-08-08,1944385,Amarni Foods,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1891201,Amritsari kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1107204,Ana's cakes and coffee,Restaurant/Cafe/Canteen,,1d Cowslip Road,,South Woodford,E18 1JN,Redbridge,5,2026-02-18,FHRS,False,,,"1d Cowslip Road, South Woodford, E18 1JN"
+2026-08-08,1639910,Anaya Foods,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1941601,AnnandLulu’s Place,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1752832,ANP Pharma (London) Ltd,Restaurant/Cafe/Canteen,,344-348 High Road,,Ilford,IG1 1QP,Redbridge,5,2025-01-27,FHRS,False,,,"344-348 High Road, Ilford, IG1 1QP"
+2026-08-08,1847836,Aromatico,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1397398,Artful Blend,Restaurant/Cafe/Canteen,,8 Roding Lane South,,Ilford,IG4 5NX,Redbridge,5,2024-08-21,FHRS,False,,,"8 Roding Lane South, Ilford, IG4 5NX"
+2026-08-08,1803375,Artisan Ghee,Restaurant/Cafe/Canteen,,39a Airthrie Road,,Goodmayes,IG3 9QT,Redbridge,4,2025-08-21,FHRS,False,,,"39a Airthrie Road, Goodmayes, IG3 9QT"
+2026-08-08,1916154,AS Desi Dastarkhwan,Restaurant/Cafe/Canteen,,618a Green Lane,,Seven Kings,IG3 9SF,Redbridge,AwaitingInspection,,FHRS,False,,,"618a Green Lane, Seven Kings, IG3 9SF"
+2026-08-08,1722908,ASAL Fitness Ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-06-06,FHRS,False,,,
+2026-08-08,570059,Ashurst Drive Baptist Church,Restaurant/Cafe/Canteen,Ashurst Drive Baptist Church,Ashurst Drive,,Ilford,IG2 6QH,Redbridge,5,2024-12-04,FHRS,False,,,"Ashurst Drive Baptist Church, Ashurst Drive, Ilford, IG2 6QH"
+2026-08-08,1916163,Atelier Boheme,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-05-01,FHRS,False,,,
+2026-08-08,1931548,AtelierbyNina,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1907930,avella daily,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-07-09,FHRS,False,,,
+2026-08-08,1752830,Avoir La Banane,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-09-09,FHRS,False,,,
+2026-08-08,1931542,Aysel Pastries,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1901564,Bake&spice,Restaurant/Cafe/Canteen,,93b Albert Road,,Ilford,IG1 1HS,Redbridge,AwaitingInspection,,FHRS,False,,,"93b Albert Road, Ilford, IG1 1HS"
+2026-08-08,1659345,Bakedelicio,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-08-22,FHRS,False,,,
+2026-08-08,1939776,BakeDelicio By Rasha,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1921090,BakesByCyan,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1688330,Bambee’s Bakery,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-01-19,FHRS,False,,,
+2026-08-08,1639905,Banh Mi Baby,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-01-17,FHRS,False,,,
+2026-08-08,1939759,Batr,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1241906,Bella's Cakes,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-04-22,FHRS,False,,,
+2026-08-08,896466,Beloved's Cucina,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-01-17,FHRS,False,,,
+2026-08-08,1939768,Bento’s,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1380026,Bespoke Chef Ty,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-10-23,FHRS,False,,,
+2026-08-08,1790209,Betty Burger,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-12-05,FHRS,False,,,
+2026-08-08,1923058,Bhangra Blends,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1400781,Bharuch to Bombay,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-08-04,FHRS,False,,,
+2026-08-08,1886312,Bhook lagi hai?,Restaurant/Cafe/Canteen,,,,,,Redbridge,3,2026-04-30,FHRS,False,,,
+2026-08-08,1834743,Bhookbusters,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-07-29,FHRS,False,,,
+2026-08-08,1830029,Biby’s,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2025-12-15,FHRS,False,,,
+2026-08-08,971681,Big Bite,Restaurant/Cafe/Canteen,,,,,,Redbridge,3,2026-01-19,FHRS,False,,,
+2026-08-08,1931540,"Billionaires, spice touch Ltd",Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1765175,Blackstone Foods Ltd,Restaurant/Cafe/Canteen,,12 Raven Road,,South Woodford,E18 1HB,Redbridge,5,2024-10-11,FHRS,False,,,"12 Raven Road, South Woodford, E18 1HB"
+2026-08-08,1774671,Boba & Bites,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-12-10,FHRS,False,,,
+2026-08-08,1635103,Bombay Pan Chowpatty,Restaurant/Cafe/Canteen,,220 High Road,,Ilford,IG1 1QE,Redbridge,3,2025-02-20,FHRS,False,,,"220 High Road, Ilford, IG1 1QE"
+2026-08-08,1279661,Bon Bon Cakes,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-07-28,FHRS,False,,,
+2026-08-08,943597,Bonita Cakes,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-01-31,FHRS,False,,,
+2026-08-08,1641947,Boss peri peri,Restaurant/Cafe/Canteen,,147a High Street,,Barkingside,IG6 2AR,Redbridge,5,2025-07-21,FHRS,False,,,"147a High Street, Barkingside, IG6 2AR"
+2026-08-08,1349486,Bread and booch,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-11-01,FHRS,False,,,
+2026-08-08,1931549,Brewdy,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-06-23,FHRS,False,,,
+2026-08-08,1921102,Bunty distribution,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1451996,Burgers & bits,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1470005,Burrito Bro,Restaurant/Cafe/Canteen,Ilford Business Centre,316e Ilford Lane,,Ilford,IG1 2LT,Redbridge,5,2025-11-11,FHRS,False,,,"Ilford Business Centre, 316e Ilford Lane, Ilford, IG1 2LT"
+2026-08-08,1791961,Burrito Party,Restaurant/Cafe/Canteen,,72 Wellesley Road,,Ilford,IG1 4JZ,Redbridge,AwaitingInspection,,FHRS,False,,,"72 Wellesley Road, Ilford, IG1 4JZ"
+2026-08-08,1961909,Butterup bakery,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1641944,BWD Patties Ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-01-20,FHRS,False,,,
+2026-08-08,1751036,Caapi Health LTD,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-08-15,FHRS,False,,,
+2026-08-08,1824971,Cake and Confetti,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-09-04,FHRS,False,,,
+2026-08-08,1888938,Caked in Piece,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,877334,Cakegem,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-10-21,FHRS,False,,,
+2026-08-08,585366,Cakes from me,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-12-03,FHRS,False,,,
+2026-08-08,1752838,Calicut Biriyani Centre,Restaurant/Cafe/Canteen,,7 Woodford Avenue,,Ilford,IG2 6UF,Redbridge,4,2024-12-02,FHRS,False,,,"7 Woodford Avenue, Ilford, IG2 6UF"
+2026-08-08,1916164,Cardamom Crumbs,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1854174,Cetana,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1417739,Chaated,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-10-06,FHRS,False,,,
+2026-08-08,1137429,Chai Spice,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-09-15,FHRS,False,,,
+2026-08-08,1911794,Champion’s Tiffin Service,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1619764,Chaps F&B LTD,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-05-26,FHRS,False,,,
+2026-08-08,1558682,Chapters Foodbank,Restaurant/Cafe/Canteen,,833-835 High Road,,Goodmayes,IG3 8TD,Redbridge,5,2024-02-22,FHRS,False,,,"833-835 High Road, Goodmayes, IG3 8TD"
+2026-08-08,1921107,Charming Tastes,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1350564,Chef Charles,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-10-20,FHRS,False,,,
+2026-08-08,1751004,Choco Berry,Restaurant/Cafe/Canteen,,7 Silvermead,,South Woodford,E18 2TH,Redbridge,5,2024-08-05,FHRS,False,,,"7 Silvermead, South Woodford, E18 2TH"
+2026-08-08,1548795,Chocolate Spirit,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-03-06,FHRS,False,,,
+2026-08-08,1907929,Chouxru London ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1865639,Chudore,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1914015,CILP,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1246657,City Gates Church,Restaurant/Cafe/Canteen,City Gates Christian Centre,25-29 Clements Road,,Ilford,IG1 1BH,Redbridge,5,2023-10-30,FHRS,False,,,"City Gates Christian Centre, 25-29 Clements Road, Ilford, IG1 1BH"
+2026-08-08,974737,CJ3 Beans,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-07-11,FHRS,False,,,
+2026-08-08,1003371,Clandon Care Limited,Restaurant/Cafe/Canteen,,21 Clandon Road,,Seven Kings,IG3 8BB,Redbridge,3,2025-09-29,FHRS,False,,,"21 Clandon Road, Seven Kings, IG3 8BB"
+2026-08-08,1955378,Coco bean,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1796013,Cocoa Rum Mum/ Cocoa Yum Mum,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-07-21,FHRS,False,,,
+2026-08-08,681279,Cook,Restaurant/Cafe/Canteen,,32 The Broadway,,Woodford Green,IG8 0HQ,Redbridge,5,2025-07-15,FHRS,False,,,"32 The Broadway, Woodford Green, IG8 0HQ"
+2026-08-08,1964781,Cookie Atelier,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1921112,Cookie Monster,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1847832,Cookie Mookie,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-09-04,FHRS,False,,,
+2026-08-08,1785812,Cookielandia Bakery,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-11-03,FHRS,False,,,
+2026-08-08,1664005,Corti’s Cucina,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-12-28,FHRS,False,,,
+2026-08-08,1907950,Couture comfort cakes,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,848441,Creative Bites by Farhana,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2026-02-25,FHRS,False,,,
+2026-08-08,1931547,Crema,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1700061,Crumbs.Ldn,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-05-07,FHRS,False,,,
+2026-08-08,1070173,Cupcake Singh,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-06-04,FHRS,False,,,
+2026-08-08,1862273,Cuppybara,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-09-15,FHRS,False,,,
+2026-08-08,1371554,Dawn’s Catering and Waitress Services,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-12-08,FHRS,False,,,
+2026-08-08,1939758,Dazzling Dar,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1266198,DClaire,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-10-19,FHRS,False,,,
+2026-08-08,1635104,Deepika’s Mane Thindi,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-01-27,FHRS,False,,,
+2026-08-08,1611321,Deli to the Door,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-09-08,FHRS,False,,,
+2026-08-08,1916160,Deluscious Catering Ltd,Restaurant/Cafe/Canteen,Unit 2 The Acorn Centre,Roebuck Road,,Hainault,IG6 3TU,Redbridge,AwaitingInspection,,FHRS,False,,,"Unit 2 The Acorn Centre, Roebuck Road, Hainault, IG6 3TU"
+2026-08-08,1415937,Denis Hot BBQ,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-04-29,FHRS,False,,,
+2026-08-08,1939779,Detroit co,Restaurant/Cafe/Canteen,,65a High Road,,South Woodford,E18 2QP,Redbridge,AwaitingInspection,,FHRS,False,,,"65a High Road, South Woodford, E18 2QP"
+2026-08-08,1415942,Deyzbakes,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-01-08,FHRS,False,,,
+2026-08-08,508170,Dirty Apron,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-01-14,FHRS,False,,,
+2026-08-08,1791963,Divine Fusion,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2025-09-10,FHRS,False,,,
+2026-08-08,1964798,Dls shops ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,530715,Do’s Spice Island Cakes,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-05-13,FHRS,False,,,
+2026-08-08,1961885,Dolce Sera,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1380036,Dona Carla’s Kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-09-08,FHRS,False,,,
+2026-08-08,1751025,Donnys Burg,Restaurant/Cafe/Canteen,,279b Ilford Lane,,Ilford,IG1 2SD,Redbridge,5,2024-10-20,FHRS,False,,,"279b Ilford Lane, Ilford, IG1 2SD"
+2026-08-08,1548804,Driveway kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-04-08,FHRS,False,,,
+2026-08-08,1854179,Drizzled Desserts & Cakes,Restaurant/Cafe/Canteen,,353a Eastern Avenue,,Ilford,IG2 6NE,Redbridge,5,2026-03-09,FHRS,False,,,"353a Eastern Avenue, Ilford, IG2 6NE"
+2026-08-08,1976462,Dubai doner,Restaurant/Cafe/Canteen,,402 Cranbrook Road,,Ilford,IG2 6HW,Redbridge,AwaitingInspection,,FHRS,False,,,"402 Cranbrook Road, Ilford, IG2 6HW"
+2026-08-08,1137428,Durag Chef also trading as Irie Sea Moss,Restaurant/Cafe/Canteen,Unit 8 The Galleria,George Lane,,South Woodford,E18 1AY,Redbridge,5,2026-06-04,FHRS,False,,,"Unit 8 The Galleria, George Lane, South Woodford, E18 1AY"
+2026-08-08,1896807,EarthRoot Nutrition,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1417727,Eat Love Pho,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-10-30,FHRS,False,,,
+2026-08-08,1390852,Emerald Cafe Bistro,Restaurant/Cafe/Canteen,Cricket Pavilion Cafe Goodmayes Park,Aberdour Road,,Goodmayes,IG3 9PG,Redbridge,3,2026-02-12,FHRS,False,,,"Cricket Pavilion Cafe Goodmayes Park, Aberdour Road, Goodmayes, IG3 9PG"
+2026-08-08,1531432,Erika’s Kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-04-09,FHRS,False,,,
+2026-08-08,1531431,Fatima Food Bank,Restaurant/Cafe/Canteen,,87 York Road,,Ilford,IG1 3AQ,Redbridge,Exempt,,FHRS,False,,,"87 York Road, Ilford, IG1 3AQ"
+2026-08-08,1060214,Fern Leaf Care Ltd,Restaurant/Cafe/Canteen,,52 Bedford Road,,Ilford,IG1 1EL,Redbridge,5,2023-12-07,FHRS,False,,,"52 Bedford Road, Ilford, IG1 1EL"
+2026-08-08,1137423,Festival Catering (Noodle King),Restaurant/Cafe/Canteen,Ilford Business Centre,316e Ilford Lane,,Ilford,IG1 2LT,Redbridge,5,2025-11-11,FHRS,False,,,"Ilford Business Centre, 316e Ilford Lane, Ilford, IG1 2LT"
+2026-08-08,1961895,Flavia’s Pastry,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1639881,Foodbank/ Community Fridge,Restaurant/Cafe/Canteen,,73 Netley Road,,Barkingside,IG2 7NP,Redbridge,5,2023-07-07,FHRS,False,,,"73 Netley Road, Barkingside, IG2 7NP"
+2026-08-08,1961887,Foodsensesuk,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1279656,FoodsRus,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-07-09,FHRS,False,,,
+2026-08-08,1151177,Franca Giunta,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-12-07,FHRS,False,,,
+2026-08-08,1955379,Free From Pantry,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1654774,Fresh as a Daisy Cafe,Restaurant/Cafe/Canteen,,11 Mulberry Way,,South Woodford,E18 1EB,Redbridge,5,2026-05-09,FHRS,False,,,"11 Mulberry Way, South Woodford, E18 1EB"
+2026-08-08,1961886,Frost bean cafe,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1725223,Frosted Delights,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-05-23,FHRS,False,,,
+2026-08-08,1966851,FrostPixel,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1891206,FryDaddy,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1696998,Fusion burgers,Restaurant/Cafe/Canteen,,42 Baron Gardens,,Barkingside,IG6 1NZ,Redbridge,5,2024-04-05,FHRS,False,,,"42 Baron Gardens, Barkingside, IG6 1NZ"
+2026-08-08,1662410,Fusion Flavours by Tee,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-05-28,FHRS,False,,,
+2026-08-08,1901567,Fusion Treats,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1873769,GBcake London,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-11-17,FHRS,False,,,
+2026-08-08,1126969,Georgetown Kitchen Ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-09-22,FHRS,False,,,
+2026-08-08,1871777,Getoday,Restaurant/Cafe/Canteen,Unit 1 Room B5 Balfour House,390-392 High Road,,Ilford,IG1 1BF,Redbridge,AwaitingInspection,,FHRS,False,,,"Unit 1 Room B5 Balfour House, 390-392 High Road, Ilford, IG1 1BF"
+2026-08-08,1941611,Glace,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1886291,Glow Juice,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1916159,Golden Palm Confection,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1907949,Golden Triangles,Restaurant/Cafe/Canteen,,192 Eastern Avenue,,Ilford,IG4 5AD,Redbridge,AwaitingInspection,,FHRS,False,,,"192 Eastern Avenue, Ilford, IG4 5AD"
+2026-08-08,1799539,Gourmet Caterers,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2025-01-29,FHRS,False,,,
+2026-08-08,1813981,Gourmet Munch,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-04-29,FHRS,False,,,
+2026-08-08,1550984,Grand Wedding Cakes Ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-09-24,FHRS,False,,,
+2026-08-08,1569103,Grange Hill Methodist Church,Restaurant/Cafe/Canteen,Grange Hill Methodist Church,Burrow Road,,Chigwell,IG7 4HQ,Redbridge,5,2024-12-12,FHRS,False,,,"Grange Hill Methodist Church, Burrow Road, Chigwell, IG7 4HQ"
+2026-08-08,1907937,Gravy Roots,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1810263,Gunjan’s Cloud Kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1944381,Guntur Spice,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,443285,Gurdwara Singh Sabha London East,Restaurant/Cafe/Canteen,,722-730 High Road,,Goodmayes,IG3 8SX,Redbridge,5,2025-10-22,FHRS,False,,,"722-730 High Road, Goodmayes, IG3 8SX"
+2026-08-08,442842,Guru Nanak Satsangh Sabha,Restaurant/Cafe/Canteen,,400 High Road,,Ilford,IG1 1TW,Redbridge,5,2025-01-20,FHRS,False,,,"400 High Road, Ilford, IG1 1TW"
+2026-08-08,444354,Hainault Youth Centre,Restaurant/Cafe/Canteen,,116 Huntsman Road,,Hainault,IG6 3SY,Redbridge,5,2024-08-12,FHRS,False,,,"116 Huntsman Road, Hainault, IG6 3SY"
+2026-08-08,1409089,Haliberry cake and catering service,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-01-10,FHRS,False,,,
+2026-08-08,1896806,Hamperoo,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1279642,Handa’s Kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-10-14,FHRS,False,,,
+2026-08-08,1907935,Handsmade4maa,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,443233,Hargreaves Scout Camp Site,Restaurant/Cafe/Canteen,,Hainault Road,,Romford,RM6 5SR,Redbridge,3,2025-05-13,FHRS,False,,,"Hainault Road, Romford, RM6 5SR"
+2026-08-08,1805202,Harita’s kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-06-02,FHRS,False,,,
+2026-08-08,444057,Helping Hopes,Restaurant/Cafe/Canteen,St Johns Church,St Johns Road,,Newbury Park,IG2 7BB,Redbridge,5,2023-04-20,FHRS,False,,,"St Johns Church, St Johns Road, Newbury Park, IG2 7BB"
+2026-08-08,1756071,Hemp Harbour Ltd,Restaurant/Cafe/Canteen,,161 Ley Street,,Ilford,IG1 4BL,Redbridge,5,2024-08-18,FHRS,False,,,"161 Ley Street, Ilford, IG1 4BL"
+2026-08-08,1745520,Henka,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-02-12,FHRS,False,,,
+2026-08-08,988253,Henleys Love Sweets,Restaurant/Cafe/Canteen,Unit 16 Woodford Trading Estate,Southend Road,,Woodford Green,IG8 8HF,Redbridge,5,2025-03-02,FHRS,False,,,"Unit 16 Woodford Trading Estate, Southend Road, Woodford Green, IG8 8HF"
+2026-08-08,1628255,Heyma  Foods,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2025-02-10,FHRS,False,,,
+2026-08-08,1896808,Hikaya,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1944387,HMFDIRECT LTD,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,443490,Holy Trinity Parish Hall,Restaurant/Cafe/Canteen,,Mossford Green,,Barkingside,IG6 2BX,Redbridge,5,2018-06-26,FHRS,False,,,"Mossford Green, Barkingside, IG6 2BX"
+2026-08-08,1434716,Holy Trinity South Woodford,Restaurant/Cafe/Canteen,Holy Trinity Vicarage,185 Hermon Hill,,London,E18 1QQ,Redbridge,AwaitingInspection,,FHRS,False,,,"Holy Trinity Vicarage, 185 Hermon Hill, London, E18 1QQ"
+2026-08-08,731325,Home Organic Bakery,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-09-28,FHRS,False,,,
+2026-08-08,1892430,Homemade food,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1841632,House Of Crust,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1923053,Hungry hearts,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1578986,I I Medicene,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1955385,Iacob Mici,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1970765,iBazar,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1548796,ICSS,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-04-02,FHRS,False,,,
+2026-08-08,1548798,Ilford Central SDA Church Community Service,Restaurant/Cafe/Canteen,,14-16 Coventry Road,,Ilford,IG1 4QR,Redbridge,5,2026-05-05,FHRS,False,,,"14-16 Coventry Road, Ilford, IG1 4QR"
+2026-08-08,1896818,In A Pikel,Restaurant/Cafe/Canteen,,177 High Road,,Ilford,IG1 1DG,Redbridge,AwaitingInspection,,FHRS,False,,,"177 High Road, Ilford, IG1 1DG"
+2026-08-08,1333690,In Between,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-04-14,FHRS,False,,,
+2026-08-08,1976460,ISS @ Goodmayes Hospital,Restaurant/Cafe/Canteen,Goodmayes Hospital,157 Barley Lane,,Ilford,IG3 8XJ,Redbridge,AwaitingInspection,,FHRS,False,,,"Goodmayes Hospital, 157 Barley Lane, Ilford, IG3 8XJ"
+2026-08-08,773972,Jack’s Bakery,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-09-27,FHRS,False,,,
+2026-08-08,1838489,Jav & Fam Ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1279648,Jewelz Cookery,Restaurant/Cafe/Canteen,,99 Somerville Road,,Chadwell Heath,RM6 5BB,Redbridge,5,2024-08-20,FHRS,False,,,"99 Somerville Road, Chadwell Heath, RM6 5BB"
+2026-08-08,1791960,Joe’s Chicken Catering LTD,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1791952,JoeJoe Dougie Grub,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1731877,Jones and Son,Restaurant/Cafe/Canteen,Elmhurst,98-106 High Road,,South Woodford,E18 2QH,Redbridge,5,2025-03-17,FHRS,False,,,"Elmhurst, 98-106 High Road, South Woodford, E18 2QH"
+2026-08-08,1901576,Jules’ Cooks,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1320515,June Sourdough Bakery,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1961914,JustFab Sweets,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1834737,Kabuli Pulao,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2025-07-06,FHRS,False,,,
+2026-08-08,1834735,Kairo’s vegan sweets,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1791953,Kaneeza Limited,Restaurant/Cafe/Canteen,,,,,,Redbridge,3,2026-02-09,FHRS,False,,,
+2026-08-08,736846,Karma Liv-In Ltd,Restaurant/Cafe/Canteen,,102 Coventry Road,,Ilford,IG1 4RE,Redbridge,5,2025-07-02,FHRS,False,,,"102 Coventry Road, Ilford, IG1 4RE"
+2026-08-08,939691,Karseva,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-02-09,FHRS,False,,,
+2026-08-08,1500700,Kate’s Homemade Ltd,Restaurant/Cafe/Canteen,Units 2 To 3 Cromwell Centre,Roebuck Road,,Hainault,IG6 3UG,Redbridge,5,2025-03-17,FHRS,False,,,"Units 2 To 3 Cromwell Centre, Roebuck Road, Hainault, IG6 3UG"
+2026-08-08,1423429,Kaye’tering,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-05-28,FHRS,False,,,
+2026-08-08,442853,Kellie's Cakes,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-10-23,FHRS,False,,,
+2026-08-08,1923052,Kemi's Kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1970763,Kenju,Restaurant/Cafe/Canteen,Unit 11 Redbridge Enterprise Centre,Thompson Close,,Ilford,IG1 1TY,Redbridge,5,2026-07-01,FHRS,False,,,"Unit 11 Redbridge Enterprise Centre, Thompson Close, Ilford, IG1 1TY"
+2026-08-08,1045238,Keshav's Caterers,Restaurant/Cafe/Canteen,,223 Ley Street,,Ilford,IG1 4BL,Redbridge,5,2024-11-25,FHRS,False,,,"223 Ley Street, Ilford, IG1 4BL"
+2026-08-08,1901575,Khana Khazana,Restaurant/Cafe/Canteen,,263 Wanstead Park Road,,Ilford,IG1 3TR,Redbridge,AwaitingInspection,,FHRS,False,,,"263 Wanstead Park Road, Ilford, IG1 3TR"
+2026-08-08,1631171,Khao Suppers Ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-08-04,FHRS,False,,,
+2026-08-08,1886302,Kids In Charge Limited,Restaurant/Cafe/Canteen,,Fairlop Road,,Ilford,IG6 2EW,Redbridge,AwaitingInspection,,FHRS,False,,,"Fairlop Road, Ilford, IG6 2EW"
+2026-08-08,1813982,Kids in Charge Ltd,Restaurant/Cafe/Canteen,,Water Lane,,Seven Kings,,Redbridge,AwaitingInspection,,FHRS,False,,,"Water Lane, Seven Kings"
+2026-08-08,1794232,Kids2teens,Restaurant/Cafe/Canteen,,Newcastle Avenue,,Hainault,IG6 3EE,Redbridge,AwaitingInspection,,FHRS,False,,,"Newcastle Avenue, Hainault, IG6 3EE"
+2026-08-08,1794236,Kids2teens,Restaurant/Cafe/Canteen,,Mornington Road,,Woodford Green,IG8 0TX,Redbridge,3,2026-02-05,FHRS,False,,,"Mornington Road, Woodford Green, IG8 0TX"
+2026-08-08,1803369,Kim’s Korean Food Fusion,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-02-05,FHRS,False,,,
+2026-08-08,1614057,Kirans_Kakes,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-04-16,FHRS,False,,,
+2026-08-08,1955390,Kiswah Kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1916158,KK’s Deli,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1828317,Kore’s Kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1964789,Kosha Bari,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1343648,Krishanthy,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-05-12,FHRS,False,,,
+2026-08-08,877327,Kute Cake,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-11-17,FHRS,False,,,
+2026-08-08,1896809,Lana Reformer,Restaurant/Cafe/Canteen,,155 High Road,,South Woodford,E18 2PA,Redbridge,AwaitingInspection,,FHRS,False,,,"155 High Road, South Woodford, E18 2PA"
+2026-08-08,1659347,Latin Soul Events,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-04-20,FHRS,False,,,
+2026-08-08,1035909,Le Beefed - El Marinero,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2019-09-26,FHRS,False,,,
+2026-08-08,1911787,Light of the World Ministries,Restaurant/Cafe/Canteen,Outreach Centre,118-120 High Road,,South Woodford,E18 2QS,Redbridge,AwaitingInspection,,FHRS,False,,,"Outreach Centre, 118-120 High Road, South Woodford, E18 2QS"
+2026-08-08,1576398,Linguini Restaurant,Restaurant/Cafe/Canteen,Hainault Forest Golf Course,Romford Road,,Chigwell,IG7 4QW,Redbridge,1,2026-06-01,FHRS,False,,,"Hainault Forest Golf Course, Romford Road, Chigwell, IG7 4QW"
+2026-08-08,1212160,Little Shanti Gifts,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-03-17,FHRS,False,,,
+2026-08-08,1921088,Little Triangle Kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1823564,LLMRFOOD,Restaurant/Cafe/Canteen,,,,,,Redbridge,3,2025-09-22,FHRS,False,,,
+2026-08-08,1841640,Locanda Badin,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-09-22,FHRS,False,,,
+2026-08-08,1914011,Lolosacs Foods,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1916149,Londis n16,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1697003,London Bakes,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-01-21,FHRS,False,,,
+2026-08-08,1907946,LostInAsia,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1137421,Love Cakes,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-04-21,FHRS,False,,,
+2026-08-08,1823569,Love The Menu,Restaurant/Cafe/Canteen,,,,,,Redbridge,3,2025-09-22,FHRS,False,,,
+2026-08-08,939698,Loyem Foods,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-10-23,FHRS,False,,,
+2026-08-08,1298386,Lucy Jane Cakes,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-11-27,FHRS,False,,,
+2026-08-08,1082338,Maala Dining and Events Limited,Restaurant/Cafe/Canteen,,300-310 High Road,,Ilford,,Redbridge,5,2023-11-02,FHRS,False,,,"300-310 High Road, Ilford"
+2026-08-08,1096797,Madhuram Veg Foods Ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-01-20,FHRS,False,,,
+2026-08-08,1611326,Majestic Sultan,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-04-25,FHRS,False,,,
+2026-08-08,1664021,Mama Naqvi Cakes,Restaurant/Cafe/Canteen,,83 St Andrew's Road,,Cranbrook,IG1 3PE,Redbridge,5,2025-10-13,FHRS,False,,,"83 St Andrew's Road, Cranbrook, IG1 3PE"
+2026-08-08,1970769,Manze Mama,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1939766,Maria’s Brunch kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1907947,Masala Zone,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1632492,Massi’s ltd,Restaurant/Cafe/Canteen,,106 Gordon Road,,Ilford,IG1 1SL,Redbridge,4,2025-10-14,FHRS,False,,,"106 Gordon Road, Ilford, IG1 1SL"
+2026-08-08,1931524,MatchAhhh,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-04-27,FHRS,False,,,
+2026-08-08,1939783,Meads Kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1731160,Meat street,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2025-09-12,FHRS,False,,,
+2026-08-08,1931531,Meme’s Bakery,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1627672,Merkur Slots,Restaurant/Cafe/Canteen,,82-84 Cranbrook Road,,Ilford,IG1 4NH,Redbridge,Exempt,,FHRS,False,,,"82-84 Cranbrook Road, Ilford, IG1 4NH"
+2026-08-08,1015140,Metzger & Sohne Ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-10-10,FHRS,False,,,
+2026-08-08,1921092,MH12 – Flavour and Fancy,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1901561,Millet Maduva,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1896810,MintMelody,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1769156,Mirona,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-06-26,FHRS,False,,,
+2026-08-08,1832135,Mister Q’s,Restaurant/Cafe/Canteen,,8 Lord Avenue,,Clayhall,IG5 0HP,Redbridge,5,2025-09-23,FHRS,False,,,"8 Lord Avenue, Clayhall, IG5 0HP"
+2026-08-08,1222944,Mithi Caffe & Sweets,Restaurant/Cafe/Canteen,Flat 1 Balfour House,394-398 High Road,,Ilford,IG1 1TL,Redbridge,1,2026-04-13,FHRS,False,,,"Flat 1 Balfour House, 394-398 High Road, Ilford, IG1 1TL"
+2026-08-08,1343649,Mkcaters,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2025-04-15,FHRS,False,,,
+2026-08-08,1923048,MNP Flavours of India,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2026-05-02,FHRS,False,,,
+2026-08-08,1847827,MOEFEE Coffee and Speciality drinks,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2025-10-08,FHRS,False,,,
+2026-08-08,1641942,Molten Toffee,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-10-11,FHRS,False,,,
+2026-08-08,1939781,Monday Bakehouse,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1803370,Moreish Bakery Ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-02-23,FHRS,False,,,
+2026-08-08,1230463,Mos Sweet Treats,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-01-10,FHRS,False,,,
+2026-08-08,1878677,Mother’s SpiceX,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-02-05,FHRS,False,,,
+2026-08-08,1939767,Mr food,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1976466,Mr P’s Smoke House,Restaurant/Cafe/Canteen,Golf Club Hainault Forest Golf Course,Romford Road,,Chigwell,IG7 4QW,Redbridge,AwaitingInspection,,FHRS,False,,,"Golf Club Hainault Forest Golf Course, Romford Road, Chigwell, IG7 4QW"
+2026-08-08,1921087,Msika Kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,844716,Munchy Bakes,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-01-31,FHRS,False,,,
+2026-08-08,1923047,Mush Powered,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-05-20,FHRS,False,,,
+2026-08-08,1745509,Muslim Women’s Welfare Assoc.,Restaurant/Cafe/Canteen,Cardinal Heenan Centre,326 High Road,,Ilford,IG1 1QP,Redbridge,3,2025-12-11,FHRS,False,,,"Cardinal Heenan Centre, 326 High Road, Ilford, IG1 1QP"
+2026-08-08,1871769,Muyar,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-02-05,FHRS,False,,,
+2026-08-08,1263873,My Trini Shop Ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-11-01,FHRS,False,,,
+2026-08-08,1707423,Mypronatural Supplements,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-10-03,FHRS,False,,,
+2026-08-08,1847850,N.K.B Bakehouse,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1222951,Naked Chips,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2020-03-12,FHRS,False,,,
+2026-08-08,1955380,Narayan Foods,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1823566,Natural hill,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-05-12,FHRS,False,,,
+2026-08-08,1622173,Nature Empowered,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-04-25,FHRS,False,,,
+2026-08-08,1646688,Nature’s Elixir,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-07-11,FHRS,False,,,
+2026-08-08,1397389,Natures Anabolic Supplements,Restaurant/Cafe/Canteen,,,,,,Redbridge,1,2025-09-30,FHRS,False,,,
+2026-08-08,1576392,NDD Trading Ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,3,2024-11-20,FHRS,False,,,
+2026-08-08,1417733,Neeta’s Home Kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-10-04,FHRS,False,,,
+2026-08-08,1961896,Neli Food,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1858898,NeoRox,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-01-19,FHRS,False,,,
+2026-08-08,634010,Ngozi's Kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-08-26,FHRS,False,,,
+2026-08-08,1931546,Nile Cravings,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-05-01,FHRS,False,,,
+2026-08-08,1961911,NooraVita UK LTD,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1939773,Nurie’s Pizza,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1434713,Nutcase Nuts,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-10-30,FHRS,False,,,
+2026-08-08,1931535,Occasionz Whippy,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1803379,Officina Pasta 11 Ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-04-07,FHRS,False,,,
+2026-08-08,1916150,Olio,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1823563,Openworld 2,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-01-22,FHRS,False,,,
+2026-08-08,1961913,Page and Stone,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1888935,Pakvajk Pound Plus Ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2025-11-19,FHRS,False,,,
+2026-08-08,1944430,Pancake Paradise Bites,Restaurant/Cafe/Canteen,,102-104 High Road,,Ilford,IG1 1DS,Redbridge,AwaitingInspection,,FHRS,False,,,"102-104 High Road, Ilford, IG1 1DS"
+2026-08-08,1944386,Pancake Paradise Bites,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1556562,Pardesi,Restaurant/Cafe/Canteen,,1b Balfour Road,,Ilford,IG1 4HP,Redbridge,1,2026-01-06,FHRS,False,,,"1b Balfour Road, Ilford, IG1 4HP"
+2026-08-08,1608573,Pareezcakes,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-06-30,FHRS,False,,,
+2026-08-08,1380035,Parotta Master,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-03-15,FHRS,False,,,
+2026-08-08,1934321,Partynow Ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,442979,Pat-a-Cake Parties,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-01-31,FHRS,False,,,
+2026-08-08,1886285,Patiala junction,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1964788,PeeJhay Hub,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1931532,Penang Kopi Time,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,717255,Perera Food Limited,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-05-20,FHRS,False,,,
+2026-08-08,1521056,Petite Bouchees,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-08-05,FHRS,False,,,
+2026-08-08,1761280,Pilgrim’s Honey,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-09-11,FHRS,False,,,
+2026-08-08,1751032,Pima,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2024-11-01,FHRS,False,,,
+2026-08-08,1888936,Pink Dough,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,443908,Planet Falafel,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2025-05-13,FHRS,False,,,
+2026-08-08,1785817,Plov,Restaurant/Cafe/Canteen,,,,,,Redbridge,3,2025-10-21,FHRS,False,,,
+2026-08-08,1550986,Polly Chan’s Bakehouse,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-11-05,FHRS,False,,,
+2026-08-08,1966846,Pour Point,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1911783,PreppedByMsP,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1892434,Punjab Royale,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1914014,Purani Dilli Matka Jalebi,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1907939,Purevale,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1279626,Purpletree Catering,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-04-29,FHRS,False,,,
+2026-08-08,1570541,QM trust Food bank,Restaurant/Cafe/Canteen,South Woodford Islamic Centre,Primrose Road,,South Woodford,E18 1DD,Redbridge,5,2024-10-11,FHRS,False,,,"South Woodford Islamic Centre, Primrose Road, South Woodford, E18 1DD"
+2026-08-08,1246661,Queen Cakes,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-11-04,FHRS,False,,,
+2026-08-08,1939782,Quillsmiths Publishing Ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1854170,R&R'S Pizza,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-05-22,FHRS,False,,,
+2026-08-08,1961912,Rafs Chai,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1834746,Ray Lodge Tenant management Organisation,Restaurant/Cafe/Canteen,Ettridge Hall,Ray Lodge Road,,Woodford Green,IG8 7PE,Redbridge,5,2025-08-07,FHRS,False,,,"Ettridge Hall, Ray Lodge Road, Woodford Green, IG8 7PE"
+2026-08-08,1581899,Redbridge Foodbank,Restaurant/Cafe/Canteen,,152 Broadmead Road,,Woodford Green,IG8 0AG,Redbridge,5,2022-12-13,FHRS,False,,,"152 Broadmead Road, Woodford Green, IG8 0AG"
+2026-08-08,1841634,Redbridge Foodbank,Restaurant/Cafe/Canteen,,33a Bramley Close,,Woodford Green,IG8 7PL,Redbridge,AwaitingInspection,,FHRS,False,,,"33a Bramley Close, Woodford Green, IG8 7PL"
+2026-08-08,1497443,Redbridge Foodbank,Restaurant/Cafe/Canteen,Grange Hill Methodist Church,Burrow Road,,Chigwell,IG7 4HQ,Redbridge,5,2024-11-25,FHRS,False,,,"Grange Hill Methodist Church, Burrow Road, Chigwell, IG7 4HQ"
+2026-08-08,1627679,Redbridge Islamic Centre,Restaurant/Cafe/Canteen,,28 Woodford Avenue,,Gants Hill,IG2 6XG,Redbridge,5,2024-10-10,FHRS,False,,,"28 Woodford Avenue, Gants Hill, IG2 6XG"
+2026-08-08,1931544,Repeat,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1964796,Rice Bowl,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1765182,Rickie’s Kitchen Club,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1745506,Riddim n Spice,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-03-10,FHRS,False,,,
+2026-08-08,1769164,Riverhawks FC,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2024-10-27,FHRS,False,,,
+2026-08-08,1745514,Riya’s Kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,3,2025-01-21,FHRS,False,,,
+2026-08-08,1931525,Roasts2Go,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1733251,Rocket Padel Ilford,Restaurant/Cafe/Canteen,Suite 2 Wellness Centre,The Drive,,Cranbrook,IG1 3PS,Redbridge,5,2024-08-27,FHRS,False,,,"Suite 2 Wellness Centre, The Drive, Cranbrook, IG1 3PS"
+2026-08-08,1823567,Roding Lane Free Church,Restaurant/Cafe/Canteen,Roding Lane Free Church,20 Roding Lane South,,Ilford,IG4 5NX,Redbridge,AwaitingInspection,,FHRS,False,,,"Roding Lane Free Church, 20 Roding Lane South, Ilford, IG4 5NX"
+2026-08-08,1964799,Ronnies food,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1670877,Rosella’s Kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-04-09,FHRS,False,,,
+2026-08-08,1886303,RRR’s Guntur spices,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1934311,Rukenda Cakes,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,956108,Rukhsanas,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-04-21,FHRS,False,,,
+2026-08-08,1662411,Rullick,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-11-08,FHRS,False,,,
+2026-08-08,1126975,S E Asia,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-04-01,FHRS,False,,,
+2026-08-08,1858902,Saahiibs,Restaurant/Cafe/Canteen,,57a Green Lane,,Ilford,IG1 1XG,Redbridge,AwaitingInspection,,FHRS,False,,,"57a Green Lane, Ilford, IG1 1XG"
+2026-08-08,1955377,Saara’s Sweets,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1832133,Sabita’s Sweets,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-08-18,FHRS,False,,,
+2026-08-08,1584456,Salients,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-01-10,FHRS,False,,,
+2026-08-08,1966852,Sam’s Sandwiches,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1944431,Sanko Global,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1944384,Savannah Heat,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1976461,Savours,Restaurant/Cafe/Canteen,,655 High Road,,Seven Kings,IG3 8RA,Redbridge,AwaitingInspection,,FHRS,False,,,"655 High Road, Seven Kings, IG3 8RA"
+2026-08-08,1914008,Seal The Deal Burgers,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-05-01,FHRS,False,,,
+2026-08-08,949679,Sefood East Limited,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-04-01,FHRS,False,,,
+2026-08-08,1438336,Serco PECS,Restaurant/Cafe/Canteen,Redbridge Magistrates Court,850 Cranbrook Road,,Ilford,IG6 1HW,Redbridge,5,2024-12-16,FHRS,False,,,"Redbridge Magistrates Court, 850 Cranbrook Road, Ilford, IG6 1HW"
+2026-08-08,1287040,Served By Merv,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-02-21,FHRS,False,,,
+2026-08-08,1941610,Seymour House,Restaurant/Cafe/Canteen,,26 Seymour Gardens,,Cranbrook,IG1 3LN,Redbridge,AwaitingInspection,,FHRS,False,,,"26 Seymour Gardens, Cranbrook, IG1 3LN"
+2026-08-08,1847854,Shazia’s Tiney Home,Restaurant/Cafe/Canteen,,5 Mayville Road,,Ilford,IG1 2HU,Redbridge,5,2025-08-12,FHRS,False,,,"5 Mayville Road, Ilford, IG1 2HU"
+2026-08-08,1878691,Shifa Supplements,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-01-22,FHRS,False,,,
+2026-08-08,1941608,Shima’s Kitchen Flavours,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1751024,Shobhna’s Ayurveda,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-02-03,FHRS,False,,,
+2026-08-08,1499574,Signature Banqueting,Restaurant/Cafe/Canteen,Unit 2-3 Hainault Business Park Cromwell Centre,Roebuck Road,,Hainault,IG6 3UG,Redbridge,5,2025-03-17,FHRS,False,,,"Unit 2-3 Hainault Business Park Cromwell Centre, Roebuck Road, Hainault, IG6 3UG"
+2026-08-08,1777939,Simon Woodward Catering,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-10-02,FHRS,False,,,
+2026-08-08,1847848,Simply Happiness,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-07-15,FHRS,False,,,
+2026-08-08,1854182,Simply Sacred Blends,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-04-23,FHRS,False,,,
+2026-08-08,1178738,Sims Sweets,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-04-10,FHRS,False,,,
+2026-08-08,1841639,Sinfully sweet,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-08-18,FHRS,False,,,
+2026-08-08,1939775,Skinova Beauty and Wellness,Restaurant/Cafe/Canteen,,227 Aldborough Road South,,Seven Kings,IG3 8HZ,Redbridge,AwaitingInspection,,FHRS,False,,,"227 Aldborough Road South, Seven Kings, IG3 8HZ"
+2026-08-08,1761284,Slice,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2024-11-29,FHRS,False,,,
+2026-08-08,1614064,Slush Goes Green,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-10-04,FHRS,False,,,
+2026-08-08,1934327,Smashedd Burgers,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1751017,Smokehouse,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2025-01-30,FHRS,False,,,
+2026-08-08,1641941,Something different catering ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-01-30,FHRS,False,,,
+2026-08-08,1976464,Soufflé Garden,Restaurant/Cafe/Canteen,,2 Chapel Road,,Ilford,,Redbridge,AwaitingInspection,,FHRS,False,,,"2 Chapel Road, Ilford"
+2026-08-08,1961899,Spice & steam,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1830032,Spice Genie Uk Ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-09-29,FHRS,False,,,
+2026-08-08,1676138,Spice Tiffin,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1298395,Spinached,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-01-13,FHRS,False,,,
+2026-08-08,1976467,Sri Sai food stall,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1765168,St Barnabas Church (The Spare Loaf),Restaurant/Cafe/Canteen,,127 Snakes Lane East,,Woodford Green,IG8 7HX,Redbridge,5,2025-01-10,FHRS,False,,,"127 Snakes Lane East, Woodford Green, IG8 7HX"
+2026-08-08,1921089,Stacktails & Co,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1891205,Sticky Spoon,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1886292,Street Grub,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-11-03,FHRS,False,,,
+2026-08-08,443944,Sue Palmer,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-02-11,FHRS,False,,,
+2026-08-08,1790210,Sukhiscakesandbakes,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2025-01-15,FHRS,False,,,
+2026-08-08,1654776,Sunburst Kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-10-06,FHRS,False,,,
+2026-08-08,1015138,Sunrise Caribbean Food,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-10-04,FHRS,False,,,
+2026-08-08,1939765,Swat Valley Dera Ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1916165,Sweet Cane Ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-02-12,FHRS,False,,,
+2026-08-08,1022755,Sweet Couture Centre,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-02-29,FHRS,False,,,
+2026-08-08,1632488,Sweet House Ana,Restaurant/Cafe/Canteen,,143 Brackley Square,,Woodford Green,IG8 7LN,Redbridge,5,2025-09-30,FHRS,False,,,"143 Brackley Square, Woodford Green, IG8 7LN"
+2026-08-08,1970758,Sweet Opulence,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1589152,Sweet Perfections,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-11-10,FHRS,False,,,
+2026-08-08,1707418,Sweet’s by Olly,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-01-21,FHRS,False,,,
+2026-08-08,1901573,Swetha’s Kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1934309,SwiftBites,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1451990,Sym’s catering limited,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2026-06-02,FHRS,False,,,
+2026-08-08,1722873,Synergic Herbs,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-05-22,FHRS,False,,,
+2026-08-08,1801466,Taneuro Ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-08-01,FHRS,False,,,
+2026-08-08,443303,Tangerine Catering Management,Restaurant/Cafe/Canteen,Unit 18 Redbridge Enterprise,Thompson Close,,Ilford,IG1 1TY,Redbridge,5,2025-09-18,FHRS,False,,,"Unit 18 Redbridge Enterprise, Thompson Close, Ilford, IG1 1TY"
+2026-08-08,1886311,Tashkent Company Ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1635101,Taters&Co,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1340009,Tears in Action C.I.C.,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-09-18,FHRS,False,,,
+2026-08-08,1911780,Temi’s Kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1751034,The Chimney Baker,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-01-27,FHRS,False,,,
+2026-08-08,1841631,The Continental Bakery,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-10-16,FHRS,False,,,
+2026-08-08,1970759,The Crémelle,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1761274,The Fat Pizza & The Fat Burger and Desserts,Restaurant/Cafe/Canteen,,181 Richmond Road,,Ilford,IG1 2XL,Redbridge,5,2026-04-28,FHRS,False,,,"181 Richmond Road, Ilford, IG1 2XL"
+2026-08-08,1923051,the Golden Loaf,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1213925,The Golden Whisk,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-05-19,FHRS,False,,,
+2026-08-08,1939760,The Grand Scoop,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2026-05-22,FHRS,False,,,
+2026-08-08,1923056,The Harvest Cabin,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-04-15,FHRS,False,,,
+2026-08-08,1769168,The Immaculate Collection,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-10-14,FHRS,False,,,
+2026-08-08,1970768,The Imperial Food Co,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,443767,The Kings Church Ilford Trust,Restaurant/Cafe/Canteen,The Kings Centre,14 Granville Road,,Ilford,IG1 4RU,Redbridge,5,2025-12-02,FHRS,False,,,"The Kings Centre, 14 Granville Road, Ilford, IG1 4RU"
+2026-08-08,1961908,The Lamington Box,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1302036,The Modified Bakery,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-10-04,FHRS,False,,,
+2026-08-08,1761282,The Natural Supermarket,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-07-29,FHRS,False,,,
+2026-08-08,1268486,The Pearl Isle Pantry,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,443806,The Rotisserie Company,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-11-11,FHRS,False,,,
+2026-08-08,1931527,The Salty Hermanas,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1128766,The Sweet Path,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-03-08,FHRS,False,,,
+2026-08-08,443475,The Welcome Centre,Restaurant/Cafe/Canteen,Welcome Centre,2-6 St Marys Road,,Ilford,IG1 1QX,Redbridge,4,2026-05-28,FHRS,False,,,"Welcome Centre, 2-6 St Marys Road, Ilford, IG1 1QX"
+2026-08-08,1099743,The Willows Sports And Social Club,Restaurant/Cafe/Canteen,The Willows Sports And Social Club,Forest Road,,Hainault,IG6 3SL,Redbridge,5,2024-12-05,FHRS,False,,,"The Willows Sports And Social Club, Forest Road, Hainault, IG6 3SL"
+2026-08-08,1254771,The Wings Are Good Here,Restaurant/Cafe/Canteen,,24 Brisbane Road,,Ilford,IG1 4SR,Redbridge,5,2025-04-14,FHRS,False,,,"24 Brisbane Road, Ilford, IG1 4SR"
+2026-08-08,1939764,Theepa’s Heritage Tangy Pickles,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1886313,Thk services ltd,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1901580,Three Legends,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-06-19,FHRS,False,,,
+2026-08-08,1287023,Tin In A Bin,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-09-16,FHRS,False,,,
+2026-08-08,1911796,Totally Crumble,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1914009,Treasure boxing club,Restaurant/Cafe/Canteen,,Redbridge Lane West,,Wanstead,,Redbridge,AwaitingInspection,,FHRS,False,,,"Redbridge Lane West, Wanstead"
+2026-08-08,1916166,Treats by SZ,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1702063,Una’s Deli,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-03-21,FHRS,False,,,
+2026-08-08,1738580,Uncle Sams Corndogs,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-08-02,FHRS,False,,,
+2026-08-08,1682602,Uzma House Kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,4,2024-07-15,FHRS,False,,,
+2026-08-08,1751005,Val’s Grab and Go Caribbean Food,Restaurant/Cafe/Canteen,,,,,,Redbridge,3,2024-10-22,FHRS,False,,,
+2026-08-08,1966850,Valeria’s Paella,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1790205,Vast Inn,Restaurant/Cafe/Canteen,,,,,,Redbridge,3,2025-07-14,FHRS,False,,,
+2026-08-08,1709976,Vegalicious,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1886287,Vidhyas Kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,443664,Vision Redbridge Culture & Leisure Cycling Centre,Restaurant/Cafe/Canteen,,Forest Road,,Hainault,IG6 3HN,Redbridge,5,2023-09-20,FHRS,False,,,"Forest Road, Hainault, IG6 3HN"
+2026-08-08,1824968,Vita Soul Rise,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-01-22,FHRS,False,,,
+2026-08-08,1961903,Vital cuisine UK Limited,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1805203,Volodymyr Steparuk,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-03-23,FHRS,False,,,
+2026-08-08,896488,VV's Bakes,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2023-09-29,FHRS,False,,,
+2026-08-08,1695201,Waah Catering,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-12-10,FHRS,False,,,
+2026-08-08,1896822,Wanstead Green Bean,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-02-11,FHRS,False,,,
+2026-08-08,1916152,WCC,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1380033,Wenzels the Bakers,Restaurant/Cafe/Canteen,,159 Manford Way,,Chigwell,IG7 4DN,Redbridge,5,2025-11-18,FHRS,False,,,"159 Manford Way, Chigwell, IG7 4DN"
+2026-08-08,1380039,Winners Community Group CIC,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2022-01-10,FHRS,False,,,
+2026-08-08,1964797,Wisky’s Bakes,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1774666,WO Sports,Restaurant/Cafe/Canteen,Flat 1,52 Tavistock Road,,South Woodford,E18 2AP,Redbridge,4,2024-11-07,FHRS,False,,,"Flat 1, 52 Tavistock Road, South Woodford, E18 2AP"
+2026-08-08,442961,Woodford Baptist Church,Restaurant/Cafe/Canteen,,32 George Lane,,South Woodford,E18 1LW,Redbridge,5,2019-03-26,FHRS,False,,,"32 George Lane, South Woodford, E18 1LW"
+2026-08-08,1318118,World of Toppers,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2026-04-16,FHRS,False,,,
+2026-08-08,1878687,Wurst Behaviour,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2025-11-12,FHRS,False,,,
+2026-08-08,1761272,Xpress Food,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1931537,YH Foods,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1964800,Yogi's House of Food,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1892431,Your yuts,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1725207,Yum Yum Nibbles,Restaurant/Cafe/Canteen,,,,,,Redbridge,5,2024-05-20,FHRS,False,,,
+2026-08-08,1961904,Yuzolondon,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1891204,zam zam paratha wala,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1886314,Zaras kitchen,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1976503,7 Burgers,Restaurant/Cafe/Canteen,315 New Cross Road,London,,,SE14 6AS,Lewisham,AwaitingInspection,,FHRS,False,,,"315 New Cross Road, London, SE14 6AS"
+2026-08-08,1976517,Serious Muffins,Restaurant/Cafe/Canteen,Unit 4,2 Creekside,London,,SE8 4SA,Lewisham,AwaitingInspection,,FHRS,False,,,"Unit 4, 2 Creekside, London, SE8 4SA"
+2026-08-08,1976438,Dizzy Heights Beer Cafe,Restaurant/Cafe/Canteen,Unit C1 Healthy Pets Brickyards Industrial Estate Rockpits Lane,Steep Marsh,Petersfield,Hampshire,GU32 2BN,East Hampshire,AwaitingInspection,,FHRS,False,,,"Unit C1 Healthy Pets Brickyards Industrial Estate Rockpits Lane, Steep Marsh, Petersfield, Hampshire, GU32 2BN"
+2026-08-08,1976616,Raja Originals,Restaurant/Cafe/Canteen,,993 Stockport Road,Manchester,,M19 2SY,Manchester,AwaitingInspection,,FHRS,False,,,"993 Stockport Road, Manchester, M19 2SY"
+2026-08-08,1976155,English Riviera Cafe,Restaurant/Cafe/Canteen,The Market Street Unit 28 Torquay,,,,TQ1 3AE,Torbay,AwaitingInspection,,FHRS,False,,,"The Market Street Unit 28 Torquay, TQ1 3AE"
+2026-08-08,1976154,South Devon Pottery Museum,Restaurant/Cafe/Canteen,51B St Margarets Road Torquay,,,,TQ1 4NU,Torbay,AwaitingInspection,,FHRS,False,,,"51B St Margarets Road Torquay, TQ1 4NU"
+2026-08-08,1976320,Daisycitycakes,Restaurant/Cafe/Canteen,,,,,,Nuneaton and Bedworth,5,2026-07-31,FHRS,False,,,
+2026-08-08,1976319,Magic Flavours Limited,Restaurant/Cafe/Canteen,,,,,,Nuneaton and Bedworth,5,2026-07-31,FHRS,False,,,
+2026-08-08,1976321,Nicole Black,Restaurant/Cafe/Canteen,,,,,,Nuneaton and Bedworth,AwaitingInspection,,FHRS,False,,,
+2026-08-08,1976604,Chapters Café,Restaurant/Cafe/Canteen,Leatherhead Leisure Centre,Guildford Road,,Leatherhead,KT22 9BL,Mole Valley,5,2026-08-07,FHRS,False,,,"Leatherhead Leisure Centre, Guildford Road, Leatherhead, KT22 9BL"
+2026-08-08,1976610,Dutch Delights,Restaurant/Cafe/Canteen,,42 High Street,,Leatherhead,KT22 8AJ,Mole Valley,5,2026-08-07,FHRS,False,,,"42 High Street, Leatherhead, KT22 8AJ"
+2026-08-08,1976615,Lavender Cafe Ltd,Restaurant/Cafe/Canteen,Thorncroft Manor,Thorncroft Drive,,Leatherhead,KT22 8JB,Mole Valley,5,2026-08-07,FHRS,False,,,"Thorncroft Manor, Thorncroft Drive, Leatherhead, KT22 8JB"
+2026-08-08,1976363,Furtea,Restaurant/Cafe/Canteen,13A South Street,,Havant,United Kingdom,PO9 1BU,Havant,AwaitingInspection,,FHRS,False,,,"13A South Street, Havant, United Kingdom, PO9 1BU"
+2026-08-08,1976372,Lu lu’s Beach Cafe,Restaurant/Cafe/Canteen,Lu lus Hayling Ltd  8 seafront  Hayling island,,Hampshire,United Kingdom,PO11 9EP,Havant,5,2026-08-05,FHRS,False,,,"Lu lus Hayling Ltd  8 seafront  Hayling island, Hampshire, United Kingdom, PO11 9EP"
+2026-08-08,1976391,Dolce nonna,Restaurant/Cafe/Canteen,One Leisure One Leisure St Peters Road,,Huntingdon,Cambridgeshire,PE29 7DA,Huntingdonshire,AwaitingInspection,,FHRS,False,,,"One Leisure One Leisure St Peters Road, Huntingdon, Cambridgeshire, PE29 7DA"
+2026-08-08,862526,Hardwick in Partnership,Restaurant/Cafe/Canteen,Hardwick Community Centre,Whessoe Road,,Stockton-On-Tees,TS19 8LB,Stockton On Tees,AwaitingInspection,,FHRS,False,,,"Hardwick Community Centre, Whessoe Road, Stockton-On-Tees, TS19 8LB"
+2026-08-08,1976179,LaCafe. Latiin Amercian Coffee,Restaurant/Cafe/Canteen,,2 Devonshire Street,,Stockton-On-Tees,TS18 3QQ,Stockton On Tees,AwaitingInspection,,FHRS,False,,,"2 Devonshire Street, Stockton-On-Tees, TS18 3QQ"
+2026-08-08,1976184,"Watson, Brigham & Sons, Preston Park Museum",Restaurant/Cafe/Canteen,Preston Hall Museum Preston Park,Yarm Road,,Eaglescliffe,TS18 3RH,Stockton On Tees,AwaitingInspection,,FHRS,False,,,"Preston Hall Museum Preston Park, Yarm Road, Eaglescliffe, TS18 3RH"
+2026-08-08,1976197,Bosca Ceapaire,Restaurant/Cafe/Canteen,Kennedy Centre,,580 Falls Road,Belfast,BT11 9AE,Belfast City,AwaitingInspection,,FHRS,False,,,"Kennedy Centre, 580 Falls Road, Belfast, BT11 9AE"
+2026-08-08,1976201,Sheesh Grill,Restaurant/Cafe/Canteen,Unit 4,,133-137 Lisburn Road,Belfast,BT9 7AG,Belfast City,AwaitingInspection,,FHRS,False,,,"Unit 4, 133-137 Lisburn Road, Belfast, BT9 7AG"
+2026-08-08,1976198,Spudtaculur,Restaurant/Cafe/Canteen,Unit 4,,275 Crumlin Road,Belfast,BT14 7DU,Belfast City,5,2026-07-29,FHRS,False,,,"Unit 4, 275 Crumlin Road, Belfast, BT14 7DU"
+2026-08-08,1976194,The Peri Lab,Restaurant/Cafe/Canteen,,,391 Ormeau Road,Belfast,BT7 3GP,Belfast City,AwaitingInspection,,FHRS,False,,,"391 Ormeau Road, Belfast, BT7 3GP"
+2026-08-08,1976378,Saffron,Restaurant/Cafe/Canteen,129 Park View,Whitley Bay,Tyne And Wear,,NE26 3RH,North Tyneside,5,2026-07-24,FHRS,False,,,"129 Park View, Whitley Bay, Tyne And Wear, NE26 3RH"
+2026-08-08,1976484,The little bean bar,Restaurant/Cafe/Canteen,41 Park Lee Road,,Blackburn,Blackburn With Darwen,BB2 3NZ,Blackburn,AwaitingInspection,,FHRS,False,,,"41 Park Lee Road, Blackburn, Blackburn With Darwen, BB2 3NZ"
+2026-08-08,1976261,Cafe @ George Street Funishers,Restaurant/Cafe/Canteen,19 - 24 George Street,Newport,South Wales,,NP20 1EN,Casnewydd,AwaitingInspection,,FHRS,False,,,"19 - 24 George Street, Newport, South Wales, NP20 1EN"
+2026-08-08,1976262,Result Plan,Restaurant/Cafe/Canteen,171 Corporation Road,Newport,South Wales,,NP19 0BJ,Casnewydd,AwaitingInspection,,FHRS,False,,,"171 Corporation Road, Newport, South Wales, NP19 0BJ"
+2026-08-08,1976531,Twigs Kitchen,Restaurant/Cafe/Canteen,16A Tuxford Road,Boughton,Newark On Trent,,NG22 9TA,Newark and Sherwood,AwaitingInspection,,FHRS,False,,,"16A Tuxford Road, Boughton, Newark On Trent, NG22 9TA"
+2026-08-08,1976157,The Village Coffee Shop,Restaurant/Cafe/Canteen,58 High Street,Newington,Kent,,ME9 7JL,Swale,AwaitingInspection,,FHRS,False,,,"58 High Street, Newington, Kent, ME9 7JL"
+2026-08-08,1976170,Vital House Lounge,Restaurant/Cafe/Canteen,22 High Street,Sittingbourne,Kent,,ME10 4PD,Swale,AwaitingInspection,,FHRS,False,,,"22 High Street, Sittingbourne, Kent, ME10 4PD"
