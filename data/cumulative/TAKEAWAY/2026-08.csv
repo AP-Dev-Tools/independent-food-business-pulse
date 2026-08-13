@@ -503,3 +503,46 @@ date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLin
 2026-08-12,1977441,Krunchy Fried Chicken,Takeaway/sandwich shop,5 Union Road,New Mills,High Peak,,SK22 3EL,High Peak,AwaitingInspection,,FHRS,False,,,"5 Union Road, New Mills, High Peak, SK22 3EL"
 2026-08-12,1977443,Twister Box,Takeaway/sandwich shop,40 Market Street,New Mills,High Peak,,SK22 4AA,High Peak,AwaitingInspection,,FHRS,False,,,"40 Market Street, New Mills, High Peak, SK22 4AA"
 2026-08-12,1580150,The Anchor,Takeaway/sandwich shop,36 Steynton Avenue,Bexley,Kent,,DA5 3HG,Bexley,5,2026-08-05,FHRS,False,,,"36 Steynton Avenue, Bexley, Kent, DA5 3HG"
+2026-08-13,1977711,Adeel's Pizza,Takeaway/sandwich shop,,871 Manchester Road,Bradford,,BD5 8LT,Bradford,AwaitingInspection,,FHRS,False,,,"871 Manchester Road, Bradford, BD5 8LT"
+2026-08-13,326638,Bibis Fastfood,Takeaway/sandwich shop,,103a Braithwaite Avenue,Keighley,,BD22 6QE,Bradford,AwaitingInspection,,FHRS,False,,,"103a Braithwaite Avenue, Keighley, BD22 6QE"
+2026-08-13,1977715,Crvng by Iced,Takeaway/sandwich shop,,3a Bolton Road,Silsden,Keighley,BD20 0JY,Bradford,AwaitingInspection,,FHRS,False,,,"3a Bolton Road, Silsden, Keighley, BD20 0JY"
+2026-08-13,325516,The Little Pink Bakery,Takeaway/sandwich shop,,176 High Street,Wibsey,Bradford,BD6 1QU,Bradford,5,2026-08-05,FHRS,False,,,"176 High Street, Wibsey, Bradford, BD6 1QU"
+2026-08-13,1977632,The Direct Pizza,Takeaway/sandwich shop,34A Wood Street,Earl Shilton,Leicester,Leicestershire,LE9 7ND,Hinckley and Bosworth,AwaitingInspection,,FHRS,False,,,"34A Wood Street, Earl Shilton, Leicester, Leicestershire, LE9 7ND"
+2026-08-13,1911254,Brew & bake,Takeaway/sandwich shop,17 Hilderthorpe Road,Bridlington,East Riding Of Yorkshire,,YO15 3AY,East Riding of Yorkshire,AwaitingInspection,,FHRS,False,,,"17 Hilderthorpe Road, Bridlington, East Riding Of Yorkshire, YO15 3AY"
+2026-08-13,1671783,JB'S BAR & GRILL FLAMBOROUGH LTD,Takeaway/sandwich shop,Chapel Street,Flamborough,Bridlington,,YO15 1LH,East Riding of Yorkshire,AwaitingInspection,,FHRS,False,,,"Chapel Street, Flamborough, Bridlington, YO15 1LH"
+2026-08-13,1977604,Pigment & Pomegranate,Takeaway/sandwich shop,E2,Zone E,Base Business Park,Rendlesham,,East Suffolk,AwaitingInspection,,FHRS,False,,,"E2, Zone E, Base Business Park, Rendlesham"
+2026-08-13,1977720,Steak Shack,Takeaway/sandwich shop,Retail Unit At Junction Of Short Lane,London Road,Ashford,,,Spelthorne,AwaitingInspection,,FHRS,False,,,"Retail Unit At Junction Of Short Lane, London Road, Ashford"
+2026-08-13,1977566,Munch Kings,Takeaway/sandwich shop,133 West Stirling Street,Alva,Clackmannanshire,,FK12 5EL,Clackmannanshire,Awaiting Inspection,2026-08-06,FHIS,False,,,"133 West Stirling Street, Alva, Clackmannanshire, FK12 5EL"
+2026-08-13,1977662,Hai-O,Takeaway/sandwich shop,,88A College Bounds,Fraserburgh,Aberdeenshire,AB43 9QS,Aberdeenshire,Awaiting Inspection,2026-08-06,FHIS,False,,,"88A College Bounds, Fraserburgh, Aberdeenshire, AB43 9QS"
+2026-08-13,1977663,Nolle Pizza Catering Ltd,Takeaway/sandwich shop,,27 Bridge Street,Ellon,Aberdeenshire,AB41 9AA,Aberdeenshire,Awaiting Inspection,2026-08-07,FHIS,False,,,"27 Bridge Street, Ellon, Aberdeenshire, AB41 9AA"
+2026-08-13,1977659,Side Street,Takeaway/sandwich shop,,36 Balmellie Street,Turriff,Aberdeenshire,AB53 4DU,Aberdeenshire,Awaiting Inspection,2026-07-27,FHIS,False,,,"36 Balmellie Street, Turriff, Aberdeenshire, AB53 4DU"
+2026-08-13,1977558,Charluccios,Takeaway/sandwich shop,,,,,,Colchester,AwaitingInspection,,FHRS,False,,,
+2026-08-13,1977556,Damas Bites,Takeaway/sandwich shop,,,,,,Colchester,AwaitingInspection,,FHRS,False,,,
+2026-08-13,1977554,Emberix Grill,Takeaway/sandwich shop,181 Magdalen Street,Colchester,Essex,,CO1 2JX,Colchester,AwaitingInspection,,FHRS,False,,,"181 Magdalen Street, Colchester, Essex, CO1 2JX"
+2026-08-13,1977561,FryBros,Takeaway/sandwich shop,,,,,,Colchester,AwaitingInspection,,FHRS,False,,,
+2026-08-13,1977557,Hong Kong Chef,Takeaway/sandwich shop,23A London Road,Stanway,Essex,,CO3 0NR,Colchester,AwaitingInspection,,FHRS,False,,,"23A London Road, Stanway, Essex, CO3 0NR"
+2026-08-13,1977562,Yo! To Go,Takeaway/sandwich shop,Tesco Supermarket,Greenstead Road,Colchester,Essex,CO1 2TE,Colchester,5,2025-08-22,FHRS,False,,,"Tesco Supermarket, Greenstead Road, Colchester, Essex, CO1 2TE"
+2026-08-13,1977657,Flames BBQ,Takeaway/sandwich shop,The Pink Cottage,Commonside Road,Harlow,Essex,CM18 7JB,Harlow,AwaitingInspection,,FHRS,False,,,"The Pink Cottage, Commonside Road, Harlow, Essex, CM18 7JB"
+2026-08-13,1977734,Puff Dough,Takeaway/sandwich shop,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-08-13,1977702,Brotton Tandoori,Takeaway/sandwich shop,,5 Errington Street,Brotton,,TS12 2TB,Redcar and Cleveland,AwaitingInspection,,FHRS,False,,,"5 Errington Street, Brotton, TS12 2TB"
+2026-08-13,1977791,Cheeky Chippy,Takeaway/sandwich shop,3 The Parade,Bracklesham Lane,Bracklesham Bay,,PO20 8JA,Chichester,AwaitingInspection,,FHRS,False,,,"3 The Parade, Bracklesham Lane, Bracklesham Bay, PO20 8JA"
+2026-08-13,1977539,Chessie?s,Takeaway/sandwich shop,,,,,,Ashford,AwaitingInspection,,FHRS,False,,,
+2026-08-13,1977577,Big Bites,Takeaway/sandwich shop,,183B Main Street,Rutherglen,Glasgow,G73 2HG,South Lanarkshire,Awaiting Inspection,,FHIS,False,,,"183B Main Street, Rutherglen, Glasgow, G73 2HG"
+2026-08-13,1977573,Grill Nova,Takeaway/sandwich shop,,12 Brandon Street,Hamilton,South Lanarkshire,ML3 6AB,South Lanarkshire,Awaiting Inspection,,FHIS,False,,,"12 Brandon Street, Hamilton, South Lanarkshire, ML3 6AB"
+2026-08-13,1977570,The Cunning Kitchen,Takeaway/sandwich shop,,7 Murray Court,Hillhouse Industrial Estate,Hamilton,ML3 9SL,South Lanarkshire,Awaiting Inspection,,FHIS,False,,,"7 Murray Court, Hillhouse Industrial Estate, Hamilton, ML3 9SL"
+2026-08-13,1977576,Tony 2 Go East Kilbride,Takeaway/sandwich shop,,14 Lindsayfield Road,East Kilbride,Glasgow,G75 9SA,South Lanarkshire,Pass,2026-07-29,FHIS,False,,,"14 Lindsayfield Road, East Kilbride, Glasgow, G75 9SA"
+2026-08-13,1764009,Biriyani Dukhan,Takeaway/sandwich shop,53 Gold Street,Northampton,NN1 1RA,,NN1 1RA,West Northamptonshire,3,2024-09-19,FHRS,False,,,"53 Gold Street, Northampton, NN1 1RA, NN1 1RA"
+2026-08-13,1620517,Blackbird Community Project,Takeaway/sandwich shop,,,,,,West Northamptonshire,3,2023-10-18,FHRS,False,,,
+2026-08-13,1812440,Delicious Pizza,Takeaway/sandwich shop,6 Boothville Green,Boothville,Northampton,NN3 6JR,NN3 6JR,West Northamptonshire,2,2025-06-13,FHRS,False,,,"6 Boothville Green, Boothville, Northampton, NN3 6JR, NN3 6JR"
+2026-08-13,1004842,Frychicks,Takeaway/sandwich shop,3 Alexandra Terrace,Kingsthorpe,Northampton,NN2 7SJ,NN2 7SJ,West Northamptonshire,2,2025-12-11,FHRS,False,,,"3 Alexandra Terrace, Kingsthorpe, Northampton, NN2 7SJ, NN2 7SJ"
+2026-08-13,1640109,Kamrans Fast Food Delivery,Takeaway/sandwich shop,,,,,,West Northamptonshire,4,2024-01-16,FHRS,False,,,
+2026-08-13,1576408,La Teo & Casi,Takeaway/sandwich shop,27 St Leonards Road,Far Cotton,Northampton,NN4 9DL,NN4 9DL,West Northamptonshire,2,2024-10-03,FHRS,False,,,"27 St Leonards Road, Far Cotton, Northampton, NN4 9DL, NN4 9DL"
+2026-08-13,1422520,Mooboo Bubble Tea,Takeaway/sandwich shop,2 Wood Street,Grosvenor Centre,Northampton,NN1 2ED,NN1 2ED,West Northamptonshire,5,2021-11-13,FHRS,False,,,"2 Wood Street, Grosvenor Centre, Northampton, NN1 2ED, NN1 2ED"
+2026-08-13,1685206,Panshi Northampton,Takeaway/sandwich shop,223 Birchfield Road East,Abington,Northampton,NN3 2BZ,NN3 2BZ,West Northamptonshire,4,2024-12-04,FHRS,False,,,"223 Birchfield Road East, Abington, Northampton, NN3 2BZ, NN3 2BZ"
+2026-08-13,1843220,Rani Takeaway,Takeaway/sandwich shop,51 Queen Eleanor Road,Far Cotton,Northampton,NN4 8NN,NN4 8NN,West Northamptonshire,3,2025-03-13,FHRS,False,,,"51 Queen Eleanor Road, Far Cotton, Northampton, NN4 8NN, NN4 8NN"
+2026-08-13,1469647,St James Fish Bar,Takeaway/sandwich shop,91 Weedon Road,St James,Northampton,NN5 5BG,NN5 5BG,West Northamptonshire,3,2025-10-23,FHRS,False,,,"91 Weedon Road, St James, Northampton, NN5 5BG, NN5 5BG"
+2026-08-13,1774932,The Cafe NN3,Takeaway/sandwich shop,106-108 Lindsay Avenue,Abington,Northampton,NN3 2JS,NN3 2JS,West Northamptonshire,4,2024-10-29,FHRS,False,,,"106-108 Lindsay Avenue, Abington, Northampton, NN3 2JS, NN3 2JS"
+2026-08-13,1345738,VeggieVeGo,Takeaway/sandwich shop,,,,,,West Northamptonshire,5,2024-07-26,FHRS,False,,,
+2026-08-13,434305,Wong's,Takeaway/sandwich shop,,,,,,West Northamptonshire,3,2024-05-09,FHRS,False,,,
+2026-08-13,1456087,Panku Streetfood,Takeaway/sandwich shop,,Asda Stores Ltd,,Wigmore Lane,LU2 9TA,Luton,5,2026-08-07,FHRS,False,,,"Asda Stores Ltd, Wigmore Lane, LU2 9TA"
+2026-08-13,1977836,Red Lantern,Takeaway/sandwich shop,27 Station Road,Ossett,,,WF5 8AY,Wakefield,AwaitingInspection,,FHRS,False,,,"27 Station Road, Ossett, WF5 8AY"
