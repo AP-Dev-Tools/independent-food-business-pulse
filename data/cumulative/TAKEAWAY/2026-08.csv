@@ -1397,3 +1397,43 @@ date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLin
 2026-08-25,99129,Veneno Music Store,Takeaway/sandwich shop,20 East Port Dunfermline Fife,,,,KY12 7JB,Fife,Awaiting Inspection,2026-08-18,FHIS,False,,,"20 East Port Dunfermline Fife, KY12 7JB"
 2026-08-25,1981181,Urban Sushi House,Takeaway/sandwich shop,Skelmersdale Ecumenical Centre,Northway,Skelmersdale,Lancashire,WN8 6LU,West Lancashire,AwaitingInspection,,FHRS,False,,,"Skelmersdale Ecumenical Centre, Northway, Skelmersdale, Lancashire, WN8 6LU"
 2026-08-25,1980811,Dolce express,Takeaway/sandwich shop,8 Kiosk Towyn Road,,Towyn,Conwy,,Conwy,AwaitingInspection,,FHRS,False,,,"8 Kiosk Towyn Road, Towyn, Conwy"
+2026-08-26,1981238,Pure Loaded,Takeaway/sandwich shop,2 Red Hall Drive,,Newcastle Upon Tyne,,NE7 7LH,Newcastle Upon Tyne,AwaitingInspection,,FHRS,False,,,"2 Red Hall Drive, Newcastle Upon Tyne, NE7 7LH"
+2026-08-26,1981309,ChickFellas Peri Peri,Takeaway/sandwich shop,185 Union Street Torquay,,,,TQ1 4BY,Torbay,AwaitingInspection,,FHRS,False,,,"185 Union Street Torquay, TQ1 4BY"
+2026-08-26,242273,CHEE WEI,Takeaway/sandwich shop,,162 Rugby Road,,Leamington Spa,CV32 6DS,Warwick,5,2026-07-30,FHRS,False,,,"162 Rugby Road, Leamington Spa, CV32 6DS"
+2026-08-26,1981373,J Garden,Takeaway/sandwich shop,J Garden,7a Riccarton Road,Hurlford,Kilmarnock,KA1 5AE,East Ayrshire,Awaiting Inspection,2026-07-17,FHIS,False,,,"J Garden, 7a Riccarton Road, Hurlford, Kilmarnock, KA1 5AE"
+2026-08-26,1981375,Sweet Treats,Takeaway/sandwich shop,Sweet Treats,197a Main Street,Auchinleck,Cumnock,KA18 2BA,East Ayrshire,Awaiting Inspection,2026-08-04,FHIS,False,,,"Sweet Treats, 197a Main Street, Auchinleck, Cumnock, KA18 2BA"
+2026-08-26,1981218,FARMHOUSE KITCHEN,Takeaway/sandwich shop,,35 Conway Street,,London,W1T 6BW,Camden,AwaitingInspection,,FHRS,False,,,"35 Conway Street, London, W1T 6BW"
+2026-08-26,1981228,FROM MOTHER NATURE,Takeaway/sandwich shop,,,,,,Camden,AwaitingInspection,,FHRS,False,,,
+2026-08-26,1981217,LONDON SCONE WORKSHOP,Takeaway/sandwich shop,Regent House,1-6 Pratt Mews,,London,NW1 0AD,Camden,AwaitingInspection,,FHRS,False,,,"Regent House, 1-6 Pratt Mews, London, NW1 0AD"
+2026-08-26,1981224,Mamma Focaccia,Takeaway/sandwich shop,Unit WY04 Camden Lock Market Camden Market,Chalk Farm Road,,London,NW1 8AH,Camden,AwaitingInspection,,FHRS,False,,,"Unit WY04 Camden Lock Market Camden Market, Chalk Farm Road, London, NW1 8AH"
+2026-08-26,1981216,MEEMO,Takeaway/sandwich shop,,,,,,Camden,AwaitingInspection,,FHRS,False,,,
+2026-08-26,1981220,MORA LONDON,Takeaway/sandwich shop,,,,,,Camden,AwaitingInspection,,FHRS,False,,,
+2026-08-26,1981208,NZOLA FUSION CATERING,Takeaway/sandwich shop,,,,,,Camden,AwaitingInspection,,FHRS,False,,,
+2026-08-26,1981214,PARKER GIBSON,Takeaway/sandwich shop,,,,,,Camden,AwaitingInspection,,FHRS,False,,,
+2026-08-26,1981210,SAGE,Takeaway/sandwich shop,48 G 0.04,48 Charlotte Street,,London,W1T 2NS,Camden,AwaitingInspection,,FHRS,False,,,"48 G 0.04, 48 Charlotte Street, London, W1T 2NS"
+2026-08-26,1981206,TOMOKO'S JAPANESE WORKSHOP,Takeaway/sandwich shop,,,,,,Camden,AwaitingInspection,,FHRS,False,,,
+2026-08-26,1981267,Grill Spot,Takeaway/sandwich shop,27 Castle Foregate,,Shrewsbury,Shropshire,SY1 2EE,Shropshire,AwaitingInspection,,FHRS,False,,,"27 Castle Foregate, Shrewsbury, Shropshire, SY1 2EE"
+2026-08-26,1981396,Bites of eden,Takeaway/sandwich shop,38 - 40 Roehampton High Street,,London,Wandsworth,SW15 4HJ,Wandsworth,AwaitingInspection,,FHRS,False,,,"38 - 40 Roehampton High Street, London, Wandsworth, SW15 4HJ"
+2026-08-26,1981413,Cafe Era,Takeaway/sandwich shop,Queenstown Road Railway Station Queenstown Road,,London,Wandsworth,SW8 4LP,Wandsworth,AwaitingInspection,,FHRS,False,,,"Queenstown Road Railway Station Queenstown Road, London, Wandsworth, SW8 4LP"
+2026-08-26,1981397,Chum Chum Thai Takeaway,Takeaway/sandwich shop,182 Lavender Hill,,London,,SW11 5TQ,Wandsworth,AwaitingInspection,,FHRS,False,,,"182 Lavender Hill, London, SW11 5TQ"
+2026-08-26,1981405,Kaiserali fluffy pancakes falafel,Takeaway/sandwich shop,92A Balham High Road,,London,Wandsworth,SW12 9AG,Wandsworth,AwaitingInspection,,FHRS,False,,,"92A Balham High Road, London, Wandsworth, SW12 9AG"
+2026-08-26,1981387,Kin+Deum,Takeaway/sandwich shop,15a Parkfield Industrial Estate Culvert Place,,London,Wandsworth,SW11 5BA,Wandsworth,AwaitingInspection,,FHRS,False,,,"15a Parkfield Industrial Estate Culvert Place, London, Wandsworth, SW11 5BA"
+2026-08-26,1981395,Notarianni,Takeaway/sandwich shop,144 Battersea High Street,,London,Wandsworth,SW11 3JR,Wandsworth,AwaitingInspection,,FHRS,False,,,"144 Battersea High Street, London, Wandsworth, SW11 3JR"
+2026-08-26,1573192,Pasta Evangelists,Takeaway/sandwich shop,168 Tooting High Street,,London,Wandsworth,SW17 0RT,Wandsworth,5,2025-04-07,FHRS,False,,,"168 Tooting High Street, London, Wandsworth, SW17 0RT"
+2026-08-26,1981349,Subway,Takeaway/sandwich shop,13 Lowfield Street,Dartford,Kent,,DA1 1EN,Dartford,AwaitingInspection,,FHRS,False,,,"13 Lowfield Street, Dartford, Kent, DA1 1EN"
+2026-08-26,1981464,Cluckin Fried Chicken,Takeaway/sandwich shop,,188 Rochdale Old Road,Bury,,BL9 7SB,Bury,AwaitingInspection,,FHRS,False,,,"188 Rochdale Old Road, Bury, BL9 7SB"
+2026-08-26,1981466,Homerun chicken,Takeaway/sandwich shop,,166 Walmersley Road,Bury,,BL9 6LL,Bury,AwaitingInspection,,FHRS,False,,,"166 Walmersley Road, Bury, BL9 6LL"
+2026-08-26,54394,Amigo's Pizza,Takeaway/sandwich shop,,674 Bolton Road,Pendlebury,,M27 8FH,Salford,3,2026-08-18,FHRS,False,,,"674 Bolton Road, Pendlebury, M27 8FH"
+2026-08-26,1785867,Frenzy pizza,Takeaway/sandwich shop,58 Argyle Street South,Tranmere,Birkenhead,Wirral,CH41 9BX,Wirral,AwaitingInspection,,FHRS,False,,,"58 Argyle Street South, Tranmere, Birkenhead, Wirral, CH41 9BX"
+2026-08-26,1981442,Whitehall Estate Withernsea Beach Hut,Takeaway/sandwich shop,Memorial Avenue,Withernsea,East Riding Of Yorkshire,,HU19 2DN,East Riding of Yorkshire,AwaitingInspection,,FHRS,True,,,"Memorial Avenue, Withernsea, East Riding Of Yorkshire, HU19 2DN"
+2026-08-26,1981441,Yorkshire Fired Pizza,Takeaway/sandwich shop,,,,,,East Riding of Yorkshire,AwaitingInspection,,FHRS,False,,,
+2026-08-26,1981353,Stir n’Fry,Takeaway/sandwich shop,,,,,,Blackburn,AwaitingInspection,,FHRS,False,,,
+2026-08-26,1981427,Olivio Aroma Limited,Takeaway/sandwich shop,1B Windermere Avenue,,Wimbledon,Merton,SW19 3EP,Merton,AwaitingInspection,,FHRS,False,,,"1B Windermere Avenue, Wimbledon, Merton, SW19 3EP"
+2026-08-26,704714,Hudsons Pizza & Deli,Takeaway/sandwich shop,,,286 Cliftonville Road,Belfast,BT14 6LE,Belfast City,4,2026-07-20,FHRS,False,,,"286 Cliftonville Road, Belfast, BT14 6LE"
+2026-08-26,1981496,Jewel Of Mumbai Cuisine,Takeaway/sandwich shop,42 Bondgate,Otley,,,LS21 1AD,Leeds,AwaitingInspection,,FHRS,False,,,"42 Bondgate, Otley, LS21 1AD"
+2026-08-26,1981491,Wok And Dash,Takeaway/sandwich shop,Wok & Dash,597 York Road,Leeds,,LS9 6NW,Leeds,AwaitingInspection,,FHRS,False,,,"Wok & Dash, 597 York Road, Leeds, LS9 6NW"
+2026-08-26,1981299,Vero,Takeaway/sandwich shop,N1 And N2 Market Hall,Earl Street,Preston,,PR1 2LA,Preston,AwaitingInspection,,FHRS,False,,,"N1 And N2 Market Hall, Earl Street, Preston, PR1 2LA"
+2026-08-26,1981244,NK KITCHY LTD,Takeaway/sandwich shop,,,,,,Colchester,AwaitingInspection,,FHRS,False,,,
+2026-08-26,1981343,Guppy,Takeaway/sandwich shop,,,,,,Windsor and Maidenhead,AwaitingInspection,,FHRS,False,,,
+2026-08-26,1981341,Rasoi,Takeaway/sandwich shop,,,,,,Windsor and Maidenhead,AwaitingInspection,,FHRS,False,,,
+2026-08-26,1981192,Freddy’s Pie & Mash,Takeaway/sandwich shop,Bromley Football Club Hayes Lane,Hayes,Bromley,,BR2 9EF,Bromley,AwaitingInspection,,FHRS,False,,,"Bromley Football Club Hayes Lane, Hayes, Bromley, BR2 9EF"
