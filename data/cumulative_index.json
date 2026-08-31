@@ -5939,6 +5939,19 @@
           "count": 1
         }
       }
+    },
+    {
+      "date": "2026-08-31",
+      "files": {
+        "MOBILE": {
+          "file": "MOBILE/2026-08.csv",
+          "count": 1
+        },
+        "TAKEAWAY": {
+          "file": "TAKEAWAY/2026-08.csv",
+          "count": 2
+        }
+      }
     }
   ]
 }
