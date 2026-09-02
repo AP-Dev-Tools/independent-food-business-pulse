@@ -1,0 +1,54 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2026-09-02,1983360,Flindt’s Tortilla Truck,Mobile caterer,,,,,,Doncaster,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983883,Lekker In London,Mobile caterer,Cheam Park,Tudor Close,Cheam,,,Sutton,AwaitingInspection,,FHRS,False,,,"Cheam Park, Tudor Close, Cheam"
+2026-09-02,1924938,JK BITES,Mobile caterer,,,,,,Vale of White Horse,5,2026-06-01,FHRS,False,,,
+2026-09-02,1983497,Double Cheese,Mobile caterer,,,,,,Cardiff,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983421,Udta Punjab,Mobile caterer,Shifnal War Memorial Club Innage Road,,Shifnal,Shropshire,TF11 8AD,Shropshire,AwaitingInspection,,FHRS,False,,,"Shifnal War Memorial Club Innage Road, Shifnal, Shropshire, TF11 8AD"
+2026-09-02,1983755,R&R Seafoods LTD,Mobile caterer,,,,,,North East Lincolnshire,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983575,Chicken George Jnr,Mobile caterer,117 Tavistock Street,,BEDFORD,,MK40 2SB,Bedford,AwaitingInspection,,FHRS,False,,,"117 Tavistock Street, BEDFORD, MK40 2SB"
+2026-09-02,1983585,Espresso Ayla,Mobile caterer,,,,,,Bedford,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983558,Kicking Fried Chicken,Mobile caterer,,,,,,Bedford,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983567,Nannie B's Grill,Mobile caterer,,,,,,Bedford,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983565,Oh Crumbs! Coffee,Mobile caterer,,,,,,Bedford,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983555,Riser,Mobile caterer,,,,,,Bedford,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983556,the mane attraction crepes,Mobile caterer,,,,,,Bedford,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983480,Scooples,Mobile caterer,Scooples,Winthorpe Avenue,Skegness,Lincolnshire,PE25 1QY,East Lindsey,AwaitingInspection,,FHRS,True,,,"Scooples, Winthorpe Avenue, Skegness, Lincolnshire, PE25 1QY"
+2026-09-02,1983463,Kookoo Food,Mobile caterer,,,,,,Oxford City,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983462,Smiling Spoon,Mobile caterer,,,,,,Oxford City,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1976249,Curlys Casa de Tapas,Mobile caterer,,,,,,Exeter City,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983850,Fatboy's Event Van,Mobile caterer,Unit 9 Block 1,Alloa Industrial Estate,Ward Street,Alloa,FK10 1ET,Clackmannanshire,Awaiting Inspection,,FHIS,False,,,"Unit 9 Block 1, Alloa Industrial Estate, Ward Street, Alloa, FK10 1ET"
+2026-09-02,1983396,Paradise Cottage,Mobile caterer,,Luckyn Lane,Basildon,Essex,,Basildon,AwaitingInspection,,FHRS,False,,,"Luckyn Lane, Basildon, Essex"
+2026-09-02,1983497,Double Cheese,Mobile caterer,,,,,,Caerdydd,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983713,Frankie & roo's kitchen,Mobile caterer,,,,,,Causeway Coast and Glens,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983714,Oakleaf Coffee Co,Mobile caterer,,,,,,Causeway Coast and Glens,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983711,Stranded Events Chicken & Loaded Fries,Mobile caterer,,,,,,Causeway Coast and Glens,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983417,A Bite Beyond,Mobile caterer,14 St Floras Road,,Littlehampton,West Sussex,BN17 6BB,Arun,AwaitingInspection,,FHRS,False,,,"14 St Floras Road, Littlehampton, West Sussex, BN17 6BB"
+2026-09-02,1983410,Corn Dog Club,Mobile caterer,,,,,,Arun,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983412,YourPB,Mobile caterer,,,,,,Arun,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983774,The White Oak Bar,Mobile caterer,,,,,,Stafford,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983787,Boss Kebab,Mobile caterer,7 Potter Street,Harlow,Essex,,CM17 9AD,Harlow,AwaitingInspection,,FHRS,False,,,"7 Potter Street, Harlow, Essex, CM17 9AD"
+2026-09-02,1983788,Bun Appetite Essex,Mobile caterer,Drinker Moth Public House,Sherards Hatch,Harlow,Essex,CM18 7PS,Harlow,AwaitingInspection,,FHRS,False,,,"Drinker Moth Public House, Sherards Hatch, Harlow, Essex, CM18 7PS"
+2026-09-02,1983781,Burger Master - Mobile,Mobile caterer,1B Princes Gate,Howard Way,Harlow,Essex,CM20 2SU,Harlow,AwaitingInspection,,FHRS,False,,,"1B Princes Gate, Howard Way, Harlow, Essex, CM20 2SU"
+2026-09-02,1983630,Pure smash,Mobile caterer,,,,,,Southwark,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1952782,Livayahs,Mobile caterer,2 Old Ambassador Buildings,Pontnewynydd Industrial Estate,Pontnewynydd,Pontypool,NP4 6YW,Torfaen,AwaitingInspection,,FHRS,False,,,"2 Old Ambassador Buildings, Pontnewynydd Industrial Estate, Pontnewynydd, Pontypool, NP4 6YW"
+2026-09-02,1983753,Distill,Mobile caterer,,,,,,Huntingdonshire,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983748,KURO YATAI Japanese Street Kitchen,Mobile caterer,Street Record The Pavement,,St Ives,Cambridgeshire,,Huntingdonshire,AwaitingInspection,,FHRS,False,,,"Street Record The Pavement, St Ives, Cambridgeshire"
+2026-09-02,1983743,Lil's Candy Clouds,Mobile caterer,,,,,,Huntingdonshire,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1622527,The Hot Potato,Mobile caterer,,,,,,Hastings,5,2026-08-14,FHRS,False,,,
+2026-09-02,1983663,Absolute Melt,Mobile caterer,,,,,,"Bournemouth, Christchurch and Poole",AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983661,AFC Bournemouth (Ice Cream Van),Mobile caterer,Vitality Stadium,,Bournemouth,,BH7 7AF,"Bournemouth, Christchurch and Poole",AwaitingInspection,,FHRS,False,,,"Vitality Stadium, Bournemouth, BH7 7AF"
+2026-09-02,1983651,Crêpes Fleurette,Mobile caterer,,,,,,"Bournemouth, Christchurch and Poole",AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983639,Fire and Flour,Mobile caterer,,,,,,"Bournemouth, Christchurch and Poole",AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983653,Food Tribe Events and Concessions Limited,Mobile caterer,,,,,,"Bournemouth, Christchurch and Poole",AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983649,K2,Mobile caterer,,,,,,"Bournemouth, Christchurch and Poole",AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983674,The Dough Box,Mobile caterer,Unit 2b,163 Stourvale Road,Bournemouth,,BH6 5HQ,"Bournemouth, Christchurch and Poole",5,2026-08-27,FHRS,False,,,"Unit 2b, 163 Stourvale Road, Bournemouth, BH6 5HQ"
+2026-09-02,1983669,The Rustic Sun,Mobile caterer,,,,,,"Bournemouth, Christchurch and Poole",AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983681,Somerset Pizza Kitchen,Mobile caterer,,,,,,Somerset,5,2026-08-26,FHRS,False,,,
+2026-09-02,1957678,Tibetan Memories,Mobile caterer,,,,,,Somerset,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983730,Rustic Crust,Mobile caterer,,,,,,Scottish Borders,Awaiting Inspection,2026-08-18,FHIS,False,,,
+2026-09-02,1983728,The Coffee Girl,Mobile caterer,Station Road,Duns,,Scottish Borders,TD11 3EL,Scottish Borders,Awaiting Inspection,2026-08-18,FHIS,False,,,"Station Road, Duns, Scottish Borders, TD11 3EL"
+2026-09-02,1983829,Bob’s Ices,Mobile caterer,34 ROBERTS CRESCENT,,,HARROGATE,HG1 2AY,North Yorkshire,AwaitingInspection,,FHRS,False,,,"34 ROBERTS CRESCENT, HARROGATE, HG1 2AY"
+2026-09-02,1983826,Cakes & Candy,Mobile caterer,,,,,,North Yorkshire,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983822,Newby Pizza,Mobile caterer,The Estate Office Newby Hall,,,,HG4 5AE,North Yorkshire,AwaitingInspection,,FHRS,False,,,"The Estate Office Newby Hall, HG4 5AE"
+2026-09-02,1952782,Livayahs,Mobile caterer,2 Old Ambassador Buildings,Pontnewynydd Industrial Estate,Pontnewynydd,Pontypool,NP4 6YW,Torfaen,AwaitingInspection,,FHRS,False,,,"2 Old Ambassador Buildings, Pontnewynydd Industrial Estate, Pontnewynydd, Pontypool, NP4 6YW"
+2026-09-02,1983489,The Chimney Cake Co,Mobile caterer,Ballyhalbert,,Newtownards,,BT22 1BL,Ards and North Down,AwaitingInspection,,FHRS,False,,,"Ballyhalbert, Newtownards, BT22 1BL"

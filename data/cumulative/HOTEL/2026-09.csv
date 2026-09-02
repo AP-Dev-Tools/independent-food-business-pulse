@@ -1,0 +1,5 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2026-09-02,1983428,THE CELLAR AT THE TYRRELLS PARK,Hotel/bed & breakfast/guest house,,,,,,New Forest,AwaitingInspection,,FHRS,False,,,
+2026-09-02,1983554,The Embankment,Hotel/bed & breakfast/guest house,EMBANKMENT HOTEL 6 THE EMBANKMENT,,BEDFORD,,MK40 3PD,Bedford,AwaitingInspection,,FHRS,False,,,"EMBANKMENT HOTEL 6 THE EMBANKMENT, BEDFORD, MK40 3PD"
+2026-09-02,1983587,The Sharnbrook hotel,Hotel/bed & breakfast/guest house,THE SHARNBROOK HOTEL PARK LANE,,SHARNBROOK,,MK44 1LX,Bedford,AwaitingInspection,,FHRS,False,,,"THE SHARNBROOK HOTEL PARK LANE, SHARNBROOK, MK44 1LX"
+2026-09-02,1983712,The Port Hotel,Hotel/bed & breakfast/guest house,53-57 Main Street,Port Rush,Portrush,Antrim,BT56 8BN,Causeway Coast and Glens,AwaitingInspection,,FHRS,False,,,"53-57 Main Street, Port Rush, Portrush, Antrim, BT56 8BN"
