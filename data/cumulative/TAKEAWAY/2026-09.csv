@@ -75,3 +75,40 @@ date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLin
 2026-09-02,1983432,Maggies Pontypool,Takeaway/sandwich shop,Stall 23 The Market Hall,Market Street,Pontypool,,NP4 6JN,Torfaen,AwaitingInspection,,FHRS,False,,,"Stall 23 The Market Hall, Market Street, Pontypool, NP4 6JN"
 2026-09-02,1983491,Lunchbox Sweets and Treats Ltd,Takeaway/sandwich shop,32 Regent Street,,Newtownards,,BT23 4LP,Ards and North Down,AwaitingInspection,,FHRS,False,,,"32 Regent Street, Newtownards, BT23 4LP"
 2026-09-02,1983872,Mykonos Gyros,Takeaway/sandwich shop,Universal Building,37-49 Devonshire Street North,Manchester,,M12 6JR,Manchester,AwaitingInspection,,FHRS,False,,,"Universal Building, 37-49 Devonshire Street North, Manchester, M12 6JR"
+2026-09-03,1983920,Guru J's,Takeaway/sandwich shop,121 High Street,Staple Hill,South Gloucestershire,,BS16 5HF,South Gloucestershire,AwaitingInspection,,FHRS,False,,,"121 High Street, Staple Hill, South Gloucestershire, BS16 5HF"
+2026-09-03,1984045,Four Star Pizza,Takeaway/sandwich shop,Nettlehill Road Lisburn,,Belfast,,BT27 3WT,Lisburn and Castlereagh City,AwaitingInspection,,FHRS,False,,,"Nettlehill Road Lisburn, Belfast, BT27 3WT"
+2026-09-03,1984051,Rocket Chip,Takeaway/sandwich shop,92 Longstone Street,Tonagh,Lisburn,Antrim,BT28 1TR,Lisburn and Castlereagh City,AwaitingInspection,,FHRS,False,,,"92 Longstone Street, Tonagh, Lisburn, Antrim, BT28 1TR"
+2026-09-03,1983934,Curry King,Takeaway/sandwich shop,Paprika Indian Takeaway,65 Tamworth Street,Lichfield,Staffordshire,WS13 6JW,Lichfield,AwaitingInspection,,FHRS,False,,,"Paprika Indian Takeaway, 65 Tamworth Street, Lichfield, Staffordshire, WS13 6JW"
+2026-09-03,1984024,Jjssteakaway,Takeaway/sandwich shop,,,,,,Torridge,AwaitingInspection,,FHRS,False,,,
+2026-09-03,1941471,Canton,Takeaway/sandwich shop,,43a Main Street,Rutherglen,Glasgow,G73 2JF,South Lanarkshire,Pass,2026-08-06,FHIS,False,,,"43a Main Street, Rutherglen, Glasgow, G73 2JF"
+2026-09-03,1983884,R&R BUILDING SOLUTIONS,Takeaway/sandwich shop,,,,,,Havant,AwaitingInspection,,FHRS,False,,,
+2026-09-03,1984001,China Express,Takeaway/sandwich shop,13 Wildridings Square,,Bracknell,Bracknell Forest,RG12 7SJ,Bracknell Forest,AwaitingInspection,,FHRS,False,,,"13 Wildridings Square, Bracknell, Bracknell Forest, RG12 7SJ"
+2026-09-03,1984123,Dinos,Takeaway/sandwich shop,Dinos 30 Ansdell Road,Blackpool,,,FY1 6PY,Blackpool,5,2026-08-12,FHRS,False,,,"Dinos 30 Ansdell Road, Blackpool, FY1 6PY"
+2026-09-03,1984117,Dots Donuts,Takeaway/sandwich shop,163 Promenade,Blackpool,,,FY1 5BE,Blackpool,5,2026-08-08,FHRS,False,,,"163 Promenade, Blackpool, FY1 5BE"
+2026-09-03,1984124,New Oriental Chop Suey Bar,Takeaway/sandwich shop,41 Torsway Avenue,Blackpool,,,FY3 8LD,Blackpool,5,2026-08-19,FHRS,False,,,"41 Torsway Avenue, Blackpool, FY3 8LD"
+2026-09-03,1984038,Safi's Desserts,Takeaway/sandwich shop,1-3 Library Street,Wigan,,,WN1 1NN,Wigan,AwaitingInspection,,FHRS,False,,,"1-3 Library Street, Wigan, WN1 1NN"
+2026-09-03,1983890,The Golden Pizza,Takeaway/sandwich shop,151B Bearton Road,,Hitchin,Hertfordshire,SG5 1UB,North Hertfordshire,AwaitingInspection,,FHRS,False,,,"151B Bearton Road, Hitchin, Hertfordshire, SG5 1UB"
+2026-09-03,1984026,Trike Treats,Takeaway/sandwich shop,,,,,,Bury,AwaitingInspection,,FHRS,False,,,
+2026-09-03,1983987,China Town,Takeaway/sandwich shop,Unit 2 Mossedge Industrial Estate,Moss Road,Linwood,Paisley,PA3 3HR,Renfrewshire,Pass,2025-12-02,FHIS,False,,,"Unit 2 Mossedge Industrial Estate, Moss Road, Linwood, Paisley, PA3 3HR"
+2026-09-03,1983995,Taste of Spice,Takeaway/sandwich shop,,3 Alice Street,Paisley,Renfrewshire,PA2 6DR,Renfrewshire,Awaiting Inspection,,FHIS,False,,,"3 Alice Street, Paisley, Renfrewshire, PA2 6DR"
+2026-09-03,1983997,Volianyk,Takeaway/sandwich shop,,49 Brediland Road,Paisley,Renfrewshire,PA2 9HW,Renfrewshire,Awaiting Inspection,,FHIS,False,,,"49 Brediland Road, Paisley, Renfrewshire, PA2 9HW"
+2026-09-03,1983910,Cardamom Indian Takeaway,Takeaway/sandwich shop,,9 Station Road,Kemnay,Aberdeenshire,AB51 5RB,Aberdeenshire,Awaiting Inspection,2026-09-01,FHIS,False,,,"9 Station Road, Kemnay, Aberdeenshire, AB51 5RB"
+2026-09-03,1983909,Piccolo Deeside Canapés,Takeaway/sandwich shop,,Home Based Food Business,,,,Aberdeenshire,Awaiting Inspection,2026-08-27,FHIS,False,,,Home Based Food Business
+2026-09-03,1973068,GORGE! GOURMET HOT DOGS,Takeaway/sandwich shop,,,,,,Wirral,4,2026-07-17,FHRS,False,,,
+2026-09-03,1983898,Harris fish@chips / dragonwok,Takeaway/sandwich shop,,9 Moorhall Road,,Harefield,UB9 6PE,Hillingdon,AwaitingInspection,,FHRS,False,,,"9 Moorhall Road, Harefield, UB9 6PE"
+2026-09-03,1984093,Brazen,Takeaway/sandwich shop,,110 Leeds Old Road,Bradford,,BD3 8JS,Bradford,AwaitingInspection,,FHRS,False,,,"110 Leeds Old Road, Bradford, BD3 8JS"
+2026-09-03,1983979,Akash Indian Limited,Takeaway/sandwich shop,,1-3 Dafen Road,Llanelli,Carmarthenshire,SA14 8BE,Sir Gaerfyrddin,AwaitingInspection,,FHRS,False,,,"1-3 Dafen Road, Llanelli, Carmarthenshire, SA14 8BE"
+2026-09-03,1697088,Kebab Kingdom,Takeaway/sandwich shop,,25 Station Road,Llanelli,Carmarthenshire,SA15 1AW,Sir Gaerfyrddin,AwaitingInspection,,FHRS,False,,,"25 Station Road, Llanelli, Carmarthenshire, SA15 1AW"
+2026-09-03,1624647,Stuart's Artisan Bakery,Takeaway/sandwich shop,,,,,,Sir Gaerfyrddin,AwaitingInspection,,FHRS,False,,,
+2026-09-03,1983980,The Curry Club,Takeaway/sandwich shop,Eglwyscummin Community Hall,,Red Roses,Whitland,SA34 0PN,Sir Gaerfyrddin,AwaitingInspection,,FHRS,False,,,"Eglwyscummin Community Hall, Red Roses, Whitland, SA34 0PN"
+2026-09-03,375562,Boss Pizza Bletchley,Takeaway/sandwich shop,,175 Queensway,Bletchley,Milton Keynes,MK2 2DZ,Milton Keynes,AwaitingInspection,,FHRS,False,,,"175 Queensway, Bletchley, Milton Keynes, MK2 2DZ"
+2026-09-03,1349862,Evergreen Catering Services,Takeaway/sandwich shop,31 Minton Park,Potters Lane,Kiln Farm,Milton Keynes,MK11 3HG,Milton Keynes,AwaitingInspection,,FHRS,False,,,"31 Minton Park, Potters Lane, Kiln Farm, Milton Keynes, MK11 3HG"
+2026-09-03,1984238,Crispy Frydays,Takeaway/sandwich shop,240 Egerton,Tanhouse,Skelmersdale,Lancashire,WN8 6AF,West Lancashire,AwaitingInspection,,FHRS,False,,,"240 Egerton, Tanhouse, Skelmersdale, Lancashire, WN8 6AF"
+2026-09-03,1984237,JW,Takeaway/sandwich shop,,,,,,West Lancashire,AwaitingInspection,,FHRS,False,,,
+2026-09-03,1983915,Tasty Shawrma,Takeaway/sandwich shop,,18 Silver Street,Kettering,North Northamptonshire,NN16 0BN,North Northamptonshire,AwaitingInspection,,FHRS,False,,,"18 Silver Street, Kettering, North Northamptonshire, NN16 0BN"
+2026-09-03,1983979,Akash Indian Limited,Takeaway/sandwich shop,,1-3 Dafen Road,Llanelli,Carmarthenshire,SA14 8BE,Carmarthenshire,AwaitingInspection,,FHRS,False,,,"1-3 Dafen Road, Llanelli, Carmarthenshire, SA14 8BE"
+2026-09-03,1697088,Kebab Kingdom,Takeaway/sandwich shop,,25 Station Road,Llanelli,Carmarthenshire,SA15 1AW,Carmarthenshire,AwaitingInspection,,FHRS,False,,,"25 Station Road, Llanelli, Carmarthenshire, SA15 1AW"
+2026-09-03,1624647,Stuart's Artisan Bakery,Takeaway/sandwich shop,,,,,,Carmarthenshire,AwaitingInspection,,FHRS,False,,,
+2026-09-03,1983980,The Curry Club,Takeaway/sandwich shop,Eglwyscummin Community Hall,,Red Roses,Whitland,SA34 0PN,Carmarthenshire,AwaitingInspection,,FHRS,False,,,"Eglwyscummin Community Hall, Red Roses, Whitland, SA34 0PN"
+2026-09-03,1984103,Super Favourite - Falconwood,Takeaway/sandwich shop,7 Lingfield Crescent,London,,,SE9 2RL,Bexley,AwaitingInspection,,FHRS,False,,,"7 Lingfield Crescent, London, SE9 2RL"
+2026-09-03,1984106,The Skewer,Takeaway/sandwich shop,9 Wellington Parade,Blackfen Road,Sidcup,Kent,DA15 9NB,Bexley,AwaitingInspection,,FHRS,False,,,"9 Wellington Parade, Blackfen Road, Sidcup, Kent, DA15 9NB"
