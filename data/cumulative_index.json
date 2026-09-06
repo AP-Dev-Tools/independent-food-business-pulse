@@ -6065,6 +6065,15 @@
           "count": 3
         }
       }
+    },
+    {
+      "date": "2026-09-06",
+      "files": {
+        "RESTAURANT_CAFE": {
+          "file": "RESTAURANT_CAFE/2026-09.csv",
+          "count": 1
+        }
+      }
     }
   ]
 }
