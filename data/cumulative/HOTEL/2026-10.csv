@@ -24,3 +24,7 @@ date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLin
 2026-10-01,902035,The Saddlers House,Hotel/bed & breakfast/guest house,36 Great James Street,Edenballymore,Londonderry,Londonderry,BT48 7DB,Derry City and Strabane,5,2025-05-27,FHRS,False,55.000024,-7.325329,"36 Great James Street, Edenballymore, Londonderry, Londonderry, BT48 7DB"
 2026-10-01,1154223,Walsh Farm House,Hotel/bed & breakfast/guest house,61 Trench Road,Clondermot,Londonderry,Londonderry,BT47 3UD,Derry City and Strabane,5,2024-02-13,FHRS,False,54.9615428,-7.3110073,"61 Trench Road, Clondermot, Londonderry, Londonderry, BT47 3UD"
 2026-10-01,1993258,Salutation Hotel,Hotel/bed & breakfast/guest house,,King Street,Inverbervie,Aberdeenshire,DD10 0RG,Aberdeenshire,Awaiting Inspection,2026-09-24,FHIS,False,56.84506,-2.278927,"King Street, Inverbervie, Aberdeenshire, DD10 0RG"
+2026-10-02,1993894,Sand,Hotel/bed & breakfast/guest house,Sidbury,Sidmouth,,,EX10 0QN,East Devon,AwaitingInspection,,FHRS,False,,,"Sidbury, Sidmouth, EX10 0QN"
+2026-10-02,1001044,Circles Guest House,Hotel/bed & breakfast/guest house,15 HIGH STREET,,PEWSEY,,SN9 5AF,Wiltshire,AwaitingInspection,,FHRS,False,51.3398019,-1.7642599,"15 HIGH STREET, PEWSEY, SN9 5AF"
+2026-10-02,1993800,Gissons Hotel,Hotel/bed & breakfast/guest house,Gissons Hotel And Restaurant Kennford,,,,EX6 7UD,Teignbridge,AwaitingInspection,,FHRS,False,,,"Gissons Hotel And Restaurant Kennford, EX6 7UD"
+2026-10-02,1993853,The Old Stocks Inn,Hotel/bed & breakfast/guest house,,,,,,Cotswold,AwaitingInspection,,FHRS,False,,,
