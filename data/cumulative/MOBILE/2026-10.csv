@@ -643,3 +643,28 @@ date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLin
 2026-10-13,2000337,BigBoy Burrito's,Mobile caterer,33 John Street,Nantyffyllon,Maesteg,Bridgend,CF34 0BL,Bridgend,AwaitingInspection,,FHRS,False,51.6180472,-3.6629376,"33 John Street, Nantyffyllon, Maesteg, Bridgend, CF34 0BL"
 2026-10-13,2000337,BigBoy Burrito's,Mobile caterer,33 John Street,Nantyffyllon,Maesteg,Bridgend,CF34 0BL,Pen-y-bont ar Ogwr,AwaitingInspection,,FHRS,False,51.6180472,-3.6629376,"33 John Street, Nantyffyllon, Maesteg, Bridgend, CF34 0BL"
 2026-10-13,2000343,Beared Monk Snack Shack,Mobile caterer,,,,,,Cardiff,AwaitingInspection,,FHRS,False,,,
+2026-10-14,1961604,Bee's Lane,Mobile caterer,,,,,,Broxtowe,5,2026-10-02,FHRS,False,,,
+2026-10-14,2000791,Crumb and Crust,Mobile caterer,The Cherry Tree,291 Ham Drive,Plymouth,,PL2 3NH,Plymouth City,AwaitingInspection,,FHRS,True,50.3969334,-4.1458298,"The Cherry Tree, 291 Ham Drive, Plymouth, PL2 3NH"
+2026-10-14,2000811,Crumb and Crust PN60 UXB,Mobile caterer,The Cherry Tree,291 Ham Drive,Plymouth,,PL2 3NH,Plymouth City,AwaitingInspection,,FHRS,True,50.3969334,-4.1458298,"The Cherry Tree, 291 Ham Drive, Plymouth, PL2 3NH"
+2026-10-14,1982756,Feast of Flavours,Mobile caterer,,,,,,Plymouth City,5,2026-09-22,FHRS,False,,,
+2026-10-14,2000803,Malton's Drinks Company,Mobile caterer,,Armada Way,Plymouth,,PL1 1 RJ,Plymouth City,AwaitingInspection,,FHRS,False,,,"Armada Way, Plymouth, PL1 1 RJ"
+2026-10-14,2000787,Mega Bites,Mobile caterer,1 Efford Fort,Military Road,Efford,Plymouth,PL3 6EJ,Plymouth City,AwaitingInspection,,FHRS,False,50.390225,-4.092102,"1 Efford Fort, Military Road, Efford, Plymouth, PL3 6EJ"
+2026-10-14,2000797,Momo Worlds,Mobile caterer,,Place de brest,North East,Plymouth,PL1 1LB,Plymouth City,AwaitingInspection,,FHRS,False,,,"Place de brest, North East, Plymouth, PL1 1LB"
+2026-10-14,2000800,Pizza Mob,Mobile caterer,,,,,,Plymouth City,AwaitingInspection,,FHRS,False,,,
+2026-10-14,2000794,Wings & Things,Mobile caterer,,,,,,Plymouth City,5,2026-10-07,FHRS,False,,,
+2026-10-14,2000757,TGDG Street Kitchen,Mobile caterer,,,,,,North Warwickshire,5,2026-10-13,FHRS,False,,,
+2026-10-14,2000598,Burger & Brew,Mobile caterer,,,,,,Rhondda Cynon Taf,AwaitingInspection,,FHRS,False,,,
+2026-10-14,2000663,Harriet (Horse Box) from the Bistro Bar & Kitchen,Mobile caterer,,7 Queen Street,,Market Rasen,LN8 3EH,West Lindsey,5,2026-06-29,FHRS,False,53.3876514,-0.3365596,"7 Queen Street, Market Rasen, LN8 3EH"
+2026-10-14,2000655,L & D Sweets,Mobile caterer,,,,,,West Lindsey,AwaitingInspection,,FHRS,False,,,
+2026-10-14,2000665,Wild Thyme Lincolnshire,Mobile caterer,,,,,,West Lindsey,AwaitingInspection,,FHRS,False,,,
+2026-10-14,2000615,Pour Mcr,Mobile caterer,,,,,,Salford,5,2026-09-16,FHRS,False,,,
+2026-10-14,1936825,SS.Eventts,Mobile caterer,,,,,,Bradford,AwaitingInspection,,FHRS,False,,,
+2026-10-14,2000710,Schoolboycoffee,Mobile caterer,23 Moor Place,Gosforth,Newcastle Upon Tyne,,NE3 4AL,Newcastle Upon Tyne,AwaitingInspection,,FHRS,False,54.998846,-1.6209288,"23 Moor Place, Gosforth, Newcastle Upon Tyne, NE3 4AL"
+2026-10-14,2000714,Scott and Wilson,Mobile caterer,Food Truck Outside Uptin House Stepney Road,,Newcastle Upon Tyne,,NE2 1TZ,Newcastle Upon Tyne,AwaitingInspection,,FHRS,False,54.9766675,-1.5956858,"Food Truck Outside Uptin House Stepney Road, Newcastle Upon Tyne, NE2 1TZ"
+2026-10-14,1113370,Louth Evangelical Church,Mobile caterer,Louth Evangelical Church,82 Monks Dyke Road,Louth,,LN11 8DX,East Lindsey,5,2019-03-26,FHRS,False,53.3662079,0.0079963,"Louth Evangelical Church, 82 Monks Dyke Road, Louth, LN11 8DX"
+2026-10-14,2000753,Super French Crepes,Mobile caterer,,,,,,Leeds,AwaitingInspection,,FHRS,False,,,
+2026-10-14,2000704,Shai Kitchen,Mobile caterer,1 Persimmon Gardens,Cheltenham,Gloucestershire,,GL51 0UF,Cheltenham,AwaitingInspection,,FHRS,False,51.9137276,-2.1130687,"1 Persimmon Gardens, Cheltenham, Gloucestershire, GL51 0UF"
+2026-10-14,2000703,Shai Kitchen,Mobile caterer,47 Persimmon Gardens,Cheltenham,Gloucestershire,,GL51 0UF,Cheltenham,AwaitingInspection,,FHRS,False,51.9133238,-2.1122536,"47 Persimmon Gardens, Cheltenham, Gloucestershire, GL51 0UF"
+2026-10-14,2000740,Hoyoo Foods,Mobile caterer,,,,,,Huntingdonshire,AwaitingInspection,,FHRS,False,,,
+2026-10-14,2000571,Hardy Yard Pizza,Mobile caterer,Unit 3,Oak Farm Nursery,Station Hill,Winchfield,RG27 8BX,Hart,AwaitingInspection,,FHRS,False,,,"Unit 3, Oak Farm Nursery, Station Hill, Winchfield, RG27 8BX"
+2026-10-14,2000598,Burger & Brew,Mobile caterer,,,,,,Rhondda Cynon Taf,AwaitingInspection,,FHRS,False,,,
