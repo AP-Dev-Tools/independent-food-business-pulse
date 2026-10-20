@@ -171,6 +171,15 @@
       "PUB_BAR": 53669,
       "HOTEL": 15617,
       "total": 316791
+    },
+    {
+      "date": "2026-10-20",
+      "MOBILE": 33110,
+      "RESTAURANT_CAFE": 148110,
+      "TAKEAWAY": 66130,
+      "PUB_BAR": 53654,
+      "HOTEL": 15608,
+      "total": 316612
     }
   ]
 }
