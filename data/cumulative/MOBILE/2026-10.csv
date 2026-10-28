@@ -1191,3 +1191,59 @@ date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLin
 2026-10-27,1978436,Hungry Horse Food Truck,Mobile caterer,,28 South Street,,Bargoed,CF81 8ST,Caerffili,AwaitingInspection,,FHRS,False,51.6897353,-3.2317606,"28 South Street, Bargoed, CF81 8ST"
 2026-10-27,2007646,Valley Street Food,Mobile caterer,Unit F,St Davids Industrial Estate,,,NP12 3SW,Caerffili,AwaitingInspection,,FHRS,False,51.6686638,-3.2209213,"Unit F, St Davids Industrial Estate, NP12 3SW"
 2026-10-27,2007562,CHEESE-LOCO,Mobile caterer,,,,,,Fylde,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2008239,Scooply St Andrews Ltd,Mobile caterer,Unit 9 Avalon Business Park Guardbridge St Andrews Fife,,,,KY16 0UB,Fife,Awaiting Inspection,2026-10-21,FHIS,False,,,"Unit 9 Avalon Business Park Guardbridge St Andrews Fife, KY16 0UB"
+2026-10-28,2007724,Ballies Butty Box and Catering,Mobile caterer,,20 Parlick Avenue,Longridge,Preston,PR3 3TN,Ribble Valley,AwaitingInspection,,FHRS,False,53.8317343,-2.5993789,"20 Parlick Avenue, Longridge, Preston, PR3 3TN"
+2026-10-28,2008025,Beardus Burger,Mobile caterer,Factory Food Court Northcliffe House,Meadow Road,Derby,,DE1 2BH,Derby City,AwaitingInspection,,FHRS,False,52.9224894,-1.4660712,"Factory Food Court Northcliffe House, Meadow Road, Derby, DE1 2BH"
+2026-10-28,2008039,Bro By Anoki,Mobile caterer,Unit 4 Sawley Park,Nottingham Road,Derby,,DE21 6AS,Derby City,AwaitingInspection,,FHRS,False,52.9255943,-1.4534452,"Unit 4 Sawley Park, Nottingham Road, Derby, DE21 6AS"
+2026-10-28,2007732,MaryMakes UK,Mobile caterer,,,,,,Brighton and Hove,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2007799,DC Events Catering,Mobile caterer,,,,,,South Derbyshire,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2007800,Dino's Street Pizza,Mobile caterer,,,,,,South Derbyshire,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2007963,Fire Chicken & Grill @,Mobile caterer,The Miners Lamp,2 Batley Road,Wakefield,,WF2 0EE,Wakefield,AwaitingInspection,,FHRS,False,,,"The Miners Lamp, 2 Batley Road, Wakefield, WF2 0EE"
+2026-10-28,2007970,IL Matto,Mobile caterer,,,,,,Wakefield,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2007949,The Spud Mother,Mobile caterer,,,,,,Wakefield,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2008214,Barry Town Burger Van,Mobile caterer,Barry Town Association Football Club Jenner Park Barry Road,,Barry,Vale Of Glamorgan,CF62 9BG,Bro Morgannwg,AwaitingInspection,,FHRS,True,,,"Barry Town Association Football Club Jenner Park Barry Road, Barry, Vale Of Glamorgan, CF62 9BG"
+2026-10-28,2007910,Calypso Vibes,Mobile caterer,,,,,,Dacorum,5,2026-10-19,FHRS,False,,,
+2026-10-28,2007907,Jack's Pizza Shack,Mobile caterer,,40 Old Dean,Bovingdon,Hemel Hempstead,HP3 0ET,Dacorum,AwaitingInspection,,FHRS,False,51.7214135,-0.5357384,"40 Old Dean, Bovingdon, Hemel Hempstead, HP3 0ET"
+2026-10-28,2007975,Smash Burger Co,Mobile caterer,1 River Close,,Little Paxton,Cambridgeshire,PE19 6NX,Huntingdonshire,5,2026-10-20,FHRS,False,52.2448307,-0.2643159,"1 River Close, Little Paxton, Cambridgeshire, PE19 6NX"
+2026-10-28,2008227,Catering Hut & Co,Mobile caterer,23 Penally Road,Caerau,Cardiff,,CF5 5PD,Caerdydd,AwaitingInspection,,FHRS,False,51.4762463,-3.2346101,"23 Penally Road, Caerau, Cardiff, CF5 5PD"
+2026-10-28,2008229,The Game Changer Street Food,Mobile caterer,Street Record Brindley Road,Leckwith,Cardiff,,,Caerdydd,AwaitingInspection,,FHRS,False,51.4642765,-3.19951865,"Street Record Brindley Road, Leckwith, Cardiff"
+2026-10-28,2008354,Fat Pit,Mobile caterer,,,,,,Rotherham,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2008329,Eashmbrot,Mobile caterer,Suite 1 First Floor,21 Eden Street,Kingston Upon Thames,,KT1 1BL,Kingston-Upon-Thames,AwaitingInspection,,FHRS,False,51.4099386,-0.3070143,"Suite 1 First Floor, 21 Eden Street, Kingston Upon Thames, KT1 1BL"
+2026-10-28,2008326,Food And Veg Shop,Mobile caterer,Stall 1,Ancient Market,Market Place,Kingston Upon Thames,KT1 1JS,Kingston-Upon-Thames,AwaitingInspection,,FHRS,False,51.4097203,-0.3062172,"Stall 1, Ancient Market, Market Place, Kingston Upon Thames, KT1 1JS"
+2026-10-28,2006238,The Compleat Dish,Mobile caterer,,,,,,Kingston-Upon-Thames,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2007870,Churros n Infusions,Mobile caterer,,,,,,Antrim and Newtownabbey,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2007873,Macros and Mochas,Mobile caterer,,,,,,Antrim and Newtownabbey,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2007861,Weekend Kitchen Club,Mobile caterer,,,,,,Antrim and Newtownabbey,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2008227,Catering Hut & Co,Mobile caterer,23 Penally Road,Caerau,Cardiff,,CF5 5PD,Cardiff,AwaitingInspection,,FHRS,False,51.4762463,-3.2346101,"23 Penally Road, Caerau, Cardiff, CF5 5PD"
+2026-10-28,2008229,The Game Changer Street Food,Mobile caterer,Street Record Brindley Road,Leckwith,Cardiff,,,Cardiff,AwaitingInspection,,FHRS,False,51.4642765,-3.19951865,"Street Record Brindley Road, Leckwith, Cardiff"
+2026-10-28,2008214,Barry Town Burger Van,Mobile caterer,Barry Town Association Football Club Jenner Park Barry Road,,Barry,Vale Of Glamorgan,CF62 9BG,Vale of Glamorgan,AwaitingInspection,,FHRS,True,,,"Barry Town Association Football Club Jenner Park Barry Road, Barry, Vale Of Glamorgan, CF62 9BG"
+2026-10-28,2007826,The Little Champagne Co T/a PINK'S,Mobile caterer,,,,,,Dartford,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2008012,Bletchley Biryani Co,Mobile caterer,,47 Aylesbury Street,Bletchley,Milton Keynes,MK2 2BQ,Milton Keynes,AwaitingInspection,,FHRS,False,51.996945,-0.717483,"47 Aylesbury Street, Bletchley, Milton Keynes, MK2 2BQ"
+2026-10-28,2008009,Sunshine Jerk,Mobile caterer,,,,,,Milton Keynes,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2007997,Wafflingon,Mobile caterer,,,,,,Milton Keynes,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2007996,Xscape Kebap Van,Mobile caterer,Trading Location Pitch A Xscape Central Milton Keynes,,,,,Milton Keynes,AwaitingInspection,,FHRS,False,,,Trading Location Pitch A Xscape Central Milton Keynes
+2026-10-28,2007928,Fellside Sauna,Mobile caterer,Waterside House,,Howtown,Penrith,CA10 2NA,Westmorland and Furness,AwaitingInspection,,FHRS,False,,,"Waterside House, Howtown, Penrith, CA10 2NA"
+2026-10-28,2007752,Rodina Pizza,Mobile caterer,,,,,,Wyre,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2007757,The Food Shack,Mobile caterer,Beacon Road,Poulton-Le-Fylde,Lancashire,,FY6 8JE,Wyre,AwaitingInspection,,FHRS,False,,,"Beacon Road, Poulton-Le-Fylde, Lancashire, FY6 8JE"
+2026-10-28,2007932,Seasiders Diner,Mobile caterer,Clandeboye Road,,Bangor,,BT20 3JT,Ards and North Down,AwaitingInspection,,FHRS,False,54.65415435,-5.6800797,"Clandeboye Road, Bangor, BT20 3JT"
+2026-10-28,2008290,Black Isle Roasters,Mobile caterer,,,,,,Highland,Awaiting Inspection,2026-05-20,FHIS,False,,,
+2026-10-28,2008269,J.P.L Shellfish,Mobile caterer,,,,,,Highland,Awaiting Inspection,,FHIS,False,,,
+2026-10-28,2007815,Marky Ds Food,Mobile caterer,25 Barnard Road,Norwich,,,NR5 9JB,Norwich City,AwaitingInspection,,FHRS,False,,,"25 Barnard Road, Norwich, NR5 9JB"
+2026-10-28,2007729,The Classic Kitchen,Mobile caterer,,,,,,Broxtowe,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2008056,BREAD & MEAT,Mobile caterer,,,,,,South Cambridgeshire,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2008055,DEW CATERING,Mobile caterer,,,,,,South Cambridgeshire,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2008058,Nourish at Home By Embrace the Change,Mobile caterer,,,,,,South Cambridgeshire,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2008088,Bilberry Bee,Mobile caterer,,,,,,Leeds,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2008184,Blakjakpizza,Mobile caterer,,,,,,Leeds,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2008202,Caviareum,Mobile caterer,,,,,,Leeds,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2008167,Lee Lick,Mobile caterer,,,,,,Leeds,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2008156,Mystic Food,Mobile caterer,,,,,,Leeds,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2008135,Nuan Collective,Mobile caterer,,,,,,Leeds,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2008164,O-Yeah-Coffee,Mobile caterer,,,,,,Leeds,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2008111,Spuds In Love,Mobile caterer,,,,,,Leeds,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2008077,Synergy Community Wellbeing CIC,Mobile caterer,,,,,,Leeds,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2008196,Tauheed Trust,Mobile caterer,,,,,,Leeds,AwaitingInspection,,FHRS,False,,,
+2026-10-28,2007990,Naturaal Fresh Juice & Bites,Mobile caterer,High Street,Harwich,Essex,,CO12 3LG,Tendring,AwaitingInspection,,FHRS,False,51.9380401,1.28340935,"High Street, Harwich, Essex, CO12 3LG"
+2026-10-28,2007981,Old Hall Enterprises Ltd,Mobile caterer,St Edmunds College,Old Hall Green,Ware,Hertfordshire,SG11 1DS,East Hertfordshire,AwaitingInspection,,FHRS,False,51.8803634643555,-0.00863100029528141,"St Edmunds College, Old Hall Green, Ware, Hertfordshire, SG11 1DS"
+2026-10-28,2007982,The Jerk Chicken Man Ltd,Mobile caterer,The Beehive,B1368 North From Junc With Hare Street Road To Biggin Hill,Hare Street,Hertfordshire,SG9 0DX,East Hertfordshire,AwaitingInspection,,FHRS,False,51.9490889,0.0208423,"The Beehive, B1368 North From Junc With Hare Street Road To Biggin Hill, Hare Street, Hertfordshire, SG9 0DX"
+2026-10-28,2007992,Petes Ices (YJ68RPH),Mobile caterer,,,,,,Thurrock,AwaitingInspection,,FHRS,False,,,
