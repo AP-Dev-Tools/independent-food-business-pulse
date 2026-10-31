@@ -1326,3 +1326,51 @@ date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLin
 2026-10-30,2008777,Brewed Awakening,Mobile caterer,,,,,,Scottish Borders,Awaiting Inspection,2026-10-01,FHIS,False,,,
 2026-10-30,2008782,Darren Jarvis,Mobile caterer,26 - 28 Buccleuch Road,Hawick,,Scottish Borders,TD9 0EG,Scottish Borders,Awaiting Inspection,2026-10-02,FHIS,False,55.4215564,-2.794245,"26 - 28 Buccleuch Road, Hawick, Scottish Borders, TD9 0EG"
 2026-10-30,2008789,Project Taco,Mobile caterer,,,,,,Scottish Borders,Awaiting Inspection,2026-10-13,FHIS,False,,,
+2026-10-31,2009228,3 Suns Coffee,Mobile caterer,,,,,,Tameside,AwaitingInspection,,FHRS,False,,,
+2026-10-31,2009416,Ten Eleven Ltd,Mobile caterer,,,,,,Knowsley,AwaitingInspection,,FHRS,False,,,
+2026-10-31,2009463,A Bee In My Bonnet,Mobile caterer,,,,,,Middlesbrough,AwaitingInspection,,FHRS,False,,,
+2026-10-31,2009468,Flippin hot food van,Mobile caterer,,,,,,Middlesbrough,AwaitingInspection,,FHRS,False,,,
+2026-10-31,2009149,CEZVE COFFEE,Mobile caterer,66 Guilsted Road,,Liverpool,,L11 2SS,Liverpool,AwaitingInspection,,FHRS,False,53.4471593,-2.9156416,"66 Guilsted Road, Liverpool, L11 2SS"
+2026-10-31,2009201,Kahve,Mobile caterer,Street Record Prescot Street,,Liverpool,,,Liverpool,AwaitingInspection,,FHRS,False,,,"Street Record Prescot Street, Liverpool"
+2026-10-31,2009180,Kahve Coffee,Mobile caterer,10 Edge Lane Drive,,Liverpool,,L13 4DL,Liverpool,AwaitingInspection,,FHRS,False,53.4087523,-2.915719,"10 Edge Lane Drive, Liverpool, L13 4DL"
+2026-10-31,2009181,Neat Mobile Deli,Mobile caterer,Aigburth Cricket And Bowling Club Southwood Road,,Liverpool,,L17 7BQ,Liverpool,AwaitingInspection,,FHRS,False,,,"Aigburth Cricket And Bowling Club Southwood Road, Liverpool, L17 7BQ"
+2026-10-31,2009207,Super Bowls,Mobile caterer,Queens Dock Business Centre 67 - 83 Norfolk Street,,Liverpool,,L1 0BG,Liverpool,AwaitingInspection,,FHRS,False,53.3953428,-2.9830457,"Queens Dock Business Centre 67 - 83 Norfolk Street, Liverpool, L1 0BG"
+2026-10-31,2009274,Funkyfries,Mobile caterer,Mobile Vehicle Trading In Newport,South Wales,,,,Casnewydd,AwaitingInspection,,FHRS,False,,,"Mobile Vehicle Trading In Newport, South Wales"
+2026-10-31,2009444,Anru,Mobile caterer,,,,,,Buckinghamshire,AwaitingInspection,,FHRS,False,,,
+2026-10-31,2009445,Baser Chef,Mobile caterer,,,,,,Buckinghamshire,AwaitingInspection,,FHRS,False,,,
+2026-10-31,2009412,Boma Coffee Company,Mobile caterer,21A WILLOW ROAD,POYLE,SLOUGH,,SL3 0BS,Slough,AwaitingInspection,,FHRS,False,51.4760233,-0.5131388,"21A WILLOW ROAD, POYLE, SLOUGH, SL3 0BS"
+2026-10-31,2009409,New Pak,Mobile caterer,287 HIGH STREET,,SLOUGH,,SL1 1BD,Slough,AwaitingInspection,,FHRS,False,51.5077865,-0.5868209,"287 HIGH STREET, SLOUGH, SL1 1BD"
+2026-10-31,2009501,Dickys Diner,Mobile caterer,,Pegasus Road,Elsham Wold Industrial Estate,Elsham,DN20 0SP,North Lincolnshire,AwaitingInspection,,FHRS,False,,,"Pegasus Road, Elsham Wold Industrial Estate, Elsham, DN20 0SP"
+2026-10-31,2009733,Guac Shack,Mobile caterer,,,,,,Isle of Wight,AwaitingInspection,,FHRS,False,,,
+2026-10-31,2009734,Vivid Catering (Unit 2),Mobile caterer,,,,,,Isle of Wight,AwaitingInspection,,FHRS,False,,,
+2026-10-31,2009741,Wight Spud Express,Mobile caterer,,,,,,Isle of Wight,AwaitingInspection,,FHRS,False,,,
+2026-10-31,1268208,Love & Slice Pizza,Mobile caterer,,22 Millwood Road,Hounslow,,TW3 2HH,Hounslow,AwaitingInspection,,FHRS,False,51.4594651,-0.3575724,"22 Millwood Road, Hounslow, TW3 2HH"
+2026-10-31,2009656,JPs Mobile Pizzeria,Mobile caterer,,,,,,Cherwell,AwaitingInspection,,FHRS,False,,,
+2026-10-31,2009314,Miriams Munchies Ltd,Mobile caterer,Upper Ground Floor Flat,128 Greencroft Gardens,,London,NW6 3PJ,Camden,AwaitingInspection,,FHRS,False,51.5432441,-0.1878225,"Upper Ground Floor Flat, 128 Greencroft Gardens, London, NW6 3PJ"
+2026-10-31,2009335,OKTPASS,Mobile caterer,,,,,,Camden,AwaitingInspection,,FHRS,False,,,
+2026-10-31,2009339,Smashing Plates,Mobile caterer,Arch 78,Randolph Street,,London,NW1 0SR,Camden,AwaitingInspection,,FHRS,False,,,"Arch 78, Randolph Street, London, NW1 0SR"
+2026-10-31,2009304,SPUDZILLA,Mobile caterer,Flat 7 Kingsbridge Court,28 Coverdale Road,,,NW2 4BY,Camden,AwaitingInspection,,FHRS,False,51.5439909,-0.2142425,"Flat 7 Kingsbridge Court, 28 Coverdale Road, NW2 4BY"
+2026-10-31,2009349,The Bagel Corner,Mobile caterer,Kiosk outside Chalk Farm Station,157 Regents Park Road,,London,NW3 2BP,Camden,AwaitingInspection,,FHRS,False,,,"Kiosk outside Chalk Farm Station, 157 Regents Park Road, London, NW3 2BP"
+2026-10-31,2009514,Caister Kippers & More,Mobile caterer,,,,,,Great Yarmouth,AwaitingInspection,,FHRS,False,,,
+2026-10-31,2009296,On The Spot Van,Mobile caterer,Police Station,Swan Lane,Haverhill,Suffolk,CB9 9EQ,West Suffolk,Exempt,,FHRS,False,52.083391,0.438157,"Police Station, Swan Lane, Haverhill, Suffolk, CB9 9EQ"
+2026-10-31,2009293,RACE AND TAYLOR LTD,Mobile caterer,,,,,,West Suffolk,5,2026-10-29,FHRS,False,,,
+2026-10-31,2009393,Hot Diggerty Dogs ltd,Mobile caterer,,,,,,Teignbridge,AwaitingInspection,,FHRS,False,,,
+2026-10-31,1945576,Okay Pizza,Mobile caterer,Lyndhurst,Tresamble Hill,Pelean Cross,Ponsanooth,TR3 7JF,Cornwall,5,2026-10-21,FHRS,False,50.204724,-5.1469472,"Lyndhurst, Tresamble Hill, Pelean Cross, Ponsanooth, TR3 7JF"
+2026-10-31,2009644,The Chacking Pisky,Mobile caterer,Visicks Works,Perranarworthal,Cornwall,,TR3 7NR,Cornwall,5,2026-10-23,FHRS,False,,,"Visicks Works, Perranarworthal, Cornwall, TR3 7NR"
+2026-10-31,2009645,Whip N Dip,Mobile caterer,,,,,,Cornwall,5,2026-10-19,FHRS,False,,,
+2026-10-31,1965646,The Beverage Bar,Mobile caterer,,,,,,Islington,AwaitingInspection,,FHRS,False,,,
+2026-10-31,2009711,Crepes Under the Bridge,Mobile caterer,,,,,,Barnet,AwaitingInspection,,FHRS,False,,,
+2026-10-31,2009719,Cupward Coffee,Mobile caterer,,,,,,Barnet,AwaitingInspection,,FHRS,False,,,
+2026-10-31,2009693,Odetto London,Mobile caterer,,,,,,Barnet,AwaitingInspection,,FHRS,False,,,
+2026-10-31,2009720,Sweet Impressions Uk Ltd,Mobile caterer,,,,,,Barnet,AwaitingInspection,,FHRS,False,,,
+2026-10-31,2009246,"Brunch, Lunch And Munch",Mobile caterer,,,,,,Swale,AwaitingInspection,,FHRS,False,,,
+2026-10-31,2009280,Bastianelli Gelato Italiano,Mobile caterer,,,,,,North Tyneside,5,2026-10-22,FHRS,False,,,
+2026-10-31,2009279,The O Co,Mobile caterer,,,,,,North Tyneside,5,2026-10-16,FHRS,False,,,
+2026-10-31,2009356,URBAN CHAAT CO.,Mobile caterer,271  Londonderry Road,,,Oldbury,B68 9NE,Sandwell,AwaitingInspection,,FHRS,False,52.4877895,-1.9925573,"271  Londonderry Road, Oldbury, B68 9NE"
+2026-10-31,2009575,Zoriana Cernuha,Mobile caterer,Grampian Association,Patrick Road,Corby,,NN18 9NT,North Northamptonshire,AwaitingInspection,,FHRS,False,52.48011845,-0.70618235,"Grampian Association, Patrick Road, Corby, NN18 9NT"
+2026-10-31,2009488,The Stage At Lumiere,Mobile caterer,Studio 4,Lumiere Studios,5 Elstree Way,Borehamwood,WD6 1SF,Hertsmere,AwaitingInspection,,FHRS,False,51.6594333,-0.258996,"Studio 4, Lumiere Studios, 5 Elstree Way, Borehamwood, WD6 1SF"
+2026-10-31,2009274,Funkyfries,Mobile caterer,Mobile Vehicle Trading In Newport,South Wales,,,,Newport,AwaitingInspection,,FHRS,False,,,"Mobile Vehicle Trading In Newport, South Wales"
+2026-10-31,2009670,SHUPY SOUPY,Mobile caterer,,,,,,Bolton,AwaitingInspection,,FHRS,False,,,
+2026-10-31,2009667,The Hungry Showman,Mobile caterer,,,,,,Bolton,AwaitingInspection,,FHRS,False,,,
+2026-10-31,2009373,Brula Coffeeco,Mobile caterer,,,,,,Darlington,AwaitingInspection,,FHRS,False,,,
+2026-10-31,2009471,DMC Hospitality,Mobile caterer,,,,,,North East Derbyshire,AwaitingInspection,,FHRS,False,,,
