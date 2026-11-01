@@ -1,0 +1,5 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2026-11-01,2009752,Merthyr Golf Club,Pub/bar/nightclub,Merthyr Tydfil Golf Club Cloth Hall Lane,Cefn Coed,Merthyr Tydfil,,CF48 2NT,Merthyr Tydfil,5,2026-09-07,FHRS,False,51.765073,-3.406273,"Merthyr Tydfil Golf Club Cloth Hall Lane, Cefn Coed, Merthyr Tydfil, CF48 2NT"
+2026-11-01,2009753,Narrow Gauge,Pub/bar/nightclub,4 Glebeland Street,,Merthyr Tydfil,,CF47 8AU,Merthyr Tydfil,3,2026-08-27,FHRS,False,51.746519,-3.37929,"4 Glebeland Street, Merthyr Tydfil, CF47 8AU"
+2026-11-01,2009752,Merthyr Golf Club,Pub/bar/nightclub,Merthyr Tydfil Golf Club Cloth Hall Lane,Cefn Coed,Merthyr Tydfil,,CF48 2NT,Merthyr Tudful,5,2026-09-07,FHRS,False,51.765073,-3.406273,"Merthyr Tydfil Golf Club Cloth Hall Lane, Cefn Coed, Merthyr Tydfil, CF48 2NT"
+2026-11-01,2009753,Narrow Gauge,Pub/bar/nightclub,4 Glebeland Street,,Merthyr Tydfil,,CF47 8AU,Merthyr Tudful,3,2026-08-27,FHRS,False,51.746519,-3.37929,"4 Glebeland Street, Merthyr Tydfil, CF47 8AU"

@@ -1,0 +1,4 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2026-11-01,2009757,MERTHYR FISH POINT,Takeaway/sandwich shop,33 High Street,,Merthyr Tydfil,,CF47 8DE,Merthyr Tydfil,AwaitingInspection,,FHRS,False,51.744906,-3.378097,"33 High Street, Merthyr Tydfil, CF47 8DE"
+2026-11-01,2009757,MERTHYR FISH POINT,Takeaway/sandwich shop,33 High Street,,Merthyr Tydfil,,CF47 8DE,Merthyr Tudful,AwaitingInspection,,FHRS,False,51.744906,-3.378097,"33 High Street, Merthyr Tydfil, CF47 8DE"
+2026-11-01,2009761,The Neon Kettle,Takeaway/sandwich shop,12 Ravenings Parade,39 Goodmayes Road,,Goodmayes,IG3 9NR,Redbridge,AwaitingInspection,,FHRS,False,51.5650834,0.1105758,"12 Ravenings Parade, 39 Goodmayes Road, Goodmayes, IG3 9NR"

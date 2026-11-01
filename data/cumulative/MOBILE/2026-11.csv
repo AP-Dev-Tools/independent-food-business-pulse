@@ -1,0 +1,5 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2026-11-01,2009756,Little Miss Libby’s Crumble Cabin,Mobile caterer,Pant Station,Pontsticill,Merthyr Tydfil,,CF48 2UP,Merthyr Tydfil,AwaitingInspection,,FHRS,False,,,"Pant Station, Pontsticill, Merthyr Tydfil, CF48 2UP"
+2026-11-01,2009755,Tasty Tatws,Mobile caterer,Pant Station,Pontsticill,Merthyr Tydfil,,CF48 2UP,Merthyr Tydfil,AwaitingInspection,,FHRS,False,,,"Pant Station, Pontsticill, Merthyr Tydfil, CF48 2UP"
+2026-11-01,2009756,Little Miss Libby’s Crumble Cabin,Mobile caterer,Pant Station,Pontsticill,Merthyr Tydfil,,CF48 2UP,Merthyr Tudful,AwaitingInspection,,FHRS,False,,,"Pant Station, Pontsticill, Merthyr Tydfil, CF48 2UP"
+2026-11-01,2009755,Tasty Tatws,Mobile caterer,Pant Station,Pontsticill,Merthyr Tydfil,,CF48 2UP,Merthyr Tudful,AwaitingInspection,,FHRS,False,,,"Pant Station, Pontsticill, Merthyr Tydfil, CF48 2UP"

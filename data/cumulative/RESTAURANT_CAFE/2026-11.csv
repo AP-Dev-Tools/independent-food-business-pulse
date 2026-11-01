@@ -1,0 +1,9 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2026-11-01,2009758,Taffy's cafe,Restaurant/Cafe/Canteen,Unit 15 Valleys Enterprise Centre Pant Industrial Estate,Pant,Merthyr Tydfil,,CF48 2SR,Merthyr Tydfil,AwaitingInspection,,FHRS,False,51.7684406,-3.3596575,"Unit 15 Valleys Enterprise Centre Pant Industrial Estate, Pant, Merthyr Tydfil, CF48 2SR"
+2026-11-01,2009754,Y Lawnt CBC,Restaurant/Cafe/Canteen,Bowling Green Garth Terrace,Bedlinog,Treharris,,CF46 6TF,Merthyr Tydfil,AwaitingInspection,,FHRS,False,51.6976803,-3.3103318,"Bowling Green Garth Terrace, Bedlinog, Treharris, CF46 6TF"
+2026-11-01,2009758,Taffy's cafe,Restaurant/Cafe/Canteen,Unit 15 Valleys Enterprise Centre Pant Industrial Estate,Pant,Merthyr Tydfil,,CF48 2SR,Merthyr Tudful,AwaitingInspection,,FHRS,False,51.7684406,-3.3596575,"Unit 15 Valleys Enterprise Centre Pant Industrial Estate, Pant, Merthyr Tydfil, CF48 2SR"
+2026-11-01,2009754,Y Lawnt CBC,Restaurant/Cafe/Canteen,Bowling Green Garth Terrace,Bedlinog,Treharris,,CF46 6TF,Merthyr Tudful,AwaitingInspection,,FHRS,False,51.6976803,-3.3103318,"Bowling Green Garth Terrace, Bedlinog, Treharris, CF46 6TF"
+2026-11-01,2009762,Pathan Grill,Restaurant/Cafe/Canteen,,57 High Street,,Barkingside,IG6 2AD,Redbridge,AwaitingInspection,,FHRS,False,51.5899944,0.0816049,"57 High Street, Barkingside, IG6 2AD"
+2026-11-01,1865630,Rasoi,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-11-01,2009760,The Debrief Club LTD,Restaurant/Cafe/Canteen,,,,,,Redbridge,AwaitingInspection,,FHRS,False,,,
+2026-11-01,443727,The Royal Cafe,Restaurant/Cafe/Canteen,5 Rex Parade,Snakes Lane East,,Woodford Green,IG8 7HU,Redbridge,5,2023-03-09,FHRS,False,51.608057,0.037187,"5 Rex Parade, Snakes Lane East, Woodford Green, IG8 7HU"
