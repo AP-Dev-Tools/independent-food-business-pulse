@@ -1,0 +1,6 @@
+date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLine3,AddressLine4,PostCode,LocalAuthorityName,RatingValue,RatingDate,SchemeType,NewRatingPending,Latitude,Longitude,AddressSingleLine
+2026-11-03,2009932,Soar Mill Cove Hotel,Hotel/bed & breakfast/guest house,Malborough,,,,TQ7 3DS,South Hams,AwaitingInspection,,FHRS,False,,,"Malborough, TQ7 3DS"
+2026-11-03,2009980,Premier Inn Eastbourne,Hotel/bed & breakfast/guest house,Premier Inn Willingdon Drove,,Eastbourne,East Sussex,BN23 8AL,Eastbourne,AwaitingInspection,,FHRS,False,,,"Premier Inn Willingdon Drove, Eastbourne, East Sussex, BN23 8AL"
+2026-11-03,2009934,Rossmoyne,Hotel/bed & breakfast/guest house,,,,,,West Devon,AwaitingInspection,,FHRS,False,,,
+2026-11-03,1970292,The Castle Inn,Hotel/bed & breakfast/guest house,Castle Inn,2 High Street,Castle Donington,Derby,DE74 2PP,North West Leicestershire,AwaitingInspection,,FHRS,False,52.8413366,-1.3409773,"Castle Inn, 2 High Street, Castle Donington, Derby, DE74 2PP"
+2026-11-03,2009917,The Rawdon Arms,Hotel/bed & breakfast/guest house,Rawdon Arms,1 Shortheath Road,Moira,Swadlincote,DE12 6AL,North West Leicestershire,AwaitingInspection,,FHRS,False,52.7366342,-1.5348879,"Rawdon Arms, 1 Shortheath Road, Moira, Swadlincote, DE12 6AL"
