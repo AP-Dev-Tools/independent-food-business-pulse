@@ -7201,6 +7201,23 @@
           "count": 3
         }
       }
+    },
+    {
+      "date": "2026-11-16",
+      "files": {
+        "MOBILE": {
+          "file": "MOBILE/2026-11.csv",
+          "count": 3
+        },
+        "TAKEAWAY": {
+          "file": "TAKEAWAY/2026-11.csv",
+          "count": 4
+        },
+        "RESTAURANT_CAFE": {
+          "file": "RESTAURANT_CAFE/2026-11.csv",
+          "count": 10
+        }
+      }
     }
   ]
 }
