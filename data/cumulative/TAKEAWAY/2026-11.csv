@@ -864,3 +864,69 @@ date_added,FHRSID,BusinessName,BusinessType,AddressLine1,AddressLine2,AddressLin
 2026-11-20,2016644,We Desi,Takeaway/sandwich shop,We Desi Catering,33 Snow Hill,Wolverhampton,West Midlands,WV2 4AG,Wolverhampton,AwaitingInspection,,FHRS,False,,,"We Desi Catering, 33 Snow Hill, Wolverhampton, West Midlands, WV2 4AG"
 2026-11-20,2016630,Cafe Romeo,Takeaway/sandwich shop,,,,,,Stroud,AwaitingInspection,,FHRS,False,,,
 2026-11-20,1104863,Tong Yan,Takeaway/sandwich shop,,255 Monton Road,Eccles,,M30 9PS,Salford,AwaitingInspection,,FHRS,False,53.4915936,-2.3531909,"255 Monton Road, Eccles, M30 9PS"
+2026-11-21,2017699,Vmacchicken,Takeaway/sandwich shop,,151 Derby Road,,Loughborough,LE11 5HJ,Charnwood,AwaitingInspection,,FHRS,False,52.778865,-1.219131,"151 Derby Road, Loughborough, LE11 5HJ"
+2026-11-21,2017759,AIYA!,Takeaway/sandwich shop,3-4 London Road,Edinburgh,,,EH7 5AP,Edinburgh (City of),Awaiting Inspection,2026-11-13,FHIS,False,55.9577293395996,-3.17151093482971,"3-4 London Road, Edinburgh, EH7 5AP"
+2026-11-21,2017761,CICCETTA'S LTD,Takeaway/sandwich shop,26 Bruntsfield Avenue,Edinburgh,,,EH10 4EW,Edinburgh (City of),Awaiting Inspection,2026-11-16,FHIS,False,55.937045,-3.2098825,"26 Bruntsfield Avenue, Edinburgh, EH10 4EW"
+2026-11-21,2017764,Free Cakes For Kids- Edinburgh,Takeaway/sandwich shop,23 Newhaven Place,Edinburgh,,,EH6 4TW,Edinburgh (City of),Awaiting Inspection,2026-11-18,FHIS,False,55.9811795,-3.1942721,"23 Newhaven Place, Edinburgh, EH6 4TW"
+2026-11-21,2017767,Juicy's,Takeaway/sandwich shop,347 Leith Walk,Edinburgh,,,EH6 8SD,Edinburgh (City of),Awaiting Inspection,2026-11-19,FHIS,False,55.9642305,-3.1768176,"347 Leith Walk, Edinburgh, EH6 8SD"
+2026-11-21,1910169,Boom Baguettes,Takeaway/sandwich shop,29 Dimond Street,,Pembroke Dock,Pembrokeshire,SA72 6BT,Sir Benfro,1,2026-02-10,FHRS,False,51.693819,-4.940586,"29 Dimond Street, Pembroke Dock, Pembrokeshire, SA72 6BT"
+2026-11-21,2017692,Gorsehill Diamond Kebab House,Takeaway/sandwich shop,87 Cricklade Road,Swindon,,,SN2 1AB,Swindon,AwaitingInspection,,FHRS,False,51.571812,-1.777313,"87 Cricklade Road, Swindon, SN2 1AB"
+2026-11-21,2017659,Flame House,Takeaway/sandwich shop,8 Main Street,Shirebrook,Mansfield,,NG20 8AW,Bolsover,AwaitingInspection,,FHRS,False,53.202552,-1.214793,"8 Main Street, Shirebrook, Mansfield, NG20 8AW"
+2026-11-21,2017662,The Frying Squad,Takeaway/sandwich shop,130 The Common,South Normanton,Alfreton,,DE55 2EP,Bolsover,AwaitingInspection,,FHRS,False,53.100505,-1.33715,"130 The Common, South Normanton, Alfreton, DE55 2EP"
+2026-11-21,2017680,Bitch Burger,Takeaway/sandwich shop,,163 Bolton Road,Bury,,BL8 2NW,Bury,AwaitingInspection,,FHRS,False,53.591359,-2.313597,"163 Bolton Road, Bury, BL8 2NW"
+2026-11-21,2017678,Dish’d,Takeaway/sandwich shop,,,,,,Bury,AwaitingInspection,,FHRS,False,,,
+2026-11-21,2017677,Emma’s bakes and cakes,Takeaway/sandwich shop,,,,,,Bury,AwaitingInspection,,FHRS,False,,,
+2026-11-21,2017679,ONEG,Takeaway/sandwich shop,,7 Bury New Road,Prestwich,,M25 9JZ,Bury,AwaitingInspection,,FHRS,False,,,"7 Bury New Road, Prestwich, M25 9JZ"
+2026-11-21,1811742,Zaks Takeaway,Takeaway/sandwich shop,,22 Ainsworth Road,Radcliffe,Manchester,M26 4EA,Bury,AwaitingInspection,,FHRS,True,53.564691,-2.333359,"22 Ainsworth Road, Radcliffe, Manchester, M26 4EA"
+2026-11-21,2017454,Zees Bakeshop,Takeaway/sandwich shop,,,,,,Havering,AwaitingInspection,,FHRS,False,,,
+2026-11-21,2017822,Naz Food,Takeaway/sandwich shop,200a Warrington Road,Widnes,,,WA8 0AX,Halton,AwaitingInspection,,FHRS,False,,,"200a Warrington Road, Widnes, WA8 0AX"
+2026-11-21,289194,Delaval Fish & Chips,Takeaway/sandwich shop,10 Avenue Road,Seaton Delaval,Northumberland,,NE25 0DU,Northumberland,AwaitingInspection,,FHRS,False,55.07231,-1.525961,"10 Avenue Road, Seaton Delaval, Northumberland, NE25 0DU"
+2026-11-21,1910169,Boom Baguettes,Takeaway/sandwich shop,29 Dimond Street,,Pembroke Dock,Pembrokeshire,SA72 6BT,Pembrokeshire,1,2026-02-10,FHRS,False,51.693819,-4.940586,"29 Dimond Street, Pembroke Dock, Pembrokeshire, SA72 6BT"
+2026-11-21,2017513,Alvaston Fish Bar,Takeaway/sandwich shop,,102 Keldholme Lane,Derby,,DE24 0RY,Derby City,AwaitingInspection,,FHRS,False,52.8910785,-1.4147764,"102 Keldholme Lane, Derby, DE24 0RY"
+2026-11-21,1876879,Mr G'S Food & Shakes Limited,Takeaway/sandwich shop,81 Poulton Street,,Kirkham,Lancashire,PR4 2AJ,Fylde,4,2025-09-17,FHRS,False,53.7819642,-2.8747594,"81 Poulton Street, Kirkham, Lancashire, PR4 2AJ"
+2026-11-21,1927689,New Beijing,Takeaway/sandwich shop,107 Poulton Street,,Kirkham,Lancashire,PR4 2AJ,Fylde,5,2026-02-05,FHRS,False,53.7818758,-2.8757835,"107 Poulton Street, Kirkham, Lancashire, PR4 2AJ"
+2026-11-21,1932477,The Captains Table,Takeaway/sandwich shop,Chip Shop Newton Hall Holiday Centre Staining Road,,Staining,Lancashire,,Fylde,1,2025-10-30,FHRS,False,,,"Chip Shop Newton Hall Holiday Centre Staining Road, Staining, Lancashire"
+2026-11-21,2017682,The Dairy Run,Takeaway/sandwich shop,Exeter Castle,Castle Street,Exeter,,EX4 3PU,Exeter City,AwaitingInspection,,FHRS,False,50.7264742,-3.5302619,"Exeter Castle, Castle Street, Exeter, EX4 3PU"
+2026-11-21,2017479,Green End Fish Bar Limited,Takeaway/sandwich shop,30 - 32 Green End,,Whitchurch,Shropshire,SY13 1AA,Shropshire,AwaitingInspection,,FHRS,False,52.9692585,-2.6812304,"30 - 32 Green End, Whitchurch, Shropshire, SY13 1AA"
+2026-11-21,2017480,Vaughans Sandwich Bar,Takeaway/sandwich shop,14 King Street,,Ludlow,Shropshire,SY8 1AQ,Shropshire,AwaitingInspection,,FHRS,False,52.3678155,-2.7182935,"14 King Street, Ludlow, Shropshire, SY8 1AQ"
+2026-11-21,2017552,Asian Corner,Takeaway/sandwich shop,3 Cloverfield,Hinckley,Leicestershire,,LE10 1YD,Hinckley and Bosworth,AwaitingInspection,,FHRS,False,52.55319,-1.38309,"3 Cloverfield, Hinckley, Leicestershire, LE10 1YD"
+2026-11-21,2017569,Rasoi,Takeaway/sandwich shop,,,,,,Watford,AwaitingInspection,,FHRS,False,,,
+2026-11-21,2017787,M brothers kebab house,Takeaway/sandwich shop,Goldstar Fish And Chip Shop Exchange Street,,Attleborough,Norfolk,NR17 2AB,Breckland,AwaitingInspection,,FHRS,False,,,"Goldstar Fish And Chip Shop Exchange Street, Attleborough, Norfolk, NR17 2AB"
+2026-11-21,2017615,RUGBY BOSS PIZZA,Takeaway/sandwich shop,45 Regent Street,Rugby,,Warwickshire,CV21 2PE,Rugby,AwaitingInspection,,FHRS,False,52.3743029,-1.2609846,"45 Regent Street, Rugby, Warwickshire, CV21 2PE"
+2026-11-21,2017543,Eastern Pearl,Takeaway/sandwich shop,8 Upper Square,Castlewellan,Castlewellan,Down,BT31 9DB,"Newry, Mourne and Down",AwaitingInspection,,FHRS,False,54.2575607299805,-5.94143915176392,"8 Upper Square, Castlewellan, Castlewellan, Down, BT31 9DB"
+2026-11-21,2017532,Masala Palace,Takeaway/sandwich shop,12 Cardinal O'Fiaich Square,Crossmaglen,Crossmaglen,Armagh,BT35 9AA,"Newry, Mourne and Down",5,2026-10-29,FHRS,False,54.077148,-6.608639,"12 Cardinal O'Fiaich Square, Crossmaglen, Crossmaglen, Armagh, BT35 9AA"
+2026-11-21,2017533,Milanos,Takeaway/sandwich shop,2a Chancellors Road,Cloghreagh,Newry,Armagh,BT35 7LS,"Newry, Mourne and Down",5,2026-11-12,FHRS,False,54.1872668,-6.3756539,"2a Chancellors Road, Cloghreagh, Newry, Armagh, BT35 7LS"
+2026-11-21,2017541,Pats Burren,Takeaway/sandwich shop,71 Milltown Street,Burren,Warrenpoint,Down,BT34 3PU,"Newry, Mourne and Down",AwaitingInspection,,FHRS,False,54.127607,-6.263759,"71 Milltown Street, Burren, Warrenpoint, Down, BT34 3PU"
+2026-11-21,1137914,Alreem Lebanese Cuisine,Takeaway/sandwich shop,,,,,,Hounslow,5,2024-04-04,FHRS,False,,,
+2026-11-21,1691418,Anita’s Kitchen,Takeaway/sandwich shop,,,,,,Hounslow,4,2024-04-08,FHRS,False,,,
+2026-11-21,1691422,Cakealicious,Takeaway/sandwich shop,,,,,,Hounslow,5,2024-09-23,FHRS,False,,,
+2026-11-21,1594296,Comida de Santa Cruz,Takeaway/sandwich shop,,,,,,Hounslow,3,2023-04-16,FHRS,False,,,
+2026-11-21,1583273,D&D SNACKS,Takeaway/sandwich shop,,,,,,Hounslow,5,2023-02-04,FHRS,False,,,
+2026-11-21,1557453,Dilly kitchen,Takeaway/sandwich shop,,,,,,Hounslow,4,2022-11-09,FHRS,False,,,
+2026-11-21,490733,Domino's Pizza,Takeaway/sandwich shop,,317 Chiswick High Road,Chiswick,,W4 4HH,Hounslow,5,2019-12-18,FHRS,False,51.4926302,-0.2685725,"317 Chiswick High Road, Chiswick, W4 4HH"
+2026-11-21,1557456,Golden Tasty,Takeaway/sandwich shop,Unit 2,142 High Street,Hounslow,,TW3 1LR,Hounslow,AwaitingInspection,,FHRS,False,51.4694691,-0.3600727,"Unit 2, 142 High Street, Hounslow, TW3 1LR"
+2026-11-21,1581625,Good Taste,Takeaway/sandwich shop,,,,,,Hounslow,3,2023-02-26,FHRS,False,,,
+2026-11-21,490263,Hounslow Kebab House,Takeaway/sandwich shop,2 Bell Parade,Bell Road,Hounslow,,TW3 3NU,Hounslow,4,2022-08-20,FHRS,False,51.4666559,-0.36526,"2 Bell Parade, Bell Road, Hounslow, TW3 3NU"
+2026-11-21,1535439,La Lebanesa,Takeaway/sandwich shop,Unit 5,142 High Street,Hounslow,,TW3 1LR,Hounslow,5,2022-07-19,FHRS,False,51.4694691,-0.3600727,"Unit 5, 142 High Street, Hounslow, TW3 1LR"
+2026-11-21,1489461,Napolitana,Takeaway/sandwich shop,First Floor,196 Chiswick High Road,Chiswick,,W4 1PD,Hounslow,4,2022-02-26,FHRS,False,51.492829,-0.256251,"First Floor, 196 Chiswick High Road, Chiswick, W4 1PD"
+2026-11-21,490679,nido's,Takeaway/sandwich shop,,100 Harlington Road West,Feltham,,TW14 0JJ,Hounslow,5,2024-04-05,FHRS,False,51.4568345,-0.4093957,"100 Harlington Road West, Feltham, TW14 0JJ"
+2026-11-21,490794,Perfect Pizza Company,Takeaway/sandwich shop,,299 Chiswick High Road,Chiswick,,W4 4HH,Hounslow,4,2022-04-23,FHRS,False,51.492632,-0.2677595,"299 Chiswick High Road, Chiswick, W4 4HH"
+2026-11-21,1535444,Sadias Food,Takeaway/sandwich shop,Unit 11,142 High Street,Hounslow,,TW3 1LR,Hounslow,3,2025-02-17,FHRS,False,51.4694691,-0.3600727,"Unit 11, 142 High Street, Hounslow, TW3 1LR"
+2026-11-21,1744277,Strike 7,Takeaway/sandwich shop,Strike 7,96-98 High Street,Hounslow,,TW3 1NH,Hounslow,4,2024-07-02,FHRS,False,51.4699607,-0.3580019,"Strike 7, 96-98 High Street, Hounslow, TW3 1NH"
+2026-11-21,1731513,Susegad Bambaiwali Tiffin Service,Takeaway/sandwich shop,,,,,,Hounslow,4,2024-09-03,FHRS,False,,,
+2026-11-21,1530577,Turkish BBQ Kebab,Takeaway/sandwich shop,Unit 9,281-287 High Street,Hounslow,,TW3 1EF,Hounslow,5,2025-04-07,FHRS,False,51.46808044,-0.36560323,"Unit 9, 281-287 High Street, Hounslow, TW3 1EF"
+2026-11-21,1862009,UN Vendor,Takeaway/sandwich shop,,314 Bath Road,Hounslow,,TW4 7HW,Hounslow,3,2025-07-15,FHRS,False,51.4730348,-0.3871255,"314 Bath Road, Hounslow, TW4 7HW"
+2026-11-21,1641202,Yo! To Go!,Takeaway/sandwich shop,Tesco Extra,Syon Lane,Isleworth,,TW7 5NZ,Hounslow,5,2024-02-28,FHRS,False,,,"Tesco Extra, Syon Lane, Isleworth, TW7 5NZ"
+2026-11-21,2017628,MR.CRISPIN,Takeaway/sandwich shop,99 Weedon Road,,Northampton,West Northamptonshire,NN5 5BG,West Northamptonshire,AwaitingInspection,,FHRS,False,52.2409976,-0.9197782,"99 Weedon Road, Northampton, West Northamptonshire, NN5 5BG"
+2026-11-21,2017676,Five Acres,Takeaway/sandwich shop,Ground Floor 68 Market Street St Andrews Fife,,,,KY16 9NU,Fife,Pass,2026-11-19,FHIS,False,56.3401624,-2.7945476,"Ground Floor 68 Market Street St Andrews Fife, KY16 9NU"
+2026-11-21,131003,Ramen And Don,Takeaway/sandwich shop,157 Queensferry Road Rosyth Dunfermline Fife,,,,KY11 2PP,Fife,Pass,2026-10-14,FHIS,False,56.040196,-3.421767,"157 Queensferry Road Rosyth Dunfermline Fife, KY11 2PP"
+2026-11-21,2017396,Sandhu's Chippy,Takeaway/sandwich shop,318 North Road,Darlington,,,DL1 3BH,Darlington,AwaitingInspection,,FHRS,False,54.547819,-1.547053,"318 North Road, Darlington, DL1 3BH"
+2026-11-21,2017374,LATINOS GRILL,Takeaway/sandwich shop,5B Greenwich Market,,Greenwich,,SE10 9HZ,Greenwich,AwaitingInspection,,FHRS,False,51.4815091,-0.0087311,"5B Greenwich Market, Greenwich, SE10 9HZ"
+2026-11-21,2017371,Metros Fried Chicken,Takeaway/sandwich shop,10 Plumstead High Street,,Plumstead,Greenwich,SE18 1SN,Greenwich,AwaitingInspection,,FHRS,False,51.4892958,0.0859896,"10 Plumstead High Street, Plumstead, Greenwich, SE18 1SN"
+2026-11-21,2017342,Mikes Pizza,Takeaway/sandwich shop,,80 Shelley Road East,Bournemouth,,BH7 6HA,"Bournemouth, Christchurch and Poole",AwaitingInspection,,FHRS,False,50.7293558,-1.8382372,"80 Shelley Road East, Bournemouth, BH7 6HA"
+2026-11-21,683115,Shawarmax,Takeaway/sandwich shop,,413 Wimborne Road,Bournemouth,,BH9 2AJ,"Bournemouth, Christchurch and Poole",AwaitingInspection,,FHRS,False,50.742871,-1.878486,"413 Wimborne Road, Bournemouth, BH9 2AJ"
+2026-11-21,2017421,Zebra Smart Vending,Takeaway/sandwich shop,Cambridge Ice Arena Newmarket Road,,Teversham,Cambridgeshire,CB5 8AA,South Cambridgeshire,AwaitingInspection,,FHRS,False,52.212405,0.1842673,"Cambridge Ice Arena Newmarket Road, Teversham, Cambridgeshire, CB5 8AA"
+2026-11-21,2017779,Maeve Bakes,Takeaway/sandwich shop,,,,,,Surrey Heath,5,2026-11-18,FHRS,False,,,
+2026-11-21,2017604,Middlesbrough Football Club,Takeaway/sandwich shop,Ormesby Road,Middlesbrough,,,TS3 8RE,Middlesbrough,AwaitingInspection,,FHRS,False,54.556361,-1.19771,"Ormesby Road, Middlesbrough, TS3 8RE"
+2026-11-21,2017602,Spice House,Takeaway/sandwich shop,25 Parliament Road,Middlesbrough,,,TS1 4JP,Middlesbrough,AwaitingInspection,,FHRS,False,54.568174,-1.245781,"25 Parliament Road, Middlesbrough, TS1 4JP"
+2026-11-21,2017781,Station Shawarma,Takeaway/sandwich shop,38 Terminus Road,,Eastbourne,East Sussex,BN21 3LP,Eastbourne,AwaitingInspection,,FHRS,False,50.7689194,0.2809275,"38 Terminus Road, Eastbourne, East Sussex, BN21 3LP"
