@@ -7368,6 +7368,31 @@
           "count": 2
         }
       }
+    },
+    {
+      "date": "2026-11-24",
+      "files": {
+        "HOTEL": {
+          "file": "HOTEL/2026-11.csv",
+          "count": 1
+        },
+        "RESTAURANT_CAFE": {
+          "file": "RESTAURANT_CAFE/2026-11.csv",
+          "count": 67
+        },
+        "PUB_BAR": {
+          "file": "PUB_BAR/2026-11.csv",
+          "count": 26
+        },
+        "MOBILE": {
+          "file": "MOBILE/2026-11.csv",
+          "count": 31
+        },
+        "TAKEAWAY": {
+          "file": "TAKEAWAY/2026-11.csv",
+          "count": 43
+        }
+      }
     }
   ]
 }
